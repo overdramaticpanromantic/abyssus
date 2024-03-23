@@ -1,1 +1,9 @@
-
+name: Bauxite
+description: Raw, impure aluminum. Must be refined for use.
+cost: 0.5
+color: 743b1d
+hardness: 1
+hiddenOnPlanets: [
+  serpulo,
+  erekir
+]
