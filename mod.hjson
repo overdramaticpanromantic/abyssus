@@ -21,6 +21,6 @@
   minGameVersion : 146
   version : "1.0"
   dependencies: [
-    multi-crafter
+    "multi-crafter"
   ]
 }
