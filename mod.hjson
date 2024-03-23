@@ -1,0 +1,26 @@
+{
+  displayName : "Abyssus"
+  repo : overdramaticpanromantic/abyssus
+  name : abyssus
+
+  author:
+      '''
+      Developers:
+      - Code: overdramaticpanromantic
+      - Sprites: overdramaticpanromantic
+      '''
+
+  description:
+      '''
+      A desolate planet far from the sun. A lack of enemy presence would make it comforting, if not for what lurks beneath.
+
+      Do not underestimate what this planet can throw at you.
+      '''
+
+  subtitle: "In active development."
+  minGameVersion : 146
+  version : "1.0"
+  dependencies: [
+    multi-crafter
+  ]
+}
