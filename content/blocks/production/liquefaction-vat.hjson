@@ -1,1 +1,14 @@
 type: multicraft.MultiCrafter
+name: Liquefaction Vat
+description: Melts down various ores into their base components using electric induction coils. Highly inefficient, but it will get the job done.
+size: 3
+health: 450
+category: production
+researchCostMultiplier: 0.1
+research: tungsten-but-stolen
+category: production
+squareSprite: false
+
+requirements: [
+  tungsten-but-stolen/120
+]
