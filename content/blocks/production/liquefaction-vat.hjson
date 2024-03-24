@@ -17,13 +17,13 @@ recipes: [
 {
   input: {
     items: [
-      bauxite/3
+      abyssus-bauxite/3
     ]
     power: 2
   }
   output: {
     fluids: [
-      molten-aluminum/0.2
+      abyssus-molten-aluminum/0.2
     ]
   }
   craftTime: 60.0
@@ -31,13 +31,13 @@ recipes: [
 {
   input: {
     items: [
-      dolomite/3
+      abyssus-dolomite/3
     ]
     power: 2
   }
   output: {
     fluids: [
-      molten-magnesium/0.2
+      abyssus-molten-magnesium/0.2
     ]
   }
   craftTime: 60.0
