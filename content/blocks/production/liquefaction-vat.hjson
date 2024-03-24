@@ -6,7 +6,7 @@ health: 450
 category: production
 researchCostMultiplier: 0.1
 research: tungsten-but-stolen
-category: production
+category: crafting
 squareSprite: false
 
 requirements: [
