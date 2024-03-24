@@ -8,6 +8,7 @@ researchCostMultiplier: 0.1
 research: tungsten-but-stolen
 category: crafting
 squareSprite: false
+liquidCapacity: 36
 
 requirements: [
   tungsten-but-stolen/120
