@@ -55,7 +55,7 @@ drawer: {
       type: DrawLiquidTile
       
       //pixels from edge to do it from
-      padding: 6
+      padding: 4
       //alternatively use padLeft, padRight, padTop, and padBottom to pad at specific edges
       
       //liquid to draw
@@ -63,7 +63,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile     
-      padding: 6
+      padding: 4
       drawLiquid: molten-magnesium
     }
     {
