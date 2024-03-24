@@ -1,0 +1,9 @@
+name: Dolomite
+description: Raw magnesium with other trace minerals. Must be refined before use.
+cost: 0.5
+color: 5d4455
+hardness: 1
+hiddenOnPlanets: [
+  serpulo,
+  erekir
+]
