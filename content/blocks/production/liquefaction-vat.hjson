@@ -19,7 +19,7 @@ recipes: [
     items: [
       bauxite/3
     ]
-    power/2
+    power: 2
   }
   output: {
     fluids: [
@@ -33,7 +33,7 @@ recipes: [
     items: [
       dolomite/3
     ]
-    power/2
+    power: 2
   }
   output: {
     fluids: [
