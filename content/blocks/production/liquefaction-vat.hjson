@@ -43,3 +43,31 @@ recipes: [
   craftTime: 60.0
 }
 ]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      
+      //pixels from edge to do it from
+      padding: 6
+      //alternatively use padLeft, padRight, padTop, and padBottom to pad at specific edges
+      
+      //liquid to draw
+      drawLiquid: molten-aluminum
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-magnesium
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
