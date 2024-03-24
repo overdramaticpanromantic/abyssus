@@ -12,3 +12,35 @@ squareSprite: false
 requirements: [
   tungsten-but-stolen/120
 ]
+
+recipes: 
+[
+  {
+    input: {
+      items: [
+        bauxite/3
+      ]
+      power/2
+    }
+    output: {
+      fluids: [
+        molten-aluminum/0.2
+      ]
+    }
+    craftTime: 60.0
+  }
+  {
+    input: {
+      items: [
+        dolomite/3
+      ]
+      power/2
+    }
+    output: {
+      fluids: [
+        molten-magnesium/0.2
+      ]
+    }
+    craftTime: 60.0
+  }
+]
