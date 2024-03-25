@@ -1,0 +1,74 @@
+type: multicraft.MultiCrafter
+name: Metalloid Cooler
+description: Rapidly takes in air from the surroundings in order to cool down metals into usable sheets.
+size: 3
+health: 390
+category: production
+researchCostMultiplier: 0.1
+research: liquefaction-vat
+category: crafting
+squareSprite: false
+liquidCapacity: 18
+
+requirements: [
+  tungsten-but-stolen/105
+]
+
+recipes: [
+{
+  input: {
+    fluids: [
+      abyssus-molten-aluminum/0.1
+    ]
+    power: 1.5
+  }
+  output: {
+    items: [
+      abyssus-aluminum/1
+    ]
+  }
+  craftTime: 60.0
+}
+{
+  input: {
+    fluids: [
+      abyssus-molten-magnesium/0.1
+    ]
+    power: 1.5
+  }
+  output: {
+    items: [
+      abyssus-magnesium/1
+    ]
+  }
+  craftTime: 60.0
+}
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      
+      //pixels from edge to do it from
+      padding: 4
+      //alternatively use padLeft, padRight, padTop, and padBottom to pad at specific edges
+      
+      //liquid to draw
+      drawLiquid: molten-aluminum
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 4
+      drawLiquid: molten-magnesium
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
