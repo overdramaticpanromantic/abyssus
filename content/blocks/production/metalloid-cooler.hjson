@@ -9,6 +9,7 @@ research: liquefaction-vat
 category: crafting
 squareSprite: false
 liquidCapacity: 18
+hasLiquids: true
 
 requirements: [
   tungsten-but-stolen/105
