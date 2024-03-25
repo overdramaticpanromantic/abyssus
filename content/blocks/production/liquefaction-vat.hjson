@@ -10,6 +10,7 @@ research: tungsten-but-stolen
 category: crafting
 squareSprite: false
 liquidCapacity: 36
+hasLiquids: true
 
 requirements: [
   tungsten-but-stolen/120
