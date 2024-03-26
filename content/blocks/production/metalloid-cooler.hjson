@@ -90,23 +90,7 @@ craftEffect: {
       layer: 80 // this is a placeholder
       colorFrom: adadadcc
       colorTo: cacaca00
-      offsetX: 0
-      offsetY: 6
-    }
-    {
-      type: ParticleEffect
-      baseRotation: 90
-      length: 5
-      baseLength: 6
-      cone: 10
-      lifetime: 60
-      useRotation: false
-      sizeFrom: 1
-      sizeTo: 0.1
-      layer: 80 // this is a placeholder
-      colorFrom: adadadcc
-      colorTo: cacaca00
-      offsetX: -6
+      offsetX: 6
       offsetY: 0
     }
     {
@@ -138,8 +122,24 @@ craftEffect: {
       layer: 80 // this is a placeholder
       colorFrom: adadadcc
       colorTo: cacaca00
-      offsetX: 6
+      offsetX: -6
       offsetY: 0
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      length: 5
+      baseLength: 6
+      cone: 10
+      lifetime: 60
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      layer: 80 // this is a placeholder
+      colorFrom: adadadcc
+      colorTo: cacaca00
+      offsetX: 0
+      offsetY: 6
     }
   ]
 }
