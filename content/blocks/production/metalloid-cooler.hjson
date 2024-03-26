@@ -73,3 +73,73 @@ drawer: {
     }
   ]
 }
+
+craftEffect: {
+  type: SeqEffect
+  effects: [
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      length: 5
+      baseLength: 6
+      cone: 10
+      lifetime: 60
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      layer: 80 // this is a placeholder
+      colorFrom: adadadcc
+      colorTo: cacaca00
+      x: 12
+      y: 18
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      length: 5
+      baseLength: 6
+      cone: 10
+      lifetime: 60
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      layer: 80 // this is a placeholder
+      colorFrom: adadadcc
+      colorTo: cacaca00
+      x: 18
+      y: 12
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      length: 5
+      baseLength: 6
+      cone: 10
+      lifetime: 60
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      layer: 80 // this is a placeholder
+      colorFrom: adadadcc
+      colorTo: cacaca00
+      x: 12
+      y: 6
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      length: 5
+      baseLength: 6
+      cone: 10
+      lifetime: 60
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      layer: 80 // this is a placeholder
+      colorFrom: adadadcc
+      colorTo: cacaca00
+      x: 6
+      y: 12
+    }
+  ]
+}
