@@ -90,7 +90,7 @@ craftEffect: {
       layer: 80 // this is a placeholder
       colorFrom: adadadcc
       colorTo: cacaca00
-      offsetX: 8
+      offsetX: 10
       offsetY: 0
     }
     {
@@ -107,7 +107,7 @@ craftEffect: {
       colorFrom: adadadcc
       colorTo: cacaca00
       offsetX: 0
-      offsetY: -8
+      offsetY: -10
     }
     {
       type: ParticleEffect
@@ -122,7 +122,7 @@ craftEffect: {
       layer: 80 // this is a placeholder
       colorFrom: adadadcc
       colorTo: cacaca00
-      offsetX: -8
+      offsetX: -10
       offsetY: 0
     }
     {
@@ -139,7 +139,7 @@ craftEffect: {
       colorFrom: adadadcc
       colorTo: cacaca00
       offsetX: 0
-      offsetY: 8
+      offsetY: 10
     }
   ]
 }
