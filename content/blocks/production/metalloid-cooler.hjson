@@ -79,15 +79,15 @@ craftEffect: {
   effects: [
     {
       type: ParticleEffect
-      baseRotation: 90
-      length: 5
-      baseLength: 6
+      baseRotation: 105
+      length: 7
+      baseLength: 8
       cone: 10
-      lifetime: 60
+      particles: 30
+      lifetime: 90
       useRotation: false
       sizeFrom: 1
       sizeTo: 0.1
-      layer: 80 // this is a placeholder
       colorFrom: adadadcc
       colorTo: cacaca00
       offsetX: 8.45
@@ -95,15 +95,15 @@ craftEffect: {
     }
     {
       type: ParticleEffect
-      baseRotation: 90
-      length: 5
-      baseLength: 6
+      baseRotation: 105
+      length: 7
+      baseLength: 8
       cone: 10
-      lifetime: 60
+      particles: 30
+      lifetime: 90
       useRotation: false
       sizeFrom: 1
       sizeTo: 0.1
-      layer: 80 // this is a placeholder
       colorFrom: adadadcc
       colorTo: cacaca00
       offsetX: 0
@@ -111,15 +111,15 @@ craftEffect: {
     }
     {
       type: ParticleEffect
-      baseRotation: 90
-      length: 5
-      baseLength: 6
+      baseRotation: 105
+      length: 7
+      baseLength: 8
       cone: 10
-      lifetime: 60
+      particles: 30
+      lifetime: 90
       useRotation: false
       sizeFrom: 1
       sizeTo: 0.1
-      layer: 80 // this is a placeholder
       colorFrom: adadadcc
       colorTo: cacaca00
       offsetX: -8.45
@@ -127,15 +127,15 @@ craftEffect: {
     }
     {
       type: ParticleEffect
-      baseRotation: 90
-      length: 5
-      baseLength: 6
+      baseRotation: 105
+      length: 7
+      baseLength: 8
       cone: 10
-      lifetime: 60
+      particles: 30
+      lifetime: 90
       useRotation: false
       sizeFrom: 1
       sizeTo: 0.1
-      layer: 80 // this is a placeholder
       colorFrom: adadadcc
       colorTo: cacaca00
       offsetX: 0
