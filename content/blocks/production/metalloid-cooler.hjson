@@ -79,7 +79,7 @@ craftEffect: {
   effects: [
     {
       type: ParticleEffect
-      baseRotation: 105
+      baseRotation: 75
       length: 7
       baseLength: 8
       cone: 10
@@ -95,7 +95,7 @@ craftEffect: {
     }
     {
       type: ParticleEffect
-      baseRotation: 105
+      baseRotation: 75
       length: 7
       baseLength: 8
       cone: 10
@@ -111,7 +111,7 @@ craftEffect: {
     }
     {
       type: ParticleEffect
-      baseRotation: 105
+      baseRotation: 75
       length: 7
       baseLength: 8
       cone: 10
@@ -127,7 +127,7 @@ craftEffect: {
     }
     {
       type: ParticleEffect
-      baseRotation: 105
+      baseRotation: 75
       length: 7
       baseLength: 8
       cone: 10
