@@ -75,7 +75,7 @@ drawer: {
 }
 
 craftEffect: {
-  type: SeqEffect
+  type: RadialEffect
   effects: [
     {
       type: ParticleEffect
