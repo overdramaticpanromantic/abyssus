@@ -75,7 +75,7 @@ drawer: {
 }
 
 craftEffect: {
-  type: RadialEffect
+  type: MultiEffect
   effects: [
     {
       type: ParticleEffect
