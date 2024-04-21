@@ -1,4 +1,5 @@
 type: Floor
 name: Hazard Grate
 description: Metallic beams above an endless pit. Watch your step!
+blendGroup: stone
 variants: 9
