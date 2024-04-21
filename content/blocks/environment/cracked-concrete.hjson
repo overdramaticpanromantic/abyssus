@@ -1,4 +1,5 @@
 type: Floor
 name: Cracked Concrete
 description: Old concrete paving, cracking under the weight of this planet's inhabitants.
+walkSound: footstep2
 variants: 4
