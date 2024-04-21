@@ -3,4 +3,5 @@ name: Hazard Grate
 description: Metallic beams above an endless pit. Watch your step!
 speedMultiplier: 0.85
 walkSound: footstep1
+placeableOn: false
 variants: 3
