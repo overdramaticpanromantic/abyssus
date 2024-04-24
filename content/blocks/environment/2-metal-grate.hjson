@@ -1,0 +1,7 @@
+type: Floor
+name: Metal Grate
+description: Sparse, metallic beams, separating you from the pit below.. Watch your step!
+speedMultiplier: 0.85
+walkSound: footstep1
+placeableOn: false
+variants: 1
