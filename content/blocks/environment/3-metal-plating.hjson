@@ -1,3 +1,4 @@
 name: Metal Plating
 description: Repeating metal plates strewn across the floor.
+walkSound: footstep1
 variants: 0
