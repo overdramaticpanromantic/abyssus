@@ -1,0 +1,4 @@
+name: Plated Wall
+type: StaticWall
+description: Plated, repeating walls.
+variants: 2
