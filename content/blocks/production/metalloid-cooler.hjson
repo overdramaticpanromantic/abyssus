@@ -75,18 +75,62 @@ drawer: {
 }
 
 craftEffect: {
-  type: MultiEffect
+  type: SeqEffect
   effects: [
     {
       type: ParticleEffect
       offsetX: 8.45
       offsetY: 0
-      baseRotation: 75
       length: 7
       baseLength: 8
       cone: 10
-      particles: 30
-      lifetime: 90
+      particles: 10
+      lifetime: 15
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      offsetX: 8.45
+      offsetY: 0
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 10
+      lifetime: 15
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      offsetX: 8.45
+      offsetY: 0
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 10
+      lifetime: 15
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      offsetX: 8.45
+      offsetY: 0
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 10
+      lifetime: 15
       useRotation: false
       sizeFrom: 1
       sizeTo: 0.1
@@ -97,12 +141,11 @@ craftEffect: {
       type: ParticleEffect
       offsetX: 0
       offsetY: -8.45
-      baseRotation: 75
       length: 7
       baseLength: 8
       cone: 10
       particles: 30
-      lifetime: 90
+      lifetime: 15
       useRotation: false
       sizeFrom: 1
       sizeTo: 0.1
@@ -113,12 +156,11 @@ craftEffect: {
       type: ParticleEffect
       offsetX: -8.45
       offsetY: 0
-      baseRotation: 75
       length: 7
       baseLength: 8
       cone: 10
       particles: 30
-      lifetime: 90
+      lifetime: 15
       useRotation: false
       sizeFrom: 1
       sizeTo: 0.1
@@ -129,12 +171,11 @@ craftEffect: {
       type: ParticleEffect
       offsetX: 0
       offsetY: 8.45
-      baseRotation: 75
       length: 7
       baseLength: 8
       cone: 10
       particles: 30
-      lifetime: 90
+      lifetime: 15
       useRotation: false
       sizeFrom: 1
       sizeTo: 0.1
