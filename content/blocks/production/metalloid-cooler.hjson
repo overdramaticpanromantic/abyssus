@@ -160,8 +160,152 @@ craftEffect: {
     {
       type: ParticleEffect
       baseRotation: 90
+      offsetX: 0
+      offsetY: -8.45
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 30
+      lifetime: 15
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      offsetX: 0
+      offsetY: -8.45
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 30
+      lifetime: 15
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      offsetX: 0
+      offsetY: -8.45
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 30
+      lifetime: 15
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
       offsetX: -8.45
       offsetY: 0
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 30
+      lifetime: 15
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      offsetX: -8.45
+      offsetY: 0
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 30
+      lifetime: 15
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      offsetX: -8.45
+      offsetY: 0
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 30
+      lifetime: 15
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      offsetX: -8.45
+      offsetY: 0
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 30
+      lifetime: 15
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      offsetX: 0
+      offsetY: 8.45
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 30
+      lifetime: 15
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      offsetX: 0
+      offsetY: 8.45
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 30
+      lifetime: 15
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      offsetX: 0
+      offsetY: 8.45
       length: 7
       baseLength: 8
       cone: 10
