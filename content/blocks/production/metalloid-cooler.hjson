@@ -79,6 +79,7 @@ craftEffect: {
   effects: [
     {
       type: ParticleEffect
+      baseRotation: 90
       offsetX: 8.45
       offsetY: 0
       length: 7
@@ -94,6 +95,7 @@ craftEffect: {
     }
     {
       type: ParticleEffect
+      baseRotation: 90
       offsetX: 8.45
       offsetY: 0
       length: 7
@@ -109,6 +111,7 @@ craftEffect: {
     }
     {
       type: ParticleEffect
+      baseRotation: 90
       offsetX: 8.45
       offsetY: 0
       length: 7
@@ -124,6 +127,7 @@ craftEffect: {
     }
     {
       type: ParticleEffect
+      baseRotation: 90
       offsetX: 8.45
       offsetY: 0
       length: 7
@@ -139,6 +143,7 @@ craftEffect: {
     }
     {
       type: ParticleEffect
+      baseRotation: 90
       offsetX: 0
       offsetY: -8.45
       length: 7
@@ -154,6 +159,7 @@ craftEffect: {
     }
     {
       type: ParticleEffect
+      baseRotation: 90
       offsetX: -8.45
       offsetY: 0
       length: 7
@@ -169,6 +175,7 @@ craftEffect: {
     }
     {
       type: ParticleEffect
+      baseRotation: 90
       offsetX: 0
       offsetY: 8.45
       length: 7
