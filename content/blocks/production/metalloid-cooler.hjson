@@ -1,6 +1,7 @@
 type: multicraft.MultiCrafter
 name: Metalloid Cooler
 description: Rapidly takes in air from the surroundings in order to cool down metals into usable sheets.
+details: Despite nitrogen and hydrogen’s low capacity for energy, Abyssus’s atmosphere is cold enough to allow air’s usage as coolant.
 size: 3
 health: 390
 category: production
@@ -100,6 +101,114 @@ craftEffect: {
       baseRotation: 90
       interp: pow5Out
       sizeInterp: linear
+      offsetX: 8.45
+      offsetY: 0
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 10
+      lifetime: 240
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      interp: pow5Out
+      sizeInterp: linear
+      offsetX: 8.45
+      offsetY: 0
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 10
+      lifetime: 240
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      interp: pow5Out
+      sizeInterp: linear
+      offsetX: 8.45
+      offsetY: 0
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 10
+      lifetime: 240
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      interp: pow5Out
+      sizeInterp: linear
+      offsetX: 0
+      offsetY: -8.45
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 30
+      lifetime: 240
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      interp: pow5Out
+      sizeInterp: linear
+      offsetX: 0
+      offsetY: -8.45
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 30
+      lifetime: 240
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      interp: pow5Out
+      sizeInterp: linear
+      offsetX: 0
+      offsetY: -8.45
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 30
+      lifetime: 240
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      interp: pow5Out
+      sizeInterp: linear
       offsetX: 0
       offsetY: -8.45
       length: 7
@@ -120,6 +229,114 @@ craftEffect: {
       sizeInterp: linear
       offsetX: -8.45
       offsetY: 0
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 30
+      lifetime: 240
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      interp: pow5Out
+      sizeInterp: linear
+      offsetX: -8.45
+      offsetY: 0
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 30
+      lifetime: 240
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      interp: pow5Out
+      sizeInterp: linear
+      offsetX: -8.45
+      offsetY: 0
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 30
+      lifetime: 240
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      interp: pow5Out
+      sizeInterp: linear
+      offsetX: -8.45
+      offsetY: 0
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 30
+      lifetime: 240
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      interp: pow5Out
+      sizeInterp: linear
+      offsetX: 0
+      offsetY: 8.45
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 30
+      lifetime: 240
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      interp: pow5Out
+      sizeInterp: linear
+      offsetX: 0
+      offsetY: 8.45
+      length: 7
+      baseLength: 8
+      cone: 10
+      particles: 30
+      lifetime: 240
+      useRotation: false
+      sizeFrom: 1
+      sizeTo: 0.1
+      colorFrom: adadadcc
+      colorTo: cacaca00
+    }
+    {
+      type: ParticleEffect
+      baseRotation: 90
+      interp: pow5Out
+      sizeInterp: linear
+      offsetX: 0
+      offsetY: 8.45
       length: 7
       baseLength: 8
       cone: 10
