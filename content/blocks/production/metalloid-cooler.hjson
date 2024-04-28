@@ -1,7 +1,12 @@
 type: multicraft.MultiCrafter
 name: Metalloid Cooler
 description: Rapidly takes in air from the surroundings in order to cool down metals into usable sheets.
-details: Despite nitrogen and hydrogen’s low capacity for energy, Abyssus’s atmosphere is cold enough to allow air’s usage as coolant.
+details:
+  '''
+  Despite nitrogen and hydrogen’s low capacity for energy, Abyssus’s atmosphere is cold enough to allow air’s usage as coolant.
+
+  Avoid placing too many of these, as the particle effects can be laggy. Ignore the fact that particles persist for one minute post-deconstruction, as that cannot be fixed.
+  '''
 size: 3
 health: 390
 category: production
