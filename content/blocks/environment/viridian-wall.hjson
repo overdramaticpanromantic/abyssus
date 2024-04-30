@@ -1,0 +1,4 @@
+name: Viridian Wall
+type: StaticWall
+description: Deep, teal, rocky walls.
+variants: 3
