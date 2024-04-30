@@ -1,1 +1,4 @@
-
+name: Gateplate Wall
+type: StaticWall
+description: Dark, plated walls.
+variants: 3
