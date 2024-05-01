@@ -1,0 +1,9 @@
+name: Viridian Orbs
+type: TallBlock
+description: Orbs of viridian, melded and packed together.
+variants: 3
+clipSize: 128
+shadowAlpha: 0.5
+shadowOffset: -2.5
+lightColor: 6ea892
+lightRadius: 60
