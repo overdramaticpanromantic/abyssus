@@ -1,0 +1,5 @@
+name: Viridian Boulder
+description: A clump of viridian, formed long ago.
+type: Prop
+variants: 2
+breakSound: rockBreak
