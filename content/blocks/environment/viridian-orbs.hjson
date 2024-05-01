@@ -6,5 +6,5 @@ clipSize: 128
 shadowAlpha: 0.5
 shadowOffset: -2.5
 emitLight: true
-lightColor: 6ea892
-lightRadius: 60
+lightColor: 4a735b
+lightRadius: 20
