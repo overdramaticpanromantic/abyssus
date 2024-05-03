@@ -4,5 +4,5 @@ description: Purple, rocky spikes. Unpleasantly sharp.
 variants: 3
 clipSize: 128
 emitLight: true
-lightRadius: 45
+lightRadius: 75
 lightColor: 7b5f8359
