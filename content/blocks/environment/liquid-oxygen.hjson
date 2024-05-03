@@ -8,5 +8,5 @@ statusDuration: 240
 liquidDrop: ozone
 emitLight: true
 lightRadius: 20
-lightColor: 33
+lightColor: a7b7f933
 cacheLayer: cryofluid
