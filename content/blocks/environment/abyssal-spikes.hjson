@@ -1,0 +1,5 @@
+name: Abyssal Spikes
+type: TallBlock
+description: Purple, rocky spikes. Unpleasantly sharp.
+variants: 3
+clipSize: 128
