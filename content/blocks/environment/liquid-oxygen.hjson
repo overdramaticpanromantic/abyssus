@@ -1,0 +1,12 @@
+type: Floor
+name: Liquid Oxygen
+variants: 0
+isLiquid: true
+drownTime: 120
+status: freezing
+statusDuration: 240
+liquidDrop: ozone
+emitLight: true
+lightRadius: 20
+lightColor: 33
+cacheLayer: cryofluid
