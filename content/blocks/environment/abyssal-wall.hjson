@@ -1,0 +1,4 @@
+name: Abyssal Wall
+type: StaticWall
+description: Deep, purple walls of rock.
+variants: 3
