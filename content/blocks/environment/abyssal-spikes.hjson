@@ -3,3 +3,6 @@ type: TallBlock
 description: Purple, rocky spikes. Unpleasantly sharp.
 variants: 3
 clipSize: 128
+emitLight: true
+lightRadius: 45
+lightColor: 7b5f8359
