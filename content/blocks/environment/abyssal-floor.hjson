@@ -1,5 +1,5 @@
 type: Floor
 name: Abyssal Floor
 description: Erratic, purple ground.
-color: 362936
+mapColor: 362936
 variants: 6
