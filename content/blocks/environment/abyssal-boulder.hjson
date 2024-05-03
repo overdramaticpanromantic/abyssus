@@ -1,0 +1,5 @@
+name: Abyssal Boulder
+description: A purple, rocky clump.
+type: Prop
+variants: 2
+breakSound: rockBreak
