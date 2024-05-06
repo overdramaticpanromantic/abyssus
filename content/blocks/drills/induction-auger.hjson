@@ -22,3 +22,4 @@ itemCapacity: 24
 consumes: {
   power: 1
 }
+liquidBoostIntensity: 1
