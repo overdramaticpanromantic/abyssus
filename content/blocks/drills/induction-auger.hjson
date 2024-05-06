@@ -7,7 +7,7 @@ requirements: [
   tungsten-but-stolen/85
   aluminum/50
 ]
-drillTime: 130
+drillTime: 133
 tier: 2
 ambientSound: drill
 ambientSoundVolume: 0.10
