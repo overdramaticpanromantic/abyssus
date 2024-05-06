@@ -1,0 +1,5 @@
+type: OreBlock
+name: Dolomite
+description: Raw, impure magnesium. Must be refined before use.
+itemDrop: dolomite
+variants: 3
