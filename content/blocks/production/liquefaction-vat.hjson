@@ -5,7 +5,6 @@ details: It's recommended to empty the machine entirely before changing the reci
 size: 3
 health: 450
 category: crafting
-researchCostMultiplier: 0.1
 research: tungsten-but-stolen
 researchCost: [
   tungsten-but-stolen/10
