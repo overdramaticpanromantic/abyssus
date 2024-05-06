@@ -7,6 +7,9 @@ health: 450
 category: crafting
 researchCostMultiplier: 0.1
 research: tungsten-but-stolen
+researchCost: [
+  tungsten-but-stolen/10
+]
 category: crafting
 squareSprite: false
 liquidCapacity: 36
