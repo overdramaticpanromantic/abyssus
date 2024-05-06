@@ -1,0 +1,5 @@
+type: OreBlock
+name: Tungsten Ore
+description: Raw, impure tungsten. Barely worthy for construction.
+itemDrop: tungsten-but-stolen
+variants: 3
