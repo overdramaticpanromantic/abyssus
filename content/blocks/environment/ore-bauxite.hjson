@@ -1,0 +1,5 @@
+type: OreBlock
+name: Bauxite
+description: Raw, impure aluminum. Must be refined before use.
+itemDrop: bauxite
+variants: 3
