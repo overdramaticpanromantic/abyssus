@@ -10,8 +10,10 @@ details:
 size: 3
 health: 390
 category: crafting
-researchCostMultiplier: 0.1
 research: liquefaction-vat
+researchCost: [
+  tungsten-but-stolen/10
+]
 category: crafting
 squareSprite: false
 liquidCapacity: 18
