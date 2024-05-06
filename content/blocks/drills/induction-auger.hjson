@@ -9,4 +9,10 @@ requirements: [
 ]
 drillTime: 120
 tier: 2
-researchCostMultiplier: 0.1
+ambientSound: drill
+ambientSoundVolume: 0.10
+squareSprite: false
+researchCost: [
+  tungsten-but-stolen/10
+  aluminum/5
+]
