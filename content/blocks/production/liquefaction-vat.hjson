@@ -1,6 +1,6 @@
 type: multicraft.MultiCrafter
 name: Liquefaction Vat
-description: Melts down various ores into their base components using electric induction coils. Highly inefficient, but it will get the job done.
+description: Melts down ores into their base components using electric induction coils. Highly inefficient, but it will get the job done.
 details: It's recommended to empty thhe machine entirely before changing its recipe, lest the product become impure.
 size: 3
 health: 450
