@@ -9,7 +9,7 @@ details:
   '''
 size: 3
 health: 390
-category: production
+category: crafting
 researchCostMultiplier: 0.1
 research: liquefaction-vat
 category: crafting
