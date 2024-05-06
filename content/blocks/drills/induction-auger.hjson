@@ -19,3 +19,6 @@ researchCost: [
 category: production
 hasLiquids: false
 itemCapacity: 24
+consumes: {
+  power: 1
+}
