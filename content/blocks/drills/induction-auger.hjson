@@ -1,6 +1,7 @@
 type: Drill
 name: Induction Auger
 size: 3
+health: 350
 description: Utilizes electric induction coils to rapidly break down the earth below, yielding trace resources. Not efficient.
 details: Due to Abyssus’s low temperature, rapid heating of minerals can induce breakages. This process collects small chunks of resources, albeit inefficiently.
 requirements: [
