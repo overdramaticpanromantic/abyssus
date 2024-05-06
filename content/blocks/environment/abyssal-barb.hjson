@@ -1,0 +1,5 @@
+name: Abyssal Barb
+type: TallBlock
+description: Unruly, jagged barbs, carved out by erosion.
+variants: 4
+clipSize: 128
