@@ -17,3 +17,5 @@ researchCost: [
   aluminum/5
 ]
 category: production
+hasLiquids: false
+itemCapacity: 24
