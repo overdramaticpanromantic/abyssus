@@ -3,3 +3,6 @@ type: TallBlock
 description: Unruly, jagged barbs, carved out by erosion.
 variants: 4
 clipSize: 128
+emitLight: true
+lightRadius: 45
+lightColor: 7b5f8359
