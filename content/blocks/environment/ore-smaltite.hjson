@@ -1,0 +1,5 @@
+type: OreBlock
+name: Smaltite
+description: Raw, impure cobalt. Must be refined before use.
+itemDrop: smaltite
+variants: 3
