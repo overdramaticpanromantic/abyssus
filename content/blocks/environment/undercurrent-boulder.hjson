@@ -1,0 +1,5 @@
+name: Undercurrent Boulder
+description: A rocky, yellow mound. Positively electric.
+type: Prop
+variants: 3
+breakSound: rockBreak
