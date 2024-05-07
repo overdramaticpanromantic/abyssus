@@ -1,0 +1,4 @@
+name: Undercurrent Wall
+type: StaticWall
+description: Crackly, yellow walls, teeming with electricity.
+variants: 3
