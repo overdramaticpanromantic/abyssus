@@ -52,6 +52,20 @@ recipes: [
   }
   craftTime: 60.0
 }
+{
+  input: {
+    fluids: [
+      abyssus-molten-cobalt/0.1
+    ]
+    power: 2
+  }
+  output: {
+    items: [
+      abyssus-cobalt/1
+    ]
+  }
+  craftTime: 60.0
+}
 ]
 
 drawer: {
