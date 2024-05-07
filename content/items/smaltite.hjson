@@ -1,7 +1,7 @@
 name: Smaltite
 description: Raw, impure cobalt. Must be refined before use.
 cost: 0.8
-color: 8a86b7
+color: 3f3560
 hardness: 2
 hiddenOnPlanets: [
   serpulo,
