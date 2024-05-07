@@ -1,0 +1,8 @@
+name: Molten Cobalt
+description: Molten, high-temperature smaltite. Can be cooled for use, or alloyed with other metals.
+temperature: 1
+viscosity: 0.85
+effect: melting
+color: a87e9c
+lightColor: 8a86b768
+cacheLayer: slag
