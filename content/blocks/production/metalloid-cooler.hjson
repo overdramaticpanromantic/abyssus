@@ -93,6 +93,14 @@ drawer: {
     {
       type: DrawDefault
     }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-cobalt
+    }
+    {
+      type: DrawDefault
+    }
   ]
 }
 
