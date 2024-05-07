@@ -1,5 +1,6 @@
 type: OreBlock
-name: Smaltite
+name: Smaltite (Wall)
 description: Raw, impure cobalt. Must be refined before use.
 itemDrop: smaltite
+wallOre: true
 variants: 3
