@@ -1,0 +1,9 @@
+name: Undercurrent Vent
+type: SteamVent
+blendGroup: undercurrent-floor
+parent: undercurrent-floor
+effect: ventSteam
+effectColor: 433325
+attributes: {
+   heat: 0.11111111
+}
