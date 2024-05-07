@@ -1,0 +1,10 @@
+name: Undercurrent Spurs
+type: TallBlock
+description: Rocky cubes, piled atop one another. Crackling, glowing.
+variants: 3
+clipSize: 128
+shadowAlpha: 0.5
+shadowOffset: -2.5
+emitLight: true
+lightColor: e9d16459
+lightRadius: 60
