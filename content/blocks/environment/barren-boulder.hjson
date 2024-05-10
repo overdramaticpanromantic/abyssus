@@ -1,0 +1,5 @@
+name: Barren Boulder
+description: A clump of barren rock, formed long ago.
+type: Prop
+variants: 2
+breakSound: rockBreak
