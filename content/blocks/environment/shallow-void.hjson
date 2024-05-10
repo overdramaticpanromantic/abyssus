@@ -2,7 +2,7 @@ type: Floor
 name: Shallow Void
 speedMultiplier: 0.7
 variants: 0
-liquidDrop: none
+liquidDrop: null
 isLiquid: true
 cacheLayer: none
 liquidMultiplier: 1.5
