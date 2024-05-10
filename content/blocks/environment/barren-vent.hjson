@@ -1,0 +1,9 @@
+name: Barren Vent
+type: SteamVent
+blendGroup: barren-floor
+parent: barren-floor
+effect: ventSteam
+effectColor: 0f0f14
+attributes: {
+   heat: 0.11111111
+}
