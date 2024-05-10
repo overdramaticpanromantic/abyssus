@@ -6,3 +6,4 @@ variants: 9
 isLiquid: true
 cacheLayer: space
 supportsOverlay: true
+drownTime: 120
