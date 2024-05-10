@@ -1,0 +1,12 @@
+type: Floor
+name: Shallow Void
+speedMultiplier: 0.7
+variants: 0
+liquidDrop: none
+isLiquid: true
+cacheLayer: none
+liquidMultiplier: 1.5
+albedo: 0.9
+supportsOverlay: true
+shallow: true
+drownTime: 0
