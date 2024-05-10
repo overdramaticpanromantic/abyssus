@@ -1,0 +1,4 @@
+name: Barren Wall
+type: StaticWall
+description: Navy, rocky walls. Common across Abyssus.
+variants: 3
