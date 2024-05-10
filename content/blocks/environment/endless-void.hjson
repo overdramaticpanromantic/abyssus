@@ -4,6 +4,5 @@ description: All-consuming abyss.
 speedMultiplier: 0.3
 variants: 0
 isLiquid: true
-cacheLayer: space
 supportsOverlay: true
 drownTime: 60
