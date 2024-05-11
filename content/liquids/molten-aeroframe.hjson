@@ -1,7 +1,7 @@
 name: Molten Aeroframe
 description: Aluminum-magnesium alloy, melted and mixed.
 temperature: 3
-viscosity: 1
+viscosity: 0.85
 effect: melting
 color: 80c9a9
 lightColor: 80c9a968
