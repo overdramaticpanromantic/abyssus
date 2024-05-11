@@ -1,7 +1,7 @@
 name: Molten Lithium
 description: Warm, molten lithium. Can be cooled for use, or alloyed with other metals.
 temperature: 0.25
-viscosity: 1
+viscosity: 0.85
 effect: melting
 color: c9c780
 lightColor: c9c78068
