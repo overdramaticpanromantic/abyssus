@@ -35,6 +35,21 @@ recipes: [
   }
   craftTime: 60.0
 }
+{
+  input: {
+    fluids: [
+      abyssus-molten-aluminum/0.1
+      abyssus-molten-lithium/0.1
+    ]
+    power: 1
+  }
+  output: {
+    fluids: [
+      abyssus-molten-aeroframe/0.1
+    ]
+  }
+  craftTime: 60.0
+}
 ]
 
 drawer: {
