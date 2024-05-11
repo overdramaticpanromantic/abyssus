@@ -1,0 +1,75 @@
+type: multicraft.MultiCrafter
+name: Flux Vat
+description: Melts down and processes ores into their trace components. More efficient than electrical induction.
+details: Specialized entirely into harvesting trace elements from minerals, this facility lacks the capacity to process common ores.
+size: 4
+health: 1095
+category: crafting
+research: thermic-alloy
+researchCost: [
+  aluminum/100
+  magnesium/80
+  thermic-alloy/45
+]
+category: crafting
+squareSprite: false
+liquidCapacity: 48
+hasLiquids: true
+requirements: [
+  aluminum/135
+  magnesium/95
+  thermic-alloy/70
+]
+recipes: [
+{
+  input: {
+    items: [
+      bauxite/3
+    ]
+    power: 1
+  }
+  output: {
+    fluids: [
+      abyssus-molten-lithium/0.1
+    ]
+  }
+  craftTime: 120.0
+}
+{
+  input: {
+    items: [
+      smaltite/3
+    ]
+    power: 1
+  }
+  output: {
+    fluids: [
+      abyssus-molten-cobalt/0.1
+    ]
+  }
+  craftTime: 120.0
+}
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-lithium
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-cobalt
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
