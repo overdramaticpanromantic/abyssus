@@ -1,0 +1,56 @@
+type: multicraft.MultiCrafter
+name: Alloy Incorporator
+description: Mixes various liquefied metals into alloys.
+size: 4
+health: 980
+category: crafting
+research: magnesium
+researchCost: [
+  tungsten-but-stolen/50
+  aluminum/35
+  magnesium/20
+]
+category: crafting
+squareSprite: false
+liquidCapacity: 48
+hasLiquids: true
+requirements: [
+  tungsten-but-stolen/90
+  aluminum/65
+  magnesium/55
+]
+recipes: [
+{
+  input: {
+    fluids: [
+      abyssus-molten-aluminum/0.2
+      abyssus-molten-magnesium/0.2
+    ]
+    power: 2
+  }
+  output: {
+    fluids: [
+      abyssus-molten-thermic-alloy/0.2
+    ]
+  }
+  craftTime: 60.0
+}
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-thermic-alloy
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
