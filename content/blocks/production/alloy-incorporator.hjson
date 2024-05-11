@@ -23,14 +23,14 @@ recipes: [
 {
   input: {
     fluids: [
-      abyssus-molten-aluminum/0.2
-      abyssus-molten-magnesium/0.2
+      abyssus-molten-aluminum/0.1
+      abyssus-molten-magnesium/0.1
     ]
-    power: 2
+    power: 1
   }
   output: {
     fluids: [
-      abyssus-molten-thermic-alloy/0.2
+      abyssus-molten-thermic-alloy/0.1
     ]
   }
   craftTime: 60.0
