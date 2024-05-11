@@ -1,7 +1,7 @@
 name: Molten Aluminum
 description: Molten, high-temperature bauxite. Can be cooled for use, or alloyed with other metals.
 temperature: 1
-viscosity: 1
+viscosity: 0.85
 effect: melting
 color: 9c6d3d
 lightColor: b79a7c68
