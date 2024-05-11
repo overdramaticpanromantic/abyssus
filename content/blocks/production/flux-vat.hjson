@@ -26,7 +26,7 @@ recipes: [
     items: [
       bauxite/3
     ]
-    power: 1
+    power: 2
   }
   output: {
     fluids: [
@@ -40,7 +40,7 @@ recipes: [
     items: [
       smaltite/3
     ]
-    power: 1
+    power: 2
   }
   output: {
     fluids: [
