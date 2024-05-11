@@ -1,7 +1,7 @@
 name: Carbide
 description: Exceptionally hard, but brittle. Used as a sharp tool in machining.
 cost: 1.2
-color: 89769a
+color: 9b8aaa
 hiddenOnPlanets: [
   serpulo,
   erekir
