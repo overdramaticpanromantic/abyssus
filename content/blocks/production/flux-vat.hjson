@@ -24,7 +24,7 @@ recipes: [
 {
   input: {
     items: [
-      bauxite/3
+      abyssus-bauxite/3
     ]
     power: 2
   }
@@ -38,7 +38,7 @@ recipes: [
 {
   input: {
     items: [
-      smaltite/3
+      abyssus-smaltite/3
     ]
     power: 2
   }
