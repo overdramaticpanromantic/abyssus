@@ -65,6 +65,11 @@ drawer: {
       drawLiquid: molten-thermic-alloy
     }
     {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-aeroframe
+    }
+    {
       type: DrawDefault
     }
   ]
