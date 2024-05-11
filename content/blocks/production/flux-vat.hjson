@@ -3,6 +3,7 @@ name: Flux Vat
 description: Melts down and processes ores into their trace components. More efficient than electrical induction.
 details: Specialized entirely into harvesting trace elements from minerals, this facility lacks the capacity to process common ores.
 size: 4
+itemCapacity: 12
 health: 1095
 category: crafting
 research: thermic-alloy
