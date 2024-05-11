@@ -21,6 +21,6 @@ category: production
 hasLiquids: false
 itemCapacity: 24
 consumes: {
-  power: 1
+  power: 0.5
 }
 liquidBoostIntensity: 1
