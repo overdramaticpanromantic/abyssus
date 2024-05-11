@@ -1,7 +1,7 @@
 name: Molten Carbide
 description: Searing, molten carbide. Can be cooled for use.
 temperature: 5
-viscosity: 1
+viscosity: 0.85
 effect: melting
 color: d4b6d2
 lightColor: d4b6d268
