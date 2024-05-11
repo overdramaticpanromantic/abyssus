@@ -15,7 +15,7 @@ liquidCapacity: 36
 hasLiquids: true
 
 requirements: [
-  tungsten-but-stolen/75
+  tungsten-but-stolen/90
 ]
 
 recipes: [
