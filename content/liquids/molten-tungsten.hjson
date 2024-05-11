@@ -1,7 +1,7 @@
 name: Molten Tungsten
 description: Searing hot tungsten. Can be alloyed with other metals.
 temperature: 6
-viscosity: 1
+viscosity: 0.85
 effect: melting
 color: cdd9e8
 lightColor: cdd9e868
