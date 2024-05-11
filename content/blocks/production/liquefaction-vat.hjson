@@ -15,7 +15,7 @@ liquidCapacity: 36
 hasLiquids: true
 
 requirements: [
-  tungsten-but-stolen/120
+  tungsten-but-stolen/75
 ]
 
 recipes: [
@@ -24,28 +24,28 @@ recipes: [
     items: [
       abyssus-bauxite/3
     ]
-    power: 2
+    power: 1
   }
   output: {
     fluids: [
-      abyssus-molten-aluminum/0.2
+      abyssus-molten-aluminum/0.1
     ]
   }
-  craftTime: 60.0
+  craftTime: 120.0
 }
 {
   input: {
     items: [
       abyssus-dolomite/3
     ]
-    power: 2
+    power: 1
   }
   output: {
     fluids: [
-      abyssus-molten-magnesium/0.2
+      abyssus-molten-magnesium/0.1
     ]
   }
-  craftTime: 60.0
+  craftTime: 120.0
 }
 ]
 
