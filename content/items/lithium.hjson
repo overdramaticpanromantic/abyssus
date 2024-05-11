@@ -1,0 +1,9 @@
+name: Lithium
+description: Soft, with a low density. Used in rechargeable power storage.
+cost: 1
+color: 979d5a
+charge: 1
+hiddenOnPlanets: [
+  serpulo,
+  erekir
+]
