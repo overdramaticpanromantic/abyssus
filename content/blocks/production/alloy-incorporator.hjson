@@ -50,6 +50,21 @@ recipes: [
   }
   craftTime: 60.0
 }
+{
+  input: {
+    fluids: [
+      abyssus-molten-tungsten/0.1
+      abyssus-molten-cobalt/0.1
+    ]
+    power: 1
+  }
+  output: {
+    fluids: [
+      abyssus-molten-carbide/0.1
+    ]
+  }
+  craftTime: 60.0
+}
 ]
 
 drawer: {
