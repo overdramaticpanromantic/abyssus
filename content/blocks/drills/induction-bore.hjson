@@ -25,6 +25,14 @@ hasLiquids: false
 itemCapacity: 10
 consumes: {
   power: 0.333334
+  liquids: [
+    {
+      liquid: water
+      amount: 0.03334
+      optional: true
+      booster: true
+    }
+  ]
 }
-liquidBoostIntensity: 1
+liquidBoostIntensity: 2
 heatColor: 87ceebe6
