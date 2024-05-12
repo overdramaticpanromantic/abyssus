@@ -27,3 +27,4 @@ consumes: {
   power: 0.333334
 }
 liquidBoostIntensity: 1
+heatColor: 87ceebe6
