@@ -1,0 +1,29 @@
+type: BeamDrill
+name: Induction Bore
+size: 3
+health: 485
+description: Fires concentrated energy beams at ores using electric induction coils, yielding trace minerals. Capable of mining from walls.
+details: Magnesium’s high electrical and thermal conductivity allows for the creation of a focused beam of electricity. This beam is not restricted by gravity, allowing for wall boring.
+requirements: [
+  tungsten-but-stolen/55
+  aluminum/40
+  magnesium/15
+]
+drillTime: 60
+laserWidth: 0.7
+range: 6
+tier: 2
+ambientSound: drill
+ambientSoundVolume: 0.10
+researchCost: [
+  tungsten-but-stolen/25
+  aluminum/20
+  magnesium/15
+]
+category: production
+hasLiquids: false
+itemCapacity: 10
+consumes: {
+  power: 0.333334
+}
+liquidBoostIntensity: 1
