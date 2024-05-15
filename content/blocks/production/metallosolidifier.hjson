@@ -169,3 +169,15 @@ drawer: {
     }
   ]
 }
+craftEffect: {
+  type: SeqEffect
+  effects: [
+    region: abyssus-metallosolidifier-piston-west
+    length: 8
+    baseRotation: 0
+    cone: 0
+    lifetime: 60
+    sizeFrom: 4
+    sizeTo: 4
+  ]
+}
