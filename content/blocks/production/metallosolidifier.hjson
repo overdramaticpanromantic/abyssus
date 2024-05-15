@@ -1,0 +1,171 @@
+type: multicraft.MultiCrafter
+name: Metallosolidifier
+description: Supercools molten metals using methane input. More efficient than air-based cooling.
+size: 5
+health: 980
+category: crafting
+research: cobalt
+researchCost: [
+  tungsten-but-stolen/900
+  aluminum/750
+  magnesium/500
+  cobalt/375
+]
+category: crafting
+squareSprite: false
+liquidCapacity: 48
+hasLiquids: true
+requirements: [
+  tungsten-but-stolen/150
+  aluminum/135
+  magnesium/85
+  cobalt/50
+]
+recipes: [
+{
+  input: {
+    fluids: [
+      abyssus-molten-aluminum/0.15
+    ]
+    power: 2
+  }
+  output: {
+    items: [
+      abyssus-aluminum/3
+    ]
+  }
+  craftTime: 120.0
+}
+{
+  input: {
+    fluids: [
+      abyssus-molten-magnesium/0.15
+    ]
+    power: 2
+  }
+  output: {
+    items: [
+      abyssus-magnesium/3
+    ]
+  }
+  craftTime: 120.0
+}
+{
+  input: {
+    fluids: [
+      abyssus-molten-thermic-alloy/0.15
+    ]
+    power: 2
+  }
+  output: {
+    items: [
+      abyssus-thermic-alloy/3
+    ]
+  }
+  craftTime: 120.0
+}
+{
+  input: {
+    fluids: [
+      abyssus-molten-cobalt/0.15
+    ]
+    power: 2
+  }
+  output: {
+    items: [
+      abyssus-cobalt/3
+    ]
+  }
+  craftTime: 120.0
+}
+{
+  input: {
+    fluids: [
+      abyssus-molten-lithium/0.15
+    ]
+    power: 2
+  }
+  output: {
+    items: [
+      abyssus-lithium/3
+    ]
+  }
+  craftTime: 120.0
+}
+{
+  input: {
+    fluids: [
+      abyssus-molten-carbide/0.15
+    ]
+    power: 2
+  }
+  output: {
+    items: [
+      abyssus-carbide-but-stolen/3
+    ]
+  }
+  craftTime: 120.0
+}
+{
+  input: {
+    fluids: [
+      abyssus-molten-aeroframe/0.15
+    ]
+    power: 2
+  }
+  output: {
+    items: [
+      abyssus-aeroframe/3
+    ]
+  }
+  craftTime: 120.0
+}
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-aluminum
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-magnesium
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-thermic-alloy
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-cobalt
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-lithium
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-carbide
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-aeroframe
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
