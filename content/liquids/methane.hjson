@@ -1,0 +1,5 @@
+name: Methane
+description: Lukewarm, gaseous methane.
+flammability: 1
+color: c46d8a
+lightColor: c46d8a68
