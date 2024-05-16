@@ -176,6 +176,7 @@ craftEffect: {
     {
       x: 4
       y: 20
+      particles: 1
       length: 14
       layer: 31
       baseRotation: 0
