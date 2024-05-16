@@ -169,6 +169,11 @@ drawer: {
       suffix: -basekinda
     }
     {
+      type: DrawPistons
+      sides: 4
+      suffix: -piston
+    }
+    {
       type: DrawDefault
     }
   ]
