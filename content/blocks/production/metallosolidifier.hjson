@@ -165,24 +165,11 @@ drawer: {
       drawLiquid: molten-aeroframe
     }
     {
-      type: DrawDefault
+      type: DrawRegion
+      suffix: -basekinda
     }
-  ]
-}
-craftEffect: {
-  region: abyssus-metallosolidifier-piston
-  type: SeqEffect
-  effects: [
     {
-      x: 4
-      y: 20
-      particles: 1
-      length: 14
-      baseRotation: 0
-      cone: 0
-      lifetime: 60
-      sizeFrom: 2
-      sizeTo: 2
+      type: DrawDefault
     }
   ]
 }
