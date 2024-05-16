@@ -178,7 +178,6 @@ craftEffect: {
       y: 20
       particles: 1
       length: 14
-      layer: 1
       baseRotation: 0
       cone: 0
       lifetime: 60
