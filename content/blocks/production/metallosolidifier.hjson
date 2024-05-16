@@ -101,13 +101,13 @@ recipes: [
   input: {
     fluids: [
       abyssus-molten-carbide/0.15
+      abyssus-methane/0.016667
     ]
     power: 2
   }
   output: {
     items: [
       abyssus-carbide-but-stolen/3
-      abyssus-methane/0.016667
     ]
   }
   craftTime: 120.0
