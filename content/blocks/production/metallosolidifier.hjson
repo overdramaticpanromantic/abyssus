@@ -171,6 +171,7 @@ drawer: {
 }
 craftEffect: {
   region: abyssus-metallosolidifier-piston-west
+  layer: 40
   type: SeqEffect
   effects: [
     {
