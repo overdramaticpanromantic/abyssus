@@ -171,8 +171,8 @@ drawer: {
     {
       type: DrawPistons
       sides: 4
-      lenOffset: 5.8
-      sinMag: 5
+      lenOffset: 5.775
+      sinMag: 4
       suffix: -piston
     }
     {
