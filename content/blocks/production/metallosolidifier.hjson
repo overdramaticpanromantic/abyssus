@@ -175,7 +175,7 @@ craftEffect: {
   type: SeqEffect
   effects: [
     {
-      length: 8
+      length: 14
       baseRotation: 0
       cone: 0
       lifetime: 60
