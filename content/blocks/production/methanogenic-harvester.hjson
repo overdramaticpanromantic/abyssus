@@ -10,6 +10,10 @@ displayEfficiencyScale: 1
 baseEfficiency: 0
 minEfficiency: 1
 category: crafting
+craftTime: 60
+consumes: {
+  power/2
+}
 requirements: [
   tungsten-but-stolen/120
   aluminum/85
@@ -29,8 +33,8 @@ drawer: {
     {
       type: DrawBlurSpin
       suffix: -rotator
-      blurThresh: 0.01
-      rotateSpeed: 5
+      blurThresh: 0.15
+      rotateSpeed: 10
     }
   ]
 }
