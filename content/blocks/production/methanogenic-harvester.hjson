@@ -4,6 +4,7 @@ name: Methanogenic Harvester
 description: Harvests methane from the depths of Abyssus.
 size: 5
 hasLiquids: true
+liquidCapacity: 48
 squareSprite: false
 outputLiquid: methane/0.2
 displayEfficiencyScale: 1
