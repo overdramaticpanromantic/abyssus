@@ -1,6 +1,7 @@
 name: Insulated Bridge Conduit
 type: DirectionLiquidBridge
 range: 4
+category: liquid
 hasPower: false
 solid: false
 researchCost: [
