@@ -3,6 +3,7 @@ name: Viaduct Bridge
 description: Moves items over structures and terrain.
 health: 135
 size: 1
+solid: false
 requirements: [
   tungsten-but-stolen/10
 ] 
