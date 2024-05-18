@@ -1,6 +1,6 @@
 type: DuctRouter
 name: Viaduct Router
-description: Equally distributes inputted items across three directions. Only accepts input from the back.
+description: Equally distributes inputted items across three directions. Only accepts item input from the back. Can be configured to act as a sorter.
 size: 1
 speed: 3.3333334
 health: 85
