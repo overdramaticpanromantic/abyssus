@@ -1,5 +1,6 @@
 name: Insulated Bridge Conduit
 type: DirectionLiquidBridge
+description: Transports fluids over structures and terrain.
 range: 4
 category: liquid
 hasPower: false
