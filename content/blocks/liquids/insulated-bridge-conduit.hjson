@@ -1,0 +1,13 @@
+name: Insulated Bridge Conduit
+type: DirectionLiquidBridge
+range: 4
+hasPower: false
+solid: false
+researchCost: [
+  tungsten-but-stolen/20
+  aluminum/20
+]
+requirements: [
+  tungsten-but-stolen/10
+  aluminum/10
+]
