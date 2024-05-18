@@ -1,5 +1,6 @@
 name: Insulated Liquid Junction
 type: LiquidJunction
+description: Functions as a crossing for two separate conduits. Prevents mixing.
 category: liquid
 health: 260
 solid: false
