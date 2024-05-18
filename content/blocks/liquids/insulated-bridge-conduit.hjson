@@ -3,6 +3,7 @@ type: DirectionLiquidBridge
 range: 4
 category: liquid
 hasPower: false
+squareSprite: false
 solid: false
 researchCost: [
   tungsten-but-stolen/20
