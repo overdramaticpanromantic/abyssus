@@ -1,0 +1,14 @@
+name: Insulated Liquid Router
+type: LiquidRouter
+health: 160
+liquidCapacity: 30
+liquidPadding: 0.75
+solid: false
+researchCost: [
+  tungsten-but-stolen/35
+  aluminum/20
+]
+requirements: [
+  tungsten-but-stolen/16
+  aluminum/8
+]
