@@ -81,6 +81,11 @@ drawer: {
     {
       type: DrawLiquidTile     
       padding: 6
+      drawLiquid: molten-tungsten
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
       drawLiquid: molten-cobalt
     }
     {
