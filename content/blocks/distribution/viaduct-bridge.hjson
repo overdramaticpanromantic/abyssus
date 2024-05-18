@@ -1,0 +1,14 @@
+type: DuctBridge
+name: Viaduct Bridge
+description: Moves items over structures and terrain.
+health: 135
+size: 1
+requirements: [
+  tungsten-but-stolen/10
+] 
+category: distribution
+range: 4
+speed: 3.3333334
+researchCost: [
+  tungsten-but-stolen/25
+]
