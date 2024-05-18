@@ -9,7 +9,7 @@ requirements: [
   aluminum/40
   magnesium/15
 ]
-drillTime: 60
+drillTime: 150
 laserWidth: 0.7
 range: 6
 tier: 2
