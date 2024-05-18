@@ -3,6 +3,7 @@ type: LiquidRouter
 health: 160
 category: liquid
 liquidCapacity: 30
+squareSprite: false
 liquidPadding: 0.75
 solid: false
 researchCost: [
