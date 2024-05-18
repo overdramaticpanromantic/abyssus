@@ -11,7 +11,7 @@ requirements: [
 ]
 drillTime: 150
 laserWidth: 0.7
-range: 6
+range: 7
 tier: 2
 ambientSound: drill
 ambientSoundVolume: 0.10
