@@ -1,0 +1,12 @@
+type: OverflowGate
+name: Overflow Viaduct
+description: Outputs items to the sides if the front path is blocked.
+category: distribution
+requirements: [
+  tungsten-but-stolen/5
+  aluminum/2
+]
+researchCost: [
+  tungsten-but-stolen/10
+  aluminum/5
+]
