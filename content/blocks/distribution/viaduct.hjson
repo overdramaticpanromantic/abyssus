@@ -1,0 +1,14 @@
+type: Duct
+name: Viaduct
+description: 
+category: distribution
+research: tungsten-but-stolen
+researchCost: [
+  tungsten-but-stolen/10
+]
+speed: 30
+health: 55
+bridgeReplacement: viaduct-bridge // this doesn't exist yet
+requirements: [
+  tungsten-but-stolen/2
+]
