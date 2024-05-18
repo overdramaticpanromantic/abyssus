@@ -1,6 +1,7 @@
 name: Insulated Liquid Router
 type: LiquidRouter
 health: 160
+category: liquid
 liquidCapacity: 30
 liquidPadding: 0.75
 solid: false
