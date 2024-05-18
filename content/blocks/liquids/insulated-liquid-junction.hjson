@@ -1,0 +1,12 @@
+name: Insulated Liquid Junction
+type: LiquidJunction
+health: 260
+solid: false
+requirements: [
+  tungsten-but-stolen/4
+  aluminum/8
+]
+researchCost: [
+  tungsten-but-stolen/20
+  aluminum/40
+]
