@@ -85,6 +85,11 @@ drawer: {
       drawLiquid: molten-aeroframe
     }
     {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-carbide
+    }
+    {
       type: DrawDefault
     }
   ]
