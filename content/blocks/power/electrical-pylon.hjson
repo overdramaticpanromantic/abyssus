@@ -3,6 +3,7 @@ name: Electrical Pylon
 consumesPower: true
 outputsPower: true
 health: 120
+allowDiagonal: true
 category: power
 consumes: {
   powerBuffered: 1000
