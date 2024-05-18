@@ -1,5 +1,6 @@
 name: Insulated Liquid Junction
 type: LiquidJunction
+category: liquid
 health: 260
 solid: false
 requirements: [
