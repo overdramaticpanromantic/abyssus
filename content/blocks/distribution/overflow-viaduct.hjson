@@ -1,4 +1,4 @@
-type: OverflowGate
+type: OverflowDuct
 name: Overflow Viaduct
 description: Outputs items to the sides if the front path is blocked.
 category: distribution
