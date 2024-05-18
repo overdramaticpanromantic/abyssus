@@ -1,4 +1,4 @@
-type: Router
+type: DuctRouter
 name: Viaduct Router
 description: Equally distributes inputted items across three directions. Only accepts input from the back.
 size: 1
