@@ -1,0 +1,14 @@
+type: Router
+name: Viaduct Router
+description: Equally distributes inputted items across three directions. Only accepts input from the back.
+size: 1
+speed: 3.3333334
+health: 85
+itemCapacity: 3
+requirements: [
+  tungsten-but-stolen/5
+]
+category: distribution
+researchCost: [
+  tungsten-but-stolen/10
+]
