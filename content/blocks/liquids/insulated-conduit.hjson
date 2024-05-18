@@ -1,5 +1,6 @@
 name: Insulated Conduit
 type: ArmoredConduit
+description: Moves fluids forward.
 category: liquid
 leaks: true
 liquidCapacity: 20
