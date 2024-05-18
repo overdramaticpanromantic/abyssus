@@ -6,7 +6,7 @@ research: tungsten-but-stolen
 researchCost: [
   tungsten-but-stolen/10
 ]
-speed: 30
+speed: 3.3333334
 health: 55
 bridgeReplacement: viaduct-bridge // this doesn't exist yet
 requirements: [
