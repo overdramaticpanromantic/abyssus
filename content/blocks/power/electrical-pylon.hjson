@@ -12,6 +12,7 @@ range: 10
 size: 1
 laserColor1: e9d164
 laserColor2: c1975c
+laserColor3: 8b6138
 requirements: [
   tungsten-but-stolen/8
 ]
