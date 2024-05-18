@@ -1,6 +1,7 @@
-type: OverflowGate
+type: OverflowDuct
 name: Underflow Viaduct
 description: Outputs items to the front if the side paths are blocked.
+solid: false
 category: distribution
 invert: true
 squareSprite: false
