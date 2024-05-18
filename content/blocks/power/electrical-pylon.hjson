@@ -1,0 +1,16 @@
+type: BeamNode
+name: Electrical Pylon
+consumesPower: true
+outputsPower: true
+health: 120
+range: 10
+size: 1
+allowDiagonal: true
+laserColor1: e9d164
+laserColor2: c1975c
+requirements: [
+  tungsten-but-stolen/8
+]
+researchCost: [
+  tungsten-but-stolen/10
+]
