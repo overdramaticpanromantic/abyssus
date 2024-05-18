@@ -4,6 +4,9 @@ consumesPower: true
 outputsPower: true
 health: 120
 category: power
+consumes: {
+  powerBuffered: 1000
+} 
 range: 10
 size: 1
 laserColor1: e9d164
