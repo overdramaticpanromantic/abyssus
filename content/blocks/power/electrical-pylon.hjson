@@ -3,9 +3,9 @@ name: Electrical Pylon
 consumesPower: true
 outputsPower: true
 health: 120
+category: power
 range: 10
 size: 1
-allowDiagonal: true
 laserColor1: e9d164
 laserColor2: c1975c
 requirements: [
