@@ -2,6 +2,8 @@ type: OverflowGate
 name: Underflow Viaduct
 description: Outputs items to the front if the side paths are blocked.
 category: distribution
+invert: true
+squareSprite: false
 requirements: [
   tungsten-but-stolen/5
   aluminum/2
