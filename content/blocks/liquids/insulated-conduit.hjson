@@ -1,0 +1,17 @@
+name: Insulated Conduit
+type: ArmoredConduit
+category: liquid
+leaks: true
+liquidCapacity: 20
+liquidPressure: 1.03
+health: 200
+junctionReplacement: insulated-liquid-junction
+bridgeReplacement: insulated-bridge-conduit
+researchCost: [
+  tungsten-but-stolen/20
+  aluminum/10
+]
+requirements: [
+  tungsten-but-stolen/1
+  aluminum/1
+]
