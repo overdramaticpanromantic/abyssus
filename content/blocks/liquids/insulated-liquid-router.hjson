@@ -1,5 +1,6 @@
 name: Insulated Liquid Router
 type: LiquidRouter
+description: Distributes fluids across different directions.
 health: 160
 category: liquid
 liquidCapacity: 30
