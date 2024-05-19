@@ -26,7 +26,7 @@ recipes: [
       abyssus-molten-aluminum/0.2
       abyssus-molten-magnesium/0.2
     ]
-    power: 1
+    power: 2
   }
   output: {
     fluids: [
@@ -41,7 +41,7 @@ recipes: [
       abyssus-molten-aluminum/0.2
       abyssus-molten-lithium/0.2
     ]
-    power: 1
+    power: 2
   }
   output: {
     fluids: [
@@ -56,7 +56,7 @@ recipes: [
       abyssus-molten-tungsten/0.2
       abyssus-molten-cobalt/0.2
     ]
-    power: 1
+    power: 2
   }
   output: {
     fluids: [
