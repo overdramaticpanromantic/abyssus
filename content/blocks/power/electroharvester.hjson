@@ -8,7 +8,7 @@ baseEfficiency: 0
 minEfficiency: 1
 category: power
 powerProduction: 30
-generateEffect: turbineGenerate
+generateEffect: turbinegenerate
 effectChance: 0.08
 size: 3
 hasItems: false
