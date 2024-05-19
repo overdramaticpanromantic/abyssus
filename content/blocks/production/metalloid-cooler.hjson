@@ -16,7 +16,7 @@ hasLiquids: true
 ambientSound: steam
 ambientSoundVolume: 0.03
 requirements: [
-  tungsten-but-stolen/105
+  tungsten-but-stolen/55
 ]
 
 recipes: [
