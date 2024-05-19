@@ -16,6 +16,8 @@ category: crafting
 squareSprite: false
 liquidCapacity: 48
 hasLiquids: true
+ambientSound: flux
+ambientSoundVolume: 0.05
 requirements: [
   aluminum/135
   magnesium/95
