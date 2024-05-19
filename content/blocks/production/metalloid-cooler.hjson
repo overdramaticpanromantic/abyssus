@@ -22,58 +22,58 @@ recipes: [
 {
   input: {
     fluids: [
-      abyssus-molten-aluminum/0.05
+      abyssus-molten-aluminum/0.1
     ]
-    power: 0.5
+    power: 1
   }
   output: {
     items: [
       abyssus-aluminum/1
     ]
   }
-  craftTime: 120.0
+  craftTime: 60.0
 }
 {
   input: {
     fluids: [
-      abyssus-molten-magnesium/0.05
+      abyssus-molten-magnesium/0.1
     ]
-    power: 0.5
+    power: 1
   }
   output: {
     items: [
       abyssus-magnesium/1
     ]
   }
-  craftTime: 120.0
+  craftTime: 60.0
 }
 {
   input: {
     fluids: [
-      abyssus-molten-cobalt/0.05
+      abyssus-molten-cobalt/0.1
     ]
-    power: 0.5
+    power: 1
   }
   output: {
     items: [
       abyssus-cobalt/1
     ]
   }
-  craftTime: 120.0
+  craftTime: 60.0
 }
 {
   input: {
     fluids: [
-      abyssus-molten-thermic-alloy/0.05
+      abyssus-molten-thermic-alloy/0.1
     ]
-    power: 0.5
+    power: 1
   }
   output: {
     items: [
       abyssus-thermic-alloy/1
     ]
   }
-  craftTime: 120.0
+  craftTime: 60.0
 }
 ]
 
