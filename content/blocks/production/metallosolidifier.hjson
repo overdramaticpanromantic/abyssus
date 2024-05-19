@@ -15,6 +15,8 @@ category: crafting
 squareSprite: false
 liquidCapacity: 48
 hasLiquids: true
+ambientSound: glow
+ambientSoundVolume: 0.08
 requirements: [
   tungsten-but-stolen/150
   aluminum/135
