@@ -65,7 +65,7 @@ drawer: {
     }
     {
       type: DrawArcSmelt
-      particles: 20
+      particles: 40
       particleLife: 45
     }
     {
