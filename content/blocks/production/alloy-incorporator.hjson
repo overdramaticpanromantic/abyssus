@@ -23,14 +23,14 @@ recipes: [
 {
   input: {
     fluids: [
-      abyssus-molten-aluminum/0.1
-      abyssus-molten-magnesium/0.1
+      abyssus-molten-aluminum/0.2
+      abyssus-molten-magnesium/0.2
     ]
     power: 1
   }
   output: {
     fluids: [
-      abyssus-molten-thermic-alloy/0.1
+      abyssus-molten-thermic-alloy/0.2
     ]
   }
   craftTime: 60.0
@@ -38,14 +38,14 @@ recipes: [
 {
   input: {
     fluids: [
-      abyssus-molten-aluminum/0.1
-      abyssus-molten-lithium/0.1
+      abyssus-molten-aluminum/0.2
+      abyssus-molten-lithium/0.2
     ]
     power: 1
   }
   output: {
     fluids: [
-      abyssus-molten-aeroframe/0.1
+      abyssus-molten-aeroframe/0.2
     ]
   }
   craftTime: 60.0
@@ -53,14 +53,14 @@ recipes: [
 {
   input: {
     fluids: [
-      abyssus-molten-tungsten/0.1
-      abyssus-molten-cobalt/0.1
+      abyssus-molten-tungsten/0.2
+      abyssus-molten-cobalt/0.2
     ]
     power: 1
   }
   output: {
     fluids: [
-      abyssus-molten-carbide/0.1
+      abyssus-molten-carbide/0.2
     ]
   }
   craftTime: 60.0
