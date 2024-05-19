@@ -25,107 +25,107 @@ recipes: [
 {
   input: {
     fluids: [
-      abyssus-molten-aluminum/0.15
-      abyssus-methane/0.016667
+      abyssus-molten-aluminum/0.3
+      abyssus-methane/0.0333334
     ]
-    power: 2
+    power: 4
   }
   output: {
     items: [
       abyssus-aluminum/3
     ]
   }
-  craftTime: 120.0
+  craftTime: 60.0
 }
 {
   input: {
     fluids: [
-      abyssus-molten-magnesium/0.15
-      abyssus-methane/0.016667
+      abyssus-molten-magnesium/0.3
+      abyssus-methane/0.0333334
     ]
-    power: 2
+    power: 4
   }
   output: {
     items: [
       abyssus-magnesium/3
     ]
   }
-  craftTime: 120.0
+  craftTime: 60.0
 }
 {
   input: {
     fluids: [
-      abyssus-molten-thermic-alloy/0.15
-      abyssus-methane/0.016667
+      abyssus-molten-thermic-alloy/0.3
+      abyssus-methane/0.0333334
     ]
-    power: 2
+    power: 4
   }
   output: {
     items: [
       abyssus-thermic-alloy/3
     ]
   }
-  craftTime: 120.0
+  craftTime: 60.0
 }
 {
   input: {
     fluids: [
-      abyssus-molten-cobalt/0.15
-      abyssus-methane/0.016667
+      abyssus-molten-cobalt/0.3
+      abyssus-methane/0.0333334
     ]
-    power: 2
+    power: 4
   }
   output: {
     items: [
       abyssus-cobalt/3
     ]
   }
-  craftTime: 120.0
+  craftTime: 60.0
 }
 {
   input: {
     fluids: [
-      abyssus-molten-lithium/0.15
-      abyssus-methane/0.016667
+      abyssus-molten-lithium/0.3
+      abyssus-methane/0.0333334
     ]
-    power: 2
+    power: 4
   }
   output: {
     items: [
       abyssus-lithium/3
     ]
   }
-  craftTime: 120.0
+  craftTime: 60.0
 }
 {
   input: {
     fluids: [
-      abyssus-molten-carbide/0.15
-      abyssus-methane/0.016667
+      abyssus-molten-carbide/0.3
+      abyssus-methane/0.0333334
     ]
-    power: 2
+    power: 4
   }
   output: {
     items: [
       abyssus-carbide-but-stolen/3
     ]
   }
-  craftTime: 120.0
+  craftTime: 60.0
 }
 {
   input: {
     fluids: [
-      abyssus-molten-aeroframe/0.15
-      abyssus-methane/0.016667
+      abyssus-molten-aeroframe/0.3
+      abyssus-methane/0.0333334
     ]
-    power: 2
+    power: 4
   }
   output: {
     items: [
       abyssus-aeroframe/3
     ]
   }
-  craftTime: 120.0
+  craftTime: 60.0
 }
 ]
 
