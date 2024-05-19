@@ -16,7 +16,7 @@ hasLiquids: true
 ambientSound: flux
 ambientSoundVolume: 0.05
 requirements: [
-  tungsten-but-stolen/90
+  tungsten-but-stolen/45
 ]
 
 recipes: [
