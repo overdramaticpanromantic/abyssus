@@ -6,7 +6,7 @@ category: distribution
 invert: true
 squareSprite: false
 requirements: [
-  tungsten-but-stolen/5
+  tungsten-but-stolen/4
   aluminum/2
 ]
 researchCost: [
