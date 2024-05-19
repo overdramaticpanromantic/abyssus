@@ -19,9 +19,9 @@ hasLiquids: true
 ambientSound: flux
 ambientSoundVolume: 0.05
 requirements: [
-  aluminum/135
-  magnesium/95
-  thermic-alloy/70
+  aluminum/85
+  magnesium/70
+  thermic-alloy/65
 ]
 recipes: [
 {
