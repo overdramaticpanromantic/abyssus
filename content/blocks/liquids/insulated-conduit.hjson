@@ -2,7 +2,7 @@ name: Insulated Conduit
 type: ArmoredConduit
 description: Moves fluids forward.
 category: liquid
-leaks: true
+leaks: false
 liquidCapacity: 20
 liquidPressure: 1.03
 health: 200
