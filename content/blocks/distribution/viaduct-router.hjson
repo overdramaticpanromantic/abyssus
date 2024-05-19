@@ -7,7 +7,7 @@ health: 85
 solid: false
 itemCapacity: 3
 requirements: [
-  tungsten-but-stolen/5
+  tungsten-but-stolen/4
 ]
 category: distribution
 researchCost: [
