@@ -14,7 +14,7 @@ squareSprite: false
 liquidCapacity: 18
 hasLiquids: true
 ambientSound: steam
-ambientSoundVolume: 0.03
+ambientSoundVolume: 0.01
 requirements: [
   tungsten-but-stolen/55
 ]
