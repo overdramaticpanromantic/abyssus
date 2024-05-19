@@ -1,0 +1,75 @@
+type: multicraft.MultiCrafter
+name: Chemoseparator
+description: Breaks substances down into their base components.
+size: 4
+health: 1020
+category: crafting
+research: lithium
+researchCost: [
+  tungsten-but-stolen/2450
+  thermic-alloy/1950
+  cobalt/1800
+  lithium/950
+]
+category: crafting
+squareSprite: false
+liquidCapacity: 48
+hasLiquids: true
+ambientSound: smelter
+ambientSoundVolume: 0.06
+requirements: [
+  tungsten-but-stolen/105
+  thermic-alloy/85
+  cobalt/75
+  lithium/40
+]
+recipes: [
+{
+  input: {
+    fluids: [
+      ozone/0.2
+    ]
+    power: 3
+  }
+  output: {
+    fluids: [
+      abyssus-oxygen/0.13333334
+    ]
+  }
+  craftTime: 60.0
+}
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile     
+      padLeft: 6
+      padRight: 40
+      padTop: 6
+      padBottom: 6
+      drawLiquid: oxygen
+    }
+    {
+      type: DrawLiquidTile     
+      padLeft: 40
+      padRight: 6
+      padTop: 6
+      padBottom: 6
+      drawLiquid: ozone
+    }
+    {
+      type: DrawArcSmelt
+      particles: 20
+      particleLife: 45
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
