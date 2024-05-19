@@ -14,6 +14,8 @@ category: crafting
 squareSprite: false
 liquidCapacity: 48
 hasLiquids: true
+ambientSound: smelter
+ambientSoundVolume: 0.06
 requirements: [
   tungsten-but-stolen/90
   aluminum/65
