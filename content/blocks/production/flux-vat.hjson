@@ -8,9 +8,9 @@ health: 1095
 category: crafting
 research: thermic-alloy
 researchCost: [
-  aluminum/100
-  magnesium/80
-  thermic-alloy/45
+  aluminum/600
+  magnesium/485
+  thermic-alloy/330
 ]
 category: crafting
 squareSprite: false
