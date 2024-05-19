@@ -6,9 +6,9 @@ health: 980
 category: crafting
 research: magnesium
 researchCost: [
-  tungsten-but-stolen/50
-  aluminum/35
-  magnesium/20
+  tungsten-but-stolen/250
+  aluminum/215
+  magnesium/195
 ]
 category: crafting
 squareSprite: false
