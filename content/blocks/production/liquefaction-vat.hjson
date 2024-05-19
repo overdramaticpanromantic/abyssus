@@ -14,7 +14,7 @@ squareSprite: false
 liquidCapacity: 36
 hasLiquids: true
 ambientSound: flux
-ambientSoundVolume: 0.03
+ambientSoundVolume: 0.05
 requirements: [
   tungsten-but-stolen/90
 ]
