@@ -13,3 +13,6 @@ requirements: [
   tungsten-but-stolen/25
   thermic-alloy/15
 ]
+consumes: {
+  power/1
+}
