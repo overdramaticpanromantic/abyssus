@@ -10,5 +10,5 @@ speed: 3.3333334
 health: 55
 bridgeReplacement: viaduct-bridge
 requirements: [
-  tungsten-but-stolen/2
+  tungsten-but-stolen/1
 ]
