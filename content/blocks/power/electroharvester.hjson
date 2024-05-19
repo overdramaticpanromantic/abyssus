@@ -1,11 +1,11 @@
 type: ThermalGenerator
 name: Electroharvester
-description: Pulls electricity from the Abyssus's depths.
+description: Pulls electricity from the Abyssus's depths. Must be placed on Undercurrent Vents.
 health: 350
 attribute: heat
-displayEfficiencyScale: 1
+displayEfficiency: false
 baseEfficiency: 0
-minEfficiency: 1
+minEfficiency: 0.999
 category: power
 powerProduction: 30
 generateEffect: turbinegenerate
