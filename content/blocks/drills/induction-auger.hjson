@@ -5,8 +5,8 @@ health: 350
 description: Utilizes electric induction coils to rapidly break down the earth below, yielding trace resources. Not efficient.
 details: Due to Abyssus’s low temperature, rapid heating of minerals can induce breakages. This process collects small chunks of resources, albeit inefficiently.
 requirements: [
-  tungsten-but-stolen/85
-  aluminum/50
+  tungsten-but-stolen/45
+  aluminum/30
 ]
 drillTime: 130
 tier: 2
