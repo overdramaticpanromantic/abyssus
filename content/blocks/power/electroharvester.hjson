@@ -1,0 +1,39 @@
+type: ThermalGenerator
+name: Electroharvester
+description: Pulls electricity from the Abyssus's depths.
+health: 350
+attribute: heat
+displayEfficiencyScale: 1
+baseEfficiency: 0
+minEfficiency: 1
+category: power
+powerProduction: 30
+generateEffect: turbineGenerate
+effectChance: 0.08
+size: 3
+hasItems: false
+itemCapacity: 0
+hasLiquids: false
+liquidCapacity: 0
+ambientSound: hum
+ambientSoundVolume: 0.06
+researchCost: [
+  tungsten-but-stolen/10
+]
+requirements: [
+  tungsten-but-stolen/35
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawBlurSpin
+      suffix: -rotator
+      blurThresh: 0.10
+      rotateSpeed: 5
+    }
+  ]
+}
