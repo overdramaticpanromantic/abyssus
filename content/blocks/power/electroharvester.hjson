@@ -8,8 +8,8 @@ baseEfficiency: 0
 minEfficiency: 0.999
 category: power
 powerProduction: 30
-generateEffect: turbinegenerate
-effectChance: 0.08
+generateEffect: lightning
+effectChance: 0.04
 size: 3
 hasItems: false
 itemCapacity: 0
