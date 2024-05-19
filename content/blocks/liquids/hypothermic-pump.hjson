@@ -1,0 +1,15 @@
+name: Hypothermic Pump
+description: Pumps fluids from underneath itself.
+category: liquid
+type: Pump
+pumpAmount: 0.1
+liquidCapacity: 160
+size: 2
+researchCost: [
+  tungsten-but-stolen/80
+  thermic-alloy/50
+]
+requirements: [
+  tungsten-but-stolen/25
+  thermic-alloy/15
+]
