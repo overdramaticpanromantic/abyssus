@@ -5,8 +5,8 @@ health: 485
 description: Fires concentrated energy beams at ores using electric induction coils, yielding trace minerals. Capable of mining from walls.
 details: Magnesium’s high electrical and thermal conductivity allows for the creation of a focused beam of electricity. This beam is not restricted by gravity, allowing for wall boring.
 requirements: [
-  tungsten-but-stolen/55
-  aluminum/40
+  tungsten-but-stolen/40
+  aluminum/35
   magnesium/15
 ]
 drillTime: 150
