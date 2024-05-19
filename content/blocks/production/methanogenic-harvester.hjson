@@ -13,7 +13,7 @@ minEfficiency: 1
 category: crafting
 craftTime: 60
 consumes: {
-  power: 2
+  power: 4
 }
 requirements: [
   tungsten-but-stolen/120
