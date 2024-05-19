@@ -33,7 +33,7 @@ recipes: [
   }
   output: {
     fluids: [
-      abyssus-oxygen/0.13333334
+      abyssus-oxygen/0.3
     ]
   }
   craftTime: 60.0
