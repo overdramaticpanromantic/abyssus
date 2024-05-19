@@ -27,42 +27,42 @@ recipes: [
     items: [
       abyssus-tungsten-but-stolen/3
     ]
-    power: 2
+    power: 4
   }
   output: {
     fluids: [
-      abyssus-molten-tungsten/0.1
+      abyssus-molten-tungsten/0.2
     ]
   }
-  craftTime: 120.0
+  craftTime: 60.0
 }
 {
   input: {
     items: [
       abyssus-bauxite/3
     ]
-    power: 2
+    power: 4
   }
   output: {
     fluids: [
-      abyssus-molten-lithium/0.1
+      abyssus-molten-lithium/0.2
     ]
   }
-  craftTime: 120.0
+  craftTime: 60.0
 }
 {
   input: {
     items: [
       abyssus-smaltite/3
     ]
-    power: 2
+    power: 4
   }
   output: {
     fluids: [
-      abyssus-molten-cobalt/0.1
+      abyssus-molten-cobalt/0.2
     ]
   }
-  craftTime: 120.0
+  craftTime: 60.0
 }
 ]
 
