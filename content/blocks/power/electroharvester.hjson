@@ -33,7 +33,7 @@ drawer: {
       type: DrawBlurSpin
       suffix: -rotator
       blurThresh: 0.10
-      rotateSpeed: 5
+      rotateSpeed: 8
     }
   ]
 }
