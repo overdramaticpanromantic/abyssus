@@ -9,6 +9,7 @@ ambientSoundVolume: 0.05
 category: power
 size: 4
 explodeOnFull: true
+squareSprite: false
 requirements: [
   cobalt/160
   lithium/125
