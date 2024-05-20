@@ -1,7 +1,7 @@
 type: ConsumeGenerator
 name: Combustion Plant
-description: Burns methane to produce energy, carbon dioxide, and water. If the byproducts are not disposed of, then the generator will explode.
-details: Water, previously unheard of on Abyssus, is instrumental to all biological life. This planet's life, however, is not biological.
+description: Burns methane to produce energy, and carbon dioxide. If the byproduct is not disposed of, then the geenerator will explode.
+details: Methane combustion also produces water, of which cannot be used on Abyssus due to low temperature. 
 powerProduction: 60
 liquidCapacity: 48
 ambientSound: smelter
@@ -20,10 +20,7 @@ researchCost: [
   lithium/3250
   aeroframe/2780
 ]
-outputLiquids: [
-  carbon-dioxide/0.1
-  water/0.2
-]
+outputLiquid: carbon-dioxide/0.1
 consumes: {
   liquids: [
     methane/0.1
