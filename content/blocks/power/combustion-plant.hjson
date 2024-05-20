@@ -10,23 +10,21 @@ requirements: [
   cobalt/160
   lithium/125
   aeroframe/95
-[
+]
 researchCost: [
   cobalt/3600
   lithium/3250
   aeroframe/2780
-[
+]
 outputLiquids: [
   carbon-dioxide/0.1
   water/0.2
 ]
 consumes: {
-  liquids: {
-    liquids: [
-      methane/0.1
-      oxygen/0.2
-    ]
-  }
+  liquids: [
+    methane/0.1
+    oxygen/0.2
+  ]
 }
 drawer: {
   type: DrawMulti
