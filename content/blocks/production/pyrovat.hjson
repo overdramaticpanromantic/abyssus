@@ -1,0 +1,157 @@
+type: multicraft.MultiCrafter
+name: Pyrovat
+description: Melts down ores at an elevated rate. More efficient than a Flux Vat. Requires carbon dioxide for operation.
+details: Aeroframe's unique thermally conductive properties allow for hyperefficient metal extraction.
+size: 5
+itemCapacity: 24
+health: 1095
+category: crafting
+researchCost: [
+  tungsten/6400
+  cobalt/5850
+  lithium/5250
+  aeroframe/5100
+]
+category: crafting
+squareSprite: false
+liquidCapacity: 48
+hasLiquids: true
+ambientSound: flux
+ambientSoundVolume: 0.08
+requirements: [
+  tungsten/245
+  cobalt/170
+  lithium/145
+  aeroframe/130
+]
+recipes: [
+{
+  input: {
+    items: [
+      abyssus-bauxite/3
+    ]
+    fluids: [
+      abyssus-carbon-dioxide/0.05
+    ]
+    power: 5
+  }
+  output: {
+    fluids: [
+      abyssus-molten-aluminum/0.3
+    ]
+  }
+  craftTime: 60.0
+}
+{
+  input: {
+    items: [
+      abyssus-dolomite/3
+    ]
+    fluids: [
+      abyssus-carbon-dioxide/0.05
+    ]
+    power: 5
+  }
+  output: {
+    fluids: [
+      abyssus-molten-magnesium/0.3
+    ]
+  }
+  craftTime: 60.0
+}
+{
+  input: {
+    items: [
+      abyssus-smaltite/3
+    ]
+    fluids: [
+      abyssus-carbon-dioxide/0.05
+    ]
+    power: 5
+  }
+  output: {
+    fluids: [
+      abyssus-molten-cobalt/0.3
+    ]
+  }
+  craftTime: 60.0
+}
+{
+  input: {
+    items: [
+      abyssus-tungsten-but-stolen/3
+    ]
+    fluids: [
+      abyssus-carbon-dioxide/0.05
+    ]
+    power: 5
+  }
+  output: {
+    fluids: [
+      abyssus-molten-tungsten/0.3
+    ]
+  }
+  craftTime: 60.0
+}
+{
+  input: {
+    items: [
+      abyssus-bauxite/3
+    ]
+    fluids: [
+      abyssus-carbon-dioxide/0.05
+    ]
+    power: 5
+  }
+  output: {
+    fluids: [
+      abyssus-molten-lithium/0.3
+    ]
+  }
+  craftTime: 60.0
+}
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-aluminum
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-magnesium
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-cobalt
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-tungsten
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-lithium
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      alpha: 0.5
+      glowScale: 5
+      color: 80c9a9
+    }
+  ]
+}
