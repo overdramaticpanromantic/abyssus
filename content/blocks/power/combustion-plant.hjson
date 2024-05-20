@@ -36,7 +36,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: water
+      drawLiquid: oxygen
       padTop: 6
       padLeft: 6
       padRight: 6
