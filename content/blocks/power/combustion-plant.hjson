@@ -21,7 +21,7 @@ outputLiquids: [
   water/0.2
 ]
 consumes: {
-  liquids: [
+  liquid: [
     methane/0.1
     oxygen/0.2
   ]
