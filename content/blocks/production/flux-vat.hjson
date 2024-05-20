@@ -41,20 +41,6 @@ recipes: [
 {
   input: {
     items: [
-      abyssus-bauxite/3
-    ]
-    power: 4
-  }
-  output: {
-    fluids: [
-      abyssus-molten-lithium/0.2
-    ]
-  }
-  craftTime: 60.0
-}
-{
-  input: {
-    items: [
       abyssus-smaltite/3
     ]
     power: 4
@@ -62,6 +48,20 @@ recipes: [
   output: {
     fluids: [
       abyssus-molten-cobalt/0.2
+    ]
+  }
+  craftTime: 60.0
+}
+{
+  input: {
+    items: [
+      abyssus-bauxite/3
+    ]
+    power: 4
+  }
+  output: {
+    fluids: [
+      abyssus-molten-lithium/0.2
     ]
   }
   craftTime: 60.0
