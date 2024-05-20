@@ -28,14 +28,16 @@ outlineColor: 0f0f14
 isEnemy: false
 engines: [
   {
-    x: -4
+    x: -5
     y: 0
     radius: 2
+    rotation: 135
   }
   {
-    x: 4
+    x: 5
     y: 0
     radius: 2
+    rotation: 45
   }
 ]
 weapons: [
