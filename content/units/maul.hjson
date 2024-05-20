@@ -1,0 +1,67 @@
+name: Maul
+description: Builds structures. Has a healing beam for block repair.
+type: ErekirUnitType
+coreUnitDock: true
+range: 60
+faceTarget: true
+targetPriority: -2
+lowAltitude: false
+mineWalls: false
+mineFloor: true
+mineHardnessScaling: false
+flying: true
+mineSpeed: 8
+mineTier: 2
+buildSpeed: 2
+speed: 5
+drag: 0.08
+accel: 0.09
+itemCapacity: 45
+health: 430
+armor: 2
+hitSize: 8
+engineSize: 0
+targetable : false
+hittable : false
+outlineColor: 0f0f14
+isEnemy: false
+engines: [
+  {
+    x: -3
+    y: -2
+    radius: 2
+  }
+  {
+    x: 3
+    y: -2
+    radius: 2
+  }
+]
+weapons: [
+  {
+    type: RepairBeamWeapon
+    widthSinMag: 0.11
+    beamWidth: 0.7
+    shootY: 0
+    repairSpeed: 3
+    fractionRepairSpeed: 0.1
+    aimDst: 0
+    shootCone: 15
+    healColor: 8ca9e8
+    laserColor: 8ca9e8
+    
+    targetUnits: false
+    targetBuildings: true
+    autoTarget: false
+    controllable: true
+    x: 0
+    y: 5
+    mirror: false
+    rotate: false
+    
+    bullet: {
+      maxRange: 60
+    }
+  }
+]
+buildBeamOffset: 5
