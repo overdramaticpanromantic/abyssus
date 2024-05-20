@@ -8,6 +8,7 @@ ambientSound: smelter
 ambientSoundVolume: 0.05
 category: power
 size: 4
+health: 780
 explodeOnFull: true
 squareSprite: false
 requirements: [
