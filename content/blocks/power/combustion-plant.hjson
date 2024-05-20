@@ -6,6 +6,7 @@ powerProduction: 60
 liquidCapacity: 48
 ambientSound: smelter
 ambientSoundVolume: 0.05
+category: power
 requirements: [
   cobalt/160
   lithium/125
