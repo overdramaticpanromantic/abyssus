@@ -21,10 +21,12 @@ outputLiquids: [
   water/0.2
 ]
 consumes: {
-  liquid: [
-    methane/0.1
-    oxygen/0.2
-  ]
+  liquids: {
+    liquids: [
+      methane/0.1
+      oxygen/0.2
+    ]
+  }
 }
 drawer: {
   type: DrawMulti
