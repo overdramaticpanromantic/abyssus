@@ -28,16 +28,15 @@ outlineColor: 0f0f14
 isEnemy: false
 engines: [
   {
-    x: -5
+    x: -4.5
     y: 0
     radius: 2
-    rotation: 135
+    rotation: 180
   }
   {
-    x: 5
+    x: 4.5
     y: 0
     radius: 2
-    rotation: 45
   }
 ]
 weapons: [
@@ -58,7 +57,7 @@ weapons: [
     autoTarget: false
     controllable: true
     x: 0
-    y: 5
+    y: 6
     mirror: false
     rotate: false
     
@@ -67,4 +66,4 @@ weapons: [
     }
   }
 ]
-buildBeamOffset: 8
+buildBeamOffset: 6
