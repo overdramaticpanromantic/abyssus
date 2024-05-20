@@ -50,14 +50,14 @@ drawer: {
     {
       type: DrawLiquidTile     
       padLeft: 6
-      padRight: 40
+      padRight: 16
       padTop: 6
       padBottom: 6
       drawLiquid: oxygen
     }
     {
       type: DrawLiquidTile     
-      padLeft: 40
+      padLeft: 16
       padRight: 6
       padTop: 6
       padBottom: 6
