@@ -4,7 +4,7 @@ description: Melts down ores at an elevated rate. More efficient than a Flux Vat
 details: Aeroframe's unique thermally conductive properties allow for hyperefficient metal extraction.
 size: 5
 itemCapacity: 24
-health: 1095
+health: 1450
 category: crafting
 researchCost: [
   tungsten/6400
