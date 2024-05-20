@@ -7,7 +7,7 @@ category: power
 consumes: {
   powerBuffered: 1000
 } 
-range: 10
+range: 11
 size: 1
 requirements: [
   tungsten-but-stolen/8
