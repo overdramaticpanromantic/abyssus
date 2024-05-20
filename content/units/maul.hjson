@@ -1,6 +1,7 @@
 name: Maul
 description: Builds structures. Has a healing beam for block repair.
-type: ErekirUnitType
+type: flying
+template: ErekirUnitType
 coreUnitDock: true
 range: 60
 faceTarget: true
