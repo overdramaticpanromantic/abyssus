@@ -1,0 +1,15 @@
+type: CoreBlock
+name: Core: Gulch
+isFirstTier: true
+size: 3
+squareSprite: false
+alwaysUnlocked: true
+unitType: maul
+health: 2700
+itemCapacity: 2400
+unitCapModifier: 8
+category: effect
+requirements: [
+  tungsten-but-stolen/850
+  aluminum/750
+]
