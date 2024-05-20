@@ -1,0 +1,67 @@
+type: ConsumeGenerator
+name: Combustion Plant
+description: Burns methane to produce energy, carbon dioxide, and water. If the byproducts are not disposed of, then the generator will explode.
+details: Water, previously unheard of on Abyssus, is instrumental to all biological life. This planet's life, however, is not biological.
+powerProduction: 60
+liquidCapacity: 48
+ambientSound: smelter
+ambientSoundVolume: 0.05
+requirements: [
+  cobalt/160
+  lithium/125
+  aeroframe/95
+[
+researchCost: [
+  cobalt/3600
+  lithium/3250
+  aeroframe/2780
+[
+outputLiquids: [
+  carbon-dioxide/0.1
+  water/0.2
+]
+consumes: {
+  liquids: [
+    methane/0.1
+    oxygen/0.2
+  ]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      padTop: 6
+      padLeft: 6
+      padRight: 6
+      padBottom: 16
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: carbon-dioxide
+      padTop: 16
+      padLeft: 6
+      padRight: 6
+      padBottom: 6
+    }
+    {
+      type: DrawArcSmelt
+      particles: 40
+      particleLife: 45
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      alpha: 0.8
+      glowScale: 5
+      color: c46d8a
+    }
+  ]
+}
