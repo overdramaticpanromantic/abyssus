@@ -8,6 +8,7 @@ ambientSound: smelter
 ambientSoundVolume: 0.05
 category: power
 size: 4
+explodeOnFull: true
 requirements: [
   cobalt/160
   lithium/125
