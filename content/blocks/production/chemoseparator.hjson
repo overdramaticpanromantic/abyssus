@@ -61,7 +61,7 @@ drawer: {
       padRight: 6
       padTop: 6
       padBottom: 6
-      drawLiquid: liquid-ozone
+      drawLiquid: ozone
     }
     {
       type: DrawArcSmelt
