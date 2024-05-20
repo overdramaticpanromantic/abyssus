@@ -53,7 +53,7 @@ drawer: {
       padRight: 40
       padTop: 6
       padBottom: 6
-      drawLiquid: abyssus-oxygen
+      drawLiquid: oxygen
     }
     {
       type: DrawLiquidTile     
