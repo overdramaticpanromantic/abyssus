@@ -6,6 +6,7 @@ type: StorageBlock
 category: effect
 coreMerge: false
 itemCapacity: 850
+squareSprite: false
 requirements: [
   thermic-alloy/85
   cobalt/70
