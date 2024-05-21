@@ -1,0 +1,18 @@
+name: Insulated Silo
+description: Stores many resources for later use.
+size: 3
+health: 1040
+type: StorageBLock
+category: effect
+coreMerge: false
+itemCapacity: 850
+requirements: [
+  thermic-alloy/145
+  cobalt/95
+  aeroframe/65
+]
+researchCost: [
+  thermic-alloy/3500
+  cobalt/2850
+  aeroframe/2100
+]
