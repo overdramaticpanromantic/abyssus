@@ -16,3 +16,4 @@ speed: 3.3333334
 solid: false
 regionRotated1: 1
 health: 140
+squareSprite: false
