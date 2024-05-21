@@ -2,7 +2,7 @@ name: Insulated Silo
 description: Stores many resources for later use.
 size: 3
 health: 1040
-type: StorageBLock
+type: StorageBlock
 category: effect
 coreMerge: false
 itemCapacity: 850
