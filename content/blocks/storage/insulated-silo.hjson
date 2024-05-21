@@ -7,12 +7,12 @@ category: effect
 coreMerge: false
 itemCapacity: 850
 requirements: [
-  thermic-alloy/145
-  cobalt/95
-  aeroframe/65
+  thermic-alloy/85
+  cobalt/70
+  aeroframe/55
 ]
 researchCost: [
-  thermic-alloy/3500
+  thermic-alloy/3050
   cobalt/2850
   aeroframe/2100
 ]
