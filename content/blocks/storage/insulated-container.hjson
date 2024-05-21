@@ -1,0 +1,16 @@
+name: Insulated Container
+description: Stores resources for later use.
+size: 2
+health: 480
+type: StorageBLock
+category: effect
+coreMerge: false
+itemCapacity: 120
+requirements: [
+  tungsten-but-stolen/35
+  magnesium/20
+]
+researchCost: [
+  tungsten-but-stolen/700
+  magnesium/400
+]
