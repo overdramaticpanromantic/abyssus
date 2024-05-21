@@ -6,8 +6,7 @@ leaks: false
 liquidCapacity: 20
 liquidPressure: 1.03
 health: 200
-junctionReplacement: insulated-liquid-junction
-bridgeReplacement: insulated-bridge-conduit
+junctionReplacement: insulated-fluid-junction
 rotBridgeReplacement: insulated-bridge-conduit
 researchCost: [
   tungsten-but-stolen/20
