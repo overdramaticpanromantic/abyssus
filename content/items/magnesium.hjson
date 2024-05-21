@@ -1,6 +1,6 @@
 name: Magnesium
 description: Lightweight, yet strong. Used in materials synthesis and alloymaking.
-cost: 0.8
+cost: 1.4
 color: 835a79
 hiddenOnPlanets: [
   serpulo,
