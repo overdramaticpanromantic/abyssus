@@ -1,6 +1,6 @@
 name: Cobalt
 description: Heavy and durable. Used in materials synthesis.
-cost: 1
+cost: 1.8
 color: 5c5986
 hiddenOnPlanets: [
   serpulo,
