@@ -1,6 +1,7 @@
 name: Tungsten Wall
 description: Blocks enemy projectiles.
 type: Wall
+size: 1
 category: defense
 health: 480
 armor: 2
