@@ -1,6 +1,6 @@
 name: Aluminum
 description: Lightweight and malleable. Not durable on its own, but can be refined into stronger alloys.
-cost: 0.6
+cost: 1.2
 color: 884d26
 hiddenOnPlanets: [
   serpulo,
