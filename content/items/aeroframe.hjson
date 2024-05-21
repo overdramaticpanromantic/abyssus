@@ -1,6 +1,6 @@
 name: Aeroframe
 description: Lightweight and durable. Used in advanced machines.
-cost: 1.2
+cost: 1.6
 color: 4a8e7c
 hiddenOnPlanets: [
   serpulo,
