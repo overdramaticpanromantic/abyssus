@@ -1,0 +1,12 @@
+name: Tungsten Wall
+description: Blocks enemy projectiles.
+type: Wall
+category: defense
+health: 480
+armor: 2
+requirements: [
+  tungsten-but-stolen/8
+]
+researchCost: [
+  tungsten-but-stolen/60
+]
