@@ -1,4 +1,4 @@
-name: Insulated Liquid Router
+name: Insulated Fluid Router
 type: LiquidRouter
 description: Distributes fluids across different directions.
 health: 160
