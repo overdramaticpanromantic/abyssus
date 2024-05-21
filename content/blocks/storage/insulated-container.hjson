@@ -6,6 +6,7 @@ type: StorageBlock
 category: effect
 coreMerge: false
 itemCapacity: 120
+squareSprite: false
 requirements: [
   tungsten-but-stolen/35
   magnesium/20
