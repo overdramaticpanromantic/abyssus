@@ -1,6 +1,6 @@
 name: Tungsten
 description: Dense, with a high melting point. Used in basic construction.
-cost: 1
+cost: 2
 color: 54617e
 hardness: 1
 hiddenOnPlanets: [
