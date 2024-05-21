@@ -11,6 +11,6 @@ researchCost: [
   aluminum/20
 ]
 requirements: [
-  tungsten-but-stolen/10
-  aluminum/10
+  tungsten-but-stolen/8
+  aluminum/8
 ]
