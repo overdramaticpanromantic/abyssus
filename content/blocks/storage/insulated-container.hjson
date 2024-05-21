@@ -2,7 +2,7 @@ name: Insulated Container
 description: Stores resources for later use.
 size: 2
 health: 480
-type: StorageBLock
+type: StorageBlock
 category: effect
 coreMerge: false
 itemCapacity: 120
