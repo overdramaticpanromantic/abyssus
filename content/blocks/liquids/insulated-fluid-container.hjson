@@ -5,7 +5,7 @@ health: 400
 type: LiquidRouter
 category: liquid
 solid: true
-liquidPadding: 1.5
+liquidPadding: 2
 liquidCapacity: 1200
 requirements: [
   tungsten-but-stolen/40
