@@ -1,0 +1,17 @@
+name: Insulated Fluid Tower
+description: Stores large quantities of fluids for later use.
+size: 3
+health: 940
+type: LiquidRouter
+category: liquid
+solid: true
+liquidPadding: 2
+liquidCapacity: 3200
+requirements: [
+  tungsten-but-stolen/125
+  aluminum/70
+]
+researchCost: [
+  tungsten-but-stolen/1250
+  aluminum/700
+]
