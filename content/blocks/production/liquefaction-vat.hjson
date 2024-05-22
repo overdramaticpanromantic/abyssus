@@ -73,10 +73,13 @@ drawer: {
       drawLiquid: molten-magnesium
     }
     {
-      type: DrawCrucibleFlame
+      type: DrawDefault
     }
     {
-      type: DrawDefault
+      type: DrawGlowRegion
+      alpha: 0.5
+      glowScale: 3
+      color: d6e1ed
     }
   ]
 }
