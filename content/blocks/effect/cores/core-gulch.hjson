@@ -4,7 +4,7 @@ isFirstTier: true
 size: 3
 squareSprite: false
 alwaysUnlocked: true
-unitType: maul
+unitType: incline
 health: 2700
 itemCapacity: 2400
 unitCapModifier: 8
