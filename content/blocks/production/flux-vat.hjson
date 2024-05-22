@@ -91,6 +91,9 @@ drawer: {
       drawLiquid: molten-cobalt
     }
     {
+      type: DrawCrucibleFlame
+    }
+    {
       type: DrawDefault
     }
   ]
