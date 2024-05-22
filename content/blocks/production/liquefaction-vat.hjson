@@ -78,7 +78,7 @@ drawer: {
     {
       type: DrawGlowRegion
       alpha: 0.5
-      glowScale: 3
+      glowScale: 8
       color: d6e1ed
     }
   ]
