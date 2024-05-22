@@ -1,5 +1,5 @@
-name: Maul
-description: Builds structures. Has a healing beam for block repair.
+name: Incline
+description: Defends the Gulch core and builds structures. Has a healing beam for block repair.
 type: flying
 template: ErekirUnitType
 coreUnitDock: true
