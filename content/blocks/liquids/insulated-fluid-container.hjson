@@ -5,6 +5,7 @@ health: 400
 type: LiquidRouter
 category: liquid
 solid: true
+squareSprite: false
 liquidPadding: 2
 liquidCapacity: 1200
 requirements: [
