@@ -73,6 +73,9 @@ drawer: {
       drawLiquid: molten-magnesium
     }
     {
+      type: DrawCrucibleFlame
+    }
+    {
       type: DrawDefault
     }
   ]
