@@ -1,0 +1,17 @@
+name: Insulated Fluid Container
+description: Stores fluids for later use.
+size: 2
+health: 400
+type: LiquidRouter
+category: liquid
+solid: true
+liquidPadding: 1.5
+liquidCapacity: 1200
+requirements: [
+  tungsten-but-stolen/40
+  aluminum/25
+]
+researchCost: [
+  tungsten-but-stolen/400
+  aluminum/250
+]
