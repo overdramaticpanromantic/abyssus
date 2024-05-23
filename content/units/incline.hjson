@@ -49,8 +49,10 @@ weapons: [
     fractionRepairSpeed: 0.1
     aimDst: 0
     shootCone: 15
-    healColor: 8ca9e8
-    laserColor: 8ca9e8
+    healColor: ffd37f
+    // Pal.accent
+    laserColor: ffd37f
+    // Pal.accent
     
     targetUnits: false
     targetBuildings: true
