@@ -20,7 +20,7 @@ ambientSoundVolume: 0.10
 squareSprite: false
 drawRim: true
 heatColor: c9c780
-requirements: [
+researchCost: [
   thermic-alloy/3400
   cobalt/2600
   lithium/2000
