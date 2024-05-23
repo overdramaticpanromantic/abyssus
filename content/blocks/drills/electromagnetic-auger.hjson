@@ -1,0 +1,34 @@
+type: Drill
+name: Electromagnetic Auger
+size: 4
+health: 850
+description: Chemically discharges lithium in order to break down ores below. More efficient than electrical induction.
+requirements: [
+  thermic-alloy/85
+  cobalt/65
+  lithium/50
+]
+drillTime: 43.3333334
+tier: 3
+updateEffect: pulverizeRed
+updateEffectChance: 0.03
+drillEffect: mineHuge
+rotateSpeed: 8
+warmupSpeed: 0.01
+ambientSound: drill
+ambientSoundVolume: 0.10
+squareSprite: false
+drawRim: true
+heatColor: c9c780
+requirements: [
+  thermic-alloy/3400
+  cobalt/2600
+  lithium/2000
+]
+category: production
+hasLiquids: false
+itemCapacity: 24
+consumes: {
+  power: 2
+}
+liquidBoostIntensity: 1
