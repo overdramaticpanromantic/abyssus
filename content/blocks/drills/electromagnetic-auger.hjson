@@ -1,6 +1,6 @@
 type: Drill
 name: Electromagnetic Auger
-size: 4
+size: 5
 health: 850
 description: Chemically discharges lithium in order to break down ores below. More efficient than electrical induction.
 requirements: [
