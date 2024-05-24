@@ -1,5 +1,5 @@
 type: Floor
 name: Temporal Floor (Unbuildable)
 description: Blood-red stone. Cannot be build upon due to close monolithic proximity.
-buildableOn: false
+placeableOn: false
 variants: 9
