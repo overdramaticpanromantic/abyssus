@@ -1,6 +1,7 @@
 name: Temporal Monolith
 type: TallBlock
 description: A deep, blood-red monolith. Impossibly tall, and smooth to the touch.
+size: 6
 variants: 2
 clipSize: 192
 shadowAlpha: 0.5
