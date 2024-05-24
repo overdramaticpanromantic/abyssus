@@ -1,0 +1,5 @@
+name: Temporal Boulder
+description: A blood-red clump of rock. Eerily smooth.
+type: Prop
+variants: 3
+breakSound: rockBreak
