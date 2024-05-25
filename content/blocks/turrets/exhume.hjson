@@ -2,6 +2,7 @@ type: ItemTurret
 name: Exhume
 description: Fires alternating projectiles at enemies.
 size: 3
+health: 1450
 category: turret
 range: 180
 squareSprite: false
