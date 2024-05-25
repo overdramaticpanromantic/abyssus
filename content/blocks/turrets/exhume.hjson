@@ -25,7 +25,7 @@ shoot: {
 }
 drawer: {
   type: DrawTurret
-  prefix: insulated-
+  basePrefix: insulated-
   parts: [
     {
       type: RegionPart
@@ -33,7 +33,7 @@ drawer: {
       mirror: true
       under: true
       progress: recoil
-      x: -5
+      x: 4.5
       y: 5
       moveY: -2
     }
