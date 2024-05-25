@@ -56,6 +56,7 @@ drawer: {
 ammoTypes: {
   tungsten-but-stolen: {
     type: BasicBulletType
+    damage: 80
     speed: 4
     lifetime: 50
     width: 8
