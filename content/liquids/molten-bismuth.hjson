@@ -1,0 +1,8 @@
+name: Molten Bismuth
+description: Warm, molten bismuth. Can be cooled for use, or alloyed with other metals.
+temperature: 0.5
+viscosity: 0.85
+effect: melting
+color: e9d164
+lightColor: e9d16468
+cacheLayer: slag
