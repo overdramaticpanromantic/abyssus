@@ -1,0 +1,63 @@
+type: ItemTurret
+name: Exhume
+description: Fires alternating projectiles at enemies.
+size: 3
+category: turret
+range: 180
+squareSprite: false
+reload: 60
+shootSound: shootAlt
+inaccuracy: 2
+rotateSpeed: 5
+outlineColor: 0f0f14
+requirements: [
+  tungsten-but-stolen/85
+  aluminum/50
+]
+researchCost: [
+  tungsten-but-stolen/175
+  aluminum/105
+]
+shoot: {
+  type: ShootAlternate
+  spread: 5
+  shots: 2
+}
+drawer: {
+  type: DrawTurret
+  prefix: insulated-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      mirror: true
+      under: true
+      progress: recoil
+      x: -5
+      y: 5
+      moveY: -2
+    }
+  ]
+}
+ammoTypes: {
+  tungsten-but-stolen: {
+    type: BasicBulletType
+    width: 12
+    hitSize: 7
+    height: 20
+    shootEffect: sfe
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 2
+    pierceCap: 2
+    pierce: true
+    pierceBuilding: true
+    hitColor: 889caa
+    trailColor: 889caa
+    frontColor: cdd9e8
+    backColor: 889caa
+    trailWidth: 2
+    trailLength: 6
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+  }
+}
