@@ -7,10 +7,10 @@ category: turret
 range: 140
 squareSprite: false
 reload: 60
-shootSound: shootSnap
-inaccuracy: 2
+shootSound: bang
+inaccuracy: 15
 rotateSpeed: 3
-shootCone: 6
+shootCone: 15
 shootY: 6
 outlineColor: 0f0f14
 recoils: 2
@@ -23,8 +23,8 @@ researchCost: [
   aluminum/105
 ]
 shoot: {
-  shots: 2
-  shotDelay: 6
+  shots: 4
+  shotDelay: 7.5
 }
 drawer: {
   type: DrawTurret
