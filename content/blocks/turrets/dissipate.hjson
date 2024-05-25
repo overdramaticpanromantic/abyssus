@@ -7,7 +7,7 @@ category: turret
 range: 140
 squareSprite: false
 reload: 60
-shootSound: shootAlt
+shootSound: shootSnap
 inaccuracy: 2
 rotateSpeed: 3
 shootCone: 6
@@ -23,8 +23,8 @@ researchCost: [
   aluminum/105
 ]
 shoot: {
-  type: ShootAlternate
-  spread: 8
+  shots: 2
+  shotDelay: 6
 }
 drawer: {
   type: DrawTurret
@@ -46,7 +46,7 @@ ammoTypes: {
     splashDamage: 40
     splashDamageRadius: 16
     speed: 5
-    lifetime: 40
+    lifetime: 30
     width: 6
     hitSize: 7
     height: 9
