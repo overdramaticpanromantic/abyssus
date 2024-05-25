@@ -14,7 +14,7 @@ shootCone: 3
 shootY: 4
 outlineColor: 0f0f14
 recoils: 2
-shake: 2
+shake: 1
 requirements: [
   tungsten-but-stolen/85
   aluminum/50
