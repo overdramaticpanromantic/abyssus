@@ -34,7 +34,7 @@ drawer: {
       progress: recoil
       x: 4.25
       y: 5
-      recoilIndex: 0
+      recoilIndex: 1
       moveY: -2
     }
     {
@@ -45,7 +45,7 @@ drawer: {
       progress: recoil
       x: -4.25
       y: 5
-      recoilIndex: 1
+      recoilIndex: 0
       moveY: -2
     }
   ]
