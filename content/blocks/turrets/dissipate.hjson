@@ -63,6 +63,8 @@ ammoTypes: {
     backColor: 8a587b
     trailWidth: 2
     trailLength: 6
+    collidesAir: true
+    collidesGround: true
     hitEffect: {
       type: ExplosionEffect
       waveColor: be8cb5
@@ -90,6 +92,8 @@ ammoTypes: {
       trailLength: 3
       hitEffect: shootSmallColor
       despawnEffect: hitBulletColor
+      collidesAir: true
+      collidesGround: true
     }
   }
 }
