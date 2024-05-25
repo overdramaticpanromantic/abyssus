@@ -20,8 +20,7 @@ researchCost: [
 ]
 shoot: {
   type: ShootAlternate
-  spread: 5
-  shots: 2
+  spread: 8
 }
 drawer: {
   type: DrawTurret
@@ -29,12 +28,24 @@ drawer: {
   parts: [
     {
       type: RegionPart
-      suffix: -barrel
-      mirror: true
+      suffix: -barrel-r
+      mirror: false
       under: true
       progress: recoil
-      x: 4.5
+      x: 4.4
       y: 5
+      recoilIndex: 0
+      moveY: -2
+    }
+    {
+      type: RegionPart
+      suffix: -barrel-l
+      mirror: false
+      under: true
+      progress: recoil
+      x: -4.4
+      y: 5
+      recoilIndex: 1
       moveY: -2
     }
   ]
