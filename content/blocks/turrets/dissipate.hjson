@@ -1,0 +1,91 @@
+type: ItemTurret
+name: Dissipate
+description: Fires fragmenting bullets at enemies.
+size: 3
+health: 1325
+category: turret
+range: 140
+squareSprite: false
+reload: 60
+shootSound: shootAlt
+inaccuracy: 2
+rotateSpeed: 3
+shootCone: 6
+shootY: 6
+outlineColor: 0f0f14
+recoils: 2
+requirements: [
+  tungsten-but-stolen/85
+  aluminum/50
+]
+researchCost: [
+  tungsten-but-stolen/175
+  aluminum/105
+]
+shoot: {
+  type: ShootAlternate
+  spread: 8
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: insulated-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -mid
+      mirror: false
+      under: false
+      progress: recoil
+      moveY: -2
+    }
+  ]
+}
+ammoTypes: {
+  magnesium: {
+    type: FlakBulletType
+    splashDamage: 40
+    splashDamageRadius: 16
+    speed: 5
+    lifetime: 40
+    width: 6
+    hitSize: 7
+    height: 9
+    shootEffect: shootSmallColor
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 1
+    pierceCap: 2
+    pierce: true
+    pierceBuilding: true
+    hitColor: 8a587b
+    trailColor: 8a587b
+    frontColor: be8cb5
+    backColor: 8a587b
+    trailWidth: 2
+    trailLength: 6
+    hitEffect: {
+      type: ExplosionEffect
+      waveColor: be8cb5
+      smokeColor: 573a53
+      sparkColor: be8cb5
+      waveStroke: 4
+      waveRad: 20
+    }
+    despawnEffect: hitBulletColor
+    fragBullets: 4
+    fragBullet: {
+      type: BasicBulletType
+      width: 4
+      height: 4
+      shrinkY: 1
+      lifetime: 15
+      hitColor: 8a587b
+      trailColor: 8a587b
+      frontColor: be8cb5
+      backColor: 8a587b
+      trailWidth: 1
+      trailLength: 3
+      hitEffect: shootSmallColor
+      despawnEffect: hitBulletColor
+    }
+  }
+}
