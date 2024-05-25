@@ -44,7 +44,7 @@ drawer: {
 ammoTypes: {
   magnesium: {
     type: FlakBulletType
-    damage: 6
+    damage: 4
     splashDamage: 40
     splashDamageRadius: 16
     speed: 5
@@ -54,7 +54,7 @@ ammoTypes: {
     height: 9
     shootEffect: shootSmallColor
     smokeEffect: shootBigSmoke
-    ammoMultiplier: 1
+    ammoPerShot: 2
     pierce: false
     pierceBuilding: false
     hitColor: 8a587b
@@ -76,7 +76,7 @@ ammoTypes: {
     despawnEffect: hitBulletColor
     fragBullets: 4
     fragBullet: {
-      damage: 5
+      damage: 4
       splashDamage: 3
       splashDamageRadius: 4
       type: BasicBulletType
