@@ -10,7 +10,6 @@ shootSound: shootAlt
 inaccuracy: 2
 rotateSpeed: 2
 shootCone: 3
-
 outlineColor: 0f0f14
 recoils: 2
 requirements: [
@@ -64,7 +63,7 @@ ammoTypes: {
     height: 14
     shootEffect: shootSmallColor
     smokeEffect: shootBigSmoke
-    ammoMultiplier: 2
+    ammoMultiplier: 1
     pierceCap: 2
     pierce: true
     pierceBuilding: true
