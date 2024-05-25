@@ -57,7 +57,7 @@ ammoTypes: {
     type: BasicBulletType
     damage: 80
     speed: 4
-    lifetime: 45
+    lifetime: 42.5
     width: 8
     hitSize: 7
     height: 14
