@@ -57,6 +57,7 @@ ammoTypes: {
   tungsten-but-stolen: {
     type: BasicBulletType
     speed: 4
+    lifetime: 50
     width: 8
     hitSize: 7
     height: 14
