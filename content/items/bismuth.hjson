@@ -1,0 +1,8 @@
+name: Bismuth
+description: Electrically resistant, with insulating properties. Used in thermal isolation.
+cost: 2
+color: c1975c
+hiddenOnPlanets: [
+  serpulo,
+  erekir
+]
