@@ -4,7 +4,7 @@ description: Fires fragmenting bullets at enemies.
 size: 3
 health: 1325
 category: turret
-range: 140
+range: 160
 squareSprite: false
 reload: 60
 shootSound: bang
