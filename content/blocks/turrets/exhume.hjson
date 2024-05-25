@@ -10,6 +10,7 @@ shootSound: shootAlt
 inaccuracy: 2
 rotateSpeed: 5
 outlineColor: 0f0f14
+recoils: 2
 requirements: [
   tungsten-but-stolen/85
   aluminum/50
