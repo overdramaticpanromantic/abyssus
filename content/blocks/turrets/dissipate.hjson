@@ -13,7 +13,8 @@ rotateSpeed: 3
 shootCone: 15
 shootY: 6
 outlineColor: 0f0f14
-recoils: 2
+recoils: 1
+shake: 2
 requirements: [
   tungsten-but-stolen/85
   aluminum/50
