@@ -45,7 +45,7 @@ ammoTypes: {
     width: 12
     hitSize: 7
     height: 20
-    shootEffect: sfe
+    shootEffect: shootSmallColor
     smokeEffect: shootBigSmoke
     ammoMultiplier: 2
     pierceCap: 2
