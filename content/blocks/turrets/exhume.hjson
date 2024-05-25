@@ -38,7 +38,7 @@ drawer: {
       x: 4.25
       y: 5
       recoilIndex: 1
-      moveY: -2.2
+      moveY: -2.4
     }
     {
       type: RegionPart
@@ -49,7 +49,7 @@ drawer: {
       x: -4.25
       y: 5
       recoilIndex: 0
-      moveY: -2.2
+      moveY: -2.4
     }
   ]
 }
