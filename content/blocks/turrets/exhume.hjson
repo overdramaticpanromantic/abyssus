@@ -10,7 +10,7 @@ shootSound: shootAlt
 inaccuracy: 2
 rotateSpeed: 2
 shootCone: 3
-shootY: 3
+shootY: 3.7
 outlineColor: 0f0f14
 recoils: 2
 requirements: [
