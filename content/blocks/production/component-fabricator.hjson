@@ -1,0 +1,73 @@
+type: multicraft.MultiCrafter
+name: Component Fabricator
+description: Fabricates various common components.
+details: Some types of components are more efficient to have a dedicated production facility for, rather than on-site manufacturing.
+size: 5
+health: 1265
+category: crafting
+itemCapacity: 24
+requirements: [
+  tungsten-but-stolen/110
+  magnesium/95
+  thermic-alloy/80
+  cobalt/65
+]
+researchCost: [
+  tungsten-but-stolen/1100
+  magnesium/950
+  thermic-alloy/800
+  cobalt/650
+]
+category: crafting
+squareSprite: false
+hasLiquids: false
+ambientSound: glow
+ambientSoundVolume: 0.08
+recipes: [
+{
+  input: {
+    items: [
+      abyssus-cobalt/1
+      abyssus-lithium/2
+    ]
+    power: 2
+  }
+  output: {
+    items: [
+      abyssus-ion-battery/1
+    ]
+  }
+  craftTime: 120.0
+}
+{
+  input: {
+    items: [
+      abyssus-thermic-alloy/4
+      abyssus-cobalt/6
+    ]
+    power: 2
+  }
+  output: {
+    items: [
+      abyssus-shield-canister/1
+    ]
+  }
+  craftTime: 120.0
+}
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawSpikes
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
