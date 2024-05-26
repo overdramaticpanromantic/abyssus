@@ -1,7 +1,7 @@
 type: BeamDrill
 name: Electromagnetic Bore
-size: 3
-health: 485
+size: 4
+health: 980
 description: Drills high quantities of ores. Capable of mining from walls.
 details: Aeroframe accentuates magnesium's electrical properties. With a boost from some carbide, the beam produced is far more powerful.
 requirements: [
