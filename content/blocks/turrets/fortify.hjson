@@ -8,9 +8,9 @@ range: 240
 squareSprite: false
 reload: 300
 shootSound: shootAlt
-inaccuracy: 15
+inaccuracy: 5
 rotateSpeed: 2
-shootCone: 15
+shootCone: 5
 shootY: 0
 outlineColor: 0f0f14
 recoils: 1
