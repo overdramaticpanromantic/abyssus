@@ -10,7 +10,7 @@ requirements: [
   aeroframe/80
   carbide-but-stolen/65
 ]
-drillTime: 62.5
+drillTime: 66.666667
 laserWidth: 0.7
 range: 9
 tier: 3
