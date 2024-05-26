@@ -1,0 +1,32 @@
+type: BeamDrill
+name: Electromagnetic Bore
+size: 3
+health: 485
+description: Drills high quantities of ores. Capable of mining from walls.
+details: Aeroframe accentuates magnesium's electrical properties. With a boost from some carbide, the beam produced is far more powerful.
+requirements: [
+  magnesium/145
+  cobalt/125
+  aeroframe/80
+  carbide-but-stolen/65
+]
+drillTime: 50
+laserWidth: 0.7
+range: 9
+tier: 3
+ambientSound: drill
+ambientSoundVolume: 0.14
+researchCost: [
+  magnesium/3950
+  cobalt/3700
+  aeroframe/2550
+  carbide-but-stolen/2000
+]
+category: production
+hasLiquids: false
+itemCapacity: 24
+consumes: {
+  power: 4
+}
+liquidBoostIntensity: 1
+heatColor: 87ceebe6
