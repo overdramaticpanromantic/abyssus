@@ -64,7 +64,7 @@ drawer: {
       suffix: -bottom
     }
     {
-      type: DrawFlame
+      type: DrawCrucibleFlame
     }
     {
       type: DrawDefault
