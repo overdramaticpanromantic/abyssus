@@ -1,6 +1,6 @@
 type: ConsumeGenerator
 name: Combustion Plant
-description: Burns methane to produce energy, and carbon dioxide. If the byproduct is not disposed of, then the geenerator will explode.
+description: Burns methane to produce energy and carbon dioxide. If the latter is not disposed of, then the geenerator will explode.
 details: Methane combustion also produces water, of which cannot be used on Abyssus due to low temperature. 
 powerProduction: 30
 liquidCapacity: 48
