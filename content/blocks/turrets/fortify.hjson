@@ -7,7 +7,7 @@ category: turret
 range: 240
 squareSprite: false
 reload: 300
-shootSound: shootPop
+shootSound: shootAlt
 inaccuracy: 15
 rotateSpeed: 2
 shootCone: 15
