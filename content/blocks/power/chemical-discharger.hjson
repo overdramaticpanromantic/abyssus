@@ -11,8 +11,11 @@ category: power
 size: 4
 health: 860
 squareSprite: false
-consumeItem: ion-battery
 itemDuration: 60
+consumes: {
+  itemCharged: {
+    minCharge: 1
+  }
 requirements: [
   thermic-alloy/165
   cobalt/140
