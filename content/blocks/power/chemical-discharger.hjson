@@ -39,6 +39,7 @@ drawer: {
       particleLife: 60
       drawCenter: false
       particles: 30
+      particleRad: 10
     }
     {
       type: DrawCrucibleFlame
