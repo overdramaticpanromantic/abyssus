@@ -110,6 +110,23 @@ recipes: [
   }
   craftTime: 60.0
 }
+{
+  input: {
+    items: [
+      abyssus-bismuth/3
+    ]
+    fluids: [
+      abyssus-carbon-dioxide/0.05
+    ]
+    power: 5
+  }
+  output: {
+    fluids: [
+      abyssus-molten-bismuth/0.3
+    ]
+  }
+  craftTime: 60.0
+}
 ]
 
 drawer: {
@@ -143,6 +160,11 @@ drawer: {
       type: DrawLiquidTile     
       padding: 6
       drawLiquid: molten-lithium
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-bismuth
     }
     {
       type: DrawDefault
