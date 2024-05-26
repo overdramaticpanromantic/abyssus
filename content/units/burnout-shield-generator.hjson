@@ -20,18 +20,18 @@ health: 1340
 abilities: [
   {
     type: ForceFieldAbility
-    cooldown: 60000 (//long enough cooldown to not make the shield come back up before the unit dies)
+    cooldown: 60000
     max: 400
-    radius: 40 (//5 blocks)
+    radius: 40
     sides: 8
-    regen: 0.1 (//6 health per second)
+    regen: 0.1
   }
 ]
 weapons: [
   {
     rotate: false
     mirror: false
-    reload: 60 (//10 seconds unit lifetime)
+    reload: 60
     alwaysShooting: true
     bullet: {
       instantDisappear: true
