@@ -1,0 +1,95 @@
+type: ItemTurret
+name: Fortify
+description: Deploys temporary shield generators.
+size: 3
+health: 1760
+category: turret
+range: 240
+squareSprite: false
+reload: 300
+shootSound: shootPop
+inaccuracy: 15
+rotateSpeed: 2
+shootCone: 15
+shootY: 0
+outlineColor: 0f0f14
+recoils: 1
+shake: 2
+requirements: [
+  tungsten-but-stolen/85
+  aluminum/50
+]
+researchCost: [
+  tungsten-but-stolen/175
+  aluminum/105
+]
+shoot: {
+  firstShotDelay: 120
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: insulated-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -side-r
+      mirror: false
+      under: false
+      progress: warmup
+      x: 0
+      y: 0
+      moveX: 1
+      moveY: -1
+      moveRot: 10
+    }
+    {
+      type: RegionPart
+      suffix: -side-l
+      mirror: false
+      under: false
+      progress: warmup
+      x: 0
+      y: 0
+      moveX: 1
+      moveY: -1
+      moveRot: -10
+    }
+  ]
+}
+ammoTypes: {
+  shield-capsule: {
+    type: ArtilleryBulletType
+    damage: 20
+    splashDamage: 10
+    splashDamageRadius: 
+    speed: 4
+    lifetime: 60
+    width: 8
+    hitSize: 7
+    height: 16
+    shootEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: shootBigColor
+        }
+        {
+          type: colorSparkBig
+        }
+      ]
+    }
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 1
+    pierce: false
+    pierceBuilding: true
+    hitColor: 763a3a
+    trailColor: 763a3a
+    frontColor: d99073
+    backColor: 763a3a
+    trailWidth: 2
+    trailLength: 4
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    despawnUnit: burnout-shield-generator
+  }
+}
