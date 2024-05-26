@@ -16,6 +16,7 @@ consumes: {
   itemCharged: {
     minCharge: 1
   }
+}
 requirements: [
   thermic-alloy/165
   cobalt/140
