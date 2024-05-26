@@ -35,6 +35,12 @@ drawer: {
       suffix: -bottom
     }
     {
+      type: DrawArcSmelt
+      particleLife: 60
+      drawCenter: false
+      particles: 30
+    }
+    {
       type: DrawCrucibleFlame
       flameRadiusScl: 16
       flameRadiusMag: 0.6
