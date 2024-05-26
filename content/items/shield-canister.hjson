@@ -1,0 +1,9 @@
+name: Shield Canister
+description: Contains a small spring-up burnout shield, ready to deploy at a moment's notice.
+cost: 1.25
+color: 763a3a
+charge: 1
+hiddenOnPlanets: [
+  serpulo,
+  erekir
+]
