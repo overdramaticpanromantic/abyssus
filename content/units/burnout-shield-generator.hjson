@@ -1,0 +1,45 @@
+type: flying
+name: Burnout Shield Generator
+description: Creates a temporary shield, preventing projectiles from passing through. Burns out after a short time.
+speed: 0
+physics: false
+accel: 0
+hidden: true
+playerControllable: false
+logicControllable: false
+useUnitCap: false
+hoverable: false
+targetGround: false
+targetAir: false
+engineSize: 0
+rotateSpeed: 0
+outlineColor: 0f0f14
+deathSound: none
+drawCell: false
+health: 1340
+abilities: [
+  {
+    type: ForceFieldAbility
+    cooldown: 60000 (//long enough cooldown to not make the shield come back up before the unit dies)
+    max: 400
+    radius: 40 (//5 blocks)
+    sides: 8
+    regen: 0.1 (//6 health per second)
+  }
+]
+weapons: [
+  {
+    rotate: false
+    mirror: false
+    reload: 60 (//10 seconds unit lifetime)
+    alwaysShooting: true
+    bullet: {
+      instantDisappear: true
+      despawnHit: false
+      hitEffect: none
+      despawnEffect: none
+      damage: 0
+      killShooter: true
+    }
+  }
+]
