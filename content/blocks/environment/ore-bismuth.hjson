@@ -1,0 +1,6 @@
+type: OreBlock
+name: Bismuth (Wall)
+description: Bizarrely pure bismuth.
+itemDrop: bismuth
+wallOre: true
+variants: 3
