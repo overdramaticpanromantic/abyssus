@@ -5,6 +5,7 @@ size: 5
 health: 980
 category: crafting
 research: cobalt
+itemCapacity: 18
 researchCost: [
   tungsten-but-stolen/900
   aluminum/750
