@@ -8,7 +8,6 @@ hidden: true
 playerControllable: false
 logicControllable: false
 useUnitCap: false
-hoverable: false
 targetGround: false
 targetAir: false
 engineSize: 0
