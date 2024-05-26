@@ -1,0 +1,42 @@
+type: ConsumeGenerator
+name: Chemical Discharger
+description: Discharges the chemopotential energy found within ion batteries.
+powerProduction: 30
+hasLiquids: false
+hasItems: true
+itemCapacity: 6
+ambientSound: smelter
+ambientSoundVolume: 0.06
+category: power
+size: 4
+health: 860
+squareSprite: false
+consumeItem: ion-battery
+itemDuration: 60
+requirements: [
+  thermic-alloy/165
+  cobalt/140
+  lithium/110
+]
+researchCost: [
+  thermic-alloy/2800
+  cobalt/2450
+  lithium/2150
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+      particles: 40
+      particleLife: 90
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
