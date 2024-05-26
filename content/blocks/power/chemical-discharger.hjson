@@ -38,6 +38,7 @@ drawer: {
       type: DrawCrucibleFlame
       flameRadiusScl: 16
       flameRadiusMag: 0.6
+      particles: 60
       particleRad: 10
     }
     {
