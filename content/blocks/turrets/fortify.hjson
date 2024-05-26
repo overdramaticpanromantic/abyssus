@@ -40,7 +40,7 @@ drawer: {
       y: 0
       moveX: 1
       moveY: -1
-      moveRot: 10
+      moveRot: -10
     }
     {
       type: RegionPart
@@ -52,7 +52,7 @@ drawer: {
       y: 0
       moveX: 1
       moveY: -1
-      moveRot: -10
+      moveRot: 10
     }
   ]
 }
