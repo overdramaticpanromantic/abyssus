@@ -1,0 +1,105 @@
+type: multicraft.MultiCrafter
+name: Amalgam Trough
+description: Mixes various liquefied metals into alloys. Less efficient than an alloy incorporator, but necessary for later processes.
+size: 5
+hasItems: false
+health: 1450
+category: crafting
+squareSprite: false
+liquidCapacity: 48
+hasLiquids: true
+ambientSound: smelter
+ambientSoundVolume: 0.09
+requirements: [
+  thermic-alloy/190
+  cobalt/165
+  lithium/135
+  carbide-but-stolen/115
+]
+researchCost: [
+  thermic-alloy/3800
+  cobalt/3300
+  lithium/2700
+  carbide-but-stolen/2300
+]
+recipes: [
+{
+  input: {
+    fluids: [
+      abyssus-molten-aluminum/0.3
+      abyssus-molten-magnesium/0.3
+    ]
+    power: 4
+  }
+  output: {
+    fluids: [
+      abyssus-molten-thermic-alloy/0.3
+    ]
+  }
+  craftTime: 60.0
+}
+{
+  input: {
+    fluids: [
+      abyssus-molten-aluminum/0.3
+      abyssus-molten-lithium/0.3
+    ]
+    power: 4
+  }
+  output: {
+    fluids: [
+      abyssus-molten-aeroframe/0.3
+    ]
+  }
+  craftTime: 60.0
+}
+{
+  input: {
+    fluids: [
+      abyssus-molten-tungsten/0.3
+      abyssus-molten-cobalt/0.3
+    ]
+    power: 4
+  }
+  output: {
+    fluids: [
+      abyssus-molten-carbide/0.3
+    ]
+  }
+  craftTime: 60.0
+}
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-thermic-alloy
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-aeroframe
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-carbide
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      alpha: 0.5
+      glowScale: 5
+      color: d4b6d2
+    }
+  ]
+}
