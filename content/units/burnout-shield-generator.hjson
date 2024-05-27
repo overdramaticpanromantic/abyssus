@@ -22,9 +22,9 @@ abilities: [
   {
     type: ForceFieldAbility
     cooldown: 60000
-    max: 400
+    max: 600
     radius: 40
     sides: 8
-    regen: 0.1
+    regen: 1
   }
 ]
