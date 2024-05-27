@@ -79,4 +79,32 @@ ammoTypes: {
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
   }
+  thermic-alloy: {
+    type: BasicBulletType
+    damage: 40
+    speed: 6
+    lifetime: 28.3333334
+    width: 8
+    hitSize: 7
+    height: 14
+    shootEffect: shootSmallColor
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 1
+    pierceCap: 3
+    pierce: true
+    pierceBuilding: true
+    hitColor: a65c53
+    trailColor: a65c53
+    frontColor: d99073
+    backColor: a65c53
+    trailWidth: 2
+    trailLength: 8
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    lightning: 4
+    lightningLength: 8
+    lightningColor: d99073
+    lightningLengthRand: 4
+    lightningDamage: 20
+  }
 }
