@@ -70,17 +70,7 @@ ammoTypes: {
     width: 8
     hitSize: 7
     height: 16
-    shootEffect: {
-      type: MultiEffect
-      effects: [
-        {
-          type: shootBigColor
-        }
-        {
-          type: colorSparkBig
-        }
-      ]
-    }
+    shootEffect: shootBigColor
     smokeEffect: shootBigSmoke
     ammoMultiplier: 1
     pierce: false
