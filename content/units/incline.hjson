@@ -47,7 +47,6 @@ weapons: [
     shootY: 0
     repairSpeed: 3
     fractionRepairSpeed: 0.1
-    aimDst: 0
     shootCone: 15
     healColor: ffd37f
     // Pal.accent
