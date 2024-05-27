@@ -28,5 +28,4 @@ itemCapacity: 24
 consumes: {
   power: 4
 }
-liquidBoostIntensity: 1
 heatColor: 87ceebe6
