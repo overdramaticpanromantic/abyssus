@@ -1,4 +1,4 @@
-type: flying
+type: missile
 name: Burnout Shield Generator
 description: Creates a temporary shield, preventing projectiles from passing through. Burns out after a short time.
 speed: 0
@@ -16,6 +16,7 @@ outlineColor: 0f0f14
 deathSound: none
 drawCell: false
 health: 1340
+lifetime: 600
 abilities: [
   {
     type: ForceFieldAbility
@@ -24,21 +25,5 @@ abilities: [
     radius: 40
     sides: 8
     regen: 0.1
-  }
-]
-weapons: [
-  {
-    rotate: false
-    mirror: false
-    reload: 600
-    alwaysShooting: true
-    bullet: {
-      instantDisappear: true
-      despawnHit: false
-      hitEffect: none
-      despawnEffect: none
-      damage: 0
-      killShooter: true
-    }
   }
 ]
