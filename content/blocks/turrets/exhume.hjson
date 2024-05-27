@@ -102,9 +102,9 @@ ammoTypes: {
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
     lightning: 4
-    lightningLength: 8
+    lightningLength: 4
     lightningColor: d99073
-    lightningLengthRand: 4
+    lightningLengthRand: 2
     lightningDamage: 20
   }
 }
