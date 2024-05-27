@@ -7,7 +7,7 @@ itemCapacity: 24
 health: 1450
 category: crafting
 researchCost: [
-  tungsten/6400
+  tungsten-but-stolen/6400
   cobalt/5850
   lithium/5250
   aeroframe/5100
@@ -19,7 +19,7 @@ hasLiquids: true
 ambientSound: flux
 ambientSoundVolume: 0.08
 requirements: [
-  tungsten/245
+  tungsten-but-stolen/245
   cobalt/170
   lithium/145
   aeroframe/130
