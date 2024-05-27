@@ -3,7 +3,7 @@ name: Amalgam Trough
 description: Mixes various liquefied metals into alloys. Less efficient than an alloy incorporator, but necessary for later processes.
 size: 5
 hasItems: false
-health: 1450
+health: 1320
 category: crafting
 squareSprite: false
 liquidCapacity: 48
