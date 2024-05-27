@@ -4,6 +4,7 @@ description: Creates a temporary shield, preventing projectiles from passing thr
 speed: 0
 physics: false
 accel: 0
+isEnemy: false
 hidden: true
 playerControllable: false
 logicControllable: false
