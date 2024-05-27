@@ -54,7 +54,6 @@ ammoTypes: {
     height: 9
     shootEffect: shootSmallColor
     smokeEffect: shootBigSmoke
-    ammoPerShot: 2
     pierce: false
     pierceBuilding: false
     hitColor: 8a587b
