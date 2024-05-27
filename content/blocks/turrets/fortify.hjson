@@ -41,9 +41,9 @@ drawer: {
       progress: warmup
       x: 0
       y: 0
-      moveX: 1
+      moveX: 2
       moveY: -1
-      moveRot: -10
+      moveRot: -5
     }
     {
       type: RegionPart
@@ -53,9 +53,9 @@ drawer: {
       progress: warmup
       x: 0
       y: 0
-      moveX: -1
+      moveX: -2
       moveY: -1
-      moveRot: 10
+      moveRot: 5
     }
   ]
 }
