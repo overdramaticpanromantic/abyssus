@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Fortify
-description: Deploys temporary shield generators.
+description: Deploys temporary shield generators that burn out after some time.
 size: 3
 health: 1760
 category: turret
@@ -15,6 +15,9 @@ shootY: 0
 outlineColor: 0f0f14
 recoils: 1
 shake: 2
+consumes: {
+  power/2
+}
 requirements: [
   tungsten-but-stolen/85
   aluminum/50
@@ -81,7 +84,7 @@ ammoTypes: {
     smokeEffect: shootBigSmoke
     ammoMultiplier: 1
     pierce: false
-    pierceBuilding: true
+    pierceBuilding: false
     hitColor: 763a3a
     trailColor: 763a3a
     frontColor: d99073
