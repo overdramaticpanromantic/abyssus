@@ -4,7 +4,6 @@ description: Pulls electricity from the Abyssus's depths. Must be placed on Unde
 health: 350
 attribute: heat
 displayEfficiency: false
-baseEfficiency: 0
 minEfficiency: 0.999
 category: power
 powerProduction: 30
