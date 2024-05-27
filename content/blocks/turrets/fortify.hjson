@@ -16,7 +16,7 @@ outlineColor: 0f0f14
 recoils: 1
 shake: 2
 consumes: {
-  power/2
+  power: 2
 }
 requirements: [
   tungsten-but-stolen/85
