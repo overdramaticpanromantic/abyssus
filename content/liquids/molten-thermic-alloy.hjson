@@ -1,9 +1,7 @@
 name: Molten Thermic Alloy
 description: Molten, high-temperature thermic alloy. Can be cooled for use.
 temperature: 1
-charge: 0.5
 viscosity: 0.85
 effect: melting
 color: d99073
 lightColor: d9907368
-cacheLayer: slag
