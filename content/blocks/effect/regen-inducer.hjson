@@ -2,6 +2,7 @@ name: Regen Inducer
 description: Accelerates the repair mechanisms of nearby blocks, allowing them to heal from sustained damage.
 details: Most blocks have self-repair mechanisms, as the handling of volatile and/or molten compounds can result in damage.
 size: 3
+squareSprite: false
 category: effect
 type: RegenProjector
 baseColor: d1efff
