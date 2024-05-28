@@ -8,7 +8,7 @@ requirements: [
   cobalt/65
   lithium/50
 ]
-drillTime: 40
+drillTime: 41.6666667
 tier: 3
 updateEffect: pulverizeRed
 updateEffectChance: 0.03
