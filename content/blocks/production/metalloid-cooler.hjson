@@ -13,6 +13,8 @@ category: crafting
 squareSprite: false
 liquidCapacity: 18
 hasLiquids: true
+hasItems: true
+itemCapacity: 9
 ambientSound: steam
 ambientSoundVolume: 0.01
 requirements: [
