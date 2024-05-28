@@ -121,10 +121,11 @@ craftEffect: {
   effects: [
     {
       type: ParticleEffect
+      baseRotation: 90
       interp: pow5Out
       sizeInterp: linear
-      offsetX: 8.2
-      offsetY: 8.2
+      offsetX: 7.625
+      offsetY: 7.625
       length: 7
       baseLength: 8
       cone: 10
@@ -138,10 +139,11 @@ craftEffect: {
     }
     {
       type: ParticleEffect
+      baseRotation: 90
       interp: pow5Out
       sizeInterp: linear
-      offsetX: 8.2
-      offsetY: -8.2
+      offsetX: 7.625
+      offsetY: -7.625
       length: 7
       baseLength: 8
       cone: 10
@@ -155,10 +157,11 @@ craftEffect: {
     }
     {
       type: ParticleEffect
+      baseRotation: 90
       interp: pow5Out
       sizeInterp: linear
-      offsetX: -8.2
-      offsetY: -8.2
+      offsetX: -7.625
+      offsetY: -7.625
       length: 7
       baseLength: 8
       cone: 10
@@ -172,10 +175,11 @@ craftEffect: {
     }
     {
       type: ParticleEffect
+      baseRotation: 90
       interp: pow5Out
       sizeInterp: linear
-      offsetX: -8.2
-      offsetY: 8.2
+      offsetX: -7.625
+      offsetY: 7.625
       length: 7
       baseLength: 8
       cone: 10
