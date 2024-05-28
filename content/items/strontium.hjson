@@ -1,0 +1,8 @@
+name: Strontium
+description: Volatile, yet soft. Used in alloymaking.
+cost: 2.4
+color: 889caa
+hiddenOnPlanets: [
+  serpulo,
+  erekir
+]
