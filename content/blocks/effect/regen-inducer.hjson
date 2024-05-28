@@ -1,0 +1,51 @@
+name: Regen Inducer
+description: Accelerates the repair mechanisms of nearby blocks, allowing them to heal from sustained damage.
+details: Most blocks have self-repair mechanisms, as the handling of volatile and/or molten compounds can result in damage.
+size: 3
+category: effect
+type: RegenProjector
+baseColor: d1efff
+range: 28
+healPercent: 0.06666667
+consumes: {
+  power: 2
+}
+requirements: [
+  tungsten-but-stolen/85
+  aluminum/65
+  magnesium/40
+]
+researchCost: [
+  tungsten-but-stolen/850
+  aluminum/650
+  magnesium/400
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      color: d99073
+    }
+    {
+      type: DrawPulseShape
+      layer: 110
+      color: d99073
+    }
+    {
+      type: DrawShape
+      radius: 3.5
+      useWarmupRadius: true
+      timeScl: 2
+      layer: 110
+      color: d99073
+    }
+  ]
+}
