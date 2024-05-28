@@ -126,8 +126,8 @@ craftEffect: {
       baseRotation: 90
       interp: pow5Out
       sizeInterp: linear
-      offsetX: 7.625
-      offsetY: 7.625
+      offsetX: 7.75
+      offsetY: 7.75
       length: 7
       baseLength: 8
       cone: 10
@@ -144,8 +144,8 @@ craftEffect: {
       baseRotation: 90
       interp: pow5Out
       sizeInterp: linear
-      offsetX: 7.625
-      offsetY: -7.625
+      offsetX: 7.75
+      offsetY: -7.75
       length: 7
       baseLength: 8
       cone: 10
@@ -162,8 +162,8 @@ craftEffect: {
       baseRotation: 90
       interp: pow5Out
       sizeInterp: linear
-      offsetX: -7.625
-      offsetY: -7.625
+      offsetX: -7.75
+      offsetY: -7.75
       length: 7
       baseLength: 8
       cone: 10
@@ -180,8 +180,8 @@ craftEffect: {
       baseRotation: 90
       interp: pow5Out
       sizeInterp: linear
-      offsetX: -7.625
-      offsetY: 7.625
+      offsetX: -7.75
+      offsetY: 7.75
       length: 7
       baseLength: 8
       cone: 10
