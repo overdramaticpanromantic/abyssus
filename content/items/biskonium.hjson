@@ -1,0 +1,9 @@
+name: Biskonium
+description: Ceramic and superconductive. Used in electrical components.
+cost: 2.2
+color: bcac8f
+charge: 3
+hiddenOnPlanets: [
+  serpulo,
+  erekir
+]
