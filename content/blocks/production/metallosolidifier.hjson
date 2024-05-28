@@ -130,6 +130,21 @@ recipes: [
   }
   craftTime: 60.0
 }
+{
+  input: {
+    fluids: [
+      abyssus-molten-strontium/0.3
+      abyssus-methane/0.0333334
+    ]
+    power: 4
+  }
+  output: {
+    items: [
+      abyssus-strontium/3
+    ]
+  }
+  craftTime: 60.0
+}
 ]
 
 drawer: {
@@ -173,6 +188,11 @@ drawer: {
       type: DrawLiquidTile     
       padding: 6
       drawLiquid: molten-aeroframe
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-strontium
     }
     {
       type: DrawRegion
