@@ -1,0 +1,9 @@
+name: Celestine
+description: Raw, impure strontium. Must be refined before use.
+cost: 2
+color: 54617e
+hardness: 3
+hiddenOnPlanets: [
+  serpulo,
+  erekir
+]
