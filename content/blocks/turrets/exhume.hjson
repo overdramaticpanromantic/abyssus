@@ -70,10 +70,10 @@ ammoTypes: {
     pierceCap: 2
     pierce: true
     pierceBuilding: true
-    hitColor: 889caa
-    trailColor: 889caa
-    frontColor: cdd9e8
-    backColor: 889caa
+    hitColor: 546143
+    trailColor: 546143
+    frontColor: 8c9d75
+    backColor: 546143
     trailWidth: 2
     trailLength: 8
     hitEffect: hitBulletColor
