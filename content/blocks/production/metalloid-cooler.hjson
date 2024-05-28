@@ -101,9 +101,6 @@ drawer: {
       drawLiquid: molten-magnesium
     }
     {
-      type: DrawDefault
-    }
-    {
       type: DrawLiquidTile     
       padding: 6
       drawLiquid: molten-cobalt
@@ -124,11 +121,10 @@ craftEffect: {
   effects: [
     {
       type: ParticleEffect
-      baseRotation: 90
       interp: pow5Out
       sizeInterp: linear
-      offsetX: 8.45
-      offsetY: 0
+      offsetX: 8.2
+      offsetY: 8.2
       length: 7
       baseLength: 8
       cone: 10
@@ -142,11 +138,10 @@ craftEffect: {
     }
     {
       type: ParticleEffect
-      baseRotation: 90
       interp: pow5Out
       sizeInterp: linear
-      offsetX: 0
-      offsetY: -8.45
+      offsetX: 8.2
+      offsetY: -8.2
       length: 7
       baseLength: 8
       cone: 10
@@ -160,11 +155,10 @@ craftEffect: {
     }
     {
       type: ParticleEffect
-      baseRotation: 90
       interp: pow5Out
       sizeInterp: linear
-      offsetX: -8.45
-      offsetY: 0
+      offsetX: -8.2
+      offsetY: -8.2
       length: 7
       baseLength: 8
       cone: 10
@@ -178,11 +172,10 @@ craftEffect: {
     }
     {
       type: ParticleEffect
-      baseRotation: 90
       interp: pow5Out
       sizeInterp: linear
-      offsetX: 0
-      offsetY: 8.45
+      offsetX: -8.2
+      offsetY: 8.2
       length: 7
       baseLength: 8
       cone: 10
