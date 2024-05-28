@@ -1,0 +1,5 @@
+type: OreBlock
+name: Celestine
+description: Raw, impure strontium. Must be refined before use.
+itemDrop: celestine
+variants: 3
