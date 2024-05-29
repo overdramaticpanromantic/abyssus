@@ -10,6 +10,7 @@ hasPower: true
 consumesPower: true
 conductivePower: true
 baseEfficiency: 0
+glowColor: f5efdb
 consumes: {
   power: 0.05
 }
