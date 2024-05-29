@@ -3,6 +3,7 @@ description: Splits electromagnetically charged packets across three directions 
 health: 145
 size: 1 // why do i need to specify this
 type: StackRouter
+category: distribution
 speed: 12
 hasPower: true
 consumesPower: true
