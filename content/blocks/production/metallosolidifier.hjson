@@ -145,6 +145,21 @@ recipes: [
   }
   craftTime: 60.0
 }
+{
+  input: {
+    fluids: [
+      abyssus-molten-biskonium/0.3
+      abyssus-methane/0.0333334
+    ]
+    power: 4
+  }
+  output: {
+    items: [
+      abyssus-biskonium/3
+    ]
+  }
+  craftTime: 60.0
+}
 ]
 
 drawer: {
@@ -193,6 +208,11 @@ drawer: {
       type: DrawLiquidTile     
       padding: 6
       drawLiquid: molten-strontium
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-biskonium
     }
     {
       type: DrawRegion
