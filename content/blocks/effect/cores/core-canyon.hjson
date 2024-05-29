@@ -1,0 +1,15 @@
+type: CoreBlock
+name: Core: Canyon
+size: 4
+squareSprite: false
+unitType: incline // placeholder
+health: 12450
+itemCapacity: 3600
+unitCapModifier: 12
+category: effect
+requirements: [
+  tungsten-but-stolen/3850
+  aluminum/3700
+  cobalt/2950
+  lithium/2600
+]
