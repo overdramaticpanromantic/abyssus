@@ -1,0 +1,76 @@
+name: Inspire
+description: Defends the Canyon core and builds structures. Has a healing beam for block repair.
+type: flying
+template: ErekirUnitType
+coreUnitDock: true
+range: 75
+faceTarget: true
+targetPriority: -2
+lowAltitude: false
+mineWalls: false
+mineFloor: true
+mineHardnessScaling: false
+flying: true
+mineSpeed: 10
+mineTier: 2
+buildSpeed: 2.5
+speed: 6
+drag: 0.08
+accel: 0.09
+itemCapacity: 45
+health: 560
+armor: 3
+hitSize: 11
+engineSize: 0
+targetable : false
+hittable : false
+outlineColor: 0f0f14
+isEnemy: false
+engines: [
+  {
+    x: -4.5
+    y: 0
+    radius: 2
+    rotation: 180
+  }
+  {
+    x: 4.5
+    y: 0
+    radius: 2
+  }
+  {
+    x: 0
+    y: -5
+    radius: 3
+    rotation: 270
+  }
+]
+weapons: [
+  {
+    type: RepairBeamWeapon
+    widthSinMag: 0.11
+    beamWidth: 0.7
+    shootY: 0
+    repairSpeed: 3.5
+    fractionRepairSpeed: 0.125
+    shootCone: 15
+    healColor: ffd37f
+    // Pal.accent
+    laserColor: ffd37f
+    // Pal.accent
+    
+    targetUnits: false
+    targetBuildings: true
+    autoTarget: false
+    controllable: true
+    x: 0
+    y: 8
+    mirror: false
+    rotate: false
+    
+    bullet: {
+      maxRange: 75
+    }
+  }
+]
+buildBeamOffset: 8
