@@ -2,6 +2,7 @@ type: CoreBlock
 name: Core: Gulch
 isFirstTier: true
 size: 3
+incinerateNonBuildable: true
 squareSprite: false
 alwaysUnlocked: true
 unitType: incline
