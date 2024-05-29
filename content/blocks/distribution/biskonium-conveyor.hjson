@@ -3,6 +3,7 @@ description: Electromagnetically charges superconductive packets to propel them 
 health: 145
 size: 1 // why do i need to specify this
 type: StackConveyor
+category: distribution
 itemCapacity: 10
 speed: 0.16666667
 outputRouter: false
