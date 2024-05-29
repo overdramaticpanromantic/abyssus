@@ -1,0 +1,22 @@
+name: Biskonium Router
+description: Splits electromagnetically charged packets across three directions equally. Only accepts input from the back.
+health: 145
+size: 1 // why do i need to specify this
+type: StackRouter
+speed: 12
+hasPower: true
+consumesPower: true
+conductivePower: true
+baseEfficiency: 0
+solid: false
+consumes: {
+  power: 0.15
+}
+requirements: {
+  strontium/2
+  biskonium/6
+}
+researchCost: {
+  strontium/2400
+  biskonium/2400
+}
