@@ -2,7 +2,7 @@ type: CoreBlock
 name: Core: Canyon
 size: 4
 squareSprite: false
-unitType: incline // placeholder
+unitType: inspire
 health: 12450
 itemCapacity: 3600
 unitCapModifier: 12
