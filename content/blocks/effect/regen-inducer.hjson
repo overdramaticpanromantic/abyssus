@@ -11,8 +11,10 @@ healPercent: 0.06666667
 consumes: {
   power: 2
 }
-effect: regenParticle
-effectColor: d99073
+effect: {
+  type: regenParticle
+  color: d99073
+}
 requirements: [
   tungsten-but-stolen/85
   aluminum/65
