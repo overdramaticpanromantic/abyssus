@@ -14,11 +14,11 @@ glowColor: f5efdb
 consumes: {
   power: 0.15
 }
-requirements: {
+requirements: [
   strontium/2
   biskonium/6
-}
-researchCost: {
+]
+researchCost: [
   strontium/2400
   biskonium/2400
-}
+]
