@@ -4,7 +4,7 @@ health: 145
 size: 1 // why do i need to specify this
 type: StackRouter
 category: distribution
-speed: 10.8
+speed: 9
 hasPower: true
 consumesPower: true
 conductivePower: true
