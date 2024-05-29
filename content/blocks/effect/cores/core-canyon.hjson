@@ -1,6 +1,7 @@
 type: CoreBlock
 name: Core: Canyon
 size: 4
+incinerateNonBuildable: true
 squareSprite: false
 unitType: inspire
 health: 12450
