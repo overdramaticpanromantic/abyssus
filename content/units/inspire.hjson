@@ -28,13 +28,13 @@ outlineColor: 0f0f14
 isEnemy: false
 engines: [
   {
-    x: -6.25
+    x: -6
     y: -1.75
     radius: 2
     rotation: 225
   }
   {
-    x: 6.25
+    x: 6
     y: -1.75
     radius: 2
     rotation: 315
