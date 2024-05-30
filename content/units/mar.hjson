@@ -9,8 +9,8 @@ rotateMoveFirst: true
 rotateSpeed: 4
 speed: 1
 outlineColor: 0f0f14
-health: 780
-armor: 5
+health: 560
+armor: 3
 itemCapacity: 0
 hitSize: 11
 treadRects: [
