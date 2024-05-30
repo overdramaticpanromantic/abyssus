@@ -1,6 +1,7 @@
 name: Inspire
 description: Defends the Canyon core and builds structures. Has a healing beam for block repair.
 type: flying
+rotateSpeed: 6
 template: ErekirUnitType
 coreUnitDock: true
 range: 75
