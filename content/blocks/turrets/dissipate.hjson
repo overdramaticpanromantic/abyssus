@@ -16,12 +16,14 @@ outlineColor: 0f0f14
 recoils: 1
 shake: 1
 requirements: [
-  tungsten-but-stolen/85
-  aluminum/50
+  tungsten-but-stolen/90
+  aluminum/75
+  magnesium/65
 ]
 researchCost: [
-  tungsten-but-stolen/175
-  aluminum/105
+  tungsten-but-stolen/800
+  aluminum/620
+  magnesium/550
 ]
 shoot: {
   shots: 4
