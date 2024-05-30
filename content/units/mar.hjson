@@ -39,8 +39,8 @@ weapons: [
     bullet: {
       type: BasicBulletType
       damage: 15
-      smokeEffect: shootBigSmoke
-      shootEffect: shootBigColor
+      smokeEffect: shootSmallSmoke
+      shootEffect: shootSmallColor
       width: 5
       speed: 5
       height: 10
