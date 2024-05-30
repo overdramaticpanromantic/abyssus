@@ -16,7 +16,7 @@ hitSize: 11
 treadRects: [
   {
     x: 8
-    y: -23
+    y: -26
     width: 11
     height: 51
   }
