@@ -41,8 +41,9 @@ weapons: [
       damage: 15
       smokeEffect: shootBigSmoke
       shootEffect: shootBigColor
-      width: 3
-      height: 8
+      width: 5
+      speed: 5
+      height: 10
       lifetime: 40
       hitSize: 4
       trailWidth: 1.5
