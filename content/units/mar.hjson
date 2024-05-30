@@ -46,7 +46,7 @@ weapons: [
       height: 10
       lifetime: 40
       hitSize: 4
-      trailWidth: 1.5
+      trailWidth: 1.2
       trailLength: 6
       hitColor: feb380
       trailColor: feb380
