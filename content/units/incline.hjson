@@ -1,7 +1,7 @@
 name: Incline
 description: Defends the Gulch core and builds structures. Has a healing beam for block repair.
 type: flying
-rotateSpeed: 6
+rotateSpeed: 8
 template: ErekirUnitType
 coreUnitDock: true
 range: 60
