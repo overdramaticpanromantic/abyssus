@@ -40,7 +40,7 @@ weapons: [
       sprite: missile-large
       splashDamage: 30
       splashDamageRadius: 10
-      smokeEffect: shootSmokeBig
+      smokeEffect: shootBigSmoke
       shootEffect: shootBigColor
       width: 6
       speed: 6
