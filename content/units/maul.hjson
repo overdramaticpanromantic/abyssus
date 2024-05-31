@@ -1,0 +1,77 @@
+name: Maul
+description: Fires cannon shells at nearby enemies.
+type: tank
+template: ErekirUnitType
+treadPullOffset: 3
+omniMovement: false
+faceTarget: false
+rotateMoveFirst: true
+rotateSpeed: 3.5
+speed: 0.9
+outlineColor: 0f0f14
+health: 560
+armor: 3
+itemCapacity: 0
+hitSize: 11
+treadRects: [
+  {
+    x: 14
+    y: -39
+    width: 16
+    height: 78
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: 0
+    name: maul-weapon
+    layerOffset: 0.0001
+    shootSound: dullExplosion
+    shootCone: 3
+    shootY: 8
+    recoil: 2
+    rotate: true
+    rotateSpeed: 2.5
+    mirror: false
+    reload: 100
+    bullet: {
+      type: BasicBulletType
+      sprite: missile-large
+      splashDamage: 30
+      splashDamageRadius: 10
+      smokeEffect: shootSmokeBig
+      shootEffect: shootBigColor
+      width: 6
+      speed: 6
+      height: 10
+      lifetime: 40
+      hitSize: 6
+      trailWidth: 2.5
+      trailLength: 7
+      hitColor: feb380
+      trailColor: feb380
+      backColor: feb380
+      frontColor: ffffff
+      fragBullets: 3
+      fragBullet: {
+        width: 4
+        length: 6
+        lifetime: 15
+        damage: 15
+        hitSize: 3
+        pierceCap: 2
+        pierce: true
+        pierceBuilding: false
+        hitColor: feb380
+        trailColor: feb380
+        backColor: feb380
+        frontColor: ffffff
+        trailWidth: 1.6
+        trailLength: 4
+        despawnEffect: hitBulletColor
+        hitEffect: hitBulletColor
+      }
+    }
+  }
+]
