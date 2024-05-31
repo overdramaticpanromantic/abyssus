@@ -53,8 +53,9 @@ weapons: [
       trailColor: feb380
       backColor: feb380
       frontColor: ffffff
-      fragBullets: 3
+      fragBullets: 5
       fragBullet: {
+        speed: 2
         width: 4
         length: 6
         lifetime: 15
