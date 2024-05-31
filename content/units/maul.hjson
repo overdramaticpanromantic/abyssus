@@ -38,8 +38,8 @@ weapons: [
     bullet: {
       type: BasicBulletType
       sprite: missile-large
-      splashDamage: 30
-      splashDamageRadius: 10
+      splashDamage: 50
+      splashDamageRadius: 16
       smokeEffect: shootBigSmoke
       shootEffect: shootBigColor
       width: 6
@@ -59,7 +59,8 @@ weapons: [
         width: 4
         length: 6
         lifetime: 15
-        damage: 15
+        splashDamage: 15
+        splashDamageRadius: 4
         hitSize: 3
         pierceCap: 2
         pierce: true
