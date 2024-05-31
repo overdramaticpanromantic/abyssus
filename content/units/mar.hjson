@@ -1,5 +1,5 @@
 name: Mar
-description: Fires piercing bullets at enemy targets.
+description: Fires bursts of bullets at enemy targets.
 type: tank
 template: ErekirUnitType
 treadPullOffset: 3
