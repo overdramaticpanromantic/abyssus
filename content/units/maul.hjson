@@ -40,7 +40,10 @@ weapons: [
       sprite: missile-large
       splashDamage: 50
       splashDamageRadius: 16
-      smokeEffect: shootBigSmoke
+      smokeEffect: {
+        type: shootSmokeTitan
+        color: ffc092
+      }
       shootEffect: shootBigColor
       width: 8
       speed: 6
@@ -53,6 +56,9 @@ weapons: [
       trailColor: feb380
       backColor: feb380
       frontColor: ffffff
+      trailEffect: hitBulletColor
+      trailRotation: true
+      trailInterval: 3
       fragBullets: 5
       fragBullet: {
         speed: 2
