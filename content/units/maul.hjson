@@ -40,10 +40,7 @@ weapons: [
       sprite: missile-large
       splashDamage: 50
       splashDamageRadius: 16
-      smokeEffect: {
-        type: shootSmokeTitan
-        color: ffc092
-      }
+      smokeEffect: shootSmokeTitan
       shootEffect: shootBigColor
       width: 8
       speed: 6
