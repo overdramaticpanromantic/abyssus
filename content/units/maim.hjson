@@ -45,8 +45,8 @@ weapons: [
     bullet: {
       type: BasicBulletType
       sprite: missile-large
-      damage: 60
-      splashDamage: 60
+      damage: 100
+      splashDamage: 80
       splashDamageRadius: 20
       smokeEffect: shootSmokeTitan
       shootEffect: shootBigColor
@@ -70,8 +70,8 @@ weapons: [
         width: 6
         height: 8
         lifetime: 15
-        splashDamage: 15
-        splashDamageRadius: 4
+        splashDamage: 45
+        splashDamageRadius: 8
         hitSize: 3
         pierceCap: 2
         pierce: true
