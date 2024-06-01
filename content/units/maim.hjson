@@ -2,7 +2,7 @@ name: Maim
 description: Fires cannon shells at nearby enemies.
 type: tank
 template: ErekirUnitType
-treadPullOffset: 5
+treadPullOffset: 4
 omniMovement: false
 faceTarget: false
 rotateMoveFirst: true
