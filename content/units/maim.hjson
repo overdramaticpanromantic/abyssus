@@ -35,7 +35,7 @@ weapons: [
     layerOffset: 0.0001
     shootSound: dullExplosion
     shootCone: 5
-    shootY: 12
+    shootY: 16
     recoil: 3
     rotate: true
     rotateSpeed: 2.5
