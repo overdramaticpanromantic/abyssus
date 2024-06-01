@@ -1,0 +1,93 @@
+name: Maim
+description: Fires cannon shells at nearby enemies.
+type: tank
+template: ErekirUnitType
+treadPullOffset: 5
+omniMovement: false
+faceTarget: false
+rotateMoveFirst: true
+rotateSpeed: 3
+speed: 0.8
+outlineColor: 0f0f14
+health: 4450
+armor: 9
+itemCapacity: 0
+hitSize: 25
+treadRects: [
+  {
+    x: 21
+    y: -48
+    width: 20
+    height: 96
+  }
+  {
+    x: -11
+    y: 3
+    width: 20
+    height: 50
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: 0
+    name: maim-weapon
+    layerOffset: 0.0001
+    shootSound: dullExplosion
+    shootCone: 5
+    shootY: 12
+    recoil: 3
+    rotate: true
+    rotateSpeed: 2.5
+    mirror: false
+    inaccuracy: 10
+    reload: 120
+    shoot: {
+      shots: 3
+      shotDelay: 0
+    }
+    bullet: {
+      type: BasicBulletType
+      sprite: missile-large
+      splashDamage: 60
+      splashDamageRadius: 20
+      smokeEffect: shootSmokeTitan
+      shootEffect: shootBigColor
+      width: 10
+      speed: 6
+      height: 16
+      lifetime: 40
+      hitSize: 6
+      trailWidth: 3
+      trailLength: 9
+      hitColor: feb380
+      trailColor: feb380
+      backColor: feb380
+      frontColor: ffffff
+      trailEffect: hitBulletBig
+      trailRotation: true
+      trailInterval: 3
+      fragBullets: 5
+      fragBullet: {
+        speed: 2
+        width: 6
+        height: 8
+        lifetime: 15
+        splashDamage: 15
+        splashDamageRadius: 4
+        hitSize: 3
+        pierceCap: 2
+        pierce: true
+        pierceBuilding: false
+        hitColor: feb380
+        trailColor: feb380
+        backColor: feb380
+        frontColor: ffffff
+        trailWidth: 1
+        trailLength: 4
+        despawnEffect: hitBulletColor
+        hitEffect: hitBulletColor
+      }
+    }
+  }
+]
