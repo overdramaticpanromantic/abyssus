@@ -47,6 +47,7 @@ weapons: [
     bullet: {
       type: BasicBulletType
       sprite: missile-large
+      damage: 60
       splashDamage: 60
       splashDamageRadius: 20
       smokeEffect: shootSmokeTitan
