@@ -42,10 +42,6 @@ weapons: [
     mirror: false
     inaccuracy: 10
     reload: 120
-    shoot: {
-      shots: 3
-      shotDelay: 0
-    }
     bullet: {
       type: BasicBulletType
       sprite: missile-large
