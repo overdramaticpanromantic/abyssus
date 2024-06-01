@@ -1,5 +1,5 @@
 name: Maim
-description: Fires cannon shells at nearby enemies.
+description: Fires fragmenting cannon shells at nearby enemies.
 type: tank
 template: ErekirUnitType
 treadPullOffset: 4
