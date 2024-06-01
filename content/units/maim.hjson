@@ -41,7 +41,7 @@ weapons: [
     rotateSpeed: 2.5
     mirror: false
     reload: 90
-    heatColor: f9350f
+    heatColor: ffc092
     bullet: {
       type: BasicBulletType
       sprite: missile-large
