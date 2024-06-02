@@ -40,61 +40,45 @@ weapons: [
     y: 1
     name: mangle-weapon
     layerOffset: 0.0001
-    shootSound: dullExplosion
-    shootCone: 5
+    shootSound: mediumCannon
+    shootCone: 15
     shootY: 16
     recoil: 3
     rotate: true
     rotateSpeed: 2.5
     mirror: false
-    reload: 90
+    reload: 120
     heatColor: ca6a65
+    inaccuracy: 15
+    shoot: {
+      type: ShootSpread
+      shots: 8
+      spread: 2
+    }
     bullet: {
       type: BasicBulletType
       sprite: missile-large
       damage: 120
-      splashDamage: 100
+      splashDamage: 45
       splashDamageRadius: 20
       smokeEffect: shootSmokeTitan
       shootEffect: shootBigColor
       width: 10
       speed: 6
-      height: 16
+      height: 12
       lifetime: 40
-      hitSize: 8
+      hitSize: 10
       pierce: true
       pierceCap: 2
       trailWidth: 3
-      trailLength: 9
+      trailLength: 6
       hitColor: feb380
       trailColor: feb380
       backColor: feb380
       frontColor: ffffff
-      trailEffect: hitBulletBig
+      trailEffect: hitSquaresColor
       trailRotation: true
-      trailInterval: 3
-      fragBullets: 5
-      fragBullet: {
-        damage: 30
-        speed: 2
-        width: 6
-        height: 8
-        lifetime: 15
-        splashDamage: 30
-        splashDamageRadius: 12
-        hitSize: 5
-        pierceCap: 2
-        pierce: true
-        pierceBuilding: false
-        hitColor: feb380
-        trailColor: feb380
-        backColor: feb380
-        frontColor: ffffff
-        trailWidth: 1
-        trailLength: 4
-        despawnEffect: hitBulletColor
-        hitEffect: hitBulletColor
-      }
+      trailInterval: 4
     }
   }
 ]
