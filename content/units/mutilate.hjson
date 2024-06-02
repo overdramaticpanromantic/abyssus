@@ -87,9 +87,9 @@ weapons: [
         waveStroke: 4
         waveRad: 15
         smokeSize: 5
-        smokes: 8
+        smokes: 1
         smokeSizeBase: 0
-        sparks: 8
+        sparks: 1
         sparkRad: 40
         sparkLen: 4
         sparkStroke: 3
