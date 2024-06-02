@@ -51,19 +51,19 @@ weapons: [
     name: mutilate-weapon
     layerOffset: 0.0001
     shootSound: largeCannon
-    shootCone: 10
+    shootCone: 5
     shootY: 31
-    recoil: 3
+    recoil: 5
     rotate: true
     rotateSpeed: 1
     mirror: false
     reload: 120
     heatColor: ca6a65
-    inaccuracy: 7
+    inaccuracy: 4
     shoot: {
       type: ShootSpread
       shots: 10
-      spread: 1
+      spread: 0.5
     }
     parts: [
       {
