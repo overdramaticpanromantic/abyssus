@@ -13,7 +13,7 @@ health: 18750
 armor: 21
 itemCapacity: 0
 hitSize: 50
-treadFrames: 19
+treadFrames: 1200 // this is fucking stupid
 parts: [
   {
     type: RegionPart
