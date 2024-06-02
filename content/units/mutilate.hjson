@@ -33,9 +33,9 @@ treadRects: [
   }
   {
     x: -26
-    y: -125
+    y: -127
     width: 52
-    height: 241
+    height: 220
   }
 ]
 weapons: [
