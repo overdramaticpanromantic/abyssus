@@ -42,7 +42,7 @@ weapons: [
     layerOffset: 0.0001
     shootSound: largeCannon
     shootCone: 10
-    shootY: 20
+    shootY: 27
     recoil: 3
     rotate: true
     rotateSpeed: 1
