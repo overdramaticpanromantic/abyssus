@@ -23,13 +23,13 @@ treadRects: [
   }
   {
     x: -26
-    y: 46
+    y: 42
     width: 52
     height: 72
   }
   {
     x: -26
-    y: -112
+    y: -114
     width: 52
     height: 72
   }
