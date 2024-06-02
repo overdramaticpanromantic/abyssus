@@ -49,11 +49,11 @@ weapons: [
     mirror: false
     reload: 120
     heatColor: ca6a65
-    inaccuracy: 10
+    inaccuracy: 5
     shoot: {
       type: ShootSpread
       shots: 8
-      spread: 2
+      spread: 1
     }
     bullet: {
       type: BasicBulletType
