@@ -1,5 +1,5 @@
 name: Mangle
-description: Fires dual high-caliber flak rounds at nearby enemies.
+description: Fires shotgun tank shells at nearby enemies.
 type: tank
 template: ErekirUnitType
 treadPullOffset: 5
