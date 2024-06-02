@@ -1,0 +1,85 @@
+name: Mutilate
+description: Fires large shotgun tank shells at nearby enemies.
+type: tank
+template: ErekirUnitType
+treadPullOffset: 5
+omniMovement: false
+faceTarget: false
+rotateMoveFirst: true
+rotateSpeed: 1.4
+speed: 0.6
+outlineColor: 0f0f14
+health: 18750
+armor: 21
+itemCapacity: 0
+hitSize: 50
+treadFrames: 18
+treadRects: [
+  {
+    x: -126
+    y: -169
+    width: 52
+    height: 216
+  }
+  {
+    x: -26
+    y: 43
+    width: 52
+    height: 72
+  }
+  {
+    x: -26
+    y: -114
+    width: 52
+    height: 72
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: 1
+    name: mutilate-weapon
+    layerOffset: 0.0001
+    shootSound: largeCannon
+    shootCone: 10
+    shootY: 20
+    recoil: 3
+    rotate: true
+    rotateSpeed: 1
+    mirror: false
+    reload: 120
+    heatColor: ca6a65
+    inaccuracy: 5
+    shoot: {
+      type: ShootSpread
+      shots: 8
+      spread: 1
+    }
+    bullet: {
+      type: BasicBulletType
+      damage: 50
+      splashDamage: 45
+      splashDamageRadius: 20
+      smokeEffect: shootSmokeTitan
+      shootEffect: shootBigColor
+      width: 14
+      speed: 9
+      height: 18
+      lifetime: 30
+      hitSize: 14
+      pierce: true
+      pierceCap: 2
+      trailWidth: 3
+      trailLength: 9
+      hitColor: feb380
+      trailColor: feb380
+      backColor: feb380
+      frontColor: ffffff
+      trailEffect: hitSquaresColor
+      hitEffect: hitSquaresColor
+      despawnEffect: hitSquaresColor
+      trailRotation: true
+      trailInterval: 4
+    }
+  }
+]
