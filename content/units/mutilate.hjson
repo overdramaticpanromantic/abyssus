@@ -1,5 +1,5 @@
 name: Mutilate
-description: Fires large shotgun tank shells at nearby enemies.
+description: Fires cascades of piercing shotgun blasts at nearby enemies.
 type: tank
 template: ErekirUnitType
 treadPullOffset: 5
