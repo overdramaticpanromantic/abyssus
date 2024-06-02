@@ -17,13 +17,13 @@ treadFrames: 30
 treadRects: [
   {
     x: -52
-    y: -60
+    y: -62
     width: 28
     height: 128
   }
   {
     x: -17
-    y: -46
+    y: -58
     width: 34
     height: 119
   }
