@@ -45,7 +45,7 @@ weapons: [
     shootY: 16
     recoil: 3
     rotate: true
-    rotateSpeed: 2.5
+    rotateSpeed: 1
     mirror: false
     reload: 120
     heatColor: ca6a65
