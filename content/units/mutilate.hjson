@@ -27,7 +27,7 @@ parts: [
 treadRects: [
   {
     x: -89
-    y: -107
+    y: -109
     width: 52
     height: 216
   }
