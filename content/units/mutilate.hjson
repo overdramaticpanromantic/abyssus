@@ -81,7 +81,23 @@ weapons: [
       splashDamage: 60
       splashDamageRadius: 24
       smokeEffect: shootSmokeTitan
-      shootEffect: shootBigColor
+      shootEffect: {
+        type: ExplosionEffect
+        lifetime: 40
+        waveStroke: 4
+        waveRad: 15
+        smokeSize: 5
+        smokes: 8
+        smokeSizeBase: 0
+        sparks: 8
+        sparkRad: 40
+        sparkLen: 4
+        sparkStroke: 3
+        waveColor: feb380
+        sparkColor: feb380
+        trailColor: feb380
+        smokeColor: feb380
+      }
       width: 20
       speed: 9
       height: 26
