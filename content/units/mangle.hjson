@@ -13,7 +13,7 @@ health: 9900
 armor: 15
 itemCapacity: 0
 hitSize: 25
-treadFrames: 16
+treadFrames: 40
 treadRects: [
   {
     x: -52
