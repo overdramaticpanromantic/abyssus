@@ -76,6 +76,8 @@ weapons: [
       backColor: feb380
       frontColor: ffffff
       trailEffect: hitSquaresColor
+      hitEffect: hitSquaresColor
+      despawnEffect: hitSquaresColor
       trailRotation: true
       trailInterval: 4
     }
