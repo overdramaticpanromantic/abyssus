@@ -57,21 +57,20 @@ weapons: [
     }
     bullet: {
       type: BasicBulletType
-      sprite: missile-large
       damage: 120
       splashDamage: 45
       splashDamageRadius: 20
       smokeEffect: shootSmokeTitan
       shootEffect: shootBigColor
-      width: 10
-      speed: 6
-      height: 12
-      lifetime: 40
-      hitSize: 10
+      width: 14
+      speed: 9
+      height: 18
+      lifetime: 30
+      hitSize: 14
       pierce: true
       pierceCap: 2
       trailWidth: 3
-      trailLength: 6
+      trailLength: 9
       hitColor: feb380
       trailColor: feb380
       backColor: feb380
