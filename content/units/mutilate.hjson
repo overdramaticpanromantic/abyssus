@@ -111,11 +111,27 @@ weapons: [
       trailColor: feb380
       backColor: feb380
       frontColor: ffffff
-      trailEffect: hitSquaresColor
-      hitEffect: hitSquaresColor
-      despawnEffect: hitSquaresColor
       trailRotation: true
       trailInterval: 2.5
+      trailEffect: hitSquaresColor
+      hitEffect: hitSquaresColor
+      despawnEffect: {
+        type: ExplosionEffect
+        lifetime: 50
+        waveStroke: 4
+        waveRad: 15
+        smokeSize: 5
+        smokes: 3
+        smokeSizeBase: 0
+        sparks: 2
+        sparkRad: 40
+        sparkLen: 4
+        sparkStroke: 2
+        waveColor: feb380
+        sparkColor: feb380
+        trailColor: feb380
+        smokeColor: feb380
+      }
     }
   }
 ]
