@@ -13,7 +13,7 @@ health: 18750
 armor: 21
 itemCapacity: 0
 hitSize: 50
-treadFrames: 60
+treadFrames: 600
 parts: [
   {
     type: RegionPart
