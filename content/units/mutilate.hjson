@@ -52,17 +52,17 @@ weapons: [
     layerOffset: 0.0001
     shootSound: largeCannon
     shootCone: 10
-    shootY: 27
+    shootY: 31
     recoil: 3
     rotate: true
     rotateSpeed: 1
     mirror: false
     reload: 120
     heatColor: ca6a65
-    inaccuracy: 5
+    inaccuracy: 7
     shoot: {
       type: ShootSpread
-      shots: 8
+      shots: 10
       spread: 1
     }
     parts: [
@@ -77,20 +77,20 @@ weapons: [
     ]
     bullet: {
       type: BasicBulletType
-      damage: 50
-      splashDamage: 45
-      splashDamageRadius: 20
+      damage: 140
+      splashDamage: 60
+      splashDamageRadius: 24
       smokeEffect: shootSmokeTitan
       shootEffect: shootBigColor
-      width: 14
+      width: 20
       speed: 9
-      height: 18
-      lifetime: 30
-      hitSize: 14
+      height: 26
+      lifetime: 40
+      hitSize: 20
       pierce: true
-      pierceCap: 2
-      trailWidth: 3
-      trailLength: 9
+      pierceCap: 3
+      trailWidth: 4
+      trailLength: 12
       hitColor: feb380
       trailColor: feb380
       backColor: feb380
