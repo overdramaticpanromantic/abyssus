@@ -80,7 +80,7 @@ weapons: [
       damage: 140
       splashDamage: 60
       splashDamageRadius: 24
-      smokeEffect: shootSmokeTitan
+      smokeEffect: shootBigSmoke
       shootEffect: {
         type: ExplosionEffect
         lifetime: 40
