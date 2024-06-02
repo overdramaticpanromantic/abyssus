@@ -13,7 +13,17 @@ health: 18750
 armor: 21
 itemCapacity: 0
 hitSize: 50
-treadFrames: 18
+treadFrames: 30
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    layer: -1
+    outline: false
+    color: ca6a65
+  }
+]
 treadRects: [
   {
     x: -89
@@ -55,6 +65,16 @@ weapons: [
       shots: 8
       spread: 1
     }
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        layer: -1
+        outline: false
+        color: ca6a65
+      }
+    ]
     bullet: {
       type: BasicBulletType
       damage: 50
