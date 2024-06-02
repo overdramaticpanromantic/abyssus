@@ -16,8 +16,8 @@ hitSize: 50
 treadFrames: 18
 treadRects: [
   {
-    x: -126
-    y: -169
+    x: -89
+    y: -108
     width: 52
     height: 216
   }
