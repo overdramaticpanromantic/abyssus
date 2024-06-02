@@ -1,0 +1,93 @@
+name: Mangle
+description: Fires dual high-caliber flak rounds at nearby enemies.
+type: tank
+template: ErekirUnitType
+treadPullOffset: 4
+omniMovement: false
+faceTarget: false
+rotateMoveFirst: true
+rotateSpeed: 1.75
+speed: 0.74
+outlineColor: 0f0f14
+health: 9900
+armor: 15
+itemCapacity: 0
+hitSize: 25
+treadRects: [
+  {
+    x: -51
+    y: -61
+    width: 28
+    height: 128
+  }
+  {
+    x: -17
+    y: -52
+    width: 34
+    height: 119
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: 1
+    name: mangle-weapon
+    layerOffset: 0.0001
+    shootSound: dullExplosion
+    shootCone: 5
+    shootY: 16
+    recoil: 3
+    rotate: true
+    rotateSpeed: 2.5
+    mirror: false
+    reload: 90
+    heatColor: ca6a65
+    bullet: {
+      type: BasicBulletType
+      sprite: missile-large
+      damage: 120
+      splashDamage: 100
+      splashDamageRadius: 20
+      smokeEffect: shootSmokeTitan
+      shootEffect: shootBigColor
+      width: 10
+      speed: 6
+      height: 16
+      lifetime: 40
+      hitSize: 8
+      pierce: true
+      pierceCap: 2
+      trailWidth: 3
+      trailLength: 9
+      hitColor: feb380
+      trailColor: feb380
+      backColor: feb380
+      frontColor: ffffff
+      trailEffect: hitBulletBig
+      trailRotation: true
+      trailInterval: 3
+      fragBullets: 5
+      fragBullet: {
+        damage: 30
+        speed: 2
+        width: 6
+        height: 8
+        lifetime: 15
+        splashDamage: 30
+        splashDamageRadius: 12
+        hitSize: 5
+        pierceCap: 2
+        pierce: true
+        pierceBuilding: false
+        hitColor: feb380
+        trailColor: feb380
+        backColor: feb380
+        frontColor: ffffff
+        trailWidth: 1
+        trailLength: 4
+        despawnEffect: hitBulletColor
+        hitEffect: hitBulletColor
+      }
+    }
+  }
+]
