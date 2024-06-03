@@ -48,6 +48,7 @@ weapons: [
     cooldownTime: 30
     heatColor: ab3400
     shootY: 5
+    under: true
     x: 2.5
     y: 6.25
     reload: 75
