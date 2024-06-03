@@ -39,7 +39,7 @@ weapons: [
     bullet: {
       type: BasicBulletType
       sprite: missile-large
-      damage: 40
+      damage: 75
       splashDamage: 50
       splashDamageRadius: 16
       smokeEffect: shootSmokeTitan
@@ -48,6 +48,8 @@ weapons: [
       speed: 6
       height: 12
       lifetime: 40
+      pierce: true
+      pierceCap: 2
       hitSize: 6
       trailWidth: 2.5
       trailLength: 7
@@ -58,11 +60,12 @@ weapons: [
       trailEffect: hitBulletColor
       trailRotation: true
       trailInterval: 3
-      fragBullets: 5
+      fragBullets: 6
       fragBullet: {
         speed: 2
         width: 6
         height: 8
+        damage: 15
         lifetime: 15
         splashDamage: 15
         splashDamageRadius: 4
