@@ -1,6 +1,7 @@
 name: Mar
 description: Fires bursts of bullets at enemy targets.
 type: tank
+lightColor: ca6a65
 template: ErekirUnitType
 treadPullOffset: 3
 omniMovement: false
