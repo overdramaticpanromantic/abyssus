@@ -1,6 +1,7 @@
 name: Mutilate
 description: Fires cascades of piercing shotgun blasts at nearby enemies.
 type: tank
+lightColor: ca6a65
 template: ErekirUnitType
 treadPullOffset: 5
 omniMovement: false
