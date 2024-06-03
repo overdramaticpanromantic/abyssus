@@ -52,7 +52,6 @@ weapons: [
     y: 6.25
     reload: 75
     recoil: 1
-    showStatSprite: false
     shoot: {
       type: ShootHelix
       scl: 3
