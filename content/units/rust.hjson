@@ -2,7 +2,7 @@ name: Rust
 description: Fires piercing needle rounds at nearby enemies.
 type: legs
 template: ErekirUnitType
-speed: 1.2
+speed: 0.8
 drag: 0.11
 hitSize: 10
 rotateSpeed: 3.4
