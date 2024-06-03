@@ -27,7 +27,7 @@ weapons: [
     y: 0
     name: maul-weapon
     layerOffset: 0.0001
-    shootSound: dullExplosion
+    shootSound: shootBig
     shootCone: 3
     shootY: 8
     recoil: 2
