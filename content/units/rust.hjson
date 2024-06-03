@@ -42,7 +42,7 @@ parts: [
 ]
 weapons: [
   {
-    sprite: rust-weapon
+    name: rust-weapon
     shootSound: blaster
     mirror: false
     cooldownTime: 30
