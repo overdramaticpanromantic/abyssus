@@ -48,9 +48,9 @@ weapons: [
     mirror: true
     cooldownTime: 30
     heatColor: ab3400
-    shootY: 5
+    shootY: 4
     under: true
-    x: 2.5
+    x: 3.5
     y: 6.25
     reload: 75
     recoil: 1
