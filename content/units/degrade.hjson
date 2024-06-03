@@ -51,7 +51,7 @@ weapons: [
     shootY: 0
     under: true
     x: 3.5
-    y: 6.25
+    y: 7
     reload: 75
     recoil: 1
     shoot: {
