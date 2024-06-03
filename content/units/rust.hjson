@@ -41,7 +41,7 @@ parts: [
 weapons: [
   {
     sprite: rust-weapon
-    shootSound: laserShoot
+    shootSound: blaster
     mirror: false
     cooldownTime: 30
     heatColor: ab3400
