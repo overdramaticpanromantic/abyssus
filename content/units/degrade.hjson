@@ -44,6 +44,7 @@ weapons: [
   {
     name: degrade-weapon
     shootSound: blaster
+    layerOffset: -0.002
     mirror: true
     cooldownTime: 30
     heatColor: ab3400
