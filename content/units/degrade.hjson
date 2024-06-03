@@ -55,6 +55,8 @@ weapons: [
     showStatSprite: false
     shoot: {
       type: ShootHelix
+      scl: 3
+      mag: 2
     }
     bullet: {
       type: BasicBulletType
