@@ -60,15 +60,15 @@ weapons: [
         shootSmallColor,
         hitBulletColor
       ]
-      height: 9
-      width: 2
+      height: 10
+      width: 4
       trailWidth: 1
       trailLength: 3
       backColor: 9db9ed
       frontColor: ffffff
       trailColor: 9db9ed
       hitColor: 9db9ed
-      lifetime: 35
+      lifetime: 25
       speed: 8
       damage: 12
       pierce: true
