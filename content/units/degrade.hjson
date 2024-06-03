@@ -42,7 +42,7 @@ parts: [
 ]
 weapons: [
   {
-    sprite: degrade-weapon
+    name: degrade-weapon
     shootSound: blaster
     mirror: true
     cooldownTime: 30
