@@ -1,0 +1,80 @@
+name: Rust
+description: Fires piercing needle rounds at nearby enemies.
+type: legs
+template: ErekirUnitType
+speed: 1.2
+drag: 0.11
+hitSize: 10
+rotateSpeed: 3.4
+health: 490
+armor: 3
+legStraightness: 0.35
+stepShake: 0
+legCount: 6
+legLength: 9
+lockLegBase: true
+legContinuousMove: true
+legExtension: -2
+legBaseOffset: 3
+legMaxLength: 1.1
+legMinLength: 0.2
+legLengthScl: 0.95
+legForwardScl: 1.11
+legGroupSize: 3
+rippleScale: 0.2
+legMoveSpace: 1
+allowLegStep: true
+hovering: true
+legPhysicsLayer: false
+shadowElevation: 0.1
+groundLayer: 74
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    layer: -1
+    outline: false
+    color: 9db9ed
+  }
+]
+weapons: [
+  {
+    sprite: rust-weapon
+    shootSound: laserShoot
+    mirror: false
+    cooldownTime: 30
+    heatColor: ab3400
+    shootY: 5
+    x: 0
+    y: 0
+    reload: 75
+    showStatSprite: false
+    shoot: {
+      shots: 4
+      shotDelay: 4
+    }
+    bullet: {
+      type: BasicBulletType
+      shootEffect: [
+        shootSmallColor,
+        hitBulletColor
+      ]
+      height: 9
+      width: 2
+      trailWidth: 1
+      trailLength: 3
+      backColor: 9db9ed
+      frontColor: ffffff
+      trailColor: 9db9ed
+      hitColor: 9db9ed
+      lifetime: 35
+      speed: 8
+      damage: 12
+      pierce: true
+      pierceCap: 2
+      hitEffect: hitSquaresColor
+      despawnEffect: hitSquaresColor
+    }
+  }
+]
