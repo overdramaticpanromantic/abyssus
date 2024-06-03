@@ -1,6 +1,7 @@
 name: Maul
 description: Fires cannon shells at nearby enemies.
 type: tank
+lightColor: ca6a65
 template: ErekirUnitType
 treadPullOffset: 3
 omniMovement: false
