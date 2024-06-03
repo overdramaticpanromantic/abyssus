@@ -1,6 +1,7 @@
 name: Mangle
 description: Fires shotgun tank shells at nearby enemies.
 type: tank
+lightColor: ca6a65
 template: ErekirUnitType
 treadPullOffset: 5
 omniMovement: false
