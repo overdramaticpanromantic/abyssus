@@ -1,0 +1,82 @@
+name: Degrade
+description: Fires weaving projectiles at nearby enemies.
+type: legs
+template: ErekirUnitType
+lightColor: 9db9ed
+outlineColor: 0f0f14
+speed: 0.9
+drag: 0.1
+hitSize: 14
+rotateSpeed: 3
+health: 870
+armor: 4
+legStraightness: 0.35
+stepShake: 0
+legCount: 6
+legLength: 15
+lockLegBase: true
+legContinuousMove: true
+legExtension: -3
+legBaseOffset: 5
+legMaxLength: 1.1
+legMinLength: 0.2
+legLengthScl: 0.95
+legForwardScl: 0.7
+legGroupSize: 3
+rippleScale: 0.2
+legMoveSpace: 1.2
+allowLegStep: true
+hovering: true
+legPhysicsLayer: false
+shadowElevation: 0.2
+groundLayer: 74
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    layer: -1
+    outline: false
+    color: 9db9ed
+  }
+]
+weapons: [
+  {
+    sprite: degrade-weapon
+    shootSound: blaster
+    mirror: true
+    cooldownTime: 30
+    heatColor: ab3400
+    shootY: 5
+    x: 2.5
+    y: 6.25
+    reload: 75
+    recoil: 1
+    showStatSprite: false
+    shoot: {
+      type: ShootHelix
+    }
+    bullet: {
+      type: BasicBulletType
+      shootEffect: [
+        sparkShoot,
+        hitBulletColor
+      ]
+      height: 12
+      width: 7
+      trailWidth: 1.5
+      trailLength: 5
+      backColor: 9db9ed
+      frontColor: ffffff
+      trailColor: 9db9ed
+      hitColor: 9db9ed
+      lifetime: 40
+      speed: 6
+      damage: 50
+      pierce: true
+      pierceCap: 2
+      hitEffect: hitSquaresColor
+      despawnEffect: hitSquaresColor
+    }
+  }
+]
