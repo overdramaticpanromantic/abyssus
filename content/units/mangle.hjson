@@ -58,9 +58,9 @@ weapons: [
     }
     bullet: {
       type: BasicBulletType
-      damage: 50
-      splashDamage: 45
-      splashDamageRadius: 20
+      damage: 75
+      splashDamage: 50
+      splashDamageRadius: 16
       smokeEffect: shootSmokeTitan
       shootEffect: shootBigColor
       width: 14
