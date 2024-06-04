@@ -75,8 +75,8 @@ weapons: [
       frontColor: ffffff
       trailColor: 9db9ed
       hitColor: 9db9ed
-      lifetime: 24
-      speed: 5
+      lifetime: 45
+      speed: 6
       damage: 55
       splashDamage: 16
       splashDamageRadius: 8
@@ -113,12 +113,12 @@ weapons: [
         smokeSizeBase: 0
         smokes: 0
       }
-      fragBullets: 4
+      fragBullets: 2
       fragBullet: {
         type: BasicBulletType
-        damage: 20
+        damage: 16
         lifetime: 20
-        splashDamage: 20
+        splashDamage: 12
         splashDamageRadius: 8
         backColor: 9db9ed
         frontColor: ffffff
