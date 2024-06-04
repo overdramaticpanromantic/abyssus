@@ -78,9 +78,9 @@ weapons: [
       hitColor: 9db9ed
       lifetime: 45
       speed: 6
-      damage: 55
-      splashDamage: 16
-      splashDamageRadius: 8
+      damage: 75
+      splashDamage: 24
+      splashDamageRadius: 12
       pierce: true
       pierceCap: 3
       lightColor: 9db9ed
@@ -117,9 +117,9 @@ weapons: [
       fragBullets: 2
       fragBullet: {
         type: BasicBulletType
-        damage: 16
+        damage: 20
         lifetime: 20
-        splashDamage: 12
+        splashDamage: 16
         splashDamageRadius: 8
         backColor: 9db9ed
         frontColor: ffffff
