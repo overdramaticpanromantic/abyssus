@@ -47,9 +47,9 @@ weapons: [
     mirror: false
     cooldownTime: 30
     heatColor: ab3400
-    shootY: 0
+    shootY: 3
     x: 0
-    y: 4.5
+    y: 1.5
     reload: 75
     showStatSprite: false
     shoot: {
