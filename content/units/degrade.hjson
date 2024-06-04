@@ -80,6 +80,7 @@ weapons: [
       pierceCap: 2
       hitEffect: hitSquaresColor
       despawnEffect: hitSquaresColor
+      lightColor: 9db9ed
     }
   }
 ]
