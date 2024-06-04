@@ -66,6 +66,7 @@ weapons: [
         sparkShoot,
         shootBig2
       ]
+      smokeEffect: shootSmokeTitan
       height: 12
       width: 10
       trailWidth: 3
