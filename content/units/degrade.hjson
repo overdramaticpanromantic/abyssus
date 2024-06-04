@@ -1,5 +1,5 @@
 name: Degrade
-description: Fires weaving projectiles at nearby enemies.
+description: Fires weaving projectiles at nearby enemies. Can step over most terrain.
 type: legs
 template: ErekirUnitType
 lightColor: 9db9ed
