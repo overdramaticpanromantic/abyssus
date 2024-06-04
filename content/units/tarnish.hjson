@@ -74,10 +74,10 @@ weapons: [
       frontColor: ffffff
       trailColor: 9db9ed
       hitColor: 9db9ed
-      lifetime: 60
+      lifetime: 45
       speed: 4
-      damage: 50
-      splashDamage: 45
+      damage: 70
+      splashDamage: 60
       splashDamageRadius: 12
       pierce: false
       lightColor: 9db9ed
@@ -129,6 +129,7 @@ weapons: [
         speed: 2
         despawnEffect: hitBulletColor
         hitEffect: hitBulletColor
+        lightColor: 9db9ed
       }
     }
   }
