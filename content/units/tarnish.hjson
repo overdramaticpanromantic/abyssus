@@ -1,5 +1,5 @@
 name: Tarnish
-description: Fires cluster bombs at nearby enemies.
+description: Fires cluster bombs at nearby enemies. Can step over most terrain.
 type: legs
 template: ErekirUnitType
 lightColor: 9db9ed
