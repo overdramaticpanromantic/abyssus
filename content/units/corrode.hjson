@@ -12,9 +12,9 @@ health: 5900
 armor: 5
 legStraightness: 0.4
 baseLegStraightness: 0.5
-stepShake: 1
+stepShake: 0.6
 legCount: 6
-legLength: 20
+legLength: 34
 lockLegBase: true
 legContinuousMove: true
 legExtension: -3
@@ -24,7 +24,7 @@ legMinLength: 0.2
 legLengthScl: 0.95
 legForwardScl: 0.9
 rippleScale: 0.2
-legMoveSpace: 1.2
+legMoveSpace: 1.5
 legGroupSize: 3
 allowLegStep: true
 hovering: true
@@ -55,7 +55,7 @@ weapons: [
     x: 15
     y: 1.75
     reload: 60
-    recoil: 2
+    recoil: 4
     inaccuracy: 5
     shoot: {
       type: ShootSpread
@@ -67,6 +67,7 @@ weapons: [
       shootEffect: sparkShoot
       smokeEffect: shootSmokeSquareSparse
       trailEffect: hitSquaresColor
+      trailInterval: 3
       height: 14
       width: 12
       trailWidth: 3.5
