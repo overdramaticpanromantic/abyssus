@@ -1,0 +1,130 @@
+name: Tarnish
+description: Fires cluster bombs at nearby enemies.
+type: legs
+template: ErekirUnitType
+lightColor: 9db9ed
+outlineColor: 0f0f14
+speed: 1
+drag: 0.1
+hitSize: 14
+rotateSpeed: 2.5
+health: 870
+armor: 4
+legStraightness: 0.35
+stepShake: 0
+legCount: 4
+legLength: 20
+lockLegBase: true
+legContinuousMove: true
+legExtension: -3
+legBaseOffset: 7
+legMaxLength: 1.1
+legMinLength: 0.2
+legLengthScl: 0.95
+legForwardScl: 0.9
+rippleScale: 0.2
+legMoveSpace: 1.2
+allowLegStep: true
+hovering: true
+legPhysicsLayer: false
+shadowElevation: 0.2
+groundLayer: 74
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    layer: -1
+    outline: false
+    color: 9db9ed
+  }
+]
+weapons: [
+  {
+    name: tarnish-weapon
+    shootSound: shootWonky
+    layerOffset: -0.002
+    mirror: true
+    cooldownTime: 40
+    shake: 2
+    heatColor: 9db9ed
+    shootY: 10
+    under: true
+    x: 11
+    y: -1.75
+    reload: 45
+    recoil: 2
+    shoot: {
+      shots: 3
+    }
+    bullet: {
+      type: MissileBulletType
+      homingPower: 0.1
+      weaveMag: 3
+      weaveScale: 2
+      shootEffect: [
+        sparkShoot,
+        shootBig2
+      ]
+      height: 12
+      width: 10
+      trailWidth: 3
+      trailLength: 12
+      backColor: 9db9ed
+      frontColor: ffffff
+      trailColor: 9db9ed
+      hitColor: 9db9ed
+      lifetime: 60
+      speed: 4
+      damage: 50
+      splashDamage: 45
+      splashDamageRadius: 12
+      pierce: false
+      despawnEffect: {
+        type: ExplosionEffect
+        lifetime: 15
+        waveStroke: 2
+        waveColor: 9db9ed
+        trailColor: 9db9ed
+        sparkColor: 9db9ed
+        sparks: 6
+        sparkRad: 20
+        sparkLen: 3
+        sparkStroke: 1.2
+        smokeSize: 0
+        smokeSizeBase: 0
+        smokes: 0
+      }
+      hitEffect: {
+        type: ExplosionEffect
+        lifetime: 15
+        waveStroke: 2
+        waveColor: 9db9ed
+        trailColor: 9db9ed
+        sparkColor: 9db9ed
+        sparks: 6
+        sparkRad: 20
+        sparkLen: 3
+        sparkStroke: 1.2
+        smokeSize: 0
+        smokeSizeBase: 0
+        smokes: 0
+      }
+      fragBullets: 4
+      fragBullet: {
+        type: BasicBulletType
+        damage: 20
+        splashDamage: 20
+        splashDamageRadius: 8
+        backColor: 9db9ed
+        frontColor: ffffff
+        trailColor: 9db9ed
+        hitColor: 9db9ed
+        height: 6
+        width: 4
+        despawnEffect: shootSmallColor
+        hitEffect: shootSmallColor
+      }
+    }
+  }
+]
