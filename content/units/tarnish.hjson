@@ -8,8 +8,8 @@ speed: 1
 drag: 0.1
 hitSize: 14
 rotateSpeed: 2.5
-health: 870
-armor: 4
+health: 2450
+armor: 6
 legStraightness: 0.35
 stepShake: 0
 legCount: 4
