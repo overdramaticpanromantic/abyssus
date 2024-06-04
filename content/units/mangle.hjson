@@ -51,6 +51,7 @@ weapons: [
     reload: 120
     heatColor: ca6a65
     inaccuracy: 5
+    cooldownTime: 75
     shoot: {
       type: ShootSpread
       shots: 8
