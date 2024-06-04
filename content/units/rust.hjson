@@ -1,5 +1,5 @@
 name: Rust
-description: Fires piercing needle rounds at nearby enemies.
+description: Fires piercing needle rounds at nearby enemies. Can step over most terrain.
 type: legs
 template: ErekirUnitType
 lightColor: 9db9ed
