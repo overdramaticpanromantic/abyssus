@@ -14,7 +14,7 @@ legStraightness: 0.4
 baseLegStraightness: 0.5
 stepShake: 0.6
 legCount: 6
-legLength: 32
+legLength: 28
 lockLegBase: true
 legContinuousMove: true
 legExtension: -3
