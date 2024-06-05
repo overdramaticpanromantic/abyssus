@@ -28,8 +28,8 @@ weapons: [
   bullet: {
     type: BasicBulletType
     shootEffect: [
-        shootSmallColor,
-        hitBulletColor
+        shootSpark,
+        shootSmallColor
       ]
     height: 10
     width: 4
