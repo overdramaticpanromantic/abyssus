@@ -20,7 +20,7 @@ abilities: [
     x: -1.5
     y: 0
     rotateEffect: true
-    rotation: 180
+    rotation: 0
     effect: {
       type: MultiEffect
       effects: [
@@ -65,7 +65,7 @@ abilities: [
     x: 1.5
     y: 0
     rotateEffect: true
-    rotation: 180
+    rotation: 0
     effect: {
       type: MultiEffect
       effects: [
