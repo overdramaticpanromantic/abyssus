@@ -127,10 +127,10 @@ weapons: [
     ]
     bullet: {
       type: BasicBulletType
-      shootEffect: [
-        sparkShoot,
-        hitSquaresColor
-      ]
+      // shootEffect: [
+        // sparkShoot,
+        // hitSquaresColor
+      // ]
       trailEffect: hitSquaresColor
       trailInterval: 3
       height: 14
@@ -141,7 +141,7 @@ weapons: [
       frontColor: ffffff
       trailColor: 9db9ed
       hitColor: 9db9ed
-      lifetime: 45
+      lifetime: 32
       speed: 7
       damage: 90
       pierce: false
@@ -152,7 +152,7 @@ weapons: [
   }
   {
     name: dilapidate-weapon-left
-    shootSound: shootWonky
+    shootSound: pulseBlast
     layerOffset: -0.002
     mirror: false
     cooldownTime: 40
