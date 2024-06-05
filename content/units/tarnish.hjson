@@ -49,7 +49,6 @@ weapons: [
     shake: 2
     heatColor: 9db9ed
     shootY: 10
-    under: true
     x: 11
     y: -1.75
     reload: 45
