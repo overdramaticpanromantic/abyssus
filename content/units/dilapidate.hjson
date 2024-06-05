@@ -59,72 +59,14 @@ weapons: [
     recoil: 2
     shootCone: 2
     inaccuracy: 2
-    parts: [
-      {
-        suffix: -barrel
-        moveX: 2
-        x: -0.5
-        y: 21
-        mixColor: 0f0f14
-        mixColorTo: 3f4055
-        under: true
-        progress: {
-          type: reload
-          op: curve
-          start: 0
-          end: 1
-          interp: sineIn
-        }
-      }
-      {
-        suffix: -barrel
-        moveX: 2
-        x: -2.5
-        y: 21
-        mixColor: 3f4055
-        mixColorTo: 0f0f14
-        under: true
-        progress: {
-          type: reload
-          op: curve
-          start: 0
-          end: 1
-          interp: sineIn
-        }
-      }
-      {
-        suffix: -barrel
-        moveX: -2
-        x: 1.5
-        y: 21
-        mixColor: 3f4055
-        mixColorTo: 3f405500
-        under: true
-        progress: {
-          type: reload
-          op: curve
-          start: 0
-          end: 1
-          interp: sineIn
-        }
-      }
-      {
-        suffix: -barrel
-        moveX: -2
-        x: 1.5
-        y: 21
-        mixColor: 3f405500
-        mixColorTo: 3f4055
-        under: true
-        progress: {
-          type: reload
-          op: curve
-          start: 0
-          end: 1
-          interp: sineIn
-        }
-      }
-    ]
+    shoot: {
+      type: ShootBarrel
+      barrels: [
+        -2.5, 21, 0,
+        -0.5, 21, 0,
+        1.5, 21, 0
+      ]
+    }
     bullet: {
       type: BasicBulletType
       shootEffect: [
