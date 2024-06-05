@@ -24,7 +24,7 @@ weapons: [
     reload: 45
     shoot: {
       shots: 2
-      shotDelay: 3
+      shotDelay: 5
     }
     bullet: {
       type: BasicBulletType
