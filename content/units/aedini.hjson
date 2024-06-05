@@ -16,8 +16,8 @@ abilities: [
   {
     type: MoveEffectAbility
     minVelocity: 0
-    interval: 2
-    x: 3
+    interval: 20
+    x: 2
     y: -2
     rotateEffect: true
     rotation: 180
