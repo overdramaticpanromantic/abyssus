@@ -40,6 +40,7 @@ weapons: [
     bullet: {
       type: BasicBulletType
       damage: 15
+      lightColor: feb380
       smokeEffect: shootSmallSmoke
       shootEffect: shootSmallColor
       width: 5
