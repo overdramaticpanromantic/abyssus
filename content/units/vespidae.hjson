@@ -14,12 +14,12 @@ health: 790
 armor: 2
 engineSize: 0
 itemCapacity: 0
-hitSize: 4.5
+hitSize: 5.5
 weapons: [
   {
     name: vespidae-weapon
     x: 0
-    y: 7
+    y: 9
     baseRotation: -25
     shootY: 0
     mirror: true
