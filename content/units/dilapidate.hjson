@@ -6,7 +6,7 @@ lightColor: 9db9ed
 outlineColor: 0f0f14
 speed: 1.2
 drag: 0.1
-hitSize: 45
+hitSize: 41
 rotateSpeed: 2
 health: 16500
 armor: 6
