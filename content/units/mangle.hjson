@@ -66,6 +66,7 @@ weapons: [
       shootEffect: shootBigColor
       width: 14
       speed: 9
+      lightColor: feb380
       height: 18
       lifetime: 30
       hitSize: 14
