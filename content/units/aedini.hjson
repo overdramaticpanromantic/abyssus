@@ -1,0 +1,54 @@
+type: flying
+template: ErekirUnitType
+description: placeholder desc
+flying: true
+drag: 0.04
+speed: 3
+rotateSpeed: 4
+accel: 0.05
+health: 280
+armor: 1
+engineSize: 0
+itemCapacity: 0
+hitSize: 6
+abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    y: -4
+    rotateEffect: true
+    rotation: 180
+    effect: {
+      type: SeqEffect
+      effects: [
+        {
+          type: ParticleEffect
+          followParent: true
+          rotWithParent: true
+          region: abyssus-aedini-wing
+          particles: 1
+          length: 0
+          spin: 3
+          lifetime: 10
+          sizeFrom: 5
+          sizeTo: 5
+          baseRotation: -30
+        }
+        {
+          type: ParticleEffect
+          followParent: true
+          rotWithParent: true
+          region: abyssus-aedini-wing
+          particles: 1
+          length: 0
+          spin: -3
+          lifetime: 10
+          sizeFrom: 5
+          sizeTo: 5
+          baseRotation: 30
+        }
+      ]
+    }
+  }
+]
