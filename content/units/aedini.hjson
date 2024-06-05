@@ -28,9 +28,9 @@ weapons: [
   bullet: {
     type: BasicBulletType
     shootEffect: [
-        shootSpark,
-        shootSmallColor
-      ]
+      shootSpark,
+      shootSmallColor
+    ]
     height: 10
     width: 4
     trailWidth: 1
