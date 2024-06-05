@@ -47,7 +47,7 @@ abilities: [
           lifetime: 10
           sizeFrom: 7
           sizeTo: 7
-          x: -3
+          x: 3
           baseRotation: -90
           startDelay: 10
         }
