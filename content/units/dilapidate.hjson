@@ -68,6 +68,8 @@ weapons: [
         progress: recoil
         under: true
         moveY: -2
+        x: -2.5
+        y: 21
       }
       {
         type: RegionPart
@@ -76,6 +78,8 @@ weapons: [
         progress: recoil
         under: true
         moveY: -2
+        x: -0.5
+        y: 21
       }
       {
         type: RegionPart
@@ -84,6 +88,8 @@ weapons: [
         progress: recoil
         under: true
         moveY: -2
+        x: 1.5
+        y: 21
       }
     ]
     shoot: {
