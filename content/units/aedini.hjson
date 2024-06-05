@@ -3,10 +3,10 @@ template: ErekirUnitType
 description: placeholder desc
 lowAltitude: false
 flying: true
-drag: 0.04
-speed: 3
+drag: 0.08
+speed: 2.5
 rotateSpeed: 4
-accel: 0.05
+accel: 0.09
 health: 280
 armor: 1
 engineSize: 0
