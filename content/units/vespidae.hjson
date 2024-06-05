@@ -20,11 +20,11 @@ weapons: [
     name: vespidae-weapon
     x: 0
     y: 7
-    baseRotation: -45
+    baseRotation: -25
     shootY: 0
     mirror: true
     reload: 45
-    shootCone: 90
+    shootCone: 60
     shoot: {
       type: ShootAlternate
     }
@@ -36,10 +36,10 @@ weapons: [
       shootSound: missile
       shootEffect: shootBigColor
       smokeEffect: shootSmokeSquareSparse
-      height: 8
-      width: 6
-      trailWidth: 2
-      trailLength: 5
+      height: 12
+      width: 10
+      trailWidth: 3
+      trailLength: 10
       backColor: 7a72af
       frontColor: cca8fa
       trailColor: 7a72af
