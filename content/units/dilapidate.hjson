@@ -1,0 +1,248 @@
+name: Corrode
+description: Tears enemies asunder with a variety of energy weaponry. Can step over most terrain.
+type: legs
+template: ErekirUnitType
+lightColor: 9db9ed
+outlineColor: 0f0f14
+speed: 1.2
+drag: 0.1
+hitSize: 45
+rotateSpeed: 2
+health: 16500
+armor: 6
+legStraightness: 0.6
+baseLegStraightness: 0.5
+stepShake: 0.6
+legCount: 6
+legLength: 32
+lockLegBase: true
+legContinuousMove: true
+legExtension: -6
+legBaseOffset: 19
+legMaxLength: 1.2
+legMinLength: 0.2
+legLengthScl: 0.95
+legForwardScl: 2.1
+rippleScale: 1.2
+legMoveSpace: 1.2
+legStraightLength: 0.9
+legGroupSize: 3
+allowLegStep: true
+hovering: true
+legPhysicsLayer: false
+shadowElevation: 0.4
+groundLayer: 74
+drownTimeMultiplier: 2
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    layer: -1
+    outline: false
+    color: 9db9ed
+  }
+]
+weapons: [
+  {
+    name: dilapidate-weapon-right
+    shootSound: malignShoot
+    layerOffset: -0.002
+    mirror: false
+    cooldownTime: 30
+    shake: 2
+    heatColor: 9db9ed
+    shootY: 23
+    x: 23.25
+    y: 0
+    reload: 10
+    recoil: 2
+    shootCone: 2
+    inaccuracy: 2
+    parts: [
+      {
+        suffix: -barrel
+        moveX: 1.75
+        x: -0.5
+        y: 21.5
+        mixColor: 0f0f14
+        mixColorTo: 3f4055
+        under: true
+        progress: {
+          type: reload
+          op: curve
+          start: 0
+          end: 1
+          interp: sinIn
+        }
+      }
+      {
+        suffix: -barrel
+        moveX: 1.75
+        x: -2.25
+        y: 21.5
+        mixColor: 3f4055
+        mixColorTo: 0f0f14
+        under: true
+        progress: {
+          type: reload
+          op: curve
+          start: 0
+          end: 1
+          interp: sinIn
+        }
+      }
+      {
+        suffix: -barrel
+        moveX: -1.75
+        x: 1
+        y: 21.5
+        mixColor: 3f4055
+        mixColorTo: 3f405500
+        under: true
+        progress: {
+          type: reload
+          op: curve
+          start: 0
+          end: 1
+          interp: sinIn
+        }
+      }
+      {
+        suffix: -barrel
+        moveX: -1.75
+        moveY: -1.25
+        x: 1
+        y: 21.5
+        mixColor: 3f405500
+        mixColorTo: 3f4055
+        under: true
+        progress: {
+          type: reload
+          op: curve
+          start: 0
+          end: 1
+          interp: sinIn
+        }
+      }
+    ]
+    bullet: {
+      type: BasicBulletType
+      shootEffect: [
+        sparkShoot,
+        hitSquaresColor
+      ]
+      trailEffect: hitSquaresColor
+      trailInterval: 3
+      height: 14
+      width: 12
+      trailWidth: 3.5
+      trailLength: 15
+      backColor: 9db9ed
+      frontColor: ffffff
+      trailColor: 9db9ed
+      hitColor: 9db9ed
+      lifetime: 45
+      speed: 7
+      damage: 90
+      pierce: false
+      lightColor: 9db9ed
+      despawnEffect: hitSquaresColor
+      hitEffect: hitSquaresColor
+    }
+  }
+  {
+    name: dilapidate-weapon-left
+    shootSound: shootWonky
+    layerOffset: -0.002
+    mirror: false
+    cooldownTime: 40
+    shake: 3
+    heatColor: 9db9ed
+    shootY: 22
+    x: -23.25
+    y: 0
+    reload: 60
+    recoil: 4
+    inaccuracy: 5
+    shoot: {
+      shots: 4
+    }
+    bullet: {
+      type: MissileBulletType
+      homingPower: 0.2
+      weaveMag: 5
+      weaveScale: 5
+      shootEffect: [
+        sparkShoot,
+        shootBig2
+      ]
+      smokeEffect: shootSmokeTitan
+      height: 12
+      width: 10
+      trailWidth: 3
+      trailLength: 12
+      backColor: 9db9ed
+      frontColor: ffffff
+      trailColor: 9db9ed
+      hitColor: 9db9ed
+      lifetime: 40
+      speed: 5
+      damage: 70
+      splashDamage: 60
+      splashDamageRadius: 12
+      pierce: false
+      lightColor: 9db9ed
+      despawnEffect: {
+        type: ExplosionEffect
+        lifetime: 15
+        waveStroke: 2
+        waveColor: 9db9ed
+        trailColor: 9db9ed
+        sparkColor: 9db9ed
+        sparks: 6
+        sparkRad: 20
+        sparkLen: 3
+        sparkStroke: 1.2
+        smokeSize: 0
+        smokeSizeBase: 0
+        smokes: 0
+      }
+      hitEffect: {
+        type: ExplosionEffect
+        lifetime: 15
+        waveStroke: 2
+        waveColor: 9db9ed
+        trailColor: 9db9ed
+        sparkColor: 9db9ed
+        sparks: 6
+        sparkRad: 20
+        sparkLen: 3
+        sparkStroke: 1.2
+        smokeSize: 0
+        smokeSizeBase: 0
+        smokes: 0
+      }
+      fragBullets: 4
+      fragBullet: {
+        type: BasicBulletType
+        damage: 20
+        lifetime: 20
+        splashDamage: 20
+        splashDamageRadius: 8
+        backColor: 9db9ed
+        frontColor: ffffff
+        trailColor: 9db9ed
+        hitColor: 9db9ed
+        trailWidth: 2
+        trailLength: 4
+        height: 10
+        width: 10
+        speed: 2
+        despawnEffect: hitBulletColor
+        hitEffect: hitBulletColor
+        lightColor: 9db9ed
+      }
+    }
+  }
+]
