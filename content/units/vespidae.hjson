@@ -117,7 +117,7 @@ abilities: [
           region: abyssus-vespidae-wing-right-back
           particles: 1
           length: 0
-          spin: 15
+          spin: -15
           lifetime: 2
           sizeFrom: 9
           sizeTo: 9
@@ -132,7 +132,7 @@ abilities: [
           region: abyssus-vespidae-wing-right-back
           particles: 1
           length: 0
-          spin: -15
+          spin: 15
           lifetime: 2
           sizeFrom: 16
           sizeTo: 16
