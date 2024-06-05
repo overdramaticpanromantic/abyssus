@@ -20,32 +20,36 @@ weapons: [
     name: vespidae-weapon
     x: 0
     y: 7
+    baseRotation: -45
     shootY: 0
-    mirror: false
+    mirror: true
     reload: 45
+    shootCone: 90
     shoot: {
-      shots: 2
-      shotDelay: 5
+      type: ShootAlternate
     }
     bullet: {
       type: BasicBulletType
-      shootEffect: [
-        sparkShoot,
-        shootSmallColor
-      ]
-      height: 10
-      width: 4
-      trailWidth: 1
-      trailLength: 3
+      homingPower: 0.2
+      weaveMag: 3
+      weaveScale: 4
+      shootSound: missile
+      shootEffect: shootBigColor
+      smokeEffect: shootSmokeSquareSparse
+      height: 8
+      width: 6
+      trailWidth: 2
+      trailLength: 5
       backColor: 7a72af
       frontColor: cca8fa
       trailColor: 7a72af
       hitColor: 7a72af
-      lifetime: 30
-      speed: 6
-      damage: 18
-      pierce: true
-      pierceCap: 2
+      lifetime: 75
+      speed: 3
+      damage: 36
+      splashDamage: 36
+      splashDamageRadius: 12
+      pierce: false
       hitEffect: hitSquaresColor
       despawnEffect: hitSquaresColor
       lightColor: 7a72af
