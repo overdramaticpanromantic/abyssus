@@ -4,6 +4,7 @@ type: legs
 template: ErekirUnitType
 lightColor: 9db9ed
 outlineColor: 0f0f14
+itemCapacity: 0
 speed: 0.9
 drag: 0.1
 hitSize: 14
