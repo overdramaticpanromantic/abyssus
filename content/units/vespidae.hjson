@@ -84,7 +84,7 @@ abilities: [
           layer: 116
           followParent: true
           rotWithParent: true
-          region: abyssus-aedini-wing-left-back
+          region: abyssus-vespidae-wing-left-back
           particles: 1
           length: 0
           spin: -15
