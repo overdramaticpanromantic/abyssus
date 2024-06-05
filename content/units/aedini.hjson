@@ -3,6 +3,7 @@ template: ErekirUnitType
 name: Aedini
 description: Fires needle shots at nearby enemies. Highly delicate.
 lightColor: cca8fa
+outlineColor: 0f0f14
 lowAltitude: false
 flying: true
 drag: 0.08
