@@ -16,7 +16,7 @@ abilities: [
   {
     type: MoveEffectAbility
     minVelocity: 0
-    interval: 18
+    interval: 2
     x: -1
     y: 0
     rotateEffect: true
@@ -32,8 +32,8 @@ abilities: [
           region: abyssus-aedini-wing
           particles: 1
           length: 0
-          spin: 3
-          lifetime: 10
+          spin: 30
+          lifetime: 1
           sizeFrom: 7
           sizeTo: 7
           baseRotation: 30
@@ -46,8 +46,8 @@ abilities: [
           region: abyssus-aedini-wing
           particles: 1
           length: 0
-          spin: -3
-          lifetime: 10
+          spin: -30
+          lifetime: 1
           sizeFrom: 7
           sizeTo: 7
           baseRotation: 60
