@@ -1,6 +1,8 @@
 type: flying
 template: ErekirUnitType
-description: placeholder desc
+name: Aedini
+description: Fires needle shots at nearby enemies. Highly delicate.
+lightColor: cca8fa
 lowAltitude: false
 flying: true
 drag: 0.08
@@ -11,7 +13,42 @@ health: 280
 armor: 1
 engineSize: 0
 itemCapacity: 0
-hitSize: 6
+hitSize: 4.5
+weapons: [
+  name: aedini-weapon
+  x: 0
+  y: 2
+  shootY: 0
+  mirror: false
+  reload: 45
+  shoot: {
+    shots: 2
+    shotDelay: 3
+  }
+  bullet: {
+    type: BasicBulletType
+    shootEffect: [
+        shootSmallColor,
+        hitBulletColor
+      ]
+    height: 10
+    width: 4
+    trailWidth: 1
+    trailLength: 3
+    backColor: 7a72af
+    frontColor: cca8fa
+    trailColor: 7a72af
+    hitColor: 7a72af
+    lifetime: 30
+    speed: 6
+    damage: 18
+    pierce: true
+    pierceCap: 2
+    hitEffect: hitSquaresColor
+    despawnEffect: hitSquaresColor
+    lightColor: 7a72af
+  }
+]
 abilities: [
   {
     type: MoveEffectAbility
