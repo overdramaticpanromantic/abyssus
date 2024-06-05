@@ -1,6 +1,7 @@
 type: flying
 template: ErekirUnitType
 description: placeholder desc
+lowAltitude: false
 flying: true
 drag: 0.04
 speed: 3
@@ -16,6 +17,7 @@ abilities: [
     type: MoveEffectAbility
     minVelocity: 0
     interval: 2
+    x: 3
     y: -2
     rotateEffect: true
     rotation: 180
@@ -24,6 +26,7 @@ abilities: [
       effects: [
         {
           type: ParticleEffect
+          layer: 116
           followParent: true
           rotWithParent: true
           region: abyssus-aedini-wing
@@ -33,11 +36,11 @@ abilities: [
           lifetime: 10
           sizeFrom: 7
           sizeTo: 7
-          x: 3
           baseRotation: -120
         }
         {
           type: ParticleEffect
+          layer: 116
           followParent: true
           rotWithParent: true
           region: abyssus-aedini-wing
@@ -47,7 +50,6 @@ abilities: [
           lifetime: 10
           sizeFrom: 7
           sizeTo: 7
-          x: 3
           baseRotation: -90
           startDelay: 10
         }
