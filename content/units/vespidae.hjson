@@ -20,6 +20,7 @@ weapons: [
     name: vespidae-weapon
     x: 0
     y: 9
+    shootSound: missile
     baseRotation: -25
     shootY: 0
     mirror: true
@@ -33,7 +34,6 @@ weapons: [
       homingPower: 0.2
       weaveMag: 3
       weaveScale: 4
-      shootSound: missile
       shootEffect: shootBigColor
       smokeEffect: shootSmokeSquareSparse
       height: 12
