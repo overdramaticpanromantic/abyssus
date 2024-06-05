@@ -52,7 +52,7 @@ weapons: [
     cooldownTime: 30
     shake: 2
     heatColor: 9db9ed
-    shootY: 23
+    shootY: 2
     x: 23.25
     y: 0
     reload: 10
