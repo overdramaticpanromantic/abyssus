@@ -16,11 +16,11 @@ abilities: [
     type: MoveEffectAbility
     minVelocity: 0
     interval: 2
-    y: -4
+    y: -2
     rotateEffect: true
     rotation: 180
     effect: {
-      type: SeqEffect
+      type: MultiEffect
       effects: [
         {
           type: ParticleEffect
@@ -31,9 +31,10 @@ abilities: [
           length: 0
           spin: 3
           lifetime: 10
-          sizeFrom: 5
-          sizeTo: 5
-          baseRotation: -30
+          sizeFrom: 7
+          sizeTo: 7
+          x: 3
+          baseRotation: -120
         }
         {
           type: ParticleEffect
@@ -44,9 +45,11 @@ abilities: [
           length: 0
           spin: -3
           lifetime: 10
-          sizeFrom: 5
-          sizeTo: 5
-          baseRotation: 30
+          sizeFrom: 7
+          sizeTo: 7
+          x: -3
+          baseRotation: -60
+          startDelay: 10
         }
       ]
     }
