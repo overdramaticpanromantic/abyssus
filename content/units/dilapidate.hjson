@@ -127,10 +127,10 @@ weapons: [
     ]
     bullet: {
       type: BasicBulletType
-      // shootEffect: [
-        // sparkShoot,
-        // hitSquaresColor
-      // ]
+      shootEffect: [
+        sparkShoot,
+        hitSquaresColor
+      ]
       trailEffect: hitSquaresColor
       trailInterval: 3
       height: 14
