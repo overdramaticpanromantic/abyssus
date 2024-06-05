@@ -91,7 +91,6 @@ weapons: [
         sparkStroke: 3
         waveColor: feb380
         sparkColor: feb380
-        trailColor: feb380
         smokeColor: feb380
       }
       width: 20
@@ -126,7 +125,6 @@ weapons: [
         sparkStroke: 2
         waveColor: feb380
         sparkColor: feb380
-        trailColor: feb380
         smokeColor: feb380
       }
     }
