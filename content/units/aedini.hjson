@@ -29,7 +29,7 @@ abilities: [
           layer: 116
           followParent: true
           rotWithParent: true
-          region: abyssus-aedini-wing
+          region: abyssus-aedini-wing-left
           particles: 1
           length: 0
           spin: 15
@@ -44,7 +44,7 @@ abilities: [
           layer: 116
           followParent: true
           rotWithParent: true
-          region: abyssus-aedini-wing
+          region: abyssus-aedini-wing-left
           particles: 1
           length: 0
           spin: -15
@@ -52,6 +52,51 @@ abilities: [
           sizeFrom: 7
           sizeTo: 7
           baseRotation: 60
+          startDelay: 1
+          lightOpacity: 0
+        }
+      ]
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: 1.5
+    y: -0.5
+    rotateEffect: true
+    rotation: 180
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-aedini-wing-right
+          particles: 1
+          length: 0
+          spin: -15
+          lifetime: 2
+          sizeFrom: 7
+          sizeTo: 7
+          baseRotation: -30
+          lightOpacity: 0
+        }
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-aedini-wing-right
+          particles: 1
+          length: 0
+          spin: 15
+          lifetime: 2
+          sizeFrom: 7
+          sizeTo: 7
+          baseRotation: -60
           startDelay: 1
           lightOpacity: 0
         }
