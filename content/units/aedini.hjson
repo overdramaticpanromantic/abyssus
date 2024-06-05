@@ -16,8 +16,8 @@ abilities: [
   {
     type: MoveEffectAbility
     minVelocity: 0
-    interval: 20
-    x: 2
+    interval: 19
+    x: -2
     y: -2
     rotateEffect: true
     rotation: 180
@@ -36,7 +36,7 @@ abilities: [
           lifetime: 10
           sizeFrom: 7
           sizeTo: 7
-          baseRotation: 60
+          baseRotation: 90
         }
         {
           type: ParticleEffect
@@ -50,7 +50,7 @@ abilities: [
           lifetime: 10
           sizeFrom: 7
           sizeTo: 7
-          baseRotation: 90
+          baseRotation: 120
           startDelay: 10
         }
       ]
