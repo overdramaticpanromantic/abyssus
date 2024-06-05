@@ -47,6 +47,7 @@ weapons: [
       type: BasicBulletType
       sprite: missile-large
       damage: 120
+      lightColor: feb380
       splashDamage: 100
       splashDamageRadius: 20
       smokeEffect: shootSmokeTitan
@@ -73,6 +74,7 @@ weapons: [
         speed: 2
         width: 6
         height: 8
+        lightColor: feb380
         lifetime: 15
         splashDamage: 30
         splashDamageRadius: 12
