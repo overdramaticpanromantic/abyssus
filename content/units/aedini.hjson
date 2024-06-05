@@ -29,7 +29,7 @@ weapons: [
     bullet: {
       type: BasicBulletType
       shootEffect: [
-        shootSpark,
+        sparkShoot,
         shootSmallColor
       ]
       height: 10
