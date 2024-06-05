@@ -62,7 +62,7 @@ abilities: [
     type: MoveEffectAbility
     minVelocity: 0
     interval: 2
-    x: 1.375 // this is ass
+    x: 1.25 // this is ass
     y: 0
     rotateEffect: true
     rotation: 0
