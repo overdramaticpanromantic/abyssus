@@ -40,6 +40,7 @@ weapons: [
       type: BasicBulletType
       sprite: missile-large
       damage: 75
+      lightColor: feb380
       splashDamage: 50
       splashDamageRadius: 16
       smokeEffect: shootSmokeTitan
@@ -63,6 +64,7 @@ weapons: [
       fragBullets: 6
       fragBullet: {
         speed: 2
+        lightColor: feb380
         width: 6
         height: 8
         damage: 15
