@@ -1,4 +1,4 @@
-name: Corrode
+name: Dilapidate
 description: Tears enemies asunder with a variety of energy weaponry. Can step over most terrain.
 type: legs
 template: ErekirUnitType
@@ -62,9 +62,9 @@ weapons: [
     parts: [
       {
         suffix: -barrel
-        moveX: 1.75
-        x: -0.5
-        y: 21.5
+        moveX: 2
+        x: -1
+        y: 21
         mixColor: 0f0f14
         mixColorTo: 3f4055
         under: true
@@ -78,9 +78,9 @@ weapons: [
       }
       {
         suffix: -barrel
-        moveX: 1.75
-        x: -2.25
-        y: 21.5
+        moveX: 2
+        x: -3
+        y: 21
         mixColor: 3f4055
         mixColorTo: 0f0f14
         under: true
@@ -94,9 +94,9 @@ weapons: [
       }
       {
         suffix: -barrel
-        moveX: -1.75
+        moveX: -2
         x: 1
-        y: 21.5
+        y: 21
         mixColor: 3f4055
         mixColorTo: 3f405500
         under: true
@@ -110,10 +110,9 @@ weapons: [
       }
       {
         suffix: -barrel
-        moveX: -1.75
-        moveY: -1.25
+        moveX: -2
         x: 1
-        y: 21.5
+        y: 21
         mixColor: 3f405500
         mixColorTo: 3f4055
         under: true
