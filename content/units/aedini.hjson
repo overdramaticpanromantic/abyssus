@@ -37,6 +37,7 @@ abilities: [
           sizeFrom: 7
           sizeTo: 7
           baseRotation: 30
+          lightOpacity: 0
         }
         {
           type: ParticleEffect
@@ -52,6 +53,7 @@ abilities: [
           sizeTo: 7
           baseRotation: 60
           startDelay: 9
+          lightOpacity: 0
         }
       ]
     }
