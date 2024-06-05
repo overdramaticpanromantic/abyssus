@@ -143,4 +143,49 @@ abilities: [
       ]
     }
   }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: -1.5
+    y: 0
+    rotateEffect: true
+    rotation: 0
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-vespidae-wing-left-front
+          particles: 1
+          length: 0
+          spin: 15
+          lifetime: 2
+          sizeFrom: 9
+          sizeTo: 9
+          baseRotation: 150
+          lightOpacity: 0
+        }
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-vespidae-wing-left-front
+          particles: 1
+          length: 0
+          spin: -15
+          lifetime: 2
+          sizeFrom: 16
+          sizeTo: 16
+          baseRotation: 180
+          startDelay: 1
+          lightOpacity: 0
+        }
+      ]
+    }
+  }
 ]
