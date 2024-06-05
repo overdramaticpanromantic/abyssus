@@ -22,7 +22,7 @@ legBaseOffset: 19
 legMaxLength: 1.2
 legMinLength: 0.2
 legLengthScl: 0.95
-legForwardScl: 2.1
+legForwardScl: 1.5
 rippleScale: 1.2
 legMoveSpace: 1.2
 legStraightLength: 0.9
