@@ -63,7 +63,7 @@ weapons: [
       {
         suffix: -barrel
         moveX: 2
-        x: -1
+        x: -0.5
         y: 21
         mixColor: 0f0f14
         mixColorTo: 3f4055
@@ -79,7 +79,7 @@ weapons: [
       {
         suffix: -barrel
         moveX: 2
-        x: -3
+        x: -2.5
         y: 21
         mixColor: 3f4055
         mixColorTo: 0f0f14
@@ -95,7 +95,7 @@ weapons: [
       {
         suffix: -barrel
         moveX: -2
-        x: 1
+        x: 1.5
         y: 21
         mixColor: 3f4055
         mixColorTo: 3f405500
@@ -111,7 +111,7 @@ weapons: [
       {
         suffix: -barrel
         moveX: -2
-        x: 1
+        x: 1.5
         y: 21
         mixColor: 3f405500
         mixColorTo: 3f4055
