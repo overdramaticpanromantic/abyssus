@@ -162,11 +162,11 @@ abilities: [
           region: abyssus-vespidae-wing-left-front
           particles: 1
           length: 0
-          spin: 15
+          spin: 10
           lifetime: 2
           sizeFrom: 9
           sizeTo: 9
-          baseRotation: 150
+          baseRotation: 160
           lightOpacity: 0
         }
         {
@@ -177,7 +177,7 @@ abilities: [
           region: abyssus-vespidae-wing-left-front
           particles: 1
           length: 0
-          spin: -15
+          spin: -10
           lifetime: 2
           sizeFrom: 16
           sizeTo: 16
