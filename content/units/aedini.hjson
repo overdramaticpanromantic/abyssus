@@ -48,7 +48,7 @@ abilities: [
           sizeFrom: 7
           sizeTo: 7
           x: -3
-          baseRotation: -60
+          baseRotation: -90
           startDelay: 10
         }
       ]
