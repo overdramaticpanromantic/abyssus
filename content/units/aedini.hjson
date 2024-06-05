@@ -36,7 +36,7 @@ abilities: [
           lifetime: 10
           sizeFrom: 7
           sizeTo: 7
-          baseRotation: -120
+          baseRotation: 60
         }
         {
           type: ParticleEffect
@@ -50,7 +50,7 @@ abilities: [
           lifetime: 10
           sizeFrom: 7
           sizeTo: 7
-          baseRotation: -90
+          baseRotation: 90
           startDelay: 10
         }
       ]
