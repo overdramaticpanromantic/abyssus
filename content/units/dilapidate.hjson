@@ -185,7 +185,7 @@ weapons: [
       frontColor: ffffff
       trailColor: 9db9ed
       hitColor: 9db9ed
-      lifetime: 70
+      lifetime: 50
       speed: 5
       damage: 70
       splashDamage: 60
