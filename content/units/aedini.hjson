@@ -16,9 +16,9 @@ abilities: [
   {
     type: MoveEffectAbility
     minVelocity: 0
-    interval: 3
+    interval: 2
     x: -1.5
-    y: -0.5
+    y: -1
     rotateEffect: true
     rotation: 180
     effect: {
@@ -33,7 +33,7 @@ abilities: [
           particles: 1
           length: 0
           spin: 30
-          lifetime: 2
+          lifetime: 1
           sizeFrom: 7
           sizeTo: 7
           baseRotation: 30
@@ -48,10 +48,10 @@ abilities: [
           particles: 1
           length: 0
           spin: -30
-          lifetime: 2
+          lifetime: 1
           sizeFrom: 7
           sizeTo: 7
-          baseRotation: 75
+          baseRotation: 60
           startDelay: 1
           lightOpacity: 0
         }
