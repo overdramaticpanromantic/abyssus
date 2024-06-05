@@ -1,0 +1,101 @@
+type: flying
+template: ErekirUnitType
+name: Vespidae
+description: Fires homing blasts at nearby enemies. Highly delicate.
+lightColor: cca8fa
+outlineColor: 0f0f14
+lowAltitude: false
+flying: true
+drag: 0.08
+speed: 2.5
+rotateSpeed: 4
+accel: 0.09
+health: 790
+armor: 2
+engineSize: 0
+itemCapacity: 0
+hitSize: 4.5
+weapons: [
+  {
+    name: vespidae-weapon
+    x: 0
+    y: 7
+    shootY: 0
+    mirror: false
+    reload: 45
+    shoot: {
+      shots: 2
+      shotDelay: 5
+    }
+    bullet: {
+      type: BasicBulletType
+      shootEffect: [
+        sparkShoot,
+        shootSmallColor
+      ]
+      height: 10
+      width: 4
+      trailWidth: 1
+      trailLength: 3
+      backColor: 7a72af
+      frontColor: cca8fa
+      trailColor: 7a72af
+      hitColor: 7a72af
+      lifetime: 30
+      speed: 6
+      damage: 18
+      pierce: true
+      pierceCap: 2
+      hitEffect: hitSquaresColor
+      despawnEffect: hitSquaresColor
+      lightColor: 7a72af
+    }
+  }
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: -1.5
+    y: 0
+    rotateEffect: true
+    rotation: 0
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-vespidae-wing-left-back
+          particles: 1
+          length: 0
+          spin: 15
+          lifetime: 2
+          sizeFrom: 9
+          sizeTo: 9
+          baseRotation: 210
+          lightOpacity: 0
+        }
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-aedini-wing-left-back
+          particles: 1
+          length: 0
+          spin: -15
+          lifetime: 2
+          sizeFrom: 16
+          sizeTo: 16
+          baseRotation: 270
+          startDelay: 1
+          lightOpacity: 0
+        }
+      ]
+    }
+  }
+]
