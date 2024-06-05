@@ -51,7 +51,6 @@ weapons: [
     shake: 3
     heatColor: 9db9ed
     shootY: 14
-    under: true
     x: 15
     y: 1.75
     reload: 60
@@ -89,7 +88,6 @@ weapons: [
         lifetime: 15
         waveStroke: 2
         waveColor: 9db9ed
-        trailColor: 9db9ed
         sparkColor: 9db9ed
         sparks: 6
         sparkRad: 20
@@ -104,7 +102,6 @@ weapons: [
         lifetime: 15
         waveStroke: 2
         waveColor: 9db9ed
-        trailColor: 9db9ed
         sparkColor: 9db9ed
         sparks: 6
         sparkRad: 20
