@@ -211,7 +211,7 @@ abilities: [
           lifetime: 2
           sizeFrom: 9
           sizeTo: 9
-          baseRotation: -80
+          baseRotation: -140
           lightOpacity: 0
         }
         {
@@ -226,7 +226,7 @@ abilities: [
           lifetime: 2
           sizeFrom: 16
           sizeTo: 16
-          baseRotation: -100
+          baseRotation: -160
           startDelay: 1
           lightOpacity: 0
         }
