@@ -13,8 +13,8 @@ armor: 6
 legStraightness: 0.6
 baseLegStraightness: 0.5
 stepShake: 0.6
-legCount: 6
-legLength: 32
+legCount: 10
+legLength: 34
 lockLegBase: true
 legContinuousMove: true
 legExtension: -6
@@ -26,7 +26,7 @@ legForwardScl: 1.5
 rippleScale: 1.2
 legMoveSpace: 1.2
 legStraightLength: 0.9
-legGroupSize: 3
+legGroupSize: 5
 allowLegStep: true
 hovering: true
 legPhysicsLayer: false
