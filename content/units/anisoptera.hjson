@@ -21,6 +21,7 @@ weapons: [
     x: 0
     y: 28
     shootSound: shootKinetic
+    layerOffset: -0.0002
     shootY: 2
     mirror: false
     reload: 8
