@@ -56,7 +56,7 @@ weapons: [
   }
   {
     name: zygoptera-weapon
-    x: 2.5
+    x: -2.5
     y: -7.5
     shootSound: missileSmall
     layerOffset: -0.02
@@ -64,7 +64,7 @@ weapons: [
     mirror: true
     reload: 30
     shootCone: 360
-    baseRotation: -135
+    baseRotation: 135
     shoot: {
       type: ShootAlternate
     }
