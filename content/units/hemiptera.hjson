@@ -79,7 +79,7 @@ abilities: [
           lifetime: 2
           sizeFrom: 9
           sizeTo: 9
-          baseRotation: 190
+          baseRotation: 230
           lightOpacity: 0
         }
         {
@@ -94,7 +94,7 @@ abilities: [
           lifetime: 2
           sizeFrom: 16
           sizeTo: 16
-          baseRotation: 220
+          baseRotation: 260
           startDelay: 1
           lightOpacity: 0
         }
@@ -124,7 +124,7 @@ abilities: [
           lifetime: 2
           sizeFrom: 9
           sizeTo: 9
-          baseRotation: -10
+          baseRotation: -50
           lightOpacity: 0
         }
         {
@@ -139,7 +139,7 @@ abilities: [
           lifetime: 2
           sizeFrom: 16
           sizeTo: 16
-          baseRotation: -40
+          baseRotation: -80
           startDelay: 1
           lightOpacity: 0
         }
@@ -169,7 +169,7 @@ abilities: [
           lifetime: 2
           sizeFrom: 9
           sizeTo: 9
-          baseRotation: 120
+          baseRotation: 160
           lightOpacity: 0
         }
         {
@@ -184,7 +184,7 @@ abilities: [
           lifetime: 2
           sizeFrom: 16
           sizeTo: 16
-          baseRotation: 140
+          baseRotation: 200
           startDelay: 1
           lightOpacity: 0
         }
@@ -214,7 +214,7 @@ abilities: [
           lifetime: 2
           sizeFrom: 9
           sizeTo: 9
-          baseRotation: 20
+          baseRotation: -20
           lightOpacity: 0
         }
         {
@@ -229,7 +229,7 @@ abilities: [
           lifetime: 2
           sizeFrom: 16
           sizeTo: 16
-          baseRotation: 40
+          baseRotation: 0
           startDelay: 1
           lightOpacity: 0
         }
