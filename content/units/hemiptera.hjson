@@ -15,7 +15,7 @@ armor: 4
 engineSize: 0
 itemCapacity: 0
 hitSize: 10
-strafePenalty: 0.3
+strafePenalty: 0.7
 weapons: [
   {
     name: hemiptera-weapon
