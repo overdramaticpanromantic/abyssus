@@ -1,0 +1,283 @@
+type: flying
+template: ErekirUnitType
+name: Anisoptera
+description: Rains hell upon nearby foes with a kinetic gatling and sextuple missile launchers. Delicate, nonetheless.
+lightColor: cca8fa
+outlineColor: 0f0f14
+lowAltitude: false
+flying: true
+drag: 0.08
+speed: 2.1
+rotateSpeed: 3.75
+accel: 0.09
+health: 11250
+armor: 6
+engineSize: 0
+itemCapacity: 0
+hitSize: 38
+weapons: [
+  {
+    name: anisoptera-weapon
+    x: 0
+    y: 28
+    shootSound: shootKinetic
+    layerOffset: -0.02
+    shootY: 2
+    mirror: true
+    reload: 30
+    shootCone: 5
+    inaccuracy: 5
+    recoils: 3
+    recoil: 2
+    shoot: {
+      type: ShootBarrel
+      barrels: [
+        -3.5, 0, 0,
+        0, 1.5, 0,
+        3.5, 0, 0
+      ]
+    }
+    parts: [
+      {
+        type: RegionPart
+        suffix: -barrel-1
+        recoilIndex: 0
+        progress: recoil
+        under: true
+        moveY: -2
+        x: -3.5
+        y: 0
+      }
+      {
+        type: RegionPart
+        suffix: -barrel-2
+        recoilIndex: 1
+        progress: recoil
+        under: true
+        moveY: -2
+        x: 0
+        y: 1.5
+      }
+      {
+        type: RegionPart
+        suffix: -barrel-3
+        recoilIndex: 2
+        progress: recoil
+        under: true
+        moveY: -2
+        x: 3.5
+        y: 0
+      }
+    ]
+    }
+    bullet: {
+      type: BasicBulletType
+      shootEffect: [
+        shootBig,
+        hitSquaresColor
+      ]
+      smokeEffect: shootBigSmoke
+      trailEffect: hitSquaresColor
+      trailInterval: 5
+      homingPower: 0.05
+      height: 14
+      width: 10
+      trailWidth: 3
+      trailLength: 16
+      backColor: 7a72af
+      frontColor: cca8fa
+      trailColor: 7a72af
+      hitColor: 7a72af
+      lifetime: 40
+      speed: 6
+      damage: 65
+      pierce: true
+      pierceCap: 2
+      hitEffect: hitSquaresColor
+      despawnEffect: hitSquaresColor
+      lightColor: 7a72af
+    }
+  }
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: -3.5
+    y: 5
+    rotateEffect: true
+    rotation: 0
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-anisoptera-wing-left
+          particles: 1
+          length: 0
+          spin: 15
+          lifetime: 2
+          sizeFrom: 36
+          sizeTo: 36
+          baseRotation: 200
+          lightOpacity: 0
+        }
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-anisoptera-wing-left
+          particles: 1
+          length: 0
+          spin: -15
+          lifetime: 2
+          sizeFrom: 36
+          sizeTo: 36
+          baseRotation: 230
+          startDelay: 1
+          lightOpacity: 0
+        }
+      ]
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: 3.5
+    y: 5
+    rotateEffect: true
+    rotation: 0
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-anisoptera-wing-right
+          particles: 1
+          length: 0
+          spin: -15
+          lifetime: 2
+          sizeFrom: 36
+          sizeTo: 36
+          baseRotation: -20
+          lightOpacity: 0
+        }
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-anisoptera-wing-right
+          particles: 1
+          length: 0
+          spin: 15
+          lifetime: 2
+          sizeFrom: 36
+          sizeTo: 36
+          baseRotation: -50
+          startDelay: 1
+          lightOpacity: 0
+        }
+      ]
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: -3.5
+    y: 8
+    rotateEffect: true
+    rotation: 0
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-anisoptera-wing-left
+          particles: 1
+          length: 0
+          spin: 10
+          lifetime: 2
+          sizeFrom: 36
+          sizeTo: 36
+          baseRotation: 160
+          lightOpacity: 0
+        }
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-anisoptera-wing-left
+          particles: 1
+          length: 0
+          spin: -10
+          lifetime: 2
+          sizeFrom: 36
+          sizeTo: 36
+          baseRotation: 180
+          startDelay: 1
+          lightOpacity: 0
+        }
+      ]
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: 3.5
+    y: 8
+    rotateEffect: true
+    rotation: 0
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-anisoptera-wing-right
+          particles: 1
+          length: 0
+          spin: -10
+          lifetime: 2
+          sizeFrom: 36
+          sizeTo: 36
+          baseRotation: 20
+          lightOpacity: 0
+        }
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-anisoptera-wing-right
+          particles: 1
+          length: 0
+          spin: 10
+          lifetime: 2
+          sizeFrom: 36
+          sizeTo: 36
+          baseRotation: 0
+          startDelay: 1
+          lightOpacity: 0
+        }
+      ]
+    }
+  }
+]
