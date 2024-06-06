@@ -115,8 +115,8 @@ abilities: [
           length: 0
           spin: 15
           lifetime: 2
-          sizeFrom: 9
-          sizeTo: 9
+          sizeFrom: 16
+          sizeTo: 16
           baseRotation: 230
           lightOpacity: 0
         }
@@ -160,8 +160,8 @@ abilities: [
           length: 0
           spin: -15
           lifetime: 2
-          sizeFrom: 9
-          sizeTo: 9
+          sizeFrom: 16
+          sizeTo: 16
           baseRotation: -50
           lightOpacity: 0
         }
@@ -205,8 +205,8 @@ abilities: [
           length: 0
           spin: 10
           lifetime: 2
-          sizeFrom: 9
-          sizeTo: 9
+          sizeFrom: 16
+          sizeTo: 16
           baseRotation: 160
           lightOpacity: 0
         }
@@ -250,8 +250,8 @@ abilities: [
           length: 0
           spin: -10
           lifetime: 2
-          sizeFrom: 9
-          sizeTo: 9
+          sizeFrom: 16
+          sizeTo: 16
           baseRotation: -20
           lightOpacity: 0
         }
