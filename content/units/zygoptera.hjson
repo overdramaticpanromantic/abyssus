@@ -15,6 +15,7 @@ armor: 5
 engineSize: 0
 itemCapacity: 0
 hitSize: 22
+strafePenalty: 0.2
 weapons: [
   {
     name: zygoptera-weapon
