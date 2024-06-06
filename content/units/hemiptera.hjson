@@ -1,0 +1,238 @@
+type: flying
+template: ErekirUnitType
+name: Hemiptera
+description: Fires helicoidal blasts at nearby enemies. Equipped with a shockwave inducer. Highly delicate.
+lightColor: cca8fa
+outlineColor: 0f0f14
+lowAltitude: false
+flying: true
+drag: 0.08
+speed: 2.1
+rotateSpeed: 3.5
+accel: 0.09
+health: 1850
+armor: 4
+engineSize: 0
+itemCapacity: 0
+hitSize: 5.5
+weapons: [
+  {
+    name: hemiptera-weapon
+    x: 0
+    y: 9
+    shootSound: shootWonky
+    shootY: 0
+    mirror: false
+    reload: 30
+    shootCone: 60
+    shoot: {
+      type: ShootHelix
+      scl: 4
+      mag: 4
+    }
+    bullet: {
+      type: BasicBulletType
+      shootEffect: shootBigColor
+      smokeEffect: shootSmokeTitan
+      height: 14
+      width: 12
+      trailWidth: 3
+      trailLength: 11
+      backColor: 7a72af
+      frontColor: cca8fa
+      trailColor: 7a72af
+      hitColor: 7a72af
+      lifetime: 60
+      speed: 4
+      damage: 35
+      splashDamage: 30
+      splashDamageRadius: 16
+      pierce: false
+      hitEffect: hitBulletColor
+      despawnEffect: hitBulletColor
+      lightColor: 7a72af
+    }
+  }
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: -3
+    y: 0
+    rotateEffect: true
+    rotation: 0
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-hemiptera-wing-left-back
+          particles: 1
+          length: 0
+          spin: 15
+          lifetime: 2
+          sizeFrom: 9
+          sizeTo: 9
+          baseRotation: 210
+          lightOpacity: 0
+        }
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-hemiptera-wing-left-back
+          particles: 1
+          length: 0
+          spin: -15
+          lifetime: 2
+          sizeFrom: 16
+          sizeTo: 16
+          baseRotation: 240
+          startDelay: 1
+          lightOpacity: 0
+        }
+      ]
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: 3
+    y: 0
+    rotateEffect: true
+    rotation: 0
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-hemiptera-wing-right-back
+          particles: 1
+          length: 0
+          spin: -15
+          lifetime: 2
+          sizeFrom: 9
+          sizeTo: 9
+          baseRotation: -30
+          lightOpacity: 0
+        }
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-hemiptera-wing-right-back
+          particles: 1
+          length: 0
+          spin: 15
+          lifetime: 2
+          sizeFrom: 16
+          sizeTo: 16
+          baseRotation: -60
+          startDelay: 1
+          lightOpacity: 0
+        }
+      ]
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: -3
+    y: 2
+    rotateEffect: true
+    rotation: 0
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-hemiptera-wing-left-front
+          particles: 1
+          length: 0
+          spin: 10
+          lifetime: 2
+          sizeFrom: 9
+          sizeTo: 9
+          baseRotation: 140
+          lightOpacity: 0
+        }
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-hemiptera-wing-left-front
+          particles: 1
+          length: 0
+          spin: -10
+          lifetime: 2
+          sizeFrom: 16
+          sizeTo: 16
+          baseRotation: 160
+          startDelay: 1
+          lightOpacity: 0
+        }
+      ]
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: 3
+    y: 2
+    rotateEffect: true
+    rotation: 0
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-hemiptera-wing-right-front
+          particles: 1
+          length: 0
+          spin: -10
+          lifetime: 2
+          sizeFrom: 9
+          sizeTo: 9
+          baseRotation: 0
+          lightOpacity: 0
+        }
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-hemiptera-wing-right-front
+          particles: 1
+          length: 0
+          spin: 10
+          lifetime: 2
+          sizeFrom: 16
+          sizeTo: 16
+          baseRotation: 20
+          startDelay: 1
+          lightOpacity: 0
+        }
+      ]
+    }
+  }
+]
