@@ -22,14 +22,14 @@ weapons: [
     y: 9.5
     shootSound: shootBig
     layerOffset: -0.02
-    shootY: 0
+    shootY: 1
     mirror: false
     reload: 30
     shootCone: 60
     shoot: {
       type: ShootHelix
-      scl: 4
-      mag: 4
+      scl: 3
+      mag: 3
     }
     bullet: {
       type: BasicBulletType
