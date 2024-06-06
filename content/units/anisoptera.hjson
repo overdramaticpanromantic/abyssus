@@ -29,6 +29,7 @@ weapons: [
     inaccuracy: 5
     recoils: 3
     recoil: 2
+    shake: 2
     shoot: {
       type: ShootBarrel
       barrels: [
