@@ -38,7 +38,7 @@ weapons: [
       height: 14
       width: 12
       trailWidth: 3
-      trailLength: 11
+      trailLength: 30
       backColor: 7a72af
       frontColor: cca8fa
       trailColor: 7a72af
