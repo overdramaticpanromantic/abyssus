@@ -14,7 +14,7 @@ health: 790
 armor: 2
 engineSize: 0
 itemCapacity: 0
-hitSize: 5.5
+hitSize: 6.5
 weapons: [
   {
     name: vespidae-weapon
