@@ -22,7 +22,7 @@ weapons: [
     y: 28
     shootSound: shootKinetic
     shootY: 2
-    mirror: true
+    mirror: false
     reload: 8
     shootCone: 5
     inaccuracy: 5
