@@ -16,13 +16,16 @@
 
   description:
       '''
+      NOTICE: THIS MOD REQUIRES THE BLEEDING EDGE VERSION OF MINDUSTRY TO FUNCTION. GET THE BLEEDING EDGE VERSION AT https://github.com/Anuken/MindustryBuilds/releases
+
+      
       A desolate planet far from the sun. A lack of enemy presence would make it comforting, if not for what lurks beneath.
 
       Do not underestimate what this planet can throw at you.
       '''
 
   subtitle: "In active development."
-  minGameVersion : 146
+  minGameVersion : 147
   version : "1.0"
   dependencies: [
     "multi-crafter"
