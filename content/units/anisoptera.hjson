@@ -69,7 +69,6 @@ weapons: [
         y: 0
       }
     ]
-    }
     bullet: {
       type: BasicBulletType
       shootEffect: [
