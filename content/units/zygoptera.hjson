@@ -53,6 +53,7 @@ weapons: [
       hitEffect: hitBulletColor
       despawnEffect: hitBulletColor
       lightColor: 7a72af
+      homingRange: 120
     }
   }
   {
@@ -91,6 +92,7 @@ weapons: [
       hitEffect: hitBulletColor
       despawnEffect: hitBulletColor
       lightColor: 7a72af
+      homingRange: 120
     }
   }
 ]
