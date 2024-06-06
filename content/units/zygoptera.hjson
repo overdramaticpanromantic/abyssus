@@ -26,7 +26,7 @@ weapons: [
     mirror: true
     reload: 30
     shootCone: 360
-    baseRotation: -135
+    baseRotation: 135
     shoot: {
       type: ShootAlternate
     }
@@ -35,10 +35,10 @@ weapons: [
       shootEffect: shootBigColor
       smokeEffect: shootBigSmoke
       homingPower: 0.4
-      height: 14
-      width: 12
-      trailWidth: 3
-      trailLength: 30
+      height: 10
+      width: 6
+      trailWidth: 2
+      trailLength: 5
       backColor: 7a72af
       frontColor: cca8fa
       trailColor: 7a72af
@@ -64,7 +64,7 @@ weapons: [
     mirror: true
     reload: 30
     shootCone: 360
-    baseRotation: -135
+    baseRotation: 135
     shoot: {
       type: ShootAlternate
     }
@@ -73,10 +73,10 @@ weapons: [
       shootEffect: shootBigColor
       smokeEffect: shootBigSmoke
       homingPower: 0.4
-      height: 14
-      width: 12
-      trailWidth: 3
-      trailLength: 30
+      height: 10
+      width: 6
+      trailWidth: 2
+      trailLength: 5
       backColor: 7a72af
       frontColor: cca8fa
       trailColor: 7a72af
@@ -222,7 +222,7 @@ abilities: [
           lifetime: 2
           sizeFrom: 16
           sizeTo: 16
-          baseRotation: 200
+          baseRotation: 180
           startDelay: 1
           lightOpacity: 0
         }
