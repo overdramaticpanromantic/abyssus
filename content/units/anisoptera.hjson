@@ -24,7 +24,7 @@ weapons: [
     layerOffset: -0.02
     shootY: 2
     mirror: true
-    reload: 30
+    reload: 8
     shootCone: 5
     inaccuracy: 5
     recoils: 3
