@@ -21,6 +21,7 @@ weapons: [
     x: 0
     y: 9
     shootSound: shootWonky
+    layerOffset: -0.02
     shootY: 0
     mirror: false
     reload: 30
