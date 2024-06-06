@@ -15,7 +15,7 @@ armor: 2
 engineSize: 0
 itemCapacity: 0
 hitSize: 6.5
-strafePenalty: 0.4
+strafePenalty: 0.6
 weapons: [
   {
     name: vespidae-weapon
