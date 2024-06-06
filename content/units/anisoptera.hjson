@@ -97,6 +97,120 @@ weapons: [
       lightColor: 7a72af
     }
   }
+  {
+    name: anisoptera-missile-launcher
+    x: -3.5
+    y: -2
+    shootSound: missileSmall
+    layerOffset: -0.02
+    shootY: 1
+    mirror: true
+    reload: 30
+    shootCone: 360
+    baseRotation: 135
+    shoot: {
+      type: ShootAlternate
+    }
+    bullet: {
+      type: MissileBulletType
+      shootEffect: shootBigColor
+      smokeEffect: shootBigSmoke
+      homingPower: 0.4
+      height: 12
+      width: 8
+      trailWidth: 2.5
+      trailLength: 8
+      backColor: 7a72af
+      frontColor: cca8fa
+      trailColor: 7a72af
+      hitColor: 7a72af
+      lifetime: 110
+      speed: 4
+      damage: 90
+      splashDamage: 70
+      splashDamageRadius: 20
+      pierce: false
+      hitEffect: hitBulletColor
+      despawnEffect: hitBulletColor
+      lightColor: 7a72af
+    }
+  }
+  {
+    name: anisoptera-missile-launcher
+    x: 2.75
+    y: -12
+    shootSound: missileSmall
+    layerOffset: -0.02
+    shootY: 1
+    mirror: true
+    reload: 30
+    shootCone: 360
+    baseRotation: -135
+    shoot: {
+      type: ShootAlternate
+    }
+    bullet: {
+      type: MissileBulletType
+      shootEffect: shootBigColor
+      smokeEffect: shootBigSmoke
+      homingPower: 0.4
+      height: 12
+      width: 8
+      trailWidth: 2.5
+      trailLength: 8
+      backColor: 7a72af
+      frontColor: cca8fa
+      trailColor: 7a72af
+      hitColor: 7a72af
+      lifetime: 110
+      speed: 4
+      damage: 90
+      splashDamage: 70
+      splashDamageRadius: 20
+      pierce: false
+      hitEffect: hitBulletColor
+      despawnEffect: hitBulletColor
+      lightColor: 7a72af
+    }
+  }
+  {
+    name: anisoptera-missile-launcher
+    x: -2
+    y: -22
+    shootSound: missileSmall
+    layerOffset: -0.02
+    shootY: 1
+    mirror: true
+    reload: 30
+    shootCone: 360
+    baseRotation: 135
+    shoot: {
+      type: ShootAlternate
+    }
+    bullet: {
+      type: MissileBulletType
+      shootEffect: shootBigColor
+      smokeEffect: shootBigSmoke
+      homingPower: 0.4
+      height: 12
+      width: 8
+      trailWidth: 2.5
+      trailLength: 8
+      backColor: 7a72af
+      frontColor: cca8fa
+      trailColor: 7a72af
+      hitColor: 7a72af
+      lifetime: 110
+      speed: 4
+      damage: 90
+      splashDamage: 70
+      splashDamageRadius: 20
+      pierce: false
+      hitEffect: hitBulletColor
+      despawnEffect: hitBulletColor
+      lightColor: 7a72af
+    }
+  }
 ]
 abilities: [
   {
