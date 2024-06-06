@@ -54,6 +54,7 @@ weapons: [
       hitEffect: hitSquaresColor
       despawnEffect: hitSquaresColor
       lightColor: 7a72af
+      homingRange: 90
     }
   }
 ]
