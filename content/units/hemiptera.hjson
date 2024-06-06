@@ -1,7 +1,7 @@
 type: flying
 template: ErekirUnitType
 name: Hemiptera
-description: Fires helicoidal blasts at nearby enemies. Equipped with a shockwave inducer. Highly delicate.
+description: Fires helicoidal blasts at nearby enemies. Highly delicate.
 lightColor: cca8fa
 outlineColor: 0f0f14
 lowAltitude: false
