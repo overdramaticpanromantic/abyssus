@@ -19,8 +19,8 @@ weapons: [
   {
     name: hemiptera-weapon
     x: 0
-    y: 9
-    shootSound: shootWonky
+    y: 9.5
+    shootSound: shootBig
     layerOffset: -0.02
     shootY: 0
     mirror: false
@@ -79,7 +79,7 @@ abilities: [
           lifetime: 2
           sizeFrom: 9
           sizeTo: 9
-          baseRotation: 210
+          baseRotation: 190
           lightOpacity: 0
         }
         {
@@ -94,7 +94,7 @@ abilities: [
           lifetime: 2
           sizeFrom: 16
           sizeTo: 16
-          baseRotation: 240
+          baseRotation: 220
           startDelay: 1
           lightOpacity: 0
         }
@@ -124,7 +124,7 @@ abilities: [
           lifetime: 2
           sizeFrom: 9
           sizeTo: 9
-          baseRotation: -30
+          baseRotation: -10
           lightOpacity: 0
         }
         {
@@ -139,7 +139,7 @@ abilities: [
           lifetime: 2
           sizeFrom: 16
           sizeTo: 16
-          baseRotation: -60
+          baseRotation: -40
           startDelay: 1
           lightOpacity: 0
         }
@@ -169,7 +169,7 @@ abilities: [
           lifetime: 2
           sizeFrom: 9
           sizeTo: 9
-          baseRotation: 140
+          baseRotation: 120
           lightOpacity: 0
         }
         {
@@ -184,7 +184,7 @@ abilities: [
           lifetime: 2
           sizeFrom: 16
           sizeTo: 16
-          baseRotation: 160
+          baseRotation: 140
           startDelay: 1
           lightOpacity: 0
         }
@@ -214,7 +214,7 @@ abilities: [
           lifetime: 2
           sizeFrom: 9
           sizeTo: 9
-          baseRotation: 0
+          baseRotation: 20
           lightOpacity: 0
         }
         {
@@ -229,7 +229,7 @@ abilities: [
           lifetime: 2
           sizeFrom: 16
           sizeTo: 16
-          baseRotation: 20
+          baseRotation: 40
           startDelay: 1
           lightOpacity: 0
         }
