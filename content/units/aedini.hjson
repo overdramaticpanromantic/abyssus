@@ -14,7 +14,7 @@ health: 280
 armor: 1
 engineSize: 0
 itemCapacity: 0
-hitSize: 4.5
+hitSize: 3.5
 weapons: [
   {
     name: aedini-weapon
