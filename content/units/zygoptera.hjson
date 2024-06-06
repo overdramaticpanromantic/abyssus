@@ -1,0 +1,277 @@
+type: flying
+template: ErekirUnitType
+name: Zygoptera
+description: Fires homing missiles at nearby enemies. Highly delicate.
+lightColor: cca8fa
+outlineColor: 0f0f14
+lowAltitude: false
+flying: true
+drag: 0.08
+speed: 2.25
+rotateSpeed: 3.75
+accel: 0.09
+health: 4450
+armor: 5
+engineSize: 0
+itemCapacity: 0
+hitSize: 22
+weapons: [
+  {
+    name: zygoptera-weapon
+    x: -2.5
+    y: -1
+    shootSound: missileSmall
+    layerOffset: -0.02
+    shootY: 1
+    mirror: true
+    reload: 30
+    shootCone: 30
+    baseRotation: -135
+    shoot: {
+      type: ShootAlternate
+    }
+    bullet: {
+      type: MissileBulletType
+      shootEffect: shootBigColor
+      smokeEffect: shootBigSmoke
+      homingPower: 0.4
+      height: 14
+      width: 12
+      trailWidth: 3
+      trailLength: 30
+      backColor: 7a72af
+      frontColor: cca8fa
+      trailColor: 7a72af
+      hitColor: 7a72af
+      lifetime: 135
+      speed: 3
+      damage: 85
+      splashDamage: 50
+      splashDamageRadius: 16
+      pierce: false
+      hitEffect: hitBulletColor
+      despawnEffect: hitBulletColor
+      lightColor: 7a72af
+    }
+  }
+  {
+    name: zygoptera-weapon
+    x: -1.5
+    y: -6.5
+    shootSound: missileSmall
+    layerOffset: -0.02
+    shootY: 1
+    mirror: true
+    reload: 30
+    shootCone: 30
+    baseRotation: -135
+    shoot: {
+      type: ShootAlternate
+    }
+    bullet: {
+      type: MissileBulletType
+      shootEffect: shootBigColor
+      smokeEffect: shootBigSmoke
+      homingPower: 0.4
+      height: 14
+      width: 12
+      trailWidth: 3
+      trailLength: 30
+      backColor: 7a72af
+      frontColor: cca8fa
+      trailColor: 7a72af
+      hitColor: 7a72af
+      lifetime: 135
+      speed: 3
+      damage: 85
+      splashDamage: 50
+      splashDamageRadius: 16
+      pierce: false
+      hitEffect: hitBulletColor
+      despawnEffect: hitBulletColor
+      lightColor: 7a72af
+    }
+  }
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: -2.5
+    y: 4.5
+    rotateEffect: true
+    rotation: 0
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-zygoptera-wing-left
+          particles: 1
+          length: 0
+          spin: 15
+          lifetime: 2
+          sizeFrom: 9
+          sizeTo: 9
+          baseRotation: 230
+          lightOpacity: 0
+        }
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-zygoptera-wing-left
+          particles: 1
+          length: 0
+          spin: -15
+          lifetime: 2
+          sizeFrom: 16
+          sizeTo: 16
+          baseRotation: 260
+          startDelay: 1
+          lightOpacity: 0
+        }
+      ]
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: 2.5
+    y: 4.5
+    rotateEffect: true
+    rotation: 0
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-zygoptera-wing-right
+          particles: 1
+          length: 0
+          spin: -15
+          lifetime: 2
+          sizeFrom: 9
+          sizeTo: 9
+          baseRotation: -50
+          lightOpacity: 0
+        }
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-zygoptera-wing-right
+          particles: 1
+          length: 0
+          spin: 15
+          lifetime: 2
+          sizeFrom: 16
+          sizeTo: 16
+          baseRotation: -80
+          startDelay: 1
+          lightOpacity: 0
+        }
+      ]
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: -2.5
+    y: 7
+    rotateEffect: true
+    rotation: 0
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-zygoptera-wing-left
+          particles: 1
+          length: 0
+          spin: 10
+          lifetime: 2
+          sizeFrom: 9
+          sizeTo: 9
+          baseRotation: 160
+          lightOpacity: 0
+        }
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-zygoptera-wing-left
+          particles: 1
+          length: 0
+          spin: -10
+          lifetime: 2
+          sizeFrom: 16
+          sizeTo: 16
+          baseRotation: 200
+          startDelay: 1
+          lightOpacity: 0
+        }
+      ]
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 2
+    x: 2.5
+    y: 7
+    rotateEffect: true
+    rotation: 0
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-zygoptera-wing-right
+          particles: 1
+          length: 0
+          spin: -10
+          lifetime: 2
+          sizeFrom: 9
+          sizeTo: 9
+          baseRotation: -20
+          lightOpacity: 0
+        }
+        {
+          type: ParticleEffect
+          layer: 116
+          followParent: true
+          rotWithParent: true
+          region: abyssus-zygoptera-wing-right
+          particles: 1
+          length: 0
+          spin: 10
+          lifetime: 2
+          sizeFrom: 16
+          sizeTo: 16
+          baseRotation: 0
+          startDelay: 1
+          lightOpacity: 0
+        }
+      ]
+    }
+  }
+]
