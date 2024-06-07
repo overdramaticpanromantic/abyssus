@@ -43,6 +43,7 @@ weapons: [
     rotate: false
     bullet: {
       maxRange: 45
+      lightColor: 73ba91
     }
   }
 ]
