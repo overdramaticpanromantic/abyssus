@@ -79,6 +79,7 @@ abilities: [
           sizeTo: 9
           baseRotation: 210
           lightOpacity: 0
+          followParent: true
         }
         {
           type: ParticleEffect
@@ -95,6 +96,7 @@ abilities: [
           baseRotation: 270
           startDelay: 1
           lightOpacity: 0
+          followParent: true
         }
       ]
     }
@@ -124,6 +126,7 @@ abilities: [
           sizeTo: 9
           baseRotation: -30
           lightOpacity: 0
+          followParent: true
         }
         {
           type: ParticleEffect
@@ -140,6 +143,7 @@ abilities: [
           baseRotation: -60
           startDelay: 1
           lightOpacity: 0
+          followParent: true
         }
       ]
     }
