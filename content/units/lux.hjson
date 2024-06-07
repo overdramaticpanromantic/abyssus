@@ -1,0 +1,33 @@
+type: flying
+template: ErekirUnitType
+name: Lux
+description: Repairs damaged structures.
+lightColor: cca8fa
+outlineColor: 73ba91
+lowAltitude: true
+flying: true
+drag: 0.08
+speed: 4
+rotateSpeed: 3
+accel: 0.09
+health: 320
+armor: 2
+engineSize: 0
+itemCapacity: 0
+hitSize: 3.5
+strafePenalty: 1
+parts: [
+  {
+    type: RegionPart
+    suffix: -propeller
+    x: -5.25
+    y: 0.25
+    progress: time
+    mirror: true
+    outline: false
+    layerOffset: -0.001
+    moveX: 0
+    moveY: 0
+    moveRot: 1
+  }
+]
