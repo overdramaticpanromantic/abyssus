@@ -16,6 +16,7 @@ engineSize: 0
 itemCapacity: 0
 hitSize: 6
 strafePenalty: 1
+isEnemy: false
 commands: [
   move,
   repair
