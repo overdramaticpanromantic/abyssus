@@ -27,6 +27,7 @@ weapons: [
     mirror: false
     reload: 30
     shootCone: 30
+    shake: 1
     shoot: {
       type: ShootHelix
       scl: 3
