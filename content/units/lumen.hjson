@@ -1,0 +1,124 @@
+type: flying
+template: ErekirUnitType
+name: Lumen
+description: Rebuilds destroyed structures. Can assist the player in construction.
+lightColor: 73ba91
+outlineColor: 0f0f14
+lowAltitude: true
+flying: true
+drag: 0.08
+speed: 3.5
+rotateSpeed: 5
+accel: 0.09
+health: 950
+armor: 3
+engineSize: 0
+itemCapacity: 0
+hitSize: 12
+strafePenalty: 1
+isEnemy: false
+buildSpeed: 1
+buildBeamOffset: 7.5
+commands: [
+  move,
+  rebuild,
+  assist
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 10
+    x: -5
+    y: 5
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: abyssus-lumen-propeller
+      particles: 1
+      length: 0
+      spin: -36
+      lifetime: 10
+      sizeFrom: 7
+      sizeTo: 7
+      lightOpacity: 0
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 10
+    x: -5
+    y: -5
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: abyssus-lumen-propeller
+      particles: 1
+      length: 0
+      spin: 36
+      lifetime: 10
+      sizeFrom: 7
+      sizeTo: 7
+      lightOpacity: 0
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 10
+    x: 5
+    y: 5
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: abyssus-lumen-propeller
+      particles: 1
+      length: 0
+      spin: 36
+      lifetime: 10
+      sizeFrom: 7
+      sizeTo: 7
+      lightOpacity: 0
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 10
+    x: 5
+    y: -5
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: abyssus-lumen-propeller
+      particles: 1
+      length: 0
+      spin: 36
+      lifetime: 10
+      sizeFrom: 7
+      sizeTo: 7
+      lightOpacity: 0
+    }
+  }
+]
