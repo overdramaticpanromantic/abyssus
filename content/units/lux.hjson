@@ -20,6 +20,32 @@ commands: [
   move,
   repair
 ]
+weapons: [
+  {
+    type: RepairBeamWeapon
+    widthSinMag: 0.11
+    beamWidth: 0.7
+    shootY: 0
+    repairSpeed: 3.5
+    fractionRepairSpeed: 0.05
+    shootCone: 15
+    healColor: 98ffa9
+    // Pal.heal
+    laserColor: 98ffa9
+    // Pal.heal
+    targetUnits: false
+    targetBuildings: true
+    autoTarget: false
+    controllable: true
+    x: 0
+    y: 5
+    mirror: false
+    rotate: false
+    bullet: {
+      maxRange: 45
+    }
+  }
+]
 abilities: [
   {
     type: MoveEffectAbility
