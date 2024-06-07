@@ -79,6 +79,8 @@ weapons: [
       hitEffect: hitSquaresColor
       despawnEffect: hitSquaresColor
       lightColor: 9db9ed
+      status: punctured
+      statusDuration: 360
     }
   }
 ]
