@@ -29,6 +29,7 @@ abilities: [
     y: 0
     rotateEffect: true
     rotation: 0
+    parentizeEffects: true
     effect: {
       type: MultiEffect
       effects: [
