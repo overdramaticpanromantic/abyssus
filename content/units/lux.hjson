@@ -66,8 +66,8 @@ abilities: [
       length: 0
       spin: -36
       lifetime: 10
-      sizeFrom: 9
-      sizeTo: 9
+      sizeFrom: 7
+      sizeTo: 7
       lightOpacity: 0
     }
   }
@@ -90,8 +90,8 @@ abilities: [
       length: 0
       spin: 36
       lifetime: 10
-      sizeFrom: 9
-      sizeTo: 9
+      sizeFrom: 7
+      sizeTo: 7
       lightOpacity: 0
     }
   }
