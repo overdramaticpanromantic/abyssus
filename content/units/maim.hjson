@@ -13,6 +13,7 @@ outlineColor: 0f0f14
 health: 4450
 armor: 9
 itemCapacity: 0
+crushDamage: 1.5
 hitSize: 25
 treadRects: [
   {
