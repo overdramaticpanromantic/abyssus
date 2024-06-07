@@ -105,6 +105,7 @@ abilities: [
     y: 4.5
     rotateEffect: true
     rotation: 0
+    parentizeEffects: true
     effect: {
       type: MultiEffect
       effects: [
@@ -150,6 +151,7 @@ abilities: [
     y: 4.5
     rotateEffect: true
     rotation: 0
+    parentizeEffects: true
     effect: {
       type: MultiEffect
       effects: [
@@ -195,6 +197,7 @@ abilities: [
     y: 7
     rotateEffect: true
     rotation: 0
+    parentizeEffects: true
     effect: {
       type: MultiEffect
       effects: [
@@ -240,6 +243,7 @@ abilities: [
     y: 7
     rotateEffect: true
     rotation: 0
+    parentizeEffects: true
     effect: {
       type: MultiEffect
       effects: [
