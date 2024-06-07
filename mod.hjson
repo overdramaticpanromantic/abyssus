@@ -29,6 +29,5 @@
   version : "1.0"
   dependencies: [
     "multi-crafter"
-    "black-hole-renderer"
   ]
 }
