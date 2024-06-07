@@ -16,29 +16,3 @@ engineSize: 0
 itemCapacity: 0
 hitSize: 6
 strafePenalty: 1
-weapons: [
-  {
-    name: lux-weapon
-    x: 0
-    y: 0
-    mirror: false
-    display: false
-    showStatSprite: false
-    noAttack: true
-    minShootVelocity: 2
-    parts: [
-      {
-        type: RegionPart
-        suffix: -propeller
-        x: -5
-        y: -0.25
-        progress: time
-        mirror: true
-        outline: false
-        layer: 91
-        moveX: 0
-        moveY: 0
-      }
-    ]
-  }
-]
