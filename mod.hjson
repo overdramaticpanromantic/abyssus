@@ -25,8 +25,8 @@
       '''
 
   subtitle: "In active development."
-  minGameVersion : 146
-  version : "1.0"
+  minGameVersion : 147
+  version : "0.1"
   dependencies: [
     "multi-crafter"
   ]
