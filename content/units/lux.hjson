@@ -24,30 +24,49 @@ abilities: [
   {
     type: MoveEffectAbility
     minVelocity: 0
-    interval: 19
+    interval: 9
     x: -5
     y: 0
     rotateEffect: true
     rotation: 0
     parentizeEffects: true
     effect: {
-      type: MultiEffect
-      effects: [
-        {
-          type: ParticleEffect
-          layer: 91
-          followParent: true
-          rotWithParent: true
-          region: abyssus-lux-propeller
-          particles: 1
-          length: 0
-          spin: 18
-          lifetime: 20
-          sizeFrom: 9
-          sizeTo: 9
-          lightOpacity: 0
-        }
-      ]
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: abyssus-lux-propeller
+      particles: 1
+      length: 0
+      spin: -36
+      lifetime: 10
+      sizeFrom: 9
+      sizeTo: 9
+      lightOpacity: 0
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 9
+    x: 5
+    y: 0
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: abyssus-lux-propeller
+      particles: 1
+      length: 0
+      spin: 36
+      lifetime: 10
+      sizeFrom: 9
+      sizeTo: 9
+      lightOpacity: 0
     }
   }
 ]
