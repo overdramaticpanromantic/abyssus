@@ -16,17 +16,25 @@ engineSize: 0
 itemCapacity: 0
 hitSize: 6
 strafePenalty: 1
-parts: [
+weapons: [
   {
-    type: RegionPart
-    suffix: -propeller
-    x: -5
-    y: -0.25
-    progress: time
-    mirror: true
-    outline: false
-    layer: 91
-    moveX: 0
-    moveY: 0
+    name: lux-weapon
+    x: 0
+    y: 0
+    mirror: false
+    parts: [
+      {
+        type: RegionPart
+        suffix: -propeller
+        x: -5
+        y: -0.25
+        progress: time
+        mirror: true
+        outline: false
+        layer: 91
+        moveX: 0
+        moveY: 0
+      }
+    ]
   }
 ]
