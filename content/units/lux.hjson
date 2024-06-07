@@ -25,7 +25,7 @@ parts: [
     progress: time
     mirror: true
     outline: false
-    layerOffset: -0.001
+    layerOffset: 0.001
     moveX: 0
     moveY: 0
     moveRot: 1
