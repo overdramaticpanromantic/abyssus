@@ -20,14 +20,14 @@ parts: [
   {
     type: RegionPart
     suffix: -propeller
-    x: -5.25
-    y: 0.25
+    x: -5
+    y: 0
     progress: time
     mirror: true
     outline: false
     layer: 91
     moveX: 0
     moveY: 0
-    moveRot: 1
+    moveRot: 999999
   }
 ]
