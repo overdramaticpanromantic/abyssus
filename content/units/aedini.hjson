@@ -95,7 +95,7 @@ abilities: [
           lifetime: 2
           sizeFrom: 9
           sizeTo: 9
-          baseRotation: 270
+          baseRotation: 240
           startDelay: 1
           lightOpacity: 0
         }
