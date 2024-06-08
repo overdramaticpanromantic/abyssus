@@ -30,7 +30,7 @@ weapons: [
     ejectEffect: none
     smokeEffect: none
     shootEffect: shootSpark
-    reload: 180
+    reload: 90
     bullet: {
       type: BasicBulletType
       keepVelocity: false
