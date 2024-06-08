@@ -152,6 +152,16 @@ weapons: [
 ]
 abilities: [
   {
+    type: ShieldArcAbility
+    region: brazier-shield
+    radius: 90
+    width: 8
+    whenShooting: false
+    regen: 2.5
+    max: 4900
+    cooldown: 480
+  }
+  {
     type: MoveEffectAbility
     minVelocity: 0
     interval: 9
