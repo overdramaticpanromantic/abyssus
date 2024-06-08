@@ -164,7 +164,7 @@ abilities: [
       effects: [
         {
           type: ParticleEffect
-          layer: 116
+          layer: 115.5
           followParent: true
           rotWithParent: true
           region: abyssus-hemiptera-wing-left-front
@@ -179,7 +179,7 @@ abilities: [
         }
         {
           type: ParticleEffect
-          layer: 116
+          layer: 115.5
           followParent: true
           rotWithParent: true
           region: abyssus-hemiptera-wing-left-front
@@ -210,7 +210,7 @@ abilities: [
       effects: [
         {
           type: ParticleEffect
-          layer: 116
+          layer: 115.5
           followParent: true
           rotWithParent: true
           region: abyssus-hemiptera-wing-right-front
@@ -225,7 +225,7 @@ abilities: [
         }
         {
           type: ParticleEffect
-          layer: 116
+          layer: 115.5
           followParent: true
           rotWithParent: true
           region: abyssus-hemiptera-wing-right-front
