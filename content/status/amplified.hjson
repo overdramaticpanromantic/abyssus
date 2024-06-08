@@ -1,0 +1,5 @@
+name: Amplified
+outline: false
+healthMultiplier: 1.05
+damageMultiplier: 1.10
+speedMultiplier: 1.05
