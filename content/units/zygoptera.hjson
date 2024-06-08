@@ -203,7 +203,7 @@ abilities: [
       effects: [
         {
           type: ParticleEffect
-          layer: 116
+          layer: 115.5
           followParent: true
           rotWithParent: true
           region: abyssus-zygoptera-wing-left
@@ -218,7 +218,7 @@ abilities: [
         }
         {
           type: ParticleEffect
-          layer: 116
+          layer: 115.5
           followParent: true
           rotWithParent: true
           region: abyssus-zygoptera-wing-left
@@ -249,7 +249,7 @@ abilities: [
       effects: [
         {
           type: ParticleEffect
-          layer: 116
+          layer: 115.5
           followParent: true
           rotWithParent: true
           region: abyssus-zygoptera-wing-right
@@ -264,7 +264,7 @@ abilities: [
         }
         {
           type: ParticleEffect
-          layer: 116
+          layer: 115.5
           followParent: true
           rotWithParent: true
           region: abyssus-zygoptera-wing-right
