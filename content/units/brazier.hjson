@@ -36,7 +36,7 @@ weapons: [
     autoTarget: false
     controllable: false
     autoTarget: true
-    x: -8
+    x: -10
     y: -1
     mirror: true
     rotate: true
@@ -62,60 +62,8 @@ weapons: [
     autoTarget: false
     controllable: false
     autoTarget: true
-    x: -14
-    y: 4
-    mirror: true
-    rotate: true
-    bullet: {
-      maxRange: 90
-      lightColor: 73ba91
-    }
-  }
-  {
-    type: RepairBeamWeapon
-    name: brazier-weapon
-    widthSinMag: 0.11
-    beamWidth: 0.8
-    shootY: 3
-    repairSpeed: 1.2
-    shootCone: 15
-    healColor: 98ffa9
-    // Pal.heal
-    laserColor: 98ffa9
-    // Pal.heal
-    targetUnits: true
-    targetBuildings: false
-    autoTarget: false
-    controllable: false
-    autoTarget: true
-    x: -18
-    y: 0
-    mirror: true
-    rotate: true
-    bullet: {
-      maxRange: 90
-      lightColor: 73ba91
-    }
-  }
-  {
-    type: RepairBeamWeapon
-    name: brazier-weapon
-    widthSinMag: 0.11
-    beamWidth: 0.8
-    shootY: 3
-    repairSpeed: 1.2
-    shootCone: 15
-    healColor: 98ffa9
-    // Pal.heal
-    laserColor: 98ffa9
-    // Pal.heal
-    targetUnits: true
-    targetBuildings: false
-    autoTarget: false
-    controllable: false
-    autoTarget: true
     x: -17
-    y: -4
+    y: 6
     mirror: true
     rotate: true
     bullet: {
@@ -140,8 +88,60 @@ weapons: [
     autoTarget: false
     controllable: false
     autoTarget: true
-    x: -20
-    y: -2.5
+    x: -24
+    y: -3
+    mirror: true
+    rotate: true
+    bullet: {
+      maxRange: 90
+      lightColor: 73ba91
+    }
+  }
+  {
+    type: RepairBeamWeapon
+    name: brazier-weapon
+    widthSinMag: 0.11
+    beamWidth: 0.8
+    shootY: 3
+    repairSpeed: 1.2
+    shootCone: 15
+    healColor: 98ffa9
+    // Pal.heal
+    laserColor: 98ffa9
+    // Pal.heal
+    targetUnits: true
+    targetBuildings: false
+    autoTarget: false
+    controllable: false
+    autoTarget: true
+    x: -22
+    y: -9
+    mirror: true
+    rotate: true
+    bullet: {
+      maxRange: 90
+      lightColor: 73ba91
+    }
+  }
+  {
+    type: RepairBeamWeapon
+    name: brazier-weapon
+    widthSinMag: 0.11
+    beamWidth: 0.8
+    shootY: 3
+    repairSpeed: 1.2
+    shootCone: 15
+    healColor: 98ffa9
+    // Pal.heal
+    laserColor: 98ffa9
+    // Pal.heal
+    targetUnits: true
+    targetBuildings: false
+    autoTarget: false
+    controllable: false
+    autoTarget: true
+    x: -26
+    y: -11
     mirror: true
     rotate: true
     bullet: {
@@ -155,7 +155,7 @@ abilities: [
     type: MoveEffectAbility
     minVelocity: 0
     interval: 9
-    x: -11.25
+    x: -12.25
     y: -10.25
     rotateEffect: true
     rotation: 0
@@ -179,7 +179,7 @@ abilities: [
     type: MoveEffectAbility
     minVelocity: 0
     interval: 9
-    x: 11.25
+    x: 12.25
     y: -10.25
     rotateEffect: true
     rotation: 0
@@ -203,8 +203,8 @@ abilities: [
     type: MoveEffectAbility
     minVelocity: 0
     interval: 9
-    x: -37
-    y: -12.25
+    x: -38
+    y: -12.5
     rotateEffect: true
     rotation: 0
     parentizeEffects: true
@@ -227,8 +227,8 @@ abilities: [
     type: MoveEffectAbility
     minVelocity: 0
     interval: 9
-    x: 37
-    y: -12.25
+    x: 38
+    y: -12.5
     rotateEffect: true
     rotation: 0
     parentizeEffects: true
@@ -251,7 +251,7 @@ abilities: [
     type: MoveEffectAbility
     minVelocity: 0
     interval: 9
-    x: -25.25
+    x: -26.25
     y: 11
     rotateEffect: true
     rotation: 0
@@ -275,7 +275,7 @@ abilities: [
     type: MoveEffectAbility
     minVelocity: 0
     interval: 9
-    x: 25.25
+    x: 26.25
     y: 11
     rotateEffect: true
     rotation: 0
