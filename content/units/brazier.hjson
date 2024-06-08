@@ -153,11 +153,9 @@ weapons: [
 abilities: [
   {
     type: ShieldArcAbility
-    region: abyssus-brazier-shield
     radius: 90
     width: 10
     y: -70
-    offsetRegion: false
     whenShooting: false
     regen: 2.5
     max: 4900
