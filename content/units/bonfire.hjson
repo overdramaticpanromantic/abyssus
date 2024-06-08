@@ -7,17 +7,16 @@ outlineColor: 0f0f14
 lowAltitude: true
 flying: true
 drag: 0.08
-speed: 3
-rotateSpeed: 4
+speed: 2
+rotateSpeed: 3
 accel: 0.09
-health: 1900
-armor: 4
+health: 5400
+armor: 6
 engineSize: 0
 itemCapacity: 0
 hitSize: 36
 strafePenalty: 1
 isEnemy: false
-faceTarget: false
 weapons: [
   {
     name: bonfire-weapon
@@ -31,6 +30,7 @@ weapons: [
     ejectEffect: none
     smokeEffect: none
     shootEffect: shootSpark
+    reload: 180
     bullet: {
       type: BasicBulletType
       keepVelocity: false
