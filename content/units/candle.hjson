@@ -1,0 +1,193 @@
+type: flying
+template: ErekirUnitType
+name: Candle
+description: Heals damaged units in battle. Best used to support one or two large units.
+lightColor: 73ba91
+outlineColor: 0f0f14
+lowAltitude: true
+flying: true
+drag: 0.08
+speed: 3
+rotateSpeed: 4
+accel: 0.09
+health: 1900
+armor: 4
+engineSize: 0
+itemCapacity: 0
+hitSize: 24
+strafePenalty: 1
+isEnemy: false
+commands: move
+weapons: [
+  {
+    type: RepairBeamWeapon
+    name: candle-weapon
+    widthSinMag: 0.11
+    beamWidth: 0.8
+    shootY: 3
+    repairSpeed: 0.7
+    shootCone: 15
+    healColor: 98ffa9
+    // Pal.heal
+    laserColor: 98ffa9
+    // Pal.heal
+    targetUnits: true
+    targetBuildings: false
+    autoTarget: false
+    controllable: true
+    x: -5
+    y: -3.5
+    mirror: true
+    rotate: true
+    bullet: {
+      maxRange: 90
+      lightColor: 73ba91
+    }
+  }
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 9
+    x: -7.75
+    y: 11
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: abyssus-candle-propeller-small
+      particles: 1
+      length: 0
+      spin: -36
+      lifetime: 10
+      sizeFrom: 7
+      sizeTo: 7
+      lightOpacity: 0
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 9
+    x: 7.75
+    y: 11
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: abyssus-candle-propeller-small
+      particles: 1
+      length: 0
+      spin: 36
+      lifetime: 10
+      sizeFrom: 7
+      sizeTo: 7
+      lightOpacity: 0
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 9
+    x: -7.75
+    y: -11
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: abyssus-candle-propeller-small
+      particles: 1
+      length: 0
+      spin: -36
+      lifetime: 10
+      sizeFrom: 7
+      sizeTo: 7
+      lightOpacity: 0
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 9
+    x: 7.75
+    y: -11
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: abyssus-candle-propeller-small
+      particles: 1
+      length: 0
+      spin: 36
+      lifetime: 10
+      sizeFrom: 7
+      sizeTo: 7
+      lightOpacity: 0
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 9
+    x: -10
+    y: 0
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: abyssus-candle-propeller-large
+      particles: 1
+      length: 0
+      spin: -36
+      lifetime: 10
+      sizeFrom: 14
+      sizeTo: 14
+      lightOpacity: 0
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 9
+    x: 10
+    y: 0
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: abyssus-candle-propeller-large
+      particles: 1
+      length: 0
+      spin: 36
+      lifetime: 10
+      sizeFrom: 14
+      sizeTo: 14
+      lightOpacity: 0
+    }
+  }
+]
