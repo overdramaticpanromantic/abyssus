@@ -155,8 +155,8 @@ abilities: [
     type: ShieldArcAbility
     region: abyssus-brazier-shield
     radius: 90
-    width: 80
-    y: -30
+    width: 10
+    y: -45
     offsetRegion: false
     whenShooting: false
     regen: 2.5
