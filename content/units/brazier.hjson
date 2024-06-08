@@ -1,0 +1,298 @@
+type: flying
+template: ErekirUnitType
+name: Brazier
+description: Heals damaged units in battle. Best used to support many smaller units.
+lightColor: 73ba91
+outlineColor: 0f0f14
+lowAltitude: true
+flying: true
+drag: 0.08
+speed: 1.75
+rotateSpeed: 3
+accel: 0.09
+health: 9800
+armor: 6
+engineSize: 0
+itemCapacity: 0
+hitSize: 48
+strafePenalty: 1
+isEnemy: false
+faceTarget: false
+weapons: [
+  {
+    type: RepairBeamWeapon
+    name: brazier-weapon
+    widthSinMag: 0.11
+    beamWidth: 0.8
+    shootY: 3
+    repairSpeed: 1.2
+    shootCone: 15
+    healColor: 98ffa9
+    // Pal.heal
+    laserColor: 98ffa9
+    // Pal.heal
+    targetUnits: true
+    targetBuildings: false
+    autoTarget: false
+    controllable: false
+    autoTarget: true
+    x: -8
+    y: -1
+    mirror: true
+    rotate: true
+    bullet: {
+      maxRange: 90
+      lightColor: 73ba91
+    }
+  }
+  {
+    type: RepairBeamWeapon
+    name: brazier-weapon
+    widthSinMag: 0.11
+    beamWidth: 0.8
+    shootY: 3
+    repairSpeed: 1.2
+    shootCone: 15
+    healColor: 98ffa9
+    // Pal.heal
+    laserColor: 98ffa9
+    // Pal.heal
+    targetUnits: true
+    targetBuildings: false
+    autoTarget: false
+    controllable: false
+    autoTarget: true
+    x: -14
+    y: 4
+    mirror: true
+    rotate: true
+    bullet: {
+      maxRange: 90
+      lightColor: 73ba91
+    }
+  }
+  {
+    type: RepairBeamWeapon
+    name: brazier-weapon
+    widthSinMag: 0.11
+    beamWidth: 0.8
+    shootY: 3
+    repairSpeed: 1.2
+    shootCone: 15
+    healColor: 98ffa9
+    // Pal.heal
+    laserColor: 98ffa9
+    // Pal.heal
+    targetUnits: true
+    targetBuildings: false
+    autoTarget: false
+    controllable: false
+    autoTarget: true
+    x: -18
+    y: 0
+    mirror: true
+    rotate: true
+    bullet: {
+      maxRange: 90
+      lightColor: 73ba91
+    }
+  }
+  {
+    type: RepairBeamWeapon
+    name: brazier-weapon
+    widthSinMag: 0.11
+    beamWidth: 0.8
+    shootY: 3
+    repairSpeed: 1.2
+    shootCone: 15
+    healColor: 98ffa9
+    // Pal.heal
+    laserColor: 98ffa9
+    // Pal.heal
+    targetUnits: true
+    targetBuildings: false
+    autoTarget: false
+    controllable: false
+    autoTarget: true
+    x: -17
+    y: -4
+    mirror: true
+    rotate: true
+    bullet: {
+      maxRange: 90
+      lightColor: 73ba91
+    }
+  }
+  {
+    type: RepairBeamWeapon
+    name: brazier-weapon
+    widthSinMag: 0.11
+    beamWidth: 0.8
+    shootY: 3
+    repairSpeed: 1.2
+    shootCone: 15
+    healColor: 98ffa9
+    // Pal.heal
+    laserColor: 98ffa9
+    // Pal.heal
+    targetUnits: true
+    targetBuildings: false
+    autoTarget: false
+    controllable: false
+    autoTarget: true
+    x: -20
+    y: -2.5
+    mirror: true
+    rotate: true
+    bullet: {
+      maxRange: 90
+      lightColor: 73ba91
+    }
+  }
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 9
+    x: -11.25
+    y: -10.25
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: abyssus-brazier-propeller
+      particles: 1
+      length: 0
+      spin: -36
+      lifetime: 10
+      sizeFrom: 7
+      sizeTo: 7
+      lightOpacity: 0
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 9
+    x: 11.25
+    y: -10.25
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: abyssus-brazier-propeller
+      particles: 1
+      length: 0
+      spin: 36
+      lifetime: 10
+      sizeFrom: 7
+      sizeTo: 7
+      lightOpacity: 0
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 9
+    x: -37
+    y: -12.25
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: abyssus-brazier-propeller
+      particles: 1
+      length: 0
+      spin: -36
+      lifetime: 10
+      sizeFrom: 7
+      sizeTo: 7
+      lightOpacity: 0
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 9
+    x: 37
+    y: -12.25
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: abyssus-brazier-propeller
+      particles: 1
+      length: 0
+      spin: 36
+      lifetime: 10
+      sizeFrom: 7
+      sizeTo: 7
+      lightOpacity: 0
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 9
+    x: -25.25
+    y: 11
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: abyssus-brazier-propeller
+      particles: 1
+      length: 0
+      spin: -36
+      lifetime: 10
+      sizeFrom: 7
+      sizeTo: 7
+      lightOpacity: 0
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 9
+    x: 25.25
+    y: 11
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: abyssus-brazier-propeller
+      particles: 1
+      length: 0
+      spin: 36
+      lifetime: 10
+      sizeFrom: 7
+      sizeTo: 7
+      lightOpacity: 0
+    }
+  }
+]
