@@ -156,7 +156,8 @@ abilities: [
     region: abyssus-brazier-shield
     radius: 90
     width: 12
-    offsetRegion: true
+    y: -40
+    offsetRegion: false
     whenShooting: false
     regen: 2.5
     max: 4900
