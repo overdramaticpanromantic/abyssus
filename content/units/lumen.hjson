@@ -22,7 +22,8 @@ buildBeamOffset: 7.5
 commands: [
   move,
   rebuild,
-  assist
+  assist,
+  enterPayload
 ]
 abilities: [
   {
