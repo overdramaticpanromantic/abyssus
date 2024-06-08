@@ -147,7 +147,7 @@ abilities: [
     type: MoveEffectAbility
     minVelocity: 0
     interval: 9
-    x: -10.375
+    x: -10.125
     y: 0.25
     rotateEffect: true
     rotation: 0
@@ -171,7 +171,7 @@ abilities: [
     type: MoveEffectAbility
     minVelocity: 0
     interval: 9
-    x: 10.375
+    x: 10.125
     y: 0.25
     rotateEffect: true
     rotation: 0
