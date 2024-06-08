@@ -155,7 +155,8 @@ abilities: [
     type: ShieldArcAbility
     region: brazier-shield
     radius: 90
-    width: 8
+    width: 12
+    y: -20
     whenShooting: false
     regen: 2.5
     max: 4900
