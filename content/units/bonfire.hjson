@@ -30,7 +30,7 @@ weapons: [
     ejectEffect: none
     smokeEffect: none
     shootEffect: shootSpark
-    reload: 90
+    reload: 60
     bullet: {
       type: BasicBulletType
       keepVelocity: false
@@ -43,9 +43,9 @@ weapons: [
       width: 16
       height: 22
       weaveMag: 1.5
-      weaveScl: 6
+      weaveScale: 6
       speed: 3
-      lifetime: 120
+      lifetime: 75
       homingPower: 0.2
       homingRange: 60
       damage: 10
