@@ -17,7 +17,6 @@ itemCapacity: 0
 hitSize: 24
 strafePenalty: 1
 isEnemy: false
-commands: move
 weapons: [
   {
     type: RepairBeamWeapon
