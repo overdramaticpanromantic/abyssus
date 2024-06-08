@@ -97,6 +97,9 @@ abilities: [
     duration: 240
     reload: 180
     range: 60
+    parentizeEffects: true
+    followParent: true
+    rotWithParent: true // why?
     activeEffect: {
       type: WaveEffect
       colorFrom: 92f3a2
