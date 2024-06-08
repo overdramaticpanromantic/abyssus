@@ -140,8 +140,8 @@ weapons: [
     autoTarget: false
     controllable: false
     autoTarget: true
-    x: -29
-    y: -7
+    x: -19
+    y: -3
     mirror: true
     rotate: true
     bullet: {
@@ -251,7 +251,7 @@ abilities: [
     type: MoveEffectAbility
     minVelocity: 0
     interval: 9
-    x: -26
+    x: -26.25
     y: 11
     rotateEffect: true
     rotation: 0
@@ -275,7 +275,7 @@ abilities: [
     type: MoveEffectAbility
     minVelocity: 0
     interval: 9
-    x: 26
+    x: 26.25
     y: 11
     rotateEffect: true
     rotation: 0
