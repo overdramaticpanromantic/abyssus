@@ -155,7 +155,7 @@ abilities: [
     type: ShieldArcAbility
     radius: 90
     width: 10
-    y: -70
+    y: -55
     whenShooting: false
     regen: 2.5
     max: 4900
