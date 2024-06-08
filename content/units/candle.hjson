@@ -52,7 +52,7 @@ abilities: [
     minVelocity: 0
     interval: 9
     x: -7.5
-    y: 10.75
+    y: 11
     rotateEffect: true
     rotation: 0
     parentizeEffects: true
@@ -76,7 +76,7 @@ abilities: [
     minVelocity: 0
     interval: 9
     x: 7.5
-    y: 10.75
+    y: 11
     rotateEffect: true
     rotation: 0
     parentizeEffects: true
@@ -100,7 +100,7 @@ abilities: [
     minVelocity: 0
     interval: 9
     x: -7.5
-    y: -10.75
+    y: -11
     rotateEffect: true
     rotation: 0
     parentizeEffects: true
@@ -124,7 +124,7 @@ abilities: [
     minVelocity: 0
     interval: 9
     x: 7.5
-    y: -10.75
+    y: -11
     rotateEffect: true
     rotation: 0
     parentizeEffects: true
