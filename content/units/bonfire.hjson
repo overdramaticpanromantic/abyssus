@@ -1,7 +1,7 @@
 type: flying
 template: ErekirUnitType
 name: Bonfire
-description: Provides nearby allied units, and debuffs enemy ones.
+description: Provides buffs to nearby allied units, and debuffs to enemy ones.
 lightColor: 73ba91
 outlineColor: 0f0f14
 lowAltitude: true
