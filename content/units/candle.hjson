@@ -33,13 +33,14 @@ weapons: [
     targetUnits: true
     targetBuildings: false
     autoTarget: false
-    controllable: true
+    controllable: false
+    autoTarget: true
     x: -5
     y: -3.5
     mirror: true
     rotate: true
     bullet: {
-      maxRange: 90
+      maxRange: 75
       lightColor: 73ba91
     }
   }
