@@ -19,7 +19,8 @@ strafePenalty: 1
 isEnemy: false
 commands: [
   move,
-  repair
+  repair,
+  enterPayload
 ]
 weapons: [
   {
