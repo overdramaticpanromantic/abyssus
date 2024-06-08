@@ -27,7 +27,7 @@ weapons: [
     widthSinMag: 0.11
     beamWidth: 0.7
     shootY: 0
-    repairSpeed: 3.5
+    repairSpeed: 1
     fractionRepairSpeed: 0.05
     shootCone: 15
     healColor: 98ffa9
