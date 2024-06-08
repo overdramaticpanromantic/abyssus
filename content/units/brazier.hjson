@@ -140,8 +140,8 @@ weapons: [
     autoTarget: false
     controllable: false
     autoTarget: true
-    x: -19
-    y: -3
+    x: -24
+    y: -7.5
     mirror: true
     rotate: true
     bullet: {
