@@ -28,11 +28,11 @@ weapons: [
     rotate: true
     shootSound: missile
     ejectEffect: none
-    smokeEffect: none
-    shootEffect: shootSpark
     reload: 60
     bullet: {
       type: BasicBulletType
+      shootEffect: shootSpark
+      smokeEffect: none
       keepVelocity: false
       frontColor: 92f3a2
       backColor: 73ba91
