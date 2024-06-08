@@ -31,7 +31,7 @@ weapons: [
     reload: 60
     bullet: {
       type: BasicBulletType
-      shootEffect: shootSpark
+      shootEffect: sparkShoot
       smokeEffect: none
       keepVelocity: false
       frontColor: 92f3a2
