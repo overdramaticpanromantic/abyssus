@@ -1,0 +1,5 @@
+name: Nullified
+outline: false
+healthMultiplier: 0.95
+damageMultiplier: 0.95
+speedMultiplier: 0.95
