@@ -17,6 +17,10 @@ itemCapacity: 0
 hitSize: 36
 strafePenalty: 1
 isEnemy: false
+commands: [
+  move,
+  enterPayload
+]
 weapons: [
   {
     name: bonfire-weapon
