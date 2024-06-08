@@ -1,0 +1,203 @@
+type: flying
+template: ErekirUnitType
+name: Bonfire
+description: Provides nearby allied units, and debuffs enemy ones.
+lightColor: 73ba91
+outlineColor: 0f0f14
+lowAltitude: true
+flying: true
+drag: 0.08
+speed: 3
+rotateSpeed: 4
+accel: 0.09
+health: 1900
+armor: 4
+engineSize: 0
+itemCapacity: 0
+hitSize: 36
+strafePenalty: 1
+isEnemy: false
+faceTarget: false
+weapons: [
+  {
+    name: bonfire-weapon
+    shootY: 3
+    shootCone: 15
+    x: -12.5
+    y: 1.5
+    mirror: true
+    rotate: true
+    shootSound: missile
+    ejectEffect: none
+    smokeEffect: none
+    shootEffect: shootSpark
+    bullet: {
+      type: BasicBulletType
+      keepVelocity: false
+      frontColor: 92f3a2
+      backColor: 73ba91
+      trailColor: 73ba91
+      lightColor: 73ba91
+      trailLength: 15
+      trailWidth: 2.5
+      width: 16
+      height: 22
+      weaveMag: 1.5
+      weaveScl: 6
+      speed: 3
+      lifetime: 120
+      homingPower: 0.2
+      homingRange: 60
+      damage: 10
+      splashDamage: 10
+      splashDamageRadius: 20
+      collidesGround: true
+      collidesAir: true
+      status: nullified
+      statusDuration: 240
+      hitEffect: {
+        type: ExplosionEffect
+        lifetime: 28
+        waveStroke: 6
+        waveLife: 10
+        waveRadBase: 7
+        waveColor: 92f3a2
+        waveRad: 30
+        smokes: 6
+        smokeColor: ffffff
+        sparkColor: 92f3a2
+        sparks: 6
+        sparkRad: 35
+        sparkStroke: 1.5
+        sparkLen: 4
+      }
+      despawnEffect: {
+        type: ExplosionEffect
+        lifetime: 28
+        waveStroke: 6
+        waveLife: 10
+        waveRadBase: 7
+        waveColor: 92f3a2
+        waveRad: 30
+        smokes: 6
+        smokeColor: ffffff
+        sparkColor: 92f3a2
+        sparks: 6
+        sparkRad: 35
+        sparkStroke: 1.5
+        sparkLen: 4
+      }
+    }
+  }
+]
+abilities: [
+  {
+    type: StatusFieldAbility
+    effect: amplified
+    duration: 240
+    reload: 180
+    range: 60
+    activeEffect: {
+      type: WaveEffect
+      colorFrom: 92f3a2
+      colorTo: 73ba91
+      sizeTo: 60
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 9
+    x: -9
+    y: 8
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: abyssus-bonfire-propeller-small
+      particles: 1
+      length: 0
+      spin: -36
+      lifetime: 10
+      sizeFrom: 7
+      sizeTo: 7
+      lightOpacity: 0
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 9
+    x: 9
+    y: 8
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: abyssus-bonfire-propeller-small
+      particles: 1
+      length: 0
+      spin: 36
+      lifetime: 10
+      sizeFrom: 7
+      sizeTo: 7
+      lightOpacity: 0
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 9
+    x: -17.25
+    y: -4.75
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: abyssus-bonfire-propeller-large
+      particles: 1
+      length: 0
+      spin: -36
+      lifetime: 10
+      sizeFrom: 10
+      sizeTo: 10
+      lightOpacity: 0
+    }
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 9
+    x: 17.25
+    y: -4.75
+    rotateEffect: true
+    rotation: 0
+    parentizeEffects: true
+    effect: {
+      type: ParticleEffect
+      layer: 91
+      followParent: true
+      rotWithParent: true
+      region: abyssus-bonfire-propeller-large
+      particles: 1
+      length: 0
+      spin: 36
+      lifetime: 10
+      sizeFrom: 10
+      sizeTo: 10
+      lightOpacity: 0
+    }
+  }
+]
