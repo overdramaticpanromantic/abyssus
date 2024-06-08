@@ -165,7 +165,7 @@ abilities: [
       effects: [
         {
           type: ParticleEffect
-          layer: 116
+          layer: 115.5
           followParent: true
           rotWithParent: true
           region: abyssus-vespidae-wing-left-front
@@ -180,7 +180,7 @@ abilities: [
         }
         {
           type: ParticleEffect
-          layer: 116
+          layer: 115.5
           followParent: true
           rotWithParent: true
           region: abyssus-vespidae-wing-left-front
@@ -211,7 +211,7 @@ abilities: [
       effects: [
         {
           type: ParticleEffect
-          layer: 116
+          layer: 115.5
           followParent: true
           rotWithParent: true
           region: abyssus-vespidae-wing-right-front
@@ -226,7 +226,7 @@ abilities: [
         }
         {
           type: ParticleEffect
-          layer: 116
+          layer: 115.5
           followParent: true
           rotWithParent: true
           region: abyssus-vespidae-wing-right-front
