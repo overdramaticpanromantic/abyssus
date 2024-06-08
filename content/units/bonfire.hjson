@@ -20,7 +20,7 @@ isEnemy: false
 weapons: [
   {
     name: bonfire-weapon
-    shootY: 3
+    shootY: 2.25
     shootCone: 15
     x: -12.5
     y: 1.5
