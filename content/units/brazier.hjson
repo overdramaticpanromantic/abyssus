@@ -156,7 +156,7 @@ abilities: [
     region: brazier-shield
     radius: 90
     width: 12
-    y: -20
+    offsetRegion: true
     whenShooting: false
     regen: 2.5
     max: 4900
