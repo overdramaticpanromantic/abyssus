@@ -36,8 +36,8 @@ weapons: [
     autoTarget: false
     controllable: false
     autoTarget: true
-    x: -10
-    y: -1
+    x: -9
+    y: 0
     mirror: true
     rotate: true
     bullet: {
@@ -63,7 +63,7 @@ weapons: [
     controllable: false
     autoTarget: true
     x: -17
-    y: 11
+    y: 9
     mirror: true
     rotate: true
     bullet: {
@@ -88,7 +88,7 @@ weapons: [
     autoTarget: false
     controllable: false
     autoTarget: true
-    x: -24
+    x: -25
     y: 0
     mirror: true
     rotate: true
@@ -140,7 +140,7 @@ weapons: [
     autoTarget: false
     controllable: false
     autoTarget: true
-    x: -32
+    x: -29
     y: -7
     mirror: true
     rotate: true
