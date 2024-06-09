@@ -1,0 +1,8 @@
+name: Rasorite
+description: Impure boron crystals. Must be refined before use.
+cost: 2
+color: 63714c
+hardness: 4
+hiddenOnPlanets: [
+  serpulo,
+  erekir
