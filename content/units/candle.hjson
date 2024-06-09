@@ -50,7 +50,7 @@ abilities: [
   {
     type: MoveEffectAbility
     minVelocity: 0
-    interval: 9
+    interval: 119
     x: -7.5
     y: 11
     rotateEffect: true
@@ -65,7 +65,7 @@ abilities: [
       particles: 1
       length: 0
       spin: -36
-      lifetime: 10
+      lifetime: 120
       sizeFrom: 7
       sizeTo: 7
       lightOpacity: 0
@@ -74,7 +74,7 @@ abilities: [
   {
     type: MoveEffectAbility
     minVelocity: 0
-    interval: 9
+    interval: 119
     x: 7.5
     y: 11
     rotateEffect: true
@@ -89,7 +89,7 @@ abilities: [
       particles: 1
       length: 0
       spin: 36
-      lifetime: 10
+      lifetime: 120
       sizeFrom: 7
       sizeTo: 7
       lightOpacity: 0
@@ -98,7 +98,7 @@ abilities: [
   {
     type: MoveEffectAbility
     minVelocity: 0
-    interval: 9
+    interval: 119
     x: -7.5
     y: -11
     rotateEffect: true
@@ -113,7 +113,7 @@ abilities: [
       particles: 1
       length: 0
       spin: -36
-      lifetime: 10
+      lifetime: 120
       sizeFrom: 7
       sizeTo: 7
       lightOpacity: 0
@@ -122,7 +122,7 @@ abilities: [
   {
     type: MoveEffectAbility
     minVelocity: 0
-    interval: 9
+    interval: 119
     x: 7.5
     y: -11
     rotateEffect: true
@@ -137,7 +137,7 @@ abilities: [
       particles: 1
       length: 0
       spin: 36
-      lifetime: 10
+      lifetime: 120
       sizeFrom: 7
       sizeTo: 7
       lightOpacity: 0
@@ -146,7 +146,7 @@ abilities: [
   {
     type: MoveEffectAbility
     minVelocity: 0
-    interval: 9
+    interval: 119
     x: -10.125
     y: 0.25
     rotateEffect: true
@@ -161,7 +161,7 @@ abilities: [
       particles: 1
       length: 0
       spin: -36
-      lifetime: 10
+      lifetime: 120
       sizeFrom: 10
       sizeTo: 10
       lightOpacity: 0
@@ -170,7 +170,7 @@ abilities: [
   {
     type: MoveEffectAbility
     minVelocity: 0
-    interval: 9
+    interval: 119
     x: 10.125
     y: 0.25
     rotateEffect: true
@@ -185,7 +185,7 @@ abilities: [
       particles: 1
       length: 0
       spin: 36
-      lifetime: 10
+      lifetime: 120
       sizeFrom: 10
       sizeTo: 10
       lightOpacity: 0
