@@ -110,7 +110,7 @@ abilities: [
   {
     type: MoveEffectAbility
     minVelocity: 0
-    interval: 9
+    interval: 119
     x: -9.25
     y: 8
     rotateEffect: true
@@ -125,7 +125,7 @@ abilities: [
       particles: 1
       length: 0
       spin: -36
-      lifetime: 10
+      lifetime: 120
       sizeFrom: 7
       sizeTo: 7
       lightOpacity: 0
@@ -134,7 +134,7 @@ abilities: [
   {
     type: MoveEffectAbility
     minVelocity: 0
-    interval: 9
+    interval: 119
     x: 9.25
     y: 8
     rotateEffect: true
@@ -149,7 +149,7 @@ abilities: [
       particles: 1
       length: 0
       spin: 36
-      lifetime: 10
+      lifetime: 120
       sizeFrom: 7
       sizeTo: 7
       lightOpacity: 0
@@ -158,7 +158,7 @@ abilities: [
   {
     type: MoveEffectAbility
     minVelocity: 0
-    interval: 9
+    interval: 119
     x: -17.25
     y: -4.75
     rotateEffect: true
@@ -173,7 +173,7 @@ abilities: [
       particles: 1
       length: 0
       spin: -36
-      lifetime: 10
+      lifetime: 120
       sizeFrom: 10
       sizeTo: 10
       lightOpacity: 0
@@ -182,7 +182,7 @@ abilities: [
   {
     type: MoveEffectAbility
     minVelocity: 0
-    interval: 9
+    interval: 119
     x: 17.25
     y: -4.75
     rotateEffect: true
@@ -197,7 +197,7 @@ abilities: [
       particles: 1
       length: 0
       spin: 36
-      lifetime: 10
+      lifetime: 120
       sizeFrom: 10
       sizeTo: 10
       lightOpacity: 0
