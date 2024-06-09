@@ -1,0 +1,9 @@
+name: Carbonic Vent
+type: SteamVent
+blendGroup: carbonic-floor
+parent: carbonic-floor
+effect: ventSteam
+effectColor: 28254b
+attributes: {
+   carbon: 0.11111111
+}
