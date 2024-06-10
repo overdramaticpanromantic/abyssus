@@ -1,16 +1,12 @@
-type: GenericCrafter
+type: multicraft.MultiCrafter
 name: Atmospheric Condenser
-description: Pulls nitrogen from the atmosphere for use.
+description: Pulls gases from the atmosphere for use.
 size: 6
 hasLiquids: true
 liquidCapacity: 48
 squareSprite: false
-outputLiquid: nitrogen/0.2
 category: production
 craftTime: 60
-consumes: {
-  power: 6
-}
 requirements: [
   aeroframe/165
   carbide-but-stolen/135
@@ -22,6 +18,30 @@ researchCost: [
   carbide-but-stolen/4200
   strontium/3000
   biskonium/2700
+]
+recipes: [
+  {
+    input: {
+      power: 6
+    }
+    output: {
+      fluids: [
+        nitrogen/0.2
+      ]
+    }
+    craftTime: 60
+  }
+  {
+    input: {
+      power: 6
+    }
+    output: {
+      fluids: [
+        hydrigen/0.2
+      ]
+    }
+    craftTime: 60
+  }
 ]
 drawer: {
   type: DrawMulti
