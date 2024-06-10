@@ -1,0 +1,80 @@
+type: GenericCrafter
+name: Atmospheric Condenser
+description: Pulls nitrogen from the atmosphere for use.
+size: 6
+hasLiquids: true
+liquidCapacity: 48
+squareSprite: false
+outputLiquid: nitrogen/0.2
+category: production
+craftTime: 60
+consumes: {
+  power: 6
+}
+requirements: [
+  aeroframe/165
+  carbide/135
+  strontium/100
+  biskonium/85
+]
+researchCost: [
+  aeroframe/5000
+  carbide/4200
+  strontium/3000
+  biskonium/2700
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: nitrogen
+      padding: 6
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawBlurSpin
+      x: 8.75
+      y: 8.75
+      suffix: -rotator
+      blurThresh: 0.20
+      rotateSpeed: 20
+    }
+    {
+      type: DrawBlurSpin
+      x: 8.75
+      y: -8.75
+      suffix: -rotator
+      blurThresh: 0.20
+      rotateSpeed: 20
+    }
+    {
+      type: DrawBlurSpin
+      x: -8.75
+      y: 8.75
+      suffix: -rotator
+      blurThresh: 0.20
+      rotateSpeed: -20
+    }
+    {
+      type: DrawBlurSpin
+      x: -8.75
+      y: -8.75
+      suffix: -rotator
+      blurThresh: 0.20
+      rotateSpeed: -20
+    }
+    {
+      type: DrawRegion
+      suffix: -glass
+    }
+  ]
+}
+ambientSound: extractLoop
+ambientSoundVolume: 0.09
