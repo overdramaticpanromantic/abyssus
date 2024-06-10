@@ -1,0 +1,7 @@
+name: Molten Boron
+description: Molten, high-temperature boron. Can be cooled for use, or alloyed with other materials.
+temperature: 4
+viscosity: 0.85
+effect: melting
+color: d6dbb1
+lightColor: d6dbb168
