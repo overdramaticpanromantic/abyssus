@@ -1,0 +1,5 @@
+type: OreBlock
+name: Rasorite
+description: Raw, impure boron. Must be refined before use.
+itemDrop: rasorite
+variants: 3
