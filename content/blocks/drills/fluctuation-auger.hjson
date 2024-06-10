@@ -1,0 +1,48 @@
+type: Drill
+name: Fluctuation Auger
+size: 8
+health: 1780
+description: Induces quantum fluctuations in the ore below, rapidly extracting it. Requires nitrogen as a thermal isolator.
+requirements: [
+  tungsten-but-stolen/1125
+  thermic-alloy/915
+  cobalt/865
+  lithium/790
+  aeroframe/710
+  carbide-but-stolen/625
+  bismuth/580
+  biskonium/475
+]
+// ohno.png
+researchCost: [
+  tungsten-but-stolen/112500
+  thermic-alloy/91500
+  cobalt/86500
+  lithium/79000
+  aeroframe/71000
+  carbide-but-stolen/62500
+  bismuth/58000
+  biskonium/47500
+]
+drillTime: 8
+tier: 4
+updateEffect: pulverizeRed
+updateEffectChance: 0.06
+drillEffect: mineHuge
+rotateSpeed: 14
+warmupSpeed: 0.0025
+ambientSound: drill
+ambientSoundVolume: 0.4
+squareSprite: false
+drawRim: true
+heatColor: f5efdb
+category: production
+hasLiquids: false
+itemCapacity: 72
+consumes: {
+  power: 2
+  liquids: {
+    nitrogen/1.5
+  }
+}
+liquidBoostIntensity: 1
