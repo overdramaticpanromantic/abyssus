@@ -71,7 +71,8 @@ drawer: {
       type: DrawDefault
     }
     {
-      type: DrawParticles
+      type: DrawRegion
+      suffix: -glass
     }
   ]
 }
