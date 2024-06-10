@@ -39,7 +39,7 @@ drawer: {
       type: DrawBlurSpin
       x: 8.75
       y: 8.75
-      suffix: -rotator
+      suffix: -fan
       blurThresh: 0.20
       rotateSpeed: 12
     }
@@ -47,7 +47,7 @@ drawer: {
       type: DrawBlurSpin
       x: 8.75
       y: -8.75
-      suffix: -rotator
+      suffix: -fan
       blurThresh: 0.20
       rotateSpeed: 12
     }
@@ -55,7 +55,7 @@ drawer: {
       type: DrawBlurSpin
       x: -8.75
       y: 8.75
-      suffix: -rotator
+      suffix: -fan
       blurThresh: 0.20
       rotateSpeed: -12
     }
@@ -63,7 +63,7 @@ drawer: {
       type: DrawBlurSpin
       x: -8.75
       y: -8.75
-      suffix: -rotator
+      suffix: -fan
       blurThresh: 0.20
       rotateSpeed: -12
     }
