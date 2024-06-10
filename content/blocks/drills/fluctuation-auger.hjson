@@ -40,7 +40,7 @@ category: production
 hasLiquids: false
 itemCapacity: 72
 consumes: {
-  power: 2
+  power: 40
   liquids: [
     nitrogen/1.5
   ]
