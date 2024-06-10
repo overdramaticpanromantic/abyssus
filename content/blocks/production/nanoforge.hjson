@@ -1,0 +1,66 @@
+type: multicraft.MultiCrafter
+name: Nanoforge
+description: Manipulates materials at the molecular level in order to fabricate advanced components.
+size: 6
+health: 1480
+category: crafting
+itemCapacity: 12
+requirements: [
+  aeroframe/400
+  carbide-but-stolen/355
+  strontium/320
+  biskonium/265
+  boron/210
+]
+category: crafting
+squareSprite: false
+hasLiquids: false
+ambientSound: glow
+ambientSoundVolume: 0.08
+craftEffect: {
+  type: ExplosionEffect
+  layer: 30.0000002
+  lifetime: 60
+  waveLife: 15
+  waveStroke: 4
+  waveRad: 20
+  waveRadBase: 1
+  sparkStroke: 2
+  sparkRad: 25
+  sparkLen: 6
+  smokeSize: 6
+  smokeSizeBase: 0.5 // redundant
+  smokes: 8
+  sparks: 6
+}
+recipes: [
+  {
+    input: {
+      items: [
+        abyssus-boron/4
+      ]
+      fluids: [
+        nitrogen/0.4
+      ]
+      power: 8
+    }
+    output: {
+      items: [
+        abyssus-bintubite/2
+      ]
+    }
+    craftTime: 240
+  }
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
