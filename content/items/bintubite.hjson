@@ -1,0 +1,8 @@
+name: Bintubite
+description: Boron nitride nanotubes. Used in construction.
+cost: 3
+color: 6e7a97
+hiddenOnPlanets: [
+  serpulo,
+  erekir
+]
