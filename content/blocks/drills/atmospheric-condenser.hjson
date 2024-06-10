@@ -36,39 +36,39 @@ drawer: {
       padding: 6
     }
     {
+      type: DrawBlurSpin
+      x: 8.75
+      y: 8.75
+      suffix: -rotator
+      blurThresh: 0.20
+      rotateSpeed: 20
+    }
+    {
+      type: DrawBlurSpin
+      x: 8.75
+      y: -8.75
+      suffix: -rotator
+      blurThresh: 0.20
+      rotateSpeed: 20
+    }
+    {
+      type: DrawBlurSpin
+      x: -8.75
+      y: 8.75
+      suffix: -rotator
+      blurThresh: 0.20
+      rotateSpeed: -20
+    }
+    {
+      type: DrawBlurSpin
+      x: -8.75
+      y: -8.75
+      suffix: -rotator
+      blurThresh: 0.20
+      rotateSpeed: -20
+    }
+    {
       type: DrawDefault
-    }
-    {
-      type: DrawBlurSpin
-      x: 8.75
-      y: 8.75
-      suffix: -rotator
-      blurThresh: 0.20
-      rotateSpeed: 20
-    }
-    {
-      type: DrawBlurSpin
-      x: 8.75
-      y: -8.75
-      suffix: -rotator
-      blurThresh: 0.20
-      rotateSpeed: 20
-    }
-    {
-      type: DrawBlurSpin
-      x: -8.75
-      y: 8.75
-      suffix: -rotator
-      blurThresh: 0.20
-      rotateSpeed: -20
-    }
-    {
-      type: DrawBlurSpin
-      x: -8.75
-      y: -8.75
-      suffix: -rotator
-      blurThresh: 0.20
-      rotateSpeed: -20
     }
     {
       type: DrawRegion
