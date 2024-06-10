@@ -13,13 +13,13 @@ consumes: {
 }
 requirements: [
   aeroframe/165
-  carbide/135
+  carbide-but-stolen/135
   strontium/100
   biskonium/85
 ]
 researchCost: [
   aeroframe/5000
-  carbide/4200
+  carbide-but-stolen/4200
   strontium/3000
   biskonium/2700
 ]
@@ -69,6 +69,9 @@ drawer: {
     }
     {
       type: DrawDefault
+    }
+    {
+      type: DrawParticles
     }
   ]
 }
