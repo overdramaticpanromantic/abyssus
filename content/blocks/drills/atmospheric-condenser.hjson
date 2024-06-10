@@ -70,10 +70,6 @@ drawer: {
     {
       type: DrawDefault
     }
-    {
-      type: DrawRegion
-      suffix: -glass
-    }
   ]
 }
 ambientSound: extractLoop
