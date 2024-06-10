@@ -1,0 +1,7 @@
+name: Boron
+description: Strong and unreactive. Used in construction and material synthesis.
+cost: 2.4
+color: 989d72
+hiddenOnPlanets: [
+  serpulo,
+  erekir
