@@ -60,6 +60,11 @@ drawer: {
       suffix: -bottom
     }
     {
+      type: DrawLiquidTile
+      drawLiquid: nitrogen
+      padding: 6
+    }
+    {
       type: DrawDefault
     }
   ]
