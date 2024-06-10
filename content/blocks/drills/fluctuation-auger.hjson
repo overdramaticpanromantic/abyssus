@@ -41,8 +41,8 @@ hasLiquids: false
 itemCapacity: 72
 consumes: {
   power: 2
-  liquids: {
+  liquids: [
     nitrogen/1.5
-  }
+  ]
 }
 liquidBoostIntensity: 1
