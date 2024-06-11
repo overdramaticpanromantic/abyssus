@@ -37,7 +37,7 @@ recipes: [
     }
     output: {
       fluids: [
-        hydrigen/0.2
+        hydrogen/0.2
       ]
     }
     craftTime: 60
