@@ -45,7 +45,7 @@ recipes: [
         abyssus-cobalt/1
         abyssus-lithium/2
       ]
-      power: 2
+      power: 4
     }
     output: {
       items: [
@@ -60,7 +60,7 @@ recipes: [
         abyssus-thermic-alloy/4
         abyssus-cobalt/6
       ]
-      power: 2
+      power: 4
     }
     output: {
       items: [
@@ -76,6 +76,9 @@ drawer: {
     {
       type: DrawRegion
       suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
     }
     {
       type: DrawDefault
