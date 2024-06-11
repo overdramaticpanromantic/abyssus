@@ -1,5 +1,5 @@
 type: AttributeCrafter
-attribute: methane
+attribute: methane-attribute
 name: Methanogenic Harvester
 description: Harvests methane from the depths of Abyssus.
 size: 5
