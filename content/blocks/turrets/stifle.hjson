@@ -37,7 +37,7 @@ ammoTypes: {
     type: LiquidBulletType
     liquid: carbon-dioxide
     lifetime: 45
-    speed: 4
+    speed: 3
     puddleSize: 8
     orbSize: 4
     drag: 0.001
