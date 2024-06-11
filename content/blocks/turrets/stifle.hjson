@@ -1,4 +1,4 @@
-type: ItemTurret
+type: LiquidTurret
 name: Stifle
 description: Puts out nearby fires.
 size: 3
