@@ -2,8 +2,8 @@ type: multicraft.MultiCrafter
 name: Component Fabricator
 description: Fabricates various common components.
 details: Some types of components are more efficient to have a dedicated production facility for, rather than on-site manufacturing.
-size: 5
-health: 1265
+size: 4
+health: 870
 category: crafting
 itemCapacity: 24
 requirements: [
