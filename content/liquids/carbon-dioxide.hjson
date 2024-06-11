@@ -1,5 +1,5 @@
 name: Carbon Dioxide
 description: Carbon with two oxygen molecules.
-gas: true
+gas: false // WHY
 color: abadb8
 lightColor: abadb868
