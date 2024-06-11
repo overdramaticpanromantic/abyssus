@@ -29,7 +29,6 @@ recipes: [
         nitrogen/0.2
       ]
     }
-    craftTime: 60
   }
   {
     input: {
@@ -40,7 +39,6 @@ recipes: [
         hydrogen/0.2
       ]
     }
-    craftTime: 60
   }
 ]
 drawer: {
