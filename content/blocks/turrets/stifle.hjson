@@ -16,7 +16,6 @@ velocityRnd: 0.2
 shootY: 8
 recoil: 1
 outlineColor: 0f0f14
-flags: extinguisher
 requirements: [
   tungsten-but-stolen/110
   thermic-alloy/75
