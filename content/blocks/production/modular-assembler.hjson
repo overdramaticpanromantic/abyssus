@@ -39,6 +39,36 @@ hasLiquids: false
 ambientSound: glow
 ambientSoundVolume: 0.08
 recipes: [
+  {
+    input: {
+      items: [
+        abyssus-cobalt/1
+        abyssus-lithium/2
+      ]
+      power: 2
+    }
+    output: {
+      items: [
+        abyssus-ion-battery/1
+      ]
+    }
+    craftTime: 60.0
+  }
+  {
+    input: {
+      items: [
+        abyssus-thermic-alloy/4
+        abyssus-cobalt/6
+      ]
+      power: 2
+    }
+    output: {
+      items: [
+        abyssus-shield-canister/1
+      ]
+    }
+    craftTime: 60.0
+  }
 ]
 drawer: {
   type: DrawMulti
