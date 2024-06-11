@@ -7,7 +7,6 @@ category: turret
 range: 120
 squareSprite: false
 reload: 5
-shootSound: shootAlt
 shootEffect: shootLiquid
 inaccuracy: 5
 rotateSpeed: 2
