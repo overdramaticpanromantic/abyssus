@@ -21,9 +21,9 @@ requirements: [
   cobalt/45
 ]
 researchCost: [
-  tungsten-but-stolen/120
-  thermic-alloy/85
-  cobalt/45
+  tungsten-but-stolen/1200
+  thermic-alloy/850
+  cobalt/450
 ]
 drawer: {
   type: DrawMulti
