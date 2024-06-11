@@ -1,0 +1,48 @@
+type: ItemTurret
+name: Stifle
+description: Puts out nearby fires.
+size: 3
+health: 1550
+category: turret
+range: 120
+squareSprite: false
+reload: 5
+shootSound: shootAlt
+shootEffect: shootLiquid
+inaccuracy: 5
+rotateSpeed: 2
+shootCone: 5
+velocityRnd: 0.2
+shootY: 8
+recoil: 1
+outlineColor: 0f0f14
+flags: extinguisher
+requirements: [
+  tungsten-but-stolen/110
+  thermic-alloy/75
+  cobalt/50
+]
+researchCost: [
+  tungsten-but-stolen/1100
+  thermic-alloy/750
+  cobalt/500
+]
+shoot: {
+  shots: 2
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: insulated-
+}
+ammoTypes: {
+  carbon-dioxide: {
+    type: LiquidBulletType
+    liquid: carbon-dioxide
+    lifetime: 45
+    speed: 4
+    puddleSize: 8
+    orbSize: 4
+    drag: 0.001
+    damage: 0
+  }
+}
