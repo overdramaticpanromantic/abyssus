@@ -56,6 +56,11 @@ drawer: {
       padding: 6
     }
     {
+      type: DrawLiquidTile
+      drawLiquid: hydrogen
+      padding: 6
+    }
+    {
       type: DrawBlurSpin
       x: 8.75
       y: 8.75
