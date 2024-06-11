@@ -37,7 +37,7 @@ recipes: [
   {
     input: {
       items: [
-        abyssus-boron/4
+        abyssus-boron/2
       ]
       fluids: [
         nitrogen/0.4
@@ -46,10 +46,10 @@ recipes: [
     }
     output: {
       items: [
-        abyssus-bintubite/2
+        abyssus-bintubite/1
       ]
     }
-    craftTime: 240
+    craftTime: 120
   }
 ]
 drawer: {
