@@ -1,0 +1,54 @@
+type: multicraft.MultiCrafter
+name: Component Fabricator
+description: Assembles various commonly-used modules for later use.
+size: 5
+health: 1350
+category: crafting
+itemCapacity: 24
+requirements: [
+  tungsten-but-stolen/160
+  aluminum/135
+  cobalt/110
+  aeroframe/85
+]
+researchCost: [
+  tungsten-but-stolen/1600
+  aluminum/1350
+  cobalt/1100
+  aeroframe/850
+]
+craftEffect: {
+  type: ExplosionEffect
+  layer: 30.0000002
+  lifetime: 30
+  waveLife: 7.5
+  waveStroke: 3
+  waveRad: 10
+  waveRadBase: 1
+  sparkStroke: 1
+  sparkRad: 12
+  sparkLen: 3
+  smokeSize: 3
+  smokeSizeBase: 0.5 // redundant
+  smokes: 6
+  sparks: 4
+}
+category: crafting
+squareSprite: false
+hasLiquids: false
+ambientSound: glow
+ambientSoundVolume: 0.08
+recipes: [
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
