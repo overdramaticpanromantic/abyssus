@@ -5,5 +5,5 @@ parent: barren-floor
 effect: ventSteam
 effectColor: 0f0f14
 attributes: {
-   steam: 0.11111111
+   methane: 0.11111111
 }
