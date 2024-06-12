@@ -1,0 +1,8 @@
+name: Binary Processor
+description: Capable of rudimentary calculations. Used in targeting arrays.
+cost: 1.5
+color: 573a53
+hiddenOnPlanets: [
+  serpulo,
+  erekir
+]
