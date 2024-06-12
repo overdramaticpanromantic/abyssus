@@ -1,3 +1,4 @@
 type: Prop
 name: Battered Chunks
 variants: 3
+breakSound: rockBreak
