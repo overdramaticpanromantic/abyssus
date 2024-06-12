@@ -119,6 +119,7 @@ recipes: [
       items: [
         abyssus-carbide/2
         abyssus-logic-board/1
+        abyssus-binary-processor/1
       ]
       power: 4
     }
