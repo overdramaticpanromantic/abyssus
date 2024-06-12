@@ -1,5 +1,5 @@
 type: multicraft.MultiCrafter
-name: Component Fabricator
+name: Modular Assembler
 description: Assembles various commonly-used modules for later use.
 size: 5
 health: 1350
