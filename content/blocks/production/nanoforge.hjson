@@ -82,7 +82,7 @@ recipes: [
   {
     input: {
       items: [
-        abyssus-carbide/8
+        abyssus-carbide-but-stolen/8
         abyssus-logic-board/4
         abyssus-binary-processor/4
       ]
@@ -99,7 +99,7 @@ recipes: [
     input: {
       items: [
         abyssus-biskonium/8
-        abyssus-tungsten/12
+        abyssus-tungsten-but-stolen/12
         abyssus-trinary-processor/4
       ]
       power: 8
