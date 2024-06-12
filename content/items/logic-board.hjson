@@ -1,0 +1,8 @@
+name: Logic Board
+description: The base of a circuit board. Used in fabrication.
+cost: 1.4
+color: 335c59
+hiddenOnPlanets: [
+  serpulo,
+  erekir
+]
