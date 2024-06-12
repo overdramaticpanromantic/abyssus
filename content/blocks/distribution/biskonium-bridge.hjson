@@ -13,8 +13,8 @@ consumes: {
   power: 1
 }
 requirements: [
-  strontium/1
-  biskonium/1
+  strontium/16
+  biskonium/12
 ]
 researchCost: [
   strontium/2400
