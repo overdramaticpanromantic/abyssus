@@ -1,3 +1,4 @@
 type: Prop
 name: Carbonic Clump
 variants: 3
+breakSound: rockBreak
