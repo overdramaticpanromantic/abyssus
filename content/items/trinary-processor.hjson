@@ -1,0 +1,8 @@
+name: Trinary Processor
+description: Capable of intermediate calculations. Used in power distribution units.
+cost: 1.8
+color: 335c59
+hiddenOnPlanets: [
+  serpulo,
+  erekir
+]
