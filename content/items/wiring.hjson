@@ -1,0 +1,8 @@
+name: Wiring
+description: Conductive wires. Used in fabrication.
+cost: 1
+color: 00e3ff
+hiddenOnPlanets: [
+  serpulo,
+  erekir
+]
