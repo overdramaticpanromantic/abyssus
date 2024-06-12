@@ -37,6 +37,36 @@ recipes: [
   {
     input: {
       items: [
+        abyssus-cobalt/4
+        abyssus-lithium/8
+      ]
+      power: 8
+    }
+    output: {
+      items: [
+        abyssus-ion-battery/4
+      ]
+    }
+    craftTime: 120.0
+  }
+  {
+    input: {
+      items: [
+        abyssus-thermic-alloy/16
+        abyssus-cobalt/24
+      ]
+      power: 8
+    }
+    output: {
+      items: [
+        abyssus-shield-canister/4
+      ]
+    }
+    craftTime: 120.0
+  }
+  {
+    input: {
+      items: [
         abyssus-magnesium/8
         abyssus-aluminum/4
       ]
@@ -59,7 +89,7 @@ recipes: [
     }
     output: {
       items: [
-        abyssus-binary-processor/4
+        abyssus-analog-processor/4
       ]
     }
     craftTime: 120.0
@@ -84,13 +114,13 @@ recipes: [
       items: [
         abyssus-carbide-but-stolen/4
         abyssus-logic-board/4
-        abyssus-binary-processor/4
+        abyssus-analog-processor/4
       ]
       power: 8
     }
     output: {
       items: [
-        abyssus-trinary-processor/4
+        abyssus-digital-processor/4
       ]
     }
     craftTime: 120.0
@@ -100,13 +130,13 @@ recipes: [
       items: [
         abyssus-biskonium/4
         abyssus-tungsten-but-stolen/4
-        abyssus-trinary-processor/4
+        abyssus-digital-processor/4
       ]
       power: 8
     }
     output: {
       items: [
-        abyssus-quaternary-processor/4
+        abyssus-quantum-processor/4
       ]
     }
     craftTime: 120.0
