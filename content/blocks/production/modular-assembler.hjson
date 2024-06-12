@@ -99,6 +99,36 @@ recipes: [
     }
     craftTime: 60.0
   }
+  {
+    input: {
+      items: [
+        abyssus-aeroframe/2
+        abyssus-thermic-alloy/2
+      ]
+      power: 4
+    }
+    output: {
+      items: [
+        abyssus-logic-board/1
+      ]
+    }
+    craftTime: 60.0
+  }
+  {
+    input: {
+      items: [
+        abyssus-carbide/2
+        abyssus-logic-board/1
+      ]
+      power: 4
+    }
+    output: {
+      items: [
+        abyssus-trinary-processor/1
+      ]
+    }
+    craftTime: 60.0
+  }
 ]
 drawer: {
   type: DrawMulti
