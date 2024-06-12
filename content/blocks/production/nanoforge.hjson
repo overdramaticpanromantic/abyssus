@@ -98,8 +98,8 @@ recipes: [
   {
     input: {
       items: [
-        abyssus-biskonium/8
-        abyssus-tungsten-but-stolen/12
+        abyssus-biskonium/4
+        abyssus-tungsten-but-stolen/4
         abyssus-trinary-processor/4
       ]
       power: 8
