@@ -5,7 +5,7 @@ details: Some types of components are more efficient to have a dedicated product
 size: 4
 health: 870
 category: crafting
-itemCapacity: 24
+itemCapacity: 12
 requirements: [
   tungsten-but-stolen/110
   magnesium/95
