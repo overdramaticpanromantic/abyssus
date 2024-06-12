@@ -117,7 +117,7 @@ recipes: [
   {
     input: {
       items: [
-        abyssus-carbide/2
+        abyssus-carbide-but-stolen/2
         abyssus-logic-board/1
         abyssus-binary-processor/1
       ]
