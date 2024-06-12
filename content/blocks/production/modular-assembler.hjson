@@ -69,6 +69,36 @@ recipes: [
     }
     craftTime: 60.0
   }
+  {
+    input: {
+      items: [
+        abyssus-magnesium/2
+        abyssus-aluminum/1
+      ]
+      power: 4
+    }
+    output: {
+      items: [
+        abyssus-wiring/2
+      ]
+    }
+    craftTime: 60.0
+  }
+  {
+    input: {
+      items: [
+        abyssus-wiring/2
+        abyssus-cobalt/1
+      ]
+      power: 4
+    }
+    output: {
+      items: [
+        abyssus-binary-processor/1
+      ]
+    }
+    craftTime: 60.0
+  }
 ]
 drawer: {
   type: DrawMulti
