@@ -94,7 +94,7 @@ recipes: [
     }
     output: {
       items: [
-        abyssus-binary-processor/1
+        abyssus-analog-processor/1
       ]
     }
     craftTime: 60.0
@@ -119,13 +119,13 @@ recipes: [
       items: [
         abyssus-carbide-but-stolen/1
         abyssus-logic-board/1
-        abyssus-binary-processor/1
+        abyssus-analog-processor/1
       ]
       power: 4
     }
     output: {
       items: [
-        abyssus-trinary-processor/1
+        abyssus-digital-processor/1
       ]
     }
     craftTime: 60.0
