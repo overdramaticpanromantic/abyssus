@@ -37,6 +37,83 @@ recipes: [
   {
     input: {
       items: [
+        abyssus-magnesium/8
+        abyssus-aluminum/4
+      ]
+      power: 8
+    }
+    output: {
+      items: [
+        abyssus-wiring/8
+      ]
+    }
+    craftTime: 120.0
+  }
+  {
+    input: {
+      items: [
+        abyssus-wiring/8
+        abyssus-cobalt/4
+      ]
+      power: 8
+    }
+    output: {
+      items: [
+        abyssus-binary-processor/4
+      ]
+    }
+    craftTime: 120.0
+  }
+  {
+    input: {
+      items: [
+        abyssus-aeroframe/8
+        abyssus-thermic-alloy/8
+      ]
+      power: 8
+    }
+    output: {
+      items: [
+        abyssus-logic-board/4
+      ]
+    }
+    craftTime: 120.0
+  }
+  {
+    input: {
+      items: [
+        abyssus-carbide/8
+        abyssus-logic-board/4
+        abyssus-binary-processor/4
+      ]
+      power: 8
+    }
+    output: {
+      items: [
+        abyssus-trinary-processor/4
+      ]
+    }
+    craftTime: 120.0
+  }
+  {
+    input: {
+      items: [
+        abyssus-biskonium/8
+        abyssus-tungsten/12
+        abyssus-trinary-processor/4
+      ]
+      power: 8
+    }
+    output: {
+      items: [
+        abyssus-quaternary-processor/4
+      ]
+    }
+    craftTime: 120.0
+  }
+  {
+    input: {
+      items: [
         abyssus-boron/2
       ]
       fluids: [
