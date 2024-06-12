@@ -102,8 +102,8 @@ recipes: [
   {
     input: {
       items: [
-        abyssus-aeroframe/2
-        abyssus-thermic-alloy/2
+        abyssus-aeroframe/1
+        abyssus-thermic-alloy/1
       ]
       power: 4
     }
