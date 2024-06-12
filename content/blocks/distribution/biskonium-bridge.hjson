@@ -4,7 +4,7 @@ health: 215
 size: 1 // why do i need to specify this
 type: ItemBridge
 category: distribution
-range: 21
+range: 22
 arrowPeriod: 0.9
 arrowTimeScl: 2.75
 hasPower: true
