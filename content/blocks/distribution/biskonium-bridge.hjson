@@ -1,16 +1,16 @@
 name: Biskonium Bridge
 description: Instantly transports electromagnetically charged packets of items over terrain or buildings. Long-ranged, but requires power for operation.
-health: 145
+health: 215
 size: 1 // why do i need to specify this
 type: ItemBridge
 category: distribution
-range: 11
+range: 21
 arrowPeriod: 0.9
 arrowTimeScl: 2.75
 hasPower: true
 pulse: true
 consumes: {
-  power: 0.15
+  power: 1
 }
 requirements: [
   strontium/1
