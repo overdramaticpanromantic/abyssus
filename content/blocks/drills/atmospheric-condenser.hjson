@@ -6,7 +6,6 @@ hasLiquids: true
 liquidCapacity: 48
 squareSprite: false
 category: production
-craftTime: 60
 requirements: [
   aeroframe/165
   carbide-but-stolen/135
