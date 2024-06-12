@@ -79,7 +79,7 @@ recipes: [
   }
   output: {
     items: [
-      abyssus-binary-processor/1
+      abyssus-analog-processor/1
     ]
   }
   craftTime: 120.0
