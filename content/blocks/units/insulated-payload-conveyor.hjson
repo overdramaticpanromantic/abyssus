@@ -14,7 +14,7 @@ researchCost: [
   magnesium/80
 ]
 consumes: {
-  power: 0.2
+  power: 0.05
 }
 consumesPower: true
 conductivePower: true
