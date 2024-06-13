@@ -2,7 +2,7 @@ type: UnitFactory
 size: 4
 category: units
 name: Aeronautic Constructor
-description: Fabricates bug and drone units.
+description: Fabricates insectoid and support units.
 consumes: {
   power: 4
 }
