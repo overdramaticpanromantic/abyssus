@@ -1,0 +1,17 @@
+type: PayloadConveyor
+name: Insulated Payload Conveyor
+description: Moves payloads forward. Requires power.
+category: units
+size: 2
+requirements: [
+  tungsten-but-stolen/10
+  aluminum/8
+  magnesium/8
+]
+researchCost: [
+  tungsten-but-stolen/100
+  aluminum/80
+  magnesium/80
+]
+moveTime: 60
+moveForce: 135
