@@ -16,6 +16,10 @@ engineSize: 0
 itemCapacity: 0
 hitSize: 6.5
 strafePenalty: 0.6
+requirements: {
+  block: aeronautic-reconstructor
+  previous: aedini
+}
 weapons: [
   {
     name: vespidae-weapon
