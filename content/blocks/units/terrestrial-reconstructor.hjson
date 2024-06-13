@@ -3,7 +3,7 @@ size: 4
 category: units
 name: Terrestrial Reconstructor
 description: Upgrades tank and mech units to the next tier.
-constructTime: 480
+constructTime: 900
 consumes: {
   power: 4
   items: [
