@@ -1,0 +1,24 @@
+type: Reconstructor
+size: 4
+category: units
+name: Aeronautic Reconstructor
+description: Upgrades insectoid and support units to the next tier.
+constructTime: 480
+consumes: {
+  power: 4
+  items: [
+    thermic-alloy/45
+    cobalt/30
+    analog-processor/10
+  ]
+}
+requirements: [
+  tungsten-but-stolen/155
+  thermic-alloy/135
+  cobalt/110
+]
+researchCost: [
+  tungsten-but-stolen/3100
+  thermic-alloy/2700
+  cobalt/2200
+]
