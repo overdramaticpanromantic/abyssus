@@ -1,0 +1,42 @@
+type: UnitFactory
+size: 4
+category: units
+name: Aeronautic Constructor
+description: Fabricates bug and drone units.
+consumes: {
+  power: 4
+}
+requirements: [
+  tungsten-but-stolen/150
+  aluminum/120
+  magnesium/105
+  cobalt/90
+]
+researchCost: [
+  tungsten-but-stolen/3000
+  aluminum/2400
+  magnesium/2100
+  cobalt/1800
+]
+plans: [
+  {
+    type: UnitPlan
+    unit: aedini
+    time: 420
+    requirements: [
+      tungsten-but-stolen/25
+      aluminum/20
+      analog-processor/5
+    ]
+  }
+  {
+    type: UnitPlan
+    unit: lux
+    time: 600
+    requirements: [
+      tungsten-but-stolen/50
+      aluminum/45
+      analog-processor/12
+    ]
+  }
+]
