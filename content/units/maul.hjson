@@ -14,6 +14,10 @@ health: 1800
 armor: 5
 itemCapacity: 0
 hitSize: 16
+requirements: {
+  block: terrestrial-reconstructor
+  previous: mar
+}
 treadRects: [
   {
     x: 14
