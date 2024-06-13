@@ -32,7 +32,7 @@ plans: [
   {
     type: UnitPlan
     unit: lux
-    time: 600
+    time: 1080
     requirements: [
       tungsten-but-stolen/50
       aluminum/45
