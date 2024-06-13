@@ -31,6 +31,10 @@ hovering: true
 legPhysicsLayer: false
 shadowElevation: 0.2
 groundLayer: 74
+requirements: {
+  block: terrestrial-reconstructor
+  previous: rust
+}
 parts: [
   {
     type: RegionPart
