@@ -1,0 +1,24 @@
+type: Reconstructor
+size: 4
+category: units
+name: Terrestrial Reconstructor
+description: Upgrades tank and mech units to the next tier.
+constructTime: 480
+consumes: {
+  power: 4
+  items: [
+    thermic-alloy/60
+    cobalt/50
+    analog-processor/15
+  ]
+}
+requirements: [
+  tungsten-but-stolen/165
+  thermic-alloy/140
+  cobalt/110
+]
+researchCost: [
+  tungsten-but-stolen/3350
+  thermic-alloy/2800
+  cobalt/2200
+]
