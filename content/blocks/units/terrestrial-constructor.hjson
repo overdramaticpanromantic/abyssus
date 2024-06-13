@@ -26,7 +26,7 @@ plans: [
     requirements: [
       tungsten-but-stolen/45
       aluminum/35
-      magnesium/30
+      analog-processor/10
     ]
   }
   {
@@ -36,7 +36,7 @@ plans: [
     requirements: [
       tungsten-but-stolen/40
       aluminum/30
-      magnesium/25
+      analog-processor/8
     ]
   }
 ]
