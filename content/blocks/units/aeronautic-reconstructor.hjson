@@ -3,7 +3,7 @@ size: 4
 category: units
 name: Aeronautic Reconstructor
 description: Upgrades insectoid and support units to the next tier.
-constructTime: 480
+constructTime: 420
 consumes: {
   power: 4
   items: [
