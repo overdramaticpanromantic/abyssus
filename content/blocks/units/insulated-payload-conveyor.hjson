@@ -13,6 +13,12 @@ researchCost: [
   aluminum/80
   magnesium/80
 ]
+consumes: {
+  power: 0.2
+}
+consumesPower: true
+conductivePower: true
+hasPower: true
 moveTime: 60
 moveForce: 135
 canOverdrive: false
