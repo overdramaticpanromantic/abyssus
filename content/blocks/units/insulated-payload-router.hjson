@@ -1,0 +1,24 @@
+type: PayloadRouter
+name: Insulated Payload Router
+description: Splits payloads evenly across three directions. Requires power.
+category: units
+size: 2
+requirements: [
+  tungsten-but-stolen/24
+  aluminum/20
+  magnesium/20
+]
+researchCost: [
+  tungsten-but-stolen/240
+  aluminum/200
+  magnesium/200
+]
+consumes: {
+  power: 0.2
+}
+consumesPower: true
+conductivePower: true
+hasPower: true
+moveTime: 60
+moveForce: 135
+canOverdrive: false
