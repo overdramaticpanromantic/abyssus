@@ -1,6 +1,6 @@
 type: PayloadConveyor
 name: Insulated Payload Conveyor
-description: Moves payloads forward. Requires power.
+description: Moves payloads forward.
 category: units
 size: 2
 requirements: [
@@ -13,12 +13,6 @@ researchCost: [
   aluminum/80
   magnesium/80
 ]
-consumes: {
-  power: 0.05
-}
-consumesPower: true
-conductivePower: true
-hasPower: true
 moveTime: 60
 moveForce: 135
 canOverdrive: false
