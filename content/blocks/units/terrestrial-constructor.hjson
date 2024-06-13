@@ -1,0 +1,42 @@
+type: UnitFactory
+size: 4
+category: units
+name: Terrestrial Constructor
+description: Fabricates tank and mech units.
+consumes: {
+  power: 4
+}
+requirements: [
+  tungsten-but-stolen/140
+  aluminum/115
+  magnesium/100
+  cobalt/85
+]
+researchCost: [
+  tungsten-but-stolen/2800
+  aluminum/2300
+  magnesium/2000
+  cobalt/1700
+]
+plans: [
+  {
+    type: UnitPlan
+    unit: mar
+    time: 900
+    requirements: [
+      tungsten-but-stolen/45
+      aluminum/35
+      magnesium/30
+    ]
+  }
+  {
+    type: UnitPlan
+    unit: rust
+    time: 900
+    requirements: [
+      tungsten-but-stolen/40
+      aluminum/30
+      magnesium/25
+    ]
+  }
+]
