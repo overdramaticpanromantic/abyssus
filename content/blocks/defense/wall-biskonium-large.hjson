@@ -1,0 +1,13 @@
+name: Large Biskonium Wall
+description: Blocks enemy projectiles. Releases sparks when damaged.
+type: Wall
+size: 2
+category: defense
+health: 2640
+armor: 4
+requirements: [
+  biskonium/32
+]
+researchCost: [
+  biskonium/3840
+]
