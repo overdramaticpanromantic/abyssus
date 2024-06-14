@@ -1,0 +1,13 @@
+name: Biskonium Wall
+description: Blocks enemy projectiles. Releases sparks when damaged.
+type: Wall
+size: 1
+category: defense
+health: 660
+armor: 4
+requirements: [
+  biskonium/8
+]
+researchCost: [
+  biskonium/960
+]
