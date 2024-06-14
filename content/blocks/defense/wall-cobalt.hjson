@@ -1,0 +1,13 @@
+name: Cobalt Wall
+description: Blocks enemy projectiles.
+type: Wall
+size: 1
+category: defense
+health: 540
+armor: 3
+requirements: [
+  cobalt/8
+]
+researchCost: [
+  cobalt/480
+]
