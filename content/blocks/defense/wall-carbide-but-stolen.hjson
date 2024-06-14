@@ -1,0 +1,13 @@
+name: Carbide Wall
+description: Blocks enemy projectiles.
+type: Wall
+size: 1
+category: defense
+health: 600
+armor: 4
+requirements: [
+  carbide-but-stolen/8
+]
+researchCost: [
+  carbide-but-stolen/480
+]
