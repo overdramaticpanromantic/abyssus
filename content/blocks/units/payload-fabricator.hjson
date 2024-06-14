@@ -1,0 +1,23 @@
+type: Constructor
+size: 4
+name: Payload Fabricator
+description: Fabricates payloads using item input. Necessary for high-tier unit production.
+hasPower: true
+buildSpeed: 1
+minBlockSize: 1
+maxBlockSize: 3
+consumes: {
+  power: 2
+}
+requirements: [
+  tungsten-but-stolen/175
+  thermic-alloy/165
+  cobalt/135
+  aeroframe/110
+]
+researchCost: [
+  tungsten-but-stolen/1750
+  thermic-alloy/1650
+  cobalt/1350
+  aeroframe/1100
+]
