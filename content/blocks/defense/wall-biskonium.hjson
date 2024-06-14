@@ -5,6 +5,7 @@ size: 1
 category: defense
 health: 660
 armor: 4
+lightningChance: 0.1
 requirements: [
   biskonium/8
 ]
