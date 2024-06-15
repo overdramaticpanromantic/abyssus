@@ -12,7 +12,9 @@ filter: [
   wall-tungsten-but-stolen-large,
   wall-cobalt-large,
   wall-carbide-but-stolen-large,
-  wall-biskonium-large
+  wall-biskonium-large,
+  exhume,
+  dissipate
 ]
 requirements: [
   tungsten-but-stolen/175
