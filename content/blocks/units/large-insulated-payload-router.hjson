@@ -1,0 +1,18 @@
+type: PayloadRouter
+name: Large Insulated Payload Router
+description: Splits large ayloads evenly across three directions.
+category: units
+size: 4
+requirements: [
+  tungsten-but-stolen/60
+  thermic-alloy/40
+  cobalt/35
+]
+researchCost: [
+  tungsten-but-stolen/600
+  thermic-alloy/400
+  cobalt/350
+]
+moveTime: 60
+moveForce: 260
+canOverdrive: false
