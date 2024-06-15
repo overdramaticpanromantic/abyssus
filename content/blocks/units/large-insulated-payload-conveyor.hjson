@@ -1,0 +1,18 @@
+type: PayloadConveyor
+name: Large Insulated Payload Conveyor
+description: Moves large payloads forward.
+category: units
+size: 4
+requirements: [
+  tungsten-but-stolen/32
+  thermic-alloy/20
+  cobalt/16
+]
+researchCost: [
+  tungsten-but-stolen/320
+  thermic-alloy/200
+  cobalt/160
+]
+moveTime: 60
+moveForce: 260
+canOverdrive: false
