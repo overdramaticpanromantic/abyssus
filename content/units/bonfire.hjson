@@ -14,7 +14,7 @@ health: 5400
 armor: 6
 engineSize: 0
 itemCapacity: 0
-hitSize: 36
+hitSize: 32
 strafePenalty: 1
 isEnemy: false
 weapons: [
