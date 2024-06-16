@@ -7,5 +7,5 @@ placeablePlayer: false
 researchCostMultiplier: 0
 requirements: [
   aeroframe/30
-  cobalt/10
+  cobalt/30
 ]
