@@ -2,7 +2,7 @@ type: Junction
 name: Tank Tracks
 description: Heavy-duty tank treads, ready for assembly.
 size: 3
-health: 925
+health: 615
 placeablePlayer: false
 researchCostMultiplier: 0
 requirements: [
