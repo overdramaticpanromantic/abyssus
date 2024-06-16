@@ -1,0 +1,10 @@
+type: Junction
+name: Energy Core
+description: Long-term energy storage, encapsulated in a ball.
+size: 3
+placeablePlayer: false
+researchCostMultiplier: 0
+requirements: [
+  magnesium/75
+  thermic-alloy/65
+]
