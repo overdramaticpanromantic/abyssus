@@ -13,8 +13,12 @@ filter: [
   wall-cobalt-large,
   wall-carbide-but-stolen-large,
   wall-biskonium-large,
-  exhume,
-  dissipate
+  reinforced-plating,
+  tank-tracks,
+  energy-core,
+  lightweight-exoskeleton,
+  aerologic-rotor,
+  insectoid-wings
 ]
 requirements: [
   tungsten-but-stolen/175
