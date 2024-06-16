@@ -1,5 +1,6 @@
 name: Tarnish
 description: Fires cluster bombs at nearby enemies. Can step over most terrain.
+details: Essentially just an energy core with guns and legs strapped to it, the Tarnish has exceptional firepower for its size. As a drawback of being comprised of ninety-percent energy storage, it is highly delicate.
 type: legs
 template: ErekirUnitType
 lightColor: 9db9ed
@@ -9,7 +10,7 @@ speed: 1
 drag: 0.1
 hitSize: 14
 rotateSpeed: 2.5
-health: 2450
+health: 2250
 armor: 6
 legStraightness: 0.35
 stepShake: 0
