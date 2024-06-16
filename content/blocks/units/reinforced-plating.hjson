@@ -1,0 +1,10 @@
+type: Junction
+name: Reinforced Plating
+description: Plates of armor, studded and reinforced.
+size: 3
+placeablePlayer: false
+researchCostMultiplier: 0
+requirements: [
+  tungsten-but-stolen/35
+  carbide-but-stolen/20
+]
