@@ -2,6 +2,7 @@ type: Junction
 name: Lightweight Exoskeleton
 description: Thin yet durable armor, coupled with lightweight framing.
 size: 3
+health: 560
 placeablePlayer: false
 researchCostMultiplier: 0
 requirements: [
