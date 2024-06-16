@@ -2,6 +2,7 @@ type: Junction
 name: Aerologic Rotor
 description: Aerodynamic rotor blades, packaged and ready for assembly.
 size: 3
+health: 255
 placeablePlayer: false
 researchCostMultiplier: 0
 requirements: [
