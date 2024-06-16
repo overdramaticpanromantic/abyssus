@@ -1,0 +1,10 @@
+type: Junction
+name: Insectoid Wings
+description: Specialized wings, ready to be mounted.
+size: 3
+placeablePlayer: false
+researchCostMultiplier: 0
+requirements: [
+  tungsten-but-stolen/35
+  magnesium/25
+]
