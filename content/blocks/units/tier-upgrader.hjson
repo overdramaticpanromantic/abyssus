@@ -1,0 +1,21 @@
+type: UnitAssemblerModule
+tier: 1
+name: Tier Upgrader
+description: Allows for the production of tier four units when placed alongside a contrivance bay's bounding box. Can be used as an additional payload input.
+size: 4
+category: units
+consumes: {
+  power: 3
+}
+requirements: [
+  tungsten-but-stolen/225
+  cobalt/195
+  aeroframe/175
+  biskonium/160
+]
+researchCost: [
+  tungsten-but-stolen/2250
+  cobalt/1950
+  aeroframe/1750
+  biskonium/1600
+]
