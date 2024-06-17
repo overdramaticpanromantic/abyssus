@@ -1,0 +1,52 @@
+type: UnitAssembler
+name: Mech Contrivance Bay
+description: Fabricates mech units using payload input. Requires power for operation.
+size: 6
+category: units
+droneType: contrivance-drone
+areaSize: 15
+consumes: {
+  power: 4
+}
+requirements: [
+  tungsten-but-stolen/190
+  thermic-alloy/150
+  carbide-but-stolen/90
+]
+researchCost: [
+  tungsten-but-stolen/1900
+  thermic-alloy/1500
+  carbide-but-stolen/900
+]
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: tarnish
+    time: 1800
+    requirements: [
+      abyssus-energy-core/1
+      abyssus-reinforced-plating/2
+      abyssus-digital-processing-core/2
+    ]
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: corrode
+    time: 3600
+    requirements: [
+      abyssus-energy-core/1
+      abyssus-reinforced-plating/5
+      abyssus-digital-processing-core/3
+    ]
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: dilapidate
+    time: 7200
+    requirements: [
+      abyssus-energy-core/2
+      abyssus-reinforced-plating/10
+      abyssus-quantum-processing-core/3
+    ]
+  }
+]
