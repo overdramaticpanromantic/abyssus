@@ -7,7 +7,7 @@ accel: 0.09
 speed: 1.5
 health: 210
 engineSize: 2
-engineOffset: 7
+engineOffset: 6
 payloadCapacity: 0
 targetable: false
 bounded: false
