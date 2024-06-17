@@ -24,7 +24,7 @@ plans: [
     unit: candle
     time: 1800
     requirements: [
-      abyssus-aerogic-rotor/2
+      abyssus-aerologic-rotor/2
       abyssus-lightweight-exoskeleton/2
       abyssus-digital-processing-core/2
     ]
@@ -34,7 +34,7 @@ plans: [
     unit: bonfire
     time: 3600
     requirements: [
-      abyssus-aerogic-rotor/4
+      abyssus-aerologic-rotor/4
       abyssus-lightweight-exoskeleton/6
       abyssus-digital-processing-core/3
     ]
@@ -44,7 +44,7 @@ plans: [
     unit: brazier
     time: 7200
     requirements: [
-      abyssus-aerogic-rotor/6
+      abyssus-aerologic-rotor/6
       abyssus-lightweight-exoskeleton/12
       abyssus-quantum-processing-core/3
     ]
