@@ -1,0 +1,52 @@
+type: UnitAssembler
+name: Drone Contrivance Bay
+description: Fabricates drone units using payload input. Requires power for operation.
+size: 6
+category: units
+droneType: contrivance-drone
+areaSize: 15
+consumes: {
+  power: 4
+}
+requirements: [
+  tungsten-but-stolen/1900
+  cobalt/150
+  aeroframe/90
+]
+researchCost: [
+  tungsten-but-stolen/1900
+  cobalt/1500
+  aeroframe/900
+]
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: candle
+    time: 1800
+    requirements: [
+      abyssus-insectoid-wings/1
+      abyssus-lightweight-exoskeleton/2
+      abyssus-digital-processing-core/2
+    ]
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: bonfire
+    time: 3600
+    requirements: [
+      abyssus-insectoid-wings/2
+      abyssus-lightweight-exoskeleton/6
+      abyssus-digital-processing-core/3
+    ]
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: brazier
+    time: 7200
+    requirements: [
+      abyssus-insectoid-wings/2
+      abyssus-lightweight-exoskeleton/12
+      abyssus-quantum-processing-core/3
+    ]
+  }
+]
