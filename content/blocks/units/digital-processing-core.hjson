@@ -1,6 +1,6 @@
 type: Junction
 name: Digital Processing Core
-description: Aerodynamic rotor blades, packaged and ready for assembly.
+description: Motherboard parts, capable of on-the-fly calculations.
 size: 2
 health: 310
 placeablePlayer: false
