@@ -26,7 +26,7 @@ plans: [
     requirements: [
       abyssus-tank-tracks/1
       abyssus-reinforced-plating/2
-      abyssus-digital-processor/25
+      abyssus-digital-processing-core/2
     ]
   }
   {
@@ -36,7 +36,7 @@ plans: [
     requirements: [
       abyssus-tank-tracks/2
       abyssus-reinforced-plating/6
-      abyssus-quantum-processor/35
+      abyssus-digital-processing-core/3
     ]
   }
   {
@@ -46,7 +46,7 @@ plans: [
     requirements: [
       abyssus-tank-tracks/4
       abyssus-reinforced-plating/12
-      abyssus-quantum-processor/50
+      abyssus-quantum-processing-core/3
     ]
   }
 ]
