@@ -1,0 +1,52 @@
+type: UnitAssembler
+name: Insectoid Contrivance Bay
+description: Fabricates insectoid units using payload input. Requires power for operation.
+size: 6
+category: units
+droneType: contrivance-drone
+areaSize: 15
+consumes: {
+  power: 4
+}
+requirements: [
+  tungsten-but-stolen/180
+  cobalt/145
+  aeroframe/85
+]
+researchCost: [
+  tungsten-but-stolen/1800
+  cobalt/1450
+  aeroframe/850
+]
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: hemiptera
+    time: 1800
+    requirements: [
+      abyssus-insectoid-wings/1
+      abyssus-lightweight-exoskeleton/2
+      abyssus-digital-processing-core/2
+    ]
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: zygoptera
+    time: 3600
+    requirements: [
+      abyssus-insectoid-wings/2
+      abyssus-lightweight-exoskeleton/5
+      abyssus-digital-processing-core/3
+    ]
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: anisoptera
+    time: 7200
+    requirements: [
+      abyssus-insectoid-wings/2
+      abyssus-lightweight-exoskeleton/10
+      abyssus-quantum-processing-core/3
+    ]
+  }
+]
