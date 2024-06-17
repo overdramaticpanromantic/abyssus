@@ -1,0 +1,11 @@
+type: Junction
+name: Quantum Processing Core
+description: Motherboard parts, capable of advanced on-the-fly calculations.
+size: 2
+health: 350
+placeablePlayer: false
+researchCostMultiplier: 0
+requirements: [
+  thermic-alloy/20
+  quantum-processor/15
+]
