@@ -1,0 +1,15 @@
+type: UnitAssemblerModule
+tier: 2
+name: Advanced Tier Upgrader
+description: Allows for the production of tier five units when placed alongside a contrivance bay's bounding box. Must be used alongside a regular tier upgrader. Can be used as an additional payload input.
+size: 4
+category: units
+consumes: {
+  power: 5
+}
+requirements: [
+  thermic-alloy/240
+  carbide-but-stolen/215
+  biskonium/190
+  bintubite/175
+]
