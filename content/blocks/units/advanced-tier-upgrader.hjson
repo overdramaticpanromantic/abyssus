@@ -13,3 +13,9 @@ requirements: [
   biskonium/190
   bintubite/175
 ]
+researchCost: [
+  thermic-alloy/24000
+  carbide-but-stolen/21500
+  biskonium/19000
+  bintubite/17500
+]
