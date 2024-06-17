@@ -24,9 +24,9 @@ plans: [
     unit: maim
     time: 1800
     requirements: [
-      tank-tracks/1
-      reinforced-plating/2
-      digital-processor/25
+      abyssus-tank-tracks/1
+      abyssus-reinforced-plating/2
+      abyssus-digital-processor/25
     ]
   }
   {
@@ -34,9 +34,9 @@ plans: [
     unit: mangle
     time: 3600
     requirements: [
-      tank-tracks/2
-      reinforced-plating/6
-      quantum-processor/35
+      abyssus-tank-tracks/2
+      abyssus-reinforced-plating/6
+      abyssus-quantum-processor/35
     ]
   }
   {
@@ -44,9 +44,9 @@ plans: [
     unit: mutilate
     time: 7200
     requirements: [
-      tank-tracks/4
-      reinforced-plating/12
-      quantum-processor/50
+      abyssus-tank-tracks/4
+      abyssus-reinforced-plating/12
+      abyssus-quantum-processor/50
     ]
   }
 ]
