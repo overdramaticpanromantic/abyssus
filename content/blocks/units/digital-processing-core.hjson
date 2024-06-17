@@ -1,0 +1,11 @@
+type: Junction
+name: Digital Processing Core
+description: Aerodynamic rotor blades, packaged and ready for assembly.
+size: 2
+health: 310
+placeablePlayer: false
+researchCostMultiplier: 0
+requirements: [
+  thermic-alloy/20
+  digital-processor/15
+]
