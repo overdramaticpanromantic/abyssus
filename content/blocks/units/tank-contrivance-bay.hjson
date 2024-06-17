@@ -1,0 +1,52 @@
+type: UnitAssembler
+name: Tank Contrivance Bay
+description: Fabricates tank units using payload input. Requires power for operation.
+size: 6
+category: units
+droneType: contrivance-drone
+areaSize: 15
+consumes: {
+  power: 4
+}
+requirements: [
+  tungsten-but-stolen/180
+  thermic-alloy/145
+  carbide-but-stolen/85
+]
+researchCost: [
+  tungsten-but-stolen/1800
+  thermic-alloy/1450
+  carbide-but-stolen/850
+]
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: maim
+    time: 1800
+    requirements: [
+      tank-tracks/1
+      reinforced-plating/2
+      digital-processor/25
+    ]
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: mangle
+    time: 3600
+    requirements: [
+      tank-tracks/2
+      reinforced-plating/6
+      quantum-processor/35
+    ]
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: mutilate
+    time: 7200
+    requirements: [
+      tank-tracks/4
+      reinforced-plating/12
+      quantum-processor/50
+    ]
+  }
+]
