@@ -4,7 +4,7 @@ description: Fabricates drone units using payload input. Requires power for oper
 size: 6
 category: units
 droneType: contrivance-drone
-areaSize: 15
+areaSize: 14
 consumes: {
   power: 4
 }
