@@ -4,7 +4,7 @@ description: Fabricates tank units using payload input. Requires power for opera
 size: 6
 category: units
 droneType: contrivance-drone
-areaSize: 15
+areaSize: 16
 consumes: {
   power: 4
 }
