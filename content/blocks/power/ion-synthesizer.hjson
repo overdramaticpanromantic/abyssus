@@ -34,7 +34,7 @@ consumes: {
     biskonium/1
   ]
   liquids: [
-    oxygen/6
+    oxygen/3
     hydrogen/6
   ]
 }
