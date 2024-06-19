@@ -3,7 +3,6 @@ name: Ion Synthesizer
 description: Synthesizes ion solution from a mix of hydrogen, oxygen, and biskonium.
 size: 7
 category: crafting
-rotate: true
 liquidOutputDirections: [1]
 liquidCapacity: 3000
 regionRotated: 1
@@ -57,11 +56,11 @@ drawer: {
       type: DrawDefault
     }
     {
-      type: DrawRegion
-      suffix: -top
+      type: DrawLiquidOutputs
     }
     {
-      type: DrawLiquidOutputs
+      type: DrawRegion
+      suffix: -top
     }
   ]
 }
