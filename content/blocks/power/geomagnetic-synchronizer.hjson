@@ -22,13 +22,46 @@ explosionPuddleLiquid: ion-solution
 explosionPuddleAmount: 150
 explosionShake: 10
 explosionShakeDuration: 60
-effectChance: 0.02
+effectChance: 0.01
+explosionDamage: 50000
+explosionRadius: 200
 effect: {
   type: WaveEffect
+  lightColor: 9fb0bf
   colorFrom: 464972
   colorTo: ffffff
   sizeFrom: 0
   sizeTo: 200
+}
+explodeEffect: {
+  type: MultiEffect
+  effects: [
+    {
+      type: WaveEffect
+      lightColor: 9fb0bf
+      colorFrom: 464972
+      colorTo: ffffff
+      sizeFrom: 0
+      sizeTo: 600
+      strokeFrom: 6
+      strokeTo: 0
+    }
+    {
+      type: ExplosionEffect
+      waveLife: 0
+      waveStroke: 0
+      waveRad: 0
+      smokeColor: 6e7a97
+      sparkColor: 9fb0bf
+      smokes: 20
+      sparks: 16
+      sparkStroke: 3
+      sparkLen: 10
+      smokeSize: 8
+      smokeSizeBase: 1
+      smokeRad: 60
+    }
+  ]
 }
 requirements: [
   tungsten-but-stolen/2900
