@@ -15,7 +15,7 @@ ambientSoundVolume: 0.4
 unstableSpeed: 0.00055555555
 warmupSpeed: 0.1
 flashColor1: ff0000
-flashColor2: ffff00
+flashColor2: ff7f00
 explosionPuddles: 100
 explosionPuddleRange: 60
 explosionPuddleLiquid: ion-solution
