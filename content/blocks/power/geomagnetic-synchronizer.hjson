@@ -22,6 +22,14 @@ explosionPuddleLiquid: ion-solution
 explosionPuddleAmount: 150
 explosionShake: 10
 explosionShakeDuration: 60
+effectChance: 0.02
+effect: {
+  type: WaveEffect
+  colorFrom: 464972
+  colorTo: ffffff
+  sizeFrom: 0
+  sizeTo: 200
+}
 requirements: [
   tungsten-but-stolen/2900
   thermic-alloy/2750
