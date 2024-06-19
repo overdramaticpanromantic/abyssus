@@ -3,6 +3,7 @@ name: Ion Synthesizer
 description: Synthesizes ion solution from a mix of hydrogen, oxygen, and biskonium.
 size: 7
 category: power
+squareSprite: false
 liquidOutputDirections: [0]
 liquidCapacity: 3000
 invertFlip: true
