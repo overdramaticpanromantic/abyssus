@@ -13,6 +13,7 @@ rotateDraw: false
 regionRotated1: 1
 itemCapacity: 0
 hasItems: false
+warmupRate: 1
 requirements: [
   tungsten-but-stolen/1400
   cobalt/1300
