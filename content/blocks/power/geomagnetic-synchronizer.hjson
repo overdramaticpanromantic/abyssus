@@ -12,6 +12,7 @@ hasLiquids: true
 liquidCapacity: 45000
 ambientSound: windhowl
 ambientSoundVolume: 0.4
+maxHeat: 600
 unstableSpeed: 0.00055555555
 warmupSpeed: 0.1
 flashColor1: ff0000
