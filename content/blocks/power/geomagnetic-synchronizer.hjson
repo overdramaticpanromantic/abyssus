@@ -5,6 +5,7 @@ health: 3450
 category: power
 powerProduction: 4000
 size: 9
+squareSprite: false
 hasItems: false
 itemCapacity: 0
 hasLiquids: true
