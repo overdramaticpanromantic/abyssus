@@ -51,13 +51,13 @@ drawer: {
       suffix: -bottom
     }
     {
-      type: DrawDefault
-    }
-    {
       type: DrawPlasma
       plasma1: 9fb0bf
       plasma2: 464972
       plasmas: 3
+    }
+    {
+      type: DrawDefault
     }
   ]
 }
