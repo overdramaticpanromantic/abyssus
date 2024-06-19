@@ -5,7 +5,6 @@ size: 7
 category: crafting
 liquidOutputDirections: [0]
 liquidCapacity: 3000
-regionRotated: 1
 invertFlip: true
 ambientSound: extractLoop
 ambientSoundVolume: 0.2
