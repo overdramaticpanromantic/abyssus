@@ -103,5 +103,9 @@ drawer: {
     {
       type: DrawDefault
     }
+    {
+      type: DrawHeatInput
+      heatColor: 464972
+    }
   ]
 }
