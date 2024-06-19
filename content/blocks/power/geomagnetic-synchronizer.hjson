@@ -24,7 +24,7 @@ explosionShake: 10
 explosionShakeDuration: 90
 effectChance: 0.01
 explosionDamage: 50000
-explosionRadius: 150
+explosionRadius: 200
 effect: {
   type: WaveEffect
   lightColor: 9fb0bf
