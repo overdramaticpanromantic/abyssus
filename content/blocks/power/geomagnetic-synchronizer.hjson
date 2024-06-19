@@ -1,0 +1,62 @@
+type: VariableReactor
+name: Geomagnetic Synchronizer
+description: Synchronizes Abyssus's electromagnetic field with that of your factory, providing near-limitless power. Must be supplied with prodigous amounts of coolant. Explodes if coolant input is insufficient.
+health: 3450
+category: power
+powerProduction: 30
+size: 9
+hasItems: false
+itemCapacity: 0
+hasLiquids: true
+liquidCapacity: 45000
+ambientSound: windhowl
+ambientSoundVolume: 0.4
+unstableSpeed: 0.00055555555
+warmupSpeed: 0.1
+flashColor1: ff0000
+flashColor2: ffff00
+explosionPuddles: 100
+explosionPuddleRange: 60
+explosionPuddleLiquid: ion-solution
+explosionPuddleAmount: 150
+explosionShake: 10
+explosionShakeDuration: 60
+requirements: [
+  tungsten-but-stolen/2900
+  thermic-alloy/2750
+  aeroframe/2100
+  carbide-but-stolen/1850
+  biskonium/1700
+  bintubite/1500
+]
+researchCost: [
+  tungsten-but-stolen/290000
+  thermic-alloy/275000
+  aeroframe/210000
+  carbide-but-stolen/185000
+  biskonium/170000
+  bintubite/150000
+]
+consumes: {
+  liquids: [
+    ion-solution/25
+  ]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawPlasma
+      plasma1: 9fb0bf
+      plasma2: 464972
+      plasmas: 3
+    }
+  ]
+}
