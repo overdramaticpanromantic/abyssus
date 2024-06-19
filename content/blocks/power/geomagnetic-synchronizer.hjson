@@ -21,10 +21,10 @@ explosionPuddleRange: 60
 explosionPuddleLiquid: ion-solution
 explosionPuddleAmount: 150
 explosionShake: 10
-explosionShakeDuration: 60
+explosionShakeDuration: 90
 effectChance: 0.01
 explosionDamage: 50000
-explosionRadius: 60
+explosionRadius: 150
 effect: {
   type: WaveEffect
   lightColor: 9fb0bf
@@ -58,10 +58,10 @@ explodeEffect: {
       sparks: 60
       sparkStroke: 5
       sparkLen: 20
-      sparkRad: 100
+      sparkRad: 300
       smokeSize: 16
       smokeSizeBase: 1
-      smokeRad: 100
+      smokeRad: 300
     }
   ]
 }
