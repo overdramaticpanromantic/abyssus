@@ -47,11 +47,6 @@ drawer: {
       padding: 6
     }
     {
-      type: DrawBubbles
-      color: eb7558
-      amount: 20
-    }
-    {
       type: DrawDefault
     }
     {
