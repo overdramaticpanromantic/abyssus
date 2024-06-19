@@ -2,7 +2,7 @@ type: GenericCrafter
 name: Ion Synthesizer
 description: Synthesizes ion solution from a mix of hydrogen, oxygen, and biskonium.
 size: 7
-category: power
+category: crafting
 rotate: true
 liquidOutputDirections: [1]
 liquidCapacity: 3000
