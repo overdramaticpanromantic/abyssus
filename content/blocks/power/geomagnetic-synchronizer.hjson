@@ -3,7 +3,7 @@ name: Geomagnetic Synchronizer
 description: Synchronizes Abyssus's electromagnetic field with that of your factory, providing near-limitless power. Must be supplied with prodigous amounts of coolant. Explodes if coolant input is insufficient.
 health: 3450
 category: power
-powerProduction: 30
+powerProduction: 4000
 size: 9
 hasItems: false
 itemCapacity: 0
