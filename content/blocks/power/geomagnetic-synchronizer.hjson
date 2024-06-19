@@ -48,18 +48,20 @@ explodeEffect: {
     }
     {
       type: ExplosionEffect
+      lifetime: 120
       waveLife: 0
       waveStroke: 0
       waveRad: 0
       smokeColor: 6e7a97
       sparkColor: 9fb0bf
-      smokes: 20
-      sparks: 16
+      smokes: 35
+      sparks: 30
       sparkStroke: 3
       sparkLen: 10
+      sparkRad: 80
       smokeSize: 8
       smokeSizeBase: 1
-      smokeRad: 60
+      smokeRad: 80
     }
   ]
 }
