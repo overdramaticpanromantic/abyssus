@@ -1,0 +1,53 @@
+type: GenericCrafter
+name: Ion Synthesizer
+description: Synthesizes ion solution from a mix of hydrogen, oxygen, and biskonium.
+size: 7
+category: power // intuitive
+rotate: true
+liquidOutputDirections: [1]
+liquidCapacity: 3000
+regionRotated: 1
+invertFlip: true
+ambientSound: extractLoop
+ambientSoundVolume: 0.2
+craftTime: 30
+outputLiquid: ion-solution/12.5
+consumes: {
+  power: 60
+  items: [
+    biskonium/1
+  ]
+  liquids: [
+    hydrogen/6
+    oxygen/6
+  ]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: oxygen
+      padding: 6
+    }
+    {
+      type: DrawBubbles
+      color: eb7558
+      amount: 20
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawLiquidOutputs
+    }
+  ]
+}
