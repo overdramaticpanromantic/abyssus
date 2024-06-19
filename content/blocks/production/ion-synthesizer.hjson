@@ -12,6 +12,20 @@ ambientSound: extractLoop
 ambientSoundVolume: 0.2
 craftTime: 30
 outputLiquid: ion-solution/12.5
+requirements: [
+  thermic-alloy/1200
+  cobalt/1150
+  carbide-but-stolen/1000
+  biskonium/850
+  bintubite/700
+]
+researchCost: [
+  thermic-alloy/120000
+  cobalt/115000
+  carbide-but-stolen/100000
+  biskonium/85000
+  bintubite/70000
+]
 consumes: {
   power: 60
   items: [
