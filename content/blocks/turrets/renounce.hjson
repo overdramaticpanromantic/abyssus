@@ -19,6 +19,7 @@ shootWarmupSpeed: 0.05
 minWarmup: 0.95
 velocityRnd: 0.15
 cooldownTime: 90
+ammoPerShot: 4
 requirements: [
   tungsten-but-stolen/120
   thermic-alloy/105
