@@ -17,6 +17,7 @@ shootSound: shootRailgun
 smokeEffect: none
 outlineColor: 0f0f14
 translation: 15
+receiveEffect: none
 shootEffect: {
   type: MultiEffect
   effects: [
