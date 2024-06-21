@@ -41,6 +41,7 @@ drawer: {
       progress: warmup
       x: -12
       y: -8
+      rotation: 180
       moveX: -5
       moveY: -5
       moveRot: -30
