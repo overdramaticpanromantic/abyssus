@@ -1,0 +1,49 @@
+type: MassDriver
+size: 5
+category: distribution
+name: Transport Railgun
+description: Launches items towards a separate transport railgun. Requires oxygen for operation.
+itemCapacity: 180
+reload: 240
+range: 600
+rotateSpeed: 2
+knockback: 4
+bulletSpeed: 6
+bulletLifetime: 300
+shake: 4
+shootSound: shootRailgun
+smokeEffect: none
+shootEffect: {
+  type: WaveEffect
+  lightColor: 9fb0bf
+  colorFrom: 464972
+  colorTo: ffffff
+  sizeFrom: 0
+  sizeTo: 16
+}
+receiveEffect: {
+  type: WaveEffect
+  lightColor: 9fb0bf
+  colorFrom: 464972
+  colorTo: ffffff
+  sizeFrom: 0
+  sizeTo: 16
+}
+requirements: [
+  aluminum/190
+  cobalt/160
+  carbide-but-stolen/135
+  strontium/120
+]
+researchCost: [
+  aluminum/1900
+  cobalt/1600
+  carbide-but-stolen/1350
+  strontium/1200
+]
+consumes: {
+  power: 6
+  liquids: [
+    oxygen/0.3
+  ]
+}
