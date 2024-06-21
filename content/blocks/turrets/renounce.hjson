@@ -39,11 +39,11 @@ drawer: {
       mirror: false
       under: true
       progress: warmup
-      x: -5.5
-      y: 2
+      x: -7.5
+      y: 4
       rotation: 180
-      moveX: -7
-      moveY: -3
+      moveX: -5
+      moveY: -5
       moveRot: -30
       heatColor: 5c5986
     }
@@ -67,11 +67,11 @@ drawer: {
       mirror: false
       under: true
       progress: warmup
-      x: 5.5
-      y: 2
+      x: 7.5
+      y: 4
       rotation: 180
-      moveX: 7
-      moveY: -3
+      moveX: 5
+      moveY: -5
       moveRot: 30
       heatColor: 5c5986
     }
