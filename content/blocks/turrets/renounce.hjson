@@ -99,5 +99,22 @@ drawer: {
 ammoTypes: {
   cobalt: {
     type: BasicBulletType
+    lifetime: 120
+    speed: 6
+    homingPower: 0.1
+    homingRange: 60
+    pierce: true
+    pierceCap: 4
+    damage: 40
+    hitEffect: hitSquaresColor
+    despawnEffect: hitSquaresColor
+    frontColor: 8a86b7
+    backColor: 5c5986
+    hitColor: 5c5986
+    trailColor: 5c5986
+    width: 3
+    height: 8
+    trailWidth: 1
+    trailLength: 14
   }
 }
