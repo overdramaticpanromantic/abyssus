@@ -2,8 +2,10 @@ type: MassDriver
 size: 5
 category: distribution
 name: Transport Railgun
-description: Launches items towards a separate transport railgun. Requires oxygen for operation.
+description: Launches items towards a separate transport railgun.
 itemCapacity: 180
+hasLiquids: false
+liquidCapacity: 0
 reload: 240
 range: 600
 rotateSpeed: 2
@@ -44,7 +46,4 @@ researchCost: [
 ]
 consumes: {
   power: 6
-  liquids: [
-    oxygen/0.3
-  ]
 }
