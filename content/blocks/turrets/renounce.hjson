@@ -49,6 +49,20 @@ drawer: {
     }
     {
       type: RegionPart
+      suffix: -blade-l
+      mirror: false
+      under: true
+      progress: warmup
+      x: -2.5
+      y: -8
+      rotation: 180
+      moveX: -7
+      moveY: -3
+      moveRot: -30
+      heatColor: 5c5986
+    }
+    {
+      type: RegionPart
       suffix: -blade-r
       mirror: false
       under: true
@@ -56,7 +70,21 @@ drawer: {
       x: 5.5
       y: 2
       rotation: 180
-      moveX: 5
+      moveX: 7
+      moveY: -3
+      moveRot: 30
+      heatColor: 5c5986
+    }
+    {
+      type: RegionPart
+      suffix: -blade-r
+      mirror: false
+      under: true
+      progress: warmup
+      x: 2.5
+      y: -8
+      rotation: 180
+      moveX: 7
       moveY: -3
       moveRot: 30
       heatColor: 5c5986
