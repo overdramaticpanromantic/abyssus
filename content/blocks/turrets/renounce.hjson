@@ -15,6 +15,8 @@ shootY: 14
 outlineColor: 0f0f14
 shake: 2
 heatColor: 5c5986
+shootWarmupSpeed: 0.05
+minWarmup: 0.95
 requirements: [
   tungsten-but-stolen/120
   thermic-alloy/105
@@ -26,8 +28,8 @@ researchCost: [
   cobalt/360
 ]
 shoot: {
-  firstShotDelay: 90
   shots: 8
+  shotDelay: 1
 }
 drawer: {
   type: DrawTurret
