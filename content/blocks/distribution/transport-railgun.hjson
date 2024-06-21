@@ -18,20 +18,62 @@ smokeEffect: none
 outlineColor: 0f0f14
 translation: 15
 shootEffect: {
-  type: WaveEffect
-  lightColor: 9fb0bf
-  colorFrom: 464972
-  colorTo: ffffff
-  sizeFrom: 0
-  sizeTo: 16
+  type: MultiEffect
+  effects: [
+    {
+      type: WaveEffect
+      lightColor: 9fb0bf
+      colorFrom: 464972
+      colorTo: ffffff
+      sizeFrom: 0
+      sizeTo: 16
+    }
+    {
+      type: WaveEffect
+      lightColor: 9fb0bf
+      colorFrom: 464972
+      colorTo: ffffff
+      sizeFrom: 0
+      sizeTo: 10
+    }
+    {
+      type: WaveEffect
+      lightColor: 9fb0bf
+      colorFrom: 464972
+      colorTo: ffffff
+      sizeFrom: 0
+      sizeTo: 4
+    }
+  ]
 }
 receiveEffect: {
-  type: WaveEffect
-  lightColor: 9fb0bf
-  colorFrom: 464972
-  colorTo: ffffff
-  sizeFrom: 0
-  sizeTo: 16
+  type: MultiEffect
+  effects: [
+    {
+      type: WaveEffect
+      lightColor: 9fb0bf
+      colorFrom: 464972
+      colorTo: ffffff
+      sizeFrom: 0
+      sizeTo: 16
+    }
+    {
+      type: WaveEffect
+      lightColor: 9fb0bf
+      colorFrom: 464972
+      colorTo: ffffff
+      sizeFrom: 0
+      sizeTo: 10
+    }
+    {
+      type: WaveEffect
+      lightColor: 9fb0bf
+      colorFrom: 464972
+      colorTo: ffffff
+      sizeFrom: 0
+      sizeTo: 4
+    }
+  ]
 }
 requirements: [
   aluminum/190
