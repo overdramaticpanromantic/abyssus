@@ -18,6 +18,7 @@ heatColor: 5c5986
 shootWarmupSpeed: 0.05
 minWarmup: 0.95
 velocityRnd: 0.15
+cooldownTime: 90
 requirements: [
   tungsten-but-stolen/120
   thermic-alloy/105
@@ -43,7 +44,7 @@ drawer: {
       under: true
       progress: warmup
       x: -7.5
-      y: 4
+      y: 4.75
       rotation: 180
       moveX: -5
       moveY: -5
@@ -71,7 +72,7 @@ drawer: {
       under: true
       progress: warmup
       x: 7.5
-      y: 4
+      y: 4.75
       rotation: 180
       moveX: 5
       moveY: -5
