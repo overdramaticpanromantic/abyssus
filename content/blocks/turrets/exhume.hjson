@@ -38,7 +38,7 @@ drawer: {
       under: true
       progress: recoil
       x: 4.25
-      y: 5
+      y: 5.25
       recoilIndex: 1
       moveY: -2.4
     }
@@ -49,7 +49,7 @@ drawer: {
       under: true
       progress: recoil
       x: -4.25
-      y: 5
+      y: 5.25
       recoilIndex: 0
       moveY: -2.4
     }
