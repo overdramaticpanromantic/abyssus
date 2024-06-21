@@ -54,10 +54,10 @@ drawer: {
       under: true
       progress: warmup
       x: -2.5
-      y: -8
+      y: -5
       rotation: 180
-      moveX: -7
-      moveY: -3
+      moveX: -6
+      moveY: -6
       moveRot: -30
       heatColor: 5c5986
     }
@@ -82,10 +82,10 @@ drawer: {
       under: true
       progress: warmup
       x: 2.5
-      y: -8
+      y: -5
       rotation: 180
-      moveX: 7
-      moveY: -3
+      moveX: 6
+      moveY: -6
       moveRot: 30
       heatColor: 5c5986
     }
