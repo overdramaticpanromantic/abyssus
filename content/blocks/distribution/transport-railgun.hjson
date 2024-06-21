@@ -27,6 +27,7 @@ shootEffect: {
       colorTo: 9fb0bf
       sizeFrom: 0
       sizeTo: 20
+      rotWithParent: true
     }
     {
       type: WaveEffect
@@ -35,6 +36,7 @@ shootEffect: {
       colorTo: 9fb0bf
       sizeFrom: 0
       sizeTo: 14
+      rotWithParent: true
     }
     {
       type: WaveEffect
@@ -43,6 +45,7 @@ shootEffect: {
       colorTo: 9fb0bf
       sizeFrom: 0
       sizeTo: 8
+      rotWithParent: true
     }
   ]
 }
@@ -57,6 +60,7 @@ receiveEffect: {
       sizeFrom: 0
       sizeTo: 16
       offsetY: 4
+      rotWithParent: true
     }
     {
       type: WaveEffect
@@ -66,6 +70,7 @@ receiveEffect: {
       sizeFrom: 0
       sizeTo: 10
       offsetY: 4
+      rotWithParent: true
     }
     {
       type: WaveEffect
@@ -75,6 +80,7 @@ receiveEffect: {
       sizeFrom: 0
       sizeTo: 4
       offsetY: 4
+      rotWithParent: true
     }
   ]
 }
