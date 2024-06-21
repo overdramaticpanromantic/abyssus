@@ -11,7 +11,7 @@ shootSound: shootEnergy
 inaccuracy: 15
 rotateSpeed: 2
 shootCone: 15
-shootY: 8
+shootY: 14
 outlineColor: 0f0f14
 shake: 2
 heatColor: 5c5986
@@ -39,9 +39,10 @@ drawer: {
       mirror: false
       under: true
       progress: warmup
-      x: -6
-      y: -5
-      moveX: -1
+      x: -12
+      y: -8
+      moveX: -5
+      moveY: -5
       moveRot: -30
       heatColor: 5c5986
     }
