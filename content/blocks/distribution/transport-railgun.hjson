@@ -49,41 +49,6 @@ shootEffect: {
     }
   ]
 }
-receiveEffect: {
-  type: MultiEffect
-  effects: [
-    {
-      type: WaveEffect
-      lightColor: 9fb0bf
-      colorFrom: 464972
-      colorTo: ffffff
-      sizeFrom: 0
-      sizeTo: 16
-      offsetY: 4
-      rotWithParent: true
-    }
-    {
-      type: WaveEffect
-      lightColor: 9fb0bf
-      colorFrom: 464972
-      colorTo: ffffff
-      sizeFrom: 0
-      sizeTo: 10
-      offsetY: 4
-      rotWithParent: true
-    }
-    {
-      type: WaveEffect
-      lightColor: 9fb0bf
-      colorFrom: 464972
-      colorTo: ffffff
-      sizeFrom: 0
-      sizeTo: 4
-      offsetY: 4
-      rotWithParent: true
-    }
-  ]
-}
 requirements: [
   aluminum/190
   cobalt/160
