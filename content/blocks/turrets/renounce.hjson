@@ -47,3 +47,8 @@ drawer: {
     }
   ]
 }
+ammoTypes: {
+  cobalt: {
+    type: BasicBulletType
+  }
+}
