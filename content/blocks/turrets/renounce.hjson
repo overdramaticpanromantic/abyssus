@@ -108,6 +108,7 @@ ammoTypes: {
     damage: 40
     hitEffect: hitSquaresColor
     despawnEffect: hitSquaresColor
+    shootEffect: sparkShoot
     smokeEffect: shootSmokeSquareSparse
     lightColor: 8a86b7
     frontColor: 8a86b7
@@ -118,19 +119,5 @@ ammoTypes: {
     height: 12
     trailWidth: 1
     trailLength: 18
-    shootEffect: {
-      type: ParticleEffect
-      followParent: true
-      rotWithParent: true
-      region: square
-      spin: 2.5
-      sizeFrom: 3
-      sizeTo: 0
-      colorFrom: 5c5986
-      colorTo: 8a86b7
-      particles: 2
-      lifetime: 60
-      length: 12
-    }
   }
 }
