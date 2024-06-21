@@ -13,6 +13,7 @@ bulletLifetime: 300
 shake: 4
 shootSound: shootRailgun
 smokeEffect: none
+outlineColor: 0f0f14
 shootEffect: {
   type: WaveEffect
   lightColor: 9fb0bf
