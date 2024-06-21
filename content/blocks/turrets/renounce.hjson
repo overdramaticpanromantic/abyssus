@@ -1,0 +1,49 @@
+type: ItemTurret
+name: Renounce
+description: Fires bursts of homing projectiles at nearby enemies.
+size: 4
+health: 1840
+category: turret
+range: 240
+squareSprite: false
+reload: 240
+shootSound: shootEnergy
+inaccuracy: 15
+rotateSpeed: 2
+shootCone: 15
+shootY: 8
+outlineColor: 0f0f14
+shake: 2
+heatColor: 5c5986
+requirements: [
+  tungsten-but-stolen/120
+  thermic-alloy/105
+  cobalt/90
+]
+researchCost: [
+  tungsten-but-stolen/480
+  thermic-alloy/420
+  cobalt/360
+]
+shoot: {
+  firstShotDelay: 90
+  shots: 8
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: insulated-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -blade-l
+      mirror: false
+      under: true
+      progress: warmup
+      x: -6
+      y: -5
+      moveX: -1
+      moveRot: -30
+      heatColor: 5c5986
+    }
+  ]
+}
