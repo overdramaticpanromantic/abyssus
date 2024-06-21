@@ -24,25 +24,25 @@ shootEffect: {
       type: WaveEffect
       lightColor: 9fb0bf
       colorFrom: 464972
-      colorTo: ffffff
+      colorTo: 9fb0bf
       sizeFrom: 0
-      sizeTo: 16
+      sizeTo: 20
     }
     {
       type: WaveEffect
       lightColor: 9fb0bf
       colorFrom: 464972
-      colorTo: ffffff
+      colorTo: 9fb0bf
       sizeFrom: 0
-      sizeTo: 10
+      sizeTo: 14
     }
     {
       type: WaveEffect
       lightColor: 9fb0bf
       colorFrom: 464972
-      colorTo: ffffff
+      colorTo: 9fb0bf
       sizeFrom: 0
-      sizeTo: 4
+      sizeTo: 8
     }
   ]
 }
