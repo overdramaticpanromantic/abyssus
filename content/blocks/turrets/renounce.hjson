@@ -105,7 +105,7 @@ ammoTypes: {
     homingRange: 60
     pierce: true
     pierceCap: 4
-    damage: 40
+    damage: 60
     hitEffect: hitSquaresColor
     despawnEffect: hitSquaresColor
     shootEffect: sparkShoot
