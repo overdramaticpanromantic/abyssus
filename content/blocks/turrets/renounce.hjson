@@ -43,6 +43,21 @@ drawer: {
       y: 2
       rotation: 180
       moveX: -5
+      moveY: -2
+      moveRot: -30
+      heatColor: 5c5986
+    }
+    {
+      type: RegionPart
+      suffix: -blade-r
+      mirror: false
+      under: true
+      progress: warmup
+      x: 5
+      y: 2
+      rotation: 180
+      moveX: 5
+      moveY: -2
       moveRot: -30
       heatColor: 5c5986
     }
