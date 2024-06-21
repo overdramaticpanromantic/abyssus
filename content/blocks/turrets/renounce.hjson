@@ -39,8 +39,8 @@ drawer: {
       mirror: false
       under: true
       progress: warmup
-      x: -5
-      y: 0
+      x: -5.5
+      y: 2
       rotation: 180
       moveX: -7
       moveY: -3
@@ -53,8 +53,8 @@ drawer: {
       mirror: false
       under: true
       progress: warmup
-      x: 5
-      y: 0
+      x: 5.5
+      y: 2
       rotation: 180
       moveX: 5
       moveY: -3
