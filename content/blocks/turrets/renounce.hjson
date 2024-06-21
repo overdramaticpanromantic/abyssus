@@ -4,7 +4,7 @@ description: Fires bursts of homing projectiles at nearby enemies.
 size: 4
 health: 1840
 category: turret
-range: 360
+range: 340
 squareSprite: false
 reload: 240
 shootSound: shootEnergy
@@ -99,7 +99,7 @@ drawer: {
 ammoTypes: {
   cobalt: {
     type: BasicBulletType
-    lifetime: 80
+    lifetime: 60
     speed: 6
     homingPower: 0.1
     homingRange: 60
@@ -108,6 +108,7 @@ ammoTypes: {
     damage: 40
     hitEffect: hitSquaresColor
     despawnEffect: hitSquaresColor
+    lightColor: 8a86b7
     frontColor: 8a86b7
     backColor: 5c5986
     hitColor: 5c5986
