@@ -84,3 +84,5 @@ weapons: [
     }
   }
 ]
+research: terrestrial-constructor
+researchCostMultiplier: 0
