@@ -219,3 +219,11 @@ weapons: [
     }
   }
 ]
+research: {
+  parent: corrode
+  objectives: [
+    mech-contrivance-bay,
+    advanced-tier-upgrader
+  ]
+}
+researchCostMultiplier: 0
