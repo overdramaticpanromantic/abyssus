@@ -1,7 +1,7 @@
 type: Drill
 name: Fluctuation Auger
 size: 8
-health: 1780
+health: 5300
 description: Induces quantum fluctuations in the ore below, rapidly extracting it. Requires nitrogen as a thermal isolator.
 requirements: [
   tungsten-but-stolen/1125
