@@ -88,3 +88,4 @@ ammoTypes: {
     despawnUnit: burnout-shield-generator
   }
 }
+research: stifle
