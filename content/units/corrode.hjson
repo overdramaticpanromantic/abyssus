@@ -135,3 +135,11 @@ weapons: [
     }
   }
 ]
+research: {
+  parent: tarnish
+  objectives: [
+    mech-contrivance-bay,
+    tier-upgrader
+  ]
+}
+researchCostMultiplier: 0
