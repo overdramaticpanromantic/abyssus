@@ -2,7 +2,6 @@ type: Duct
 name: Viaduct
 description: Moves items forward.
 category: distribution
-research: tungsten-but-stolen
 researchCost: [
   tungsten-but-stolen/10
 ]
