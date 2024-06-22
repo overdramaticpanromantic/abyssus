@@ -4,7 +4,6 @@ description: Supercools molten metals using methane input. More efficient than a
 size: 5
 health: 980
 category: crafting
-research: cobalt
 itemCapacity: 18
 researchCost: [
   tungsten-but-stolen/900
