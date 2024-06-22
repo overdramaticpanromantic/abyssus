@@ -1,0 +1,157 @@
+//the name displayed ingame
+localizedName: Abyssus
+
+//the description of the planet displayed ingame
+description: Deep, dark, and devoid of life. Not recommended for newer players.
+
+//generator - unused but necessary to prevent crashes apparently
+generator: {
+  type: PlanetGenerator
+  octaves: 3
+  persistence: 0.52
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+
+//whether this is unlocked by default
+alwaysUnlocked: true
+
+//default environment for the planet
+defaultEnv: 87
+
+//unlocked blocks upon landing for the first time
+unlockedOnLand: [
+  core-gulch
+]
+
+//mesh used for this planet - basically defining the planet's appearance
+mesh: [
+  {
+    type: NoiseMesh
+    planet: abyssus
+    seed: 12
+    divisions: 6
+    color1: 3f4055
+    color2: 292835
+    radius: 0.84
+    octaves: 3
+    persistence: 0.96
+    scale: 0.81
+    mag: 1
+  }
+  {
+    type: NoiseMesh
+    planet: abyssus
+    seed: 12
+    divisions: 6
+    color1: 554458
+    color2: 362936
+    radius: 0.84
+    octaves: 3
+    persistence: 0.96
+    scale: 0.72
+    mag: 1
+  }
+  {
+    type: NoiseMesh
+    planet: abyssus
+    seed: 12
+    divisions: 6
+    color1: c1975c
+    color2: 8b6138
+    radius: 0.84
+    octaves: 3
+    persistence: 0.96
+    scale: 0.76
+    mag: 1
+  }
+]
+
+//mesh used for cloud generation
+cloudMesh: {
+  type: HexSkyMesh
+  planet: abyssus
+  seed: 53
+  speed: 0.6
+  radius: 0.08
+  divisions: 7
+  color: 292835
+  octaves: 4
+  persistence: 0.75
+  scl: 1.1
+  thresh: 0.7
+}
+
+//whether or not you can launch to the numbered sectors on this planet
+allowLaunchToNumbered: false
+
+//how big each sector hexagon is
+sectorSize: 1
+
+//launch and invasion params
+allowLaunchSchematics: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+
+//the first sector on this planet
+startSector: 0
+
+//orbit and camera params
+orbitSpacing: 4
+radius: 1.2
+minZoom: 1.5
+
+//whether to draw the orbit line
+drawOrbit: true
+//atmosphere params
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+
+//whether this planet can be launched to
+accessible: true
+
+//self-explanatory
+orbitRadius: 100
+
+//whether to use the day-night-cycle
+tidalLock: true
+updateLighting: false
+
+//seed used for sector generation
+sectorSeed: 1984
+
+//self explanatory
+bloom: false
+visible: true
+atmosphereColor: 696782
+iconColor: 3f4055
+hasAtmosphere: true
+
+//whether to allow waves to be simulated
+//general wave params
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+
+//if true, the base is built with a shockwave like on erekir
+prebuildBase: true
+
+//also self explanatory
+defaultCore: core-gulch
+parent: sun
+solarSystem: sun
+
+//possible planets to launch to from this one. not really working since interplanetary accelerator is disabled.
+launchCandidates: []
+
+//items visible on this planet. everything that is NOT in here will be unavailable.
+itemWhitelist: ["tungsten-but-stolen", "bauxite", "aluminum", "dolomite", "magnesium", "wiring", "thermic-alloy", "smaltite", "cobalt", "shield-canister", "analog-processor", "lithium", "ion-battery", "aeroframe", "carbide-but-stolen", "logic-board", "digital-processor", "bismuth", "celestine", "strontium", "biskonium", "quantum-processor", "rasorite", "boron", "bintubite"]
