@@ -6,7 +6,6 @@ size: 4
 itemCapacity: 12
 health: 1095
 category: crafting
-research: thermic-alloy
 researchCost: [
   aluminum/600
   magnesium/485
