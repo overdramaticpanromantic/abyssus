@@ -4,7 +4,6 @@ description: Breaks substances down into their base components.
 size: 4
 health: 1020
 category: crafting
-research: lithium
 researchCost: [
   tungsten-but-stolen/2450
   thermic-alloy/1950
