@@ -131,3 +131,11 @@ weapons: [
     }
   }
 ]
+research: {
+  parent: mangle
+  objectives: [
+    tank-contrivance-bay,
+    advanced-tier-upgrader
+  ]
+}
+researchCostMultiplier: 0
