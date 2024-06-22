@@ -65,3 +65,4 @@ researchCost: [
 consumes: {
   power: 6
 }
+research: underflow-viaduct
