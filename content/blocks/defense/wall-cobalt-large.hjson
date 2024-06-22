@@ -11,3 +11,4 @@ requirements: [
 researchCost: [
   cobalt/1920
 ]
+research: wall-cobalt
