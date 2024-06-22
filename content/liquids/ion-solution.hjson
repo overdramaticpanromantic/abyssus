@@ -3,3 +3,4 @@ description: Water with added ions. Used as a coolant.
 effect: freezing
 color: 9fb0bf
 lightColor: 9fb0bf68
+research: molten-boron
