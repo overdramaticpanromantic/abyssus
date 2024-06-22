@@ -66,8 +66,8 @@ mesh: [
     planet: abyssus
     seed: 12
     divisions: 6
-    color1: c1975c
-    color2: 8b6138
+    color1: 4a735b
+    color2: 324840
     radius: 1.02
     octaves: 3
     persistence: 0.96
@@ -77,19 +77,47 @@ mesh: [
 ]
 
 //mesh used for cloud generation
-cloudMesh: {
-  type: HexSkyMesh
-  planet: abyssus
-  seed: 53
-  speed: 0.6
-  radius: 0.08
-  divisions: 7
-  color: 292835
-  octaves: 4
-  persistence: 0.75
-  scl: 1.1
-  thresh: 0.7
-}
+cloudMesh: [
+  {
+    type: HexSkyMesh
+    planet: abyssus
+    seed: 53
+    speed: 0.6
+    radius: 0.08
+    divisions: 7
+    color: 292835
+    octaves: 4
+    persistence: 0.75
+    scl: 1.1
+    thresh: 0.7
+  }
+  {
+    type: HexSkyMesh
+    planet: abyssus
+    seed: 53
+    speed: 0.6
+    radius: 0.08
+    divisions: 4
+    color: 362936
+    octaves: 4
+    persistence: 0.74
+    scl: 1.1
+    thresh: 0.7
+  }
+  {
+    type: HexSkyMesh
+    planet: abyssus
+    seed: 53
+    speed: 0.6
+    radius: 0.08
+    divisions: 5
+    color: 324840
+    octaves: 4
+    persistence: 0.73
+    scl: 1.1
+    thresh: 0.7
+  }
+]
 
 //whether or not you can launch to the numbered sectors on this planet
 allowLaunchToNumbered: false
