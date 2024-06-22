@@ -134,3 +134,10 @@ weapons: [
     }
   }
 ]
+research: {
+  parent: degrade
+  objectives: [
+    mech-contrivance-bay
+  ]
+}
+researchCostMultiplier: 0
