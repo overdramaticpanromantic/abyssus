@@ -95,3 +95,10 @@ weapons: [
     }
   }
 ]
+research: {
+  parent: maul
+  objectives: [
+    tank-contrivance-bay
+  ]
+}
+researchCostMultiplier: 0
