@@ -44,3 +44,4 @@ ammoTypes: {
     damage: 0
   }
 }
+research: dissipate
