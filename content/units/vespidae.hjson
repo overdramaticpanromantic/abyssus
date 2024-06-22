@@ -248,3 +248,10 @@ abilities: [
     }
   }
 ]
+research: {
+  parent: aedini
+  objectives: [
+    aeronautic-reconstructor
+  ]
+}
+researchCostMultiplier: 0
