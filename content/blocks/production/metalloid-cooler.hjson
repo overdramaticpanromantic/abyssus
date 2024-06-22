@@ -5,7 +5,6 @@ details: Despite nitrogen and hydrogen’s low capacity for energy, Abyssus’s 
 size: 3
 health: 390
 category: crafting
-research: liquefaction-vat
 researchCost: [
   tungsten-but-stolen/10
 ]
@@ -195,3 +194,4 @@ craftEffect: {
     }
   ]
 }
+research: liquefaction-vat
