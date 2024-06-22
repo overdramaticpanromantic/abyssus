@@ -91,3 +91,10 @@ weapons: [
     }
   }
 ]
+research: {
+  parent: mar
+  objectives: [
+    terrestrial-reconstructor
+  ]
+}
+researchCostMultiplier: 0
