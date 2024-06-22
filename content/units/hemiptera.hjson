@@ -243,3 +243,10 @@ abilities: [
     }
   }
 ]
+research: {
+  parent: vespidae
+  objectives: [
+    insectoid-contrivance-bay
+  ]
+}
+researchCostMultiplier: 0
