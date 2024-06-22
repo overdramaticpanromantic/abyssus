@@ -87,35 +87,35 @@ cloudMesh: [
     divisions: 7
     color: 292835
     octaves: 4
-    persistence: 0.75
+    persistence: 0.5
     scl: 1.1
-    thresh: 0.7
+    thresh: 0.38
   }
   {
     type: HexSkyMesh
     planet: abyssus
     seed: 53
-    speed: 0.6
+    speed: -0.4
     radius: 0.08
     divisions: 4
     color: 362936
     octaves: 4
-    persistence: 0.74
+    persistence: 0.4
     scl: 1.1
-    thresh: 0.7
+    thresh: 0.4
   }
   {
     type: HexSkyMesh
     planet: abyssus
     seed: 53
-    speed: 0.6
+    speed: 1.1
     radius: 0.08
     divisions: 5
     color: 324840
     octaves: 4
-    persistence: 0.73
+    persistence: 0.3
     scl: 1.1
-    thresh: 0.7
+    thresh: 0.42
   }
 ]
 
