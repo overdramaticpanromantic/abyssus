@@ -99,3 +99,5 @@ abilities: [
     }
   }
 ]
+research: aeronautic-constructor
+researchCostMultiplier: 0
