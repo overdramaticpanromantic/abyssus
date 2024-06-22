@@ -4,7 +4,6 @@ description: Mixes various liquefied metals into alloys.
 size: 4
 health: 980
 category: crafting
-research: magnesium
 researchCost: [
   tungsten-but-stolen/250
   aluminum/215
