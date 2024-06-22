@@ -27,3 +27,4 @@ consumes: {
   power: 1
 }
 heatColor: 87ceebe6
+research: induction-auger
