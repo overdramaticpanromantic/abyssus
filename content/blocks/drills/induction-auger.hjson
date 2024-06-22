@@ -24,3 +24,4 @@ consumes: {
   power: 0.5
 }
 liquidBoostIntensity: 1
+research: core-gulch
