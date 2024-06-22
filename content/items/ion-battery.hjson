@@ -1,5 +1,5 @@
 name: Ion Battery
-description: Volatile, with a large chemopotential energy bank. Essential in unit production.
+description: Volatile, with a large chemopotential energy bank. Essential in high-tier unit production.
 cost: 1.4
 color: 66703d
 charge: 1
@@ -7,3 +7,4 @@ hiddenOnPlanets: [
   serpulo,
   erekir
 ]
+research: lithium
