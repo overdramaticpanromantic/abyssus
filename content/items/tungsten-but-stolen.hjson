@@ -7,5 +7,6 @@ hiddenOnPlanets: [
   serpulo,
   erekir
 ]
+research: core-gulch
 
 // this is literally just a dupe of tungsten with less cost and a different description
