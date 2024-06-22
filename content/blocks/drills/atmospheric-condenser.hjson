@@ -100,3 +100,4 @@ drawer: {
 }
 ambientSound: extractLoop
 ambientSoundVolume: 0.09
+research: electromagnetic-bore
