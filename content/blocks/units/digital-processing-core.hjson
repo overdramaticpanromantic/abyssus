@@ -6,6 +6,7 @@ health: 310
 placeablePlayer: false
 researchCostMultiplier: 0
 requirements: [
+  ion-battery/30
   thermic-alloy/20
   digital-processor/15
 ]
