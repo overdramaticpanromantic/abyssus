@@ -306,3 +306,11 @@ abilities: [
     }
   }
 ]
+research: {
+  parent: bonfire
+  objectives: [
+    drone-contrivance-bay,
+    advanced-tier-upgrader
+  ]
+}
+researchCostMultiplier: 0
