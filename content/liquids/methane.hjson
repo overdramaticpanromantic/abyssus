@@ -4,3 +4,4 @@ gas: true
 flammability: 1
 color: c46d8a
 lightColor: c46d8a68
+research: oxygen
