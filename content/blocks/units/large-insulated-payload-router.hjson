@@ -17,3 +17,4 @@ moveTime: 60
 moveForce: 260
 canOverdrive: false
 payloadLimit: 4
+research: large-insulated-payload-conveyor
