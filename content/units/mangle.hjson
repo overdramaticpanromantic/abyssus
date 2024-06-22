@@ -87,3 +87,11 @@ weapons: [
     }
   }
 ]
+research: {
+  parent: maim
+  objectives: [
+    tank-contrivance-bay,
+    tier-upgrader
+  ]
+}
+researchCostMultiplier: 0
