@@ -9,3 +9,4 @@ requirements: [
   aeroframe/30
   cobalt/30
 ]
+research: payload-fabricator
