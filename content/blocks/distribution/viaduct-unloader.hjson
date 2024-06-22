@@ -17,3 +17,4 @@ solid: false
 regionRotated1: 1
 health: 140
 squareSprite: false
+research: core-gulch
