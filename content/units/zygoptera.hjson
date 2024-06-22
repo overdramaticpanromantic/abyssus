@@ -282,3 +282,11 @@ abilities: [
     }
   }
 ]
+research: {
+  parent: hemiptera
+  objectives: [
+    insectoid-contrivance-bay,
+    tier-upgrader
+  ]
+}
+researchCostMultiplier: 0
