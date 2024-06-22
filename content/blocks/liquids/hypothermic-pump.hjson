@@ -16,3 +16,4 @@ requirements: [
 consumes: {
   power: 1
 }
+research: insulated-bridge-conduit
