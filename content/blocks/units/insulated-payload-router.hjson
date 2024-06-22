@@ -16,3 +16,4 @@ researchCost: [
 moveTime: 60
 moveForce: 135
 canOverdrive: false
+research: insulated-payload-conveyor
