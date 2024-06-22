@@ -32,3 +32,4 @@ consumes: {
   power: 2
 }
 liquidBoostIntensity: 1
+research: induction-auger
