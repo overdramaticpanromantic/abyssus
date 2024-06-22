@@ -401,3 +401,11 @@ abilities: [
     }
   }
 ]
+research: {
+  parent: zygoptera
+  objectives: [
+    insectoid-contrivance-bay,
+    advanced-tier-upgrader
+  ]
+}
+researchCostMultiplier: 0
