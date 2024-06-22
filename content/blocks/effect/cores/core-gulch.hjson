@@ -14,3 +14,9 @@ requirements: [
   tungsten-but-stolen/850
   aluminum/750
 ]
+research: {
+  planet: abyssus
+  root: true
+  name: Abyssus
+  requiresUnlock: false
+}
