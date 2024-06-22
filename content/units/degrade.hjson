@@ -88,3 +88,10 @@ weapons: [
     }
   }
 ]
+research: {
+  parent: rust
+  objectives: [
+    terrestrial-reconstructor
+  ]
+}
+researchCostMultiplier: 0
