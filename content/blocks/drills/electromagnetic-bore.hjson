@@ -29,3 +29,4 @@ consumes: {
   power: 4
 }
 heatColor: 87ceebe6
+research: induction-bore
