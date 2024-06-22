@@ -127,3 +127,10 @@ abilities: [
     }
   }
 ]
+research: {
+  parent: lux
+  objectives: [
+    aeronautic-reconstructor
+  ]
+}
+researchCostMultiplier: 0
