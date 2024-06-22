@@ -108,3 +108,4 @@ ammoTypes: {
     lightningDamage: 20
   }
 }
+research: core-gulch
