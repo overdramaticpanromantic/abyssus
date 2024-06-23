@@ -1,0 +1,132 @@
+type: multicraft.MultiCrafter
+name: Meld Forge
+description: Fuses liquid metals into alloys at an extreme rate.
+size: 9
+hasItems: false
+itemCapacity: 0
+health: 2610
+category: crafting
+squareSprite: false
+liquidCapacity: 600
+hasLiquids: true
+ambientSound: smelter
+ambientSoundVolume: 0.25
+hasHeat: false
+requirements: [
+  tungsten-but-stolen/680
+  cobalt/625
+  aeroframe/510
+  strontium/440
+  biskonium/350
+  bintubite/300
+]
+researchCost: [
+  tungsten-but-stolen/34000
+  cobalt/31250
+  aeroframe/25500
+  strontium/22000
+  biskonium/17500
+  bintubite/15000
+]
+recipes: [
+{
+  input: {
+    fluids: [
+      abyssus-molten-aluminum/4.5
+      abyssus-molten-magnesium/4.5
+    ]
+    power: 30
+  }
+  output: {
+    fluids: [
+      abyssus-molten-thermic-alloy/4.5
+    ]
+  }
+  craftTime: 60.0
+}
+{
+  input: {
+    fluids: [
+      abyssus-molten-aluminum/4.5
+      abyssus-molten-lithium/4.5
+    ]
+    power: 30
+  }
+  output: {
+    fluids: [
+      abyssus-molten-aeroframe/4.5
+    ]
+  }
+  craftTime: 60.0
+}
+{
+  input: {
+    fluids: [
+      abyssus-molten-tungsten/4.5
+      abyssus-molten-cobalt/4.5
+    ]
+    power: 30
+  }
+  output: {
+    fluids: [
+      abyssus-molten-carbide/4.5
+    ]
+  }
+  craftTime: 60.0
+}
+{
+  input: {
+    fluids: [
+      abyssus-molten-bismuth/4.5
+      abyssus-molten-strontium/4.5
+      abyssus-oxygen/3
+    ]
+    power: 30
+  }
+  output: {
+    fluids: [
+      abyssus-molten-biskonium/4.5
+    ]
+  }
+  craftTime: 60.0
+}
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-thermic-alloy
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-aeroframe
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-carbide
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-biskonium
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      alpha: 0.75
+      glowScale: 5
+      color: 474972
+    }
+  ]
+}
+research: amalgam-trough
