@@ -47,6 +47,9 @@ drawer: {
       padding: 6
     }
     {
+      type: DrawArcSmelt
+    }
+    {
       type: DrawDefault
     }
     {
