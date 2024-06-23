@@ -12,7 +12,6 @@ researchCost: [
   lithium/5250
   aeroframe/5100
 ]
-category: crafting
 squareSprite: false
 liquidCapacity: 48
 hasLiquids: true
