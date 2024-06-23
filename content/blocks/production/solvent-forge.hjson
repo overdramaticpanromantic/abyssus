@@ -1,0 +1,240 @@
+type: multicraft.MultiCrafter
+name: Solvent Forge
+description: Melts down ores at an extreme rate. Requires carbon dioxide and heat for operation.
+size: 9
+itemCapacity: 90
+health: 2760
+category: crafting
+squareSprite: false
+liquidCapacity: 600
+hasLiquids: true
+ambientSound: flux
+ambientSoundVolume: 0.25
+requirements: [
+  thermic-alloy/680
+  cobalt/625
+  carbide-but-stolen/560
+  bismuth/410
+  biskonium/345
+  bintubite/280
+]
+researchCost: [
+  thermic-alloy/34000
+  cobalt/31250
+  carbide-but-stolen/23000
+  bismuth/20500
+  biskonium/17250
+  bintubite/14000
+]
+recipes: [
+{
+  input: {
+    items: [
+      abyssus-bauxite/3
+    ]
+    fluids: [
+      abyssus-carbon-dioxide/0.75
+    ]
+    heat: 300
+    power: 30
+  }
+  output: {
+    fluids: [
+      abyssus-molten-aluminum/4.5
+    ]
+  }
+  craftTime: 4.0
+}
+{
+  input: {
+    items: [
+      abyssus-dolomite/3
+    ]
+    fluids: [
+      abyssus-carbon-dioxide/0.75
+    ]
+    heat: 300
+    power: 30
+  }
+  output: {
+    fluids: [
+      abyssus-molten-magnesium/4.5
+    ]
+  }
+  craftTime: 4.0
+}
+{
+  input: {
+    items: [
+      abyssus-smaltite/3
+    ]
+    fluids: [
+      abyssus-carbon-dioxide/0.75
+    ]
+    heat: 300
+    power: 30
+  }
+  output: {
+    fluids: [
+      abyssus-molten-cobalt/4.5
+    ]
+  }
+  craftTime: 4.0
+}
+{
+  input: {
+    items: [
+      abyssus-tungsten-but-stolen/3
+    ]
+    fluids: [
+      abyssus-carbon-dioxide/0.75
+    ]
+    heat: 300
+    power: 30
+  }
+  output: {
+    fluids: [
+      abyssus-molten-tungsten/4.5
+    ]
+  }
+  craftTime: 4.0
+}
+{
+  input: {
+    items: [
+      abyssus-bauxite/3
+    ]
+    fluids: [
+      abyssus-carbon-dioxide/0.75
+    ]
+    heat: 300
+    power: 30
+  }
+  output: {
+    fluids: [
+      abyssus-molten-lithium/4.5
+    ]
+  }
+  craftTime: 4.0
+}
+{
+  input: {
+    items: [
+      abyssus-bismuth/3
+    ]
+    fluids: [
+      abyssus-carbon-dioxide/0.75
+    ]
+    heat: 300
+    power: 30
+  }
+  output: {
+    fluids: [
+      abyssus-molten-bismuth/4.5
+    ]
+  }
+  craftTime: 4.0
+}
+{
+  input: {
+    items: [
+      abyssus-celestine/3
+    ]
+    fluids: [
+      abyssus-carbon-dioxide/0.75
+    ]
+    heat: 300
+    power: 30
+  }
+  output: {
+    fluids: [
+      abyssus-molten-strontium/4.5
+    ]
+  }
+  craftTime: 4.0
+}
+{
+  input: {
+    items: [
+      abyssus-rasorite/3
+    ]
+    fluids: [
+      abyssus-carbon-dioxide/0.75
+    ]
+    heat: 300
+    power: 30
+  }
+  output: {
+    fluids: [
+      abyssus-molten-boron/4.5
+    ]
+  }
+  craftTime: 4.0
+}
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-aluminum
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-magnesium
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-cobalt
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-tungsten
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-lithium
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-bismuth
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-strontium
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-boron
+    }
+    {
+      type: DrawBubbles
+      sides: 10
+      spread: 20
+      amount: 60
+      radius: 6
+      recurrence: 5
+      color: ffffff
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatInput
+      color: 464972
+    }
+  ]
+}
+research: pyrovat
