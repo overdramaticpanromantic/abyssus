@@ -234,7 +234,7 @@ drawer: {
     }
     {
       type: DrawHeatInput
-      color: 464972
+      heatColor: 464972
     }
   ]
 }
