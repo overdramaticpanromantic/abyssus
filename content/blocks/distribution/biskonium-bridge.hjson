@@ -21,3 +21,4 @@ researchCost: [
   biskonium/2400
 ]
 research: biskonium-router
+transportTime: 1.5
