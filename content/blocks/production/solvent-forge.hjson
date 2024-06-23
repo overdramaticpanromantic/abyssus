@@ -10,6 +10,7 @@ liquidCapacity: 600
 hasLiquids: true
 ambientSound: flux
 ambientSoundVolume: 0.25
+hasHeat: true
 requirements: [
   thermic-alloy/680
   cobalt/625
