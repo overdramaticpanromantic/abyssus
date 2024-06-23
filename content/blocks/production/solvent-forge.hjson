@@ -31,7 +31,7 @@ recipes: [
 {
   input: {
     items: [
-      abyssus-bauxite/15
+      abyssus-bauxite/45
     ]
     fluids: [
       abyssus-carbon-dioxide/0.75
@@ -49,7 +49,7 @@ recipes: [
 {
   input: {
     items: [
-      abyssus-dolomite/15
+      abyssus-dolomite/45
     ]
     fluids: [
       abyssus-carbon-dioxide/0.75
@@ -67,7 +67,7 @@ recipes: [
 {
   input: {
     items: [
-      abyssus-smaltite/15
+      abyssus-smaltite/45
     ]
     fluids: [
       abyssus-carbon-dioxide/0.75
@@ -85,7 +85,7 @@ recipes: [
 {
   input: {
     items: [
-      abyssus-tungsten-but-stolen/15
+      abyssus-tungsten-but-stolen/45
     ]
     fluids: [
       abyssus-carbon-dioxide/0.75
@@ -103,7 +103,7 @@ recipes: [
 {
   input: {
     items: [
-      abyssus-bauxite/15
+      abyssus-bauxite/45
     ]
     fluids: [
       abyssus-carbon-dioxide/0.75
@@ -121,7 +121,7 @@ recipes: [
 {
   input: {
     items: [
-      abyssus-bismuth/15
+      abyssus-bismuth/45
     ]
     fluids: [
       abyssus-carbon-dioxide/0.75
@@ -139,7 +139,7 @@ recipes: [
 {
   input: {
     items: [
-      abyssus-celestine/15
+      abyssus-celestine/45
     ]
     fluids: [
       abyssus-carbon-dioxide/0.75
@@ -157,7 +157,7 @@ recipes: [
 {
   input: {
     items: [
-      abyssus-rasorite/15
+      abyssus-rasorite/45
     ]
     fluids: [
       abyssus-carbon-dioxide/0.75
