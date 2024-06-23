@@ -31,7 +31,7 @@ recipes: [
 {
   input: {
     items: [
-      abyssus-bauxite/3
+      abyssus-bauxite/15
     ]
     fluids: [
       abyssus-carbon-dioxide/0.75
@@ -44,12 +44,12 @@ recipes: [
       abyssus-molten-aluminum/4.5
     ]
   }
-  craftTime: 4.0
+  craftTime: 60.0
 }
 {
   input: {
     items: [
-      abyssus-dolomite/3
+      abyssus-dolomite/15
     ]
     fluids: [
       abyssus-carbon-dioxide/0.75
@@ -62,12 +62,12 @@ recipes: [
       abyssus-molten-magnesium/4.5
     ]
   }
-  craftTime: 4.0
+  craftTime: 60.0
 }
 {
   input: {
     items: [
-      abyssus-smaltite/3
+      abyssus-smaltite/15
     ]
     fluids: [
       abyssus-carbon-dioxide/0.75
@@ -80,12 +80,12 @@ recipes: [
       abyssus-molten-cobalt/4.5
     ]
   }
-  craftTime: 4.0
+  craftTime: 60.0
 }
 {
   input: {
     items: [
-      abyssus-tungsten-but-stolen/3
+      abyssus-tungsten-but-stolen/15
     ]
     fluids: [
       abyssus-carbon-dioxide/0.75
@@ -98,12 +98,12 @@ recipes: [
       abyssus-molten-tungsten/4.5
     ]
   }
-  craftTime: 4.0
+  craftTime: 60.0
 }
 {
   input: {
     items: [
-      abyssus-bauxite/3
+      abyssus-bauxite/15
     ]
     fluids: [
       abyssus-carbon-dioxide/0.75
@@ -116,12 +116,12 @@ recipes: [
       abyssus-molten-lithium/4.5
     ]
   }
-  craftTime: 4.0
+  craftTime: 60.0
 }
 {
   input: {
     items: [
-      abyssus-bismuth/3
+      abyssus-bismuth/15
     ]
     fluids: [
       abyssus-carbon-dioxide/0.75
@@ -134,12 +134,12 @@ recipes: [
       abyssus-molten-bismuth/4.5
     ]
   }
-  craftTime: 4.0
+  craftTime: 60.0
 }
 {
   input: {
     items: [
-      abyssus-celestine/3
+      abyssus-celestine/15
     ]
     fluids: [
       abyssus-carbon-dioxide/0.75
@@ -152,12 +152,12 @@ recipes: [
       abyssus-molten-strontium/4.5
     ]
   }
-  craftTime: 4.0
+  craftTime: 60.0
 }
 {
   input: {
     items: [
-      abyssus-rasorite/3
+      abyssus-rasorite/15
     ]
     fluids: [
       abyssus-carbon-dioxide/0.75
@@ -170,7 +170,7 @@ recipes: [
       abyssus-molten-boron/4.5
     ]
   }
-  craftTime: 4.0
+  craftTime: 60.0
 }
 ]
 drawer: {
