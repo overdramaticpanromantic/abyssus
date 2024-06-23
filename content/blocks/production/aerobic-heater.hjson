@@ -1,0 +1,58 @@
+type: HeatProducer
+name: Aerobic Heater
+description: Heats up adjacent blocks using oxygen input.
+size: 7
+health: 1750
+category: crafting
+squareSprite: false
+liquidCapacity: 1800
+ambientSound: extractLoop
+ambientSoundVolume: 0.2
+heatOutput: 300
+rotateDraw: false
+regionRotated1: 1
+itemCapacity: 0
+hasItems: false
+warmupRate: 1
+requirements: [
+  tungsten-but-stolen/1400
+  cobalt/1300
+  aeroframe/1150
+  biskonium/950
+  bintubite/800
+]
+researchCost: [
+  tungsten-but-stolen/140000
+  cobalt/130000
+  aeroframe/115000
+  biskonium/95000
+  bintubite/80000
+]
+consumes: {
+  power: 60
+  liquids: [
+    oxygen/3
+  ]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: oxygen
+      padding: 6
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+      heatColor: 464972
+    }
+  ]
+}
+research: ion-synthesizer
