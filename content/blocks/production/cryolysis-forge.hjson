@@ -1,0 +1,270 @@
+type: multicraft.MultiCrafter
+name: Cryolysis Forge
+description: Cools down molten metals at an extreme rate. Requires methane and ion solution for operation.
+size: 9
+hasItems: true
+itemCapacity: 90
+health: 2810
+category: crafting
+squareSprite: false
+liquidCapacity: 600
+hasLiquids: true
+ambientSound: glow
+ambientSoundVolume: 0.25
+hasHeat: true
+requirements: [
+  magnesium/710
+  thermic-alloy/690
+  cobalt/630
+  carbide-but-stolen/580
+  bismuth/410
+  strontium/385
+  biskonium/355
+  bintubite/300
+]
+researchCost: [
+  magnesium/35500
+  thermic-alloy/34500
+  cobalt/31500
+  carbide-but-stolen/24000
+  bismuth/20500
+  strontium/19250
+  biskonium/17750
+  bintubite/15000
+]
+craftEffect: {
+  type: ParticleEffect
+  particles: 10
+  length: 30
+  colorFrom: 59344d
+  colorTo: c46d8a
+  lightColor: c46d8a
+  sizeFrom: 3
+  sizeTo: 0
+  lifetime: 60
+  layer: 30.002
+}
+recipes: [
+{
+  input: {
+    fluids: [
+      abyssus-molten-aluminum/4.5
+      ion-solution/12.5
+      abyssus-methane/0.5
+    ]
+    power: 30
+  }
+  output: {
+    items: [
+      abyssus-aluminum/6
+    ]
+  }
+  craftTime: 8.0
+}
+{
+  input: {
+    fluids: [
+      abyssus-molten-magnesium/4.5 
+      ion-solution/12.5
+      abyssus-methane/0.5
+    ]
+    power: 30
+  }
+  output: {
+    items: [
+      abyssus-magnesium/6
+    ]
+  }
+  craftTime: 8.0
+}
+{
+  input: {
+    fluids: [
+      abyssus-molten-thermic-alloy/4.5
+      ion-solution/12.5
+      abyssus-methane/0.5
+    ]
+    power: 30
+  }
+  output: {
+    items: [
+      abyssus-thermic-alloy/6
+    ]
+  }
+  craftTime: 8.0
+}
+{
+  input: {
+    fluids: [
+      abyssus-molten-cobalt/4.5
+      ion-solution/12.5
+      abyssus-methane/0.5
+    ]
+    power: 30
+  }
+  output: {
+    items: [
+      abyssus-cobalt/6
+    ]
+  }
+  craftTime: 8.0
+}
+{
+  input: {
+    fluids: [
+      abyssus-molten-lithium/4.5
+      ion-solution/12.5
+      abyssus-methane/0.5
+    ]
+    power: 30
+  }
+  output: {
+    items: [
+      abyssus-lithium/6
+    ]
+  }
+  craftTime: 8.0
+}
+{
+  input: {
+    fluids: [
+      abyssus-molten-carbide/4.5
+      ion-solution/12.5
+      abyssus-methane/0.5
+    ]
+    power: 30
+  }
+  output: {
+    items: [
+      abyssus-carbide-but-stolen/6
+    ]
+  }
+  craftTime: 8.0
+}
+{
+  input: {
+    fluids: [
+      abyssus-molten-aeroframe/4.5
+      ion-solution/12.5
+      abyssus-methane/0.5
+    ]
+    power: 30
+  }
+  output: {
+    items: [
+      abyssus-aeroframe/6
+    ]
+  }
+  craftTime: 8.0
+}
+{
+  input: {
+    fluids: [
+      abyssus-molten-strontium/4.5
+      ion-solution/12.5
+      abyssus-methane/0.5
+    ]
+    power: 30
+  }
+  output: {
+    items: [
+      abyssus-strontium/6
+    ]
+  }
+  craftTime: 8.0
+}
+{
+  input: {
+    fluids: [
+      abyssus-molten-biskonium/4.5
+      ion-solution/12.5
+      abyssus-methane/0.5
+    ]
+    power: 30
+  }
+  output: {
+    items: [
+      abyssus-biskonium/6
+    ]
+  }
+  craftTime: 8.0
+}
+{
+  input: {
+    fluids: [
+      abyssus-molten-boron/4.5
+      abyssus-methane/0.5
+    ]
+    power: 30
+  }
+  output: {
+    items: [
+      abyssus-boron/6
+    ]
+  }
+  craftTime: 8.0
+}
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-aluminum
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-magnesium
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-thermic-alloy
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-cobalt
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-lithium
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-carbide
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-aeroframe
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-strontium
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-biskonium
+    }
+    {
+      type: DrawLiquidTile     
+      padding: 6
+      drawLiquid: molten-boron
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+research: metallosolidifier
