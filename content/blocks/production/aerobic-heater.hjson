@@ -31,7 +31,7 @@ researchCost: [
 consumes: {
   power: 60
   liquids: [
-    oxygen/3
+    oxygen/1.5
   ]
 }
 drawer: {
