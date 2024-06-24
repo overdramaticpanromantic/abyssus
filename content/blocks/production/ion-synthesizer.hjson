@@ -34,8 +34,8 @@ consumes: {
     biskonium/1
   ]
   liquids: [
-    oxygen/3
-    hydrogen/6
+    oxygen/1.5
+    hydrogen/3
   ]
 }
 drawer: {
