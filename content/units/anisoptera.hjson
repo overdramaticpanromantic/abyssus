@@ -16,6 +16,16 @@ engineSize: 0
 itemCapacity: 0
 hitSize: 38
 strafePenalty: 0.9
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    layer: -1
+    outline: false
+    color: cca8fa
+  }
+]
 weapons: [
   {
     name: anisoptera-weapon
