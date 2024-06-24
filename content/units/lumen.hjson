@@ -29,6 +29,16 @@ commands: [
   assist,
   enterPayload
 ]
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    layer: -1
+    outline: false
+    color: 92f3a2
+  }
+]
 abilities: [
   {
     type: MoveEffectAbility
