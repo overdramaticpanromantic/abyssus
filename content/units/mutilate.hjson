@@ -54,7 +54,7 @@ weapons: [
     rotateSpeed: 1
     mirror: false
     reload: 120
-    heatColor: ca6a65
+    heatColor: ffc092
     inaccuracy: 4
     cooldownTime: 75
     shoot: {
