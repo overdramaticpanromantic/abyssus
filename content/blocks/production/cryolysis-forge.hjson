@@ -49,7 +49,7 @@ recipes: [
   input: {
     fluids: [
       abyssus-molten-aluminum/4.5
-      ion-solution/12.5
+      abyssus-ion-solution/12.5
       abyssus-methane/0.5
     ]
     power: 30
@@ -65,7 +65,7 @@ recipes: [
   input: {
     fluids: [
       abyssus-molten-magnesium/4.5 
-      ion-solution/12.5
+      abyssus-ion-solution/12.5
       abyssus-methane/0.5
     ]
     power: 30
@@ -81,7 +81,7 @@ recipes: [
   input: {
     fluids: [
       abyssus-molten-thermic-alloy/4.5
-      ion-solution/12.5
+      abyssus-ion-solution/12.5
       abyssus-methane/0.5
     ]
     power: 30
@@ -97,7 +97,7 @@ recipes: [
   input: {
     fluids: [
       abyssus-molten-cobalt/4.5
-      ion-solution/12.5
+      abyssus-ion-solution/12.5
       abyssus-methane/0.5
     ]
     power: 30
@@ -113,7 +113,7 @@ recipes: [
   input: {
     fluids: [
       abyssus-molten-lithium/4.5
-      ion-solution/12.5
+      abyssus-ion-solution/12.5
       abyssus-methane/0.5
     ]
     power: 30
@@ -129,7 +129,7 @@ recipes: [
   input: {
     fluids: [
       abyssus-molten-carbide/4.5
-      ion-solution/12.5
+      abyssus-ion-solution/12.5
       abyssus-methane/0.5
     ]
     power: 30
@@ -145,7 +145,7 @@ recipes: [
   input: {
     fluids: [
       abyssus-molten-aeroframe/4.5
-      ion-solution/12.5
+      abyssus-ion-solution/12.5
       abyssus-methane/0.5
     ]
     power: 30
@@ -161,7 +161,7 @@ recipes: [
   input: {
     fluids: [
       abyssus-molten-strontium/4.5
-      ion-solution/12.5
+      abyssus-ion-solution/12.5
       abyssus-methane/0.5
     ]
     power: 30
@@ -177,7 +177,7 @@ recipes: [
   input: {
     fluids: [
       abyssus-molten-biskonium/4.5
-      ion-solution/12.5
+      abyssus-ion-solution/12.5
       abyssus-methane/0.5
     ]
     power: 30
@@ -193,6 +193,7 @@ recipes: [
   input: {
     fluids: [
       abyssus-molten-boron/4.5
+      abyssus-ion-solution/12.5
       abyssus-methane/0.5
     ]
     power: 30
