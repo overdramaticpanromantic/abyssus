@@ -43,6 +43,7 @@ weapons: [
     rotateSpeed: 2.5
     mirror: false
     reload: 60
+    layerOffset: 0.0001
     shoot: {
       shots: 3
       shotDelay: 5
