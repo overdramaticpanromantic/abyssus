@@ -43,12 +43,12 @@ treadRects: [
 weapons: [
   {
     x: 0
-    y: 1
+    y: 0
     name: mutilate-weapon
     layerOffset: 0.0001
     shootSound: largeCannon
     shootCone: 5
-    shootY: 31
+    shootY: 29
     recoil: 5
     rotate: true
     rotateSpeed: 1
