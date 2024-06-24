@@ -5,7 +5,7 @@ size: 1 // why do i need to specify this
 type: StackConveyor
 category: distribution
 itemCapacity: 10
-speed: 0.2
+speed: 0.175
 outputRouter: false
 hasPower: true
 consumesPower: true
