@@ -23,7 +23,7 @@ parts: [
     blending: additive
     layer: -1
     outline: false
-    color: ca6a65
+    color: ffc092
   }
 ]
 treadRects: [
