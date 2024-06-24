@@ -26,6 +26,16 @@ treadRects: [
     height: 78
   }
 ]
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    layer: -1
+    outline: false
+    color: ffc092
+  }
+]
 weapons: [
   {
     x: 0
