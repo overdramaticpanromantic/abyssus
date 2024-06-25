@@ -15,5 +15,6 @@ requirements: [
   cobalt/5200
   lithium/4650
   biskonium/3300
+  boron/2850
 ]
 research: core-canyon
