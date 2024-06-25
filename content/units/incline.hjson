@@ -21,7 +21,7 @@ accel: 0.09
 itemCapacity: 45
 health: 430
 armor: 2
-hitSize: 8
+hitSize: 9
 engineSize: 0
 targetable : false
 hittable : false
