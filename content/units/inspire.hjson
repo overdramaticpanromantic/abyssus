@@ -18,7 +18,7 @@ buildSpeed: 2.5
 speed: 6
 drag: 0.08
 accel: 0.09
-itemCapacity: 45
+itemCapacity: 60
 health: 560
 armor: 3
 hitSize: 11
