@@ -1,0 +1,88 @@
+name: Influence
+description: Defends the Abyss core and builds structures. Has dual healing beams for block repair.
+type: flying
+rotateSpeed: 8
+template: ErekirUnitType
+coreUnitDock: true
+range: 75
+faceTarget: true
+targetPriority: -2
+lowAltitude: false
+mineWalls: false
+mineFloor: true
+mineHardnessScaling: false
+flying: true
+mineSpeed: 10
+mineTier: 2
+buildSpeed: 3
+speed: 7
+drag: 0.08
+accel: 0.09
+itemCapacity: 75
+health: 620
+armor: 4
+hitSize: 13
+engineSize: 0
+targetable : false
+hittable : false
+outlineColor: 0f0f14
+isEnemy: false
+engines: [
+  {
+    x: -7
+    y: -3.75
+    radius: 2
+    rotation: 225
+  }
+  {
+    x: 7
+    y: -3.75
+    radius: 2
+    rotation: 315
+  }
+  {
+    x: 0
+    y: -8.5
+    radius: 3
+    rotation: 270
+  }
+]
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    layer: -1
+    outline: false
+    color: ffda91
+  }
+]
+weapons: [
+  {
+    type: RepairBeamWeapon
+    widthSinMag: 0.11
+    beamWidth: 0.7
+    shootY: 0
+    repairSpeed: 2.5
+    fractionRepairSpeed: 0.125
+    shootCone: 15
+    healColor: ffd37f
+    // Pal.accent
+    laserColor: ffd37f
+    // Pal.accent
+    
+    targetUnits: false
+    targetBuildings: true
+    autoTarget: false
+    controllable: true
+    x: -4.5
+    y: 9
+    mirror: true
+    rotate: false
+    
+    bullet: {
+      maxRange: 75
+    }
+  }
+]
+buildBeamOffset: 9
