@@ -20,3 +20,13 @@ playerControllable: false
 allowedInPayloads: false
 createWreck: false
 controller: AssemblerAI
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    layer: -1
+    outline: false
+    color: ffda91
+  }
+]
