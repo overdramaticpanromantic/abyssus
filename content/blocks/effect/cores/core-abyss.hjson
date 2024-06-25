@@ -1,0 +1,19 @@
+type: CoreBlock
+name: Core: Abyss
+size: 5
+incinerateNonBuildable: true
+squareSprite: false
+unitType: influence
+health: 24850
+itemCapacity: 3600
+unitCapModifier: 16
+thrusterLength: 12
+category: effect
+requirements: [
+  tungsten-but-stolen/6850
+  aluminum/6100
+  cobalt/5200
+  lithium/4650
+  biskonium/3300
+]
+research: core-canyon
