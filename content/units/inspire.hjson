@@ -47,6 +47,16 @@ engines: [
     rotation: 270
   }
 ]
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    layer: -1
+    outline: false
+    color: ffda91
+  }
+]
 weapons: [
   {
     type: RepairBeamWeapon
