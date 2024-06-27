@@ -86,6 +86,7 @@ ammoTypes: {
           lightColor: 8a86b7
           strokeFrom: 3
           sizeTo: 60
+          lifetime: 30
         }
         {
           type: ExplosionEffect
