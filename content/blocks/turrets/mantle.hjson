@@ -50,6 +50,7 @@ drawer: {
       y: 0
       moveRot: -30
       moveY: -4
+      layerOffset: -0.001
     }
   ]
 }
