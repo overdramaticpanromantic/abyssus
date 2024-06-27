@@ -39,6 +39,7 @@ drawer: {
       progress: recoil
       moveY: -3
       heatColor: 979d5a
+      layerOffset: 0.001
     }
     {
       type: RegionPart
@@ -49,8 +50,10 @@ drawer: {
       x: 8.75
       y: 0
       moveRot: -30
-      moveY: -4
+      moveY: -3
+      moveX: -2
       layerOffset: -0.001
+      heatColor: 979d5a
     }
   ]
 }
@@ -87,15 +90,20 @@ ammoTypes: {
           colorTo: 8a86b7
           lightColor: 8a86b7
           strokeFrom: 3
-          sizeTo: 120
+          sizeTo: 60
         }
         {
           type: ExplosionEffect
-          sparks: 0
           waveLife: 0
-          smokeSize: 6
+          smokeSize: 10
+          smokeSizeBase: 4
+          sparkLen: 6
+          sparkStroke: 2
           smokeRad: 60
-          smokes: 14
+          sparkRad: 60
+          smokes: 20
+          sparks: 16
+          sparkColor: 8a86b7
           smokeColor: 5c5986
           lifetime: 90
         }
