@@ -129,5 +129,77 @@ ammoTypes: {
       despawnEffect: hitBulletColor
     }
   }
+  lithium: {
+    type: ArtilleryBulletType
+    sprite: shell
+    lifetime: 90
+    speed: 3
+    splashDamage: 300
+    splashDamageRadius: 32
+    despawnEffect: none
+    shootEffect: shootBig2
+    smokeEffect: shootSmokeTitan
+    lightColor: c9c780
+    frontColor: c9c780
+    backColor: 979d5a
+    hitColor: 979d5a
+    trailColor: 979d5a
+    width: 14
+    height: 20
+    trailWidth: 2
+    trailLength: 10
+    hitEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: WaveEffect
+          colorFrom: 979d5a
+          colorTo: c9c780
+          lightColor: c9c780
+          strokeFrom: 3
+          sizeTo: 60
+          lifetime: 30
+        }
+        {
+          type: ExplosionEffect
+          waveLife: 0
+          smokeSize: 10
+          smokeRad: 60
+          smokes: 20
+          sparks: 0
+          smokeColor: 979d5a
+          lifetime: 90
+        }
+        {
+          type: ExplosionEffect
+          waveLife: 0
+          sparkLen: 6
+          sparkStroke: 2
+          sparkRad: 80
+          smokes: 0
+          sparks: 16
+          sparkColor: c9c780
+          lifetime: 30
+        }
+      ]
+    }
+    fragBullets: 6
+    fragBullet: {
+      type: BasicBulletType
+      splashDamage: 40
+      splashDamageRadius: 16
+      lightColor: c9c780
+      frontColor: c9c780
+      backColor: 979d5a
+      hitColor: 979d5a
+      trailColor: 979d5a
+      width: 6
+      height: 10
+      trailWidth: 1
+      trailLength: 6
+      hitEffect: hitBulletColor
+      despawnEffect: hitBulletColor
+    }
+  }
 }
 research: renounce
