@@ -50,7 +50,7 @@ drawer: {
       y: 0
       moveRot: -10
       moveY: -3
-      moveX: -1.5
+      moveX: -1.75
       layerOffset: -0.005
       heatColor: 979d5a
     }
