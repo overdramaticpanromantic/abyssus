@@ -39,7 +39,6 @@ drawer: {
       progress: recoil
       moveY: -3
       heatColor: 979d5a
-      layerOffset: 0.001
     }
     {
       type: RegionPart
@@ -49,10 +48,10 @@ drawer: {
       progress: warmup
       x: 8.75
       y: 0
-      moveRot: -30
+      moveRot: -10
       moveY: -3
       moveX: -2
-      layerOffset: -0.001
+      layerOffset: -0.005
       heatColor: 979d5a
     }
   ]
@@ -63,15 +62,11 @@ ammoTypes: {
     sprite: shell
     lifetime: 90
     speed: 3
-    homingPower: 0.2
-    homingRange: 60
-    pierce: true
-    pierceCap: 4
-    splashDamage: 300
+    splashDamage: 200
     splashDamageRadius: 32
     despawnEffect: none
-    shootEffect: shootBigColor
-    smokeEffect: shootBigSmoke2
+    shootEffect: shootBig2
+    smokeEffect: shootSmokeTitan
     lightColor: 8a86b7
     frontColor: 8a86b7
     backColor: 5c5986
@@ -96,18 +91,41 @@ ammoTypes: {
           type: ExplosionEffect
           waveLife: 0
           smokeSize: 10
-          smokeSizeBase: 4
-          sparkLen: 6
-          sparkStroke: 2
           smokeRad: 60
-          sparkRad: 60
           smokes: 20
-          sparks: 16
-          sparkColor: 8a86b7
+          sparks: 0
           smokeColor: 5c5986
           lifetime: 90
         }
+        {
+          type: ExplosionEffect
+          waveLife: 0
+          sparkLen: 6
+          sparkStroke: 2
+          sparkRad: 80
+          smokes: 0
+          sparks: 16
+          sparkColor: 8a86b7
+          lifetime: 30
+        }
       ]
+    }
+    fragBullets: 6
+    fragBullet: {
+      type: BasicBulletType
+      splashDamage: 30
+      splashDamageRadius: 16
+      lightColor: 8a86b7
+      frontColor: 8a86b7
+      backColor: 5c5986
+      hitColor: 5c5986
+      trailColor: 5c5986
+      width: 6
+      height: 10
+      trailWidth: 1
+      trailLength: 6
+      hitEffect: hitBulletColor
+      despawnEffect: hitBulletColor
     }
   }
 }
