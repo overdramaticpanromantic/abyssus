@@ -1,0 +1,105 @@
+type: ItemTurret
+name: Mantle
+description: Fires fragging artillery shells at nearby enemies.
+size: 4
+health: 1780
+category: turret
+range: 240
+squareSprite: false
+reload: 120
+shootSound: mediumCannon
+rotateSpeed: 2
+shootY: 14
+outlineColor: 0f0f14
+shake: 3
+heatColor: 5c5986
+cooldownTime: 90
+ammoPerShot: 4
+shootWarmupSpeed: 0.1
+minWarmup: 0.95
+requirements: [
+  thermic-alloy/110
+  cobalt/95
+  lithium/80
+]
+researchCost: [
+  thermic-alloy/1100
+  cobalt/950
+  lithium/800
+]
+drawer: {
+  type: DrawTurret
+  basePrefix: insulated-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -mid
+      mirror: false
+      under: false
+      progress: recoil
+      moveY: -3
+      heatColor: 979d5a
+    }
+    {
+      type: RegionPart
+      suffix: -side
+      mirror: true
+      under: false
+      progress: warmup
+      x: 8.75
+      y: 0
+      moveRot: -30
+      moveY: -4
+    }
+  ]
+}
+ammoTypes: {
+  cobalt: {
+    type: ArtilleryBulletType
+    sprite: shell
+    lifetime: 90
+    speed: 3
+    homingPower: 0.2
+    homingRange: 60
+    pierce: true
+    pierceCap: 4
+    splashDamage: 300
+    splashDamageRadius: 32
+    despawnEffect: none
+    shootEffect: shootBigColor
+    smokeEffect: shootBigSmoke2
+    lightColor: 8a86b7
+    frontColor: 8a86b7
+    backColor: 5c5986
+    hitColor: 5c5986
+    trailColor: 5c5986
+    width: 14
+    height: 20
+    trailWidth: 2
+    trailLength: 10
+    hitEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: WaveEffect
+          colorFrom: 5c5986
+          colorTo: 8a86b7
+          lightColor: 8a86b7
+          strokeFrom: 3
+          sizeTo: 120
+        }
+        {
+          type: ExplosionEffect
+          sparks: 0
+          waveLife: 0
+          smokeSize: 6
+          smokeRad: 60
+          smokes: 14
+          smokeColor: 5c5986
+          lifetime: 90
+        }
+      ]
+    }
+  }
+}
+research: renounce
