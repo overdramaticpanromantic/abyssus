@@ -51,6 +51,7 @@ drawer: {
 ammoTypes: {
   thermic-alloy: {
     type: BasicBulletType
+    despawnEffect: none
     width: 10
     height: 20
     hitColor: a65c53
