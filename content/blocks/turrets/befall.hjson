@@ -69,11 +69,13 @@ ammoTypes: {
       colorFrom: d99073
       colorTo: d99073
       lightColor: d99073
+      offsetY: 5
       particles: 1
       cone: 0
-      length: 30
+      randLength: false
+      length: 50
       sizeFrom: 3
-      sizeTo: 7
+      sizeTo: 5
       lifetime: 20
     }
   }
