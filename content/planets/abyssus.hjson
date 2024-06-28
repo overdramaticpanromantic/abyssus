@@ -71,8 +71,8 @@ cloudMesh: [
     seed: 53
     speed: 0.6
     radius: 0.08
-    divisions: 6
-    color: 8785a3
+    divisions: 3
+    color: 6967828c
     octaves: 4
     persistence: 0.5
     scl: 1.1
@@ -84,8 +84,8 @@ cloudMesh: [
     seed: 53
     speed: 0.4
     radius: 0.08
-    divisions: 6
-    color: 977c9f
+    divisions: 4
+    color: 7b5f838c
     octaves: 4
     persistence: 0.4
     scl: 1.1
@@ -97,7 +97,7 @@ cloudMesh: [
 allowLaunchToNumbered: false
 
 //how big each sector hexagon is
-sectorSize: 1
+sectorSize: 0.5
 
 //launch and invasion params
 allowLaunchSchematics: false
