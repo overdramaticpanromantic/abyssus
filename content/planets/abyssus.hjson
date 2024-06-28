@@ -83,7 +83,7 @@ cloudMesh: [
     planet: abyssus
     seed: 31
     speed: 0.4
-    radius: 0.08
+    radius: 0.07
     divisions: 5
     color: 7b5f83bf
     octaves: 4
