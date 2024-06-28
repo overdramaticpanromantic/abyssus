@@ -43,7 +43,7 @@ mesh: [
     color1: 3f4055
     color2: 292835
     radius: 1.02
-    octaves: 3
+    octaves: 4.2
     persistence: 0.96
     scale: 0.81
     mag: 1
@@ -56,7 +56,7 @@ mesh: [
     color1: 554458
     color2: 362936
     radius: 1.02
-    octaves: 3
+    octaves: 4.6
     persistence: 0.96
     scale: 0.72
     mag: 1
