@@ -60,23 +60,49 @@ ammoTypes: {
     trailLength: 15
     trailInterval: 3
     trailRotation: true
+    pierce: true
+    pierceCap: 10
     trailEffect: {
-      type: ParticleEffect
-      followParent: true
-      rotWithParent: true
-      useRotation: true
-      region: abyssus-oval
-      colorFrom: d99073
-      colorTo: d99073
-      lightColor: d99073
-      offsetX: 3
-      particles: 1
-      cone: 0
-      randLength: false
-      length: 50
-      sizeFrom: 2
-      sizeTo: 4
-      lifetime: 25
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          followParent: true
+          rotWithParent: true
+          useRotation: true
+          region: abyssus-oval
+          colorFrom: d99073
+          colorTo: d99073
+          lightColor: d99073
+          offsetX: 3
+          particles: 1
+          cone: 0
+          randLength: false
+          length: 50
+          sizeFrom: 2
+          sizeTo: 4
+          lifetime: 16
+        }
+        {
+          type: ParticleEffect
+          followParent: true
+          rotWithParent: true
+          useRotation: true
+          region: abyssus-oval
+          colorFrom: d99073
+          colorTo: d99073
+          lightColor: d99073
+          offsetX: 3
+          particles: 1
+          cone: 0
+          randLength: false
+          length: 50
+          sizeFrom: 4
+          sizeTo: 0
+          lifetime: 9
+          startDelay: 15
+        }
+      ]
     }
   }
 }
