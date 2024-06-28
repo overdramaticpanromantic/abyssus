@@ -4,7 +4,7 @@ description: Launches javelin rounds at enemies. Best used at range.
 size: 3
 health: 1680
 category: turret
-range: 300
+range: 315
 squareSprite: false
 reload: 90
 shootSound: laser
