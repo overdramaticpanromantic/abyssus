@@ -7,7 +7,7 @@ category: turret
 range: 180
 squareSprite: false
 reload: 90
-shootSound: shootAlt
+shootSound: laser
 rotateSpeed: 1.5
 shootY: 4
 outlineColor: 0f0f14
@@ -39,10 +39,11 @@ drawer: {
       under: true
       x: 7
       y: -6
-      rotation: -45
+      rotation: 45
       moveX: 4
       moveY: -4
       heatColor: a65c53
+      layerOffset: -0.001
     }
   ]
 }
