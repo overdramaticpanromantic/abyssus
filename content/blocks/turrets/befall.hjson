@@ -40,7 +40,7 @@ drawer: {
       moveY: -4
       heatColor: a65c53
       heatLayerOffset: -0.005
-      turretHeatLayer: -1
+      turretHeatLayer: 49.5
     }
   ]
 }
