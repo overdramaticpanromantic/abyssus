@@ -76,7 +76,7 @@ cloudMesh: [
     octaves: 4
     persistence: 0.5
     scl: 1.1
-    thresh: 0.18
+    thresh: 0.68
   }
   {
     type: HexSkyMesh
@@ -89,7 +89,7 @@ cloudMesh: [
     octaves: 4
     persistence: 0.4
     scl: 1.1
-    thresh: 0.2
+    thresh: 0.7
   }
 ]
 
