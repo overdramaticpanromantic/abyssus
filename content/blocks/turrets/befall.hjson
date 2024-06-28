@@ -92,7 +92,7 @@ ammoTypes: {
           colorFrom: d99073
           colorTo: d99073
           lightColor: d99073
-          offsetX: 51
+          offsetX: 53
           particles: 1
           cone: 0
           randLength: false
