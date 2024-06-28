@@ -57,8 +57,8 @@ ammoTypes: {
     speed: 5
     lifetime: 60
     trailWidth: 2
-    trailLength: 20
-    trailInterval: 3
+    trailLength: 10
+    trailInterval: 1.5
     trailRotation: true
     trailEffect: {
       type: ParticleEffect
@@ -67,11 +67,12 @@ ammoTypes: {
       useRotation: true
       region: abyssus-oval
       colorFrom: d99073
-      colorTo: ffffff
+      colorTo: d99073
       lightColor: d99073
       particles: 1
       baseRotation: 90
-      sizeFrom: 0
+      length: 30
+      sizeFrom: 2
       sizeTo: 8
       lifetime: 20
     }
