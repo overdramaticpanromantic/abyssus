@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Befall
-description: Launches javelin rounds at nearby enemies.
+description: Launches javelin rounds at enemies. Best used at range.
 size: 3
 health: 1680
 category: turret
@@ -82,7 +82,7 @@ ammoTypes: {
       damage: 100
       trailWidth: 2
       trailLength: 17
-      trailInterval: 3
+      trailInterval: 6
       trailRotation: true
       trailEffect: sparkShoot
     }
