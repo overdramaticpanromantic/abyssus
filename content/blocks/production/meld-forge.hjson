@@ -11,7 +11,6 @@ liquidCapacity: 600
 hasLiquids: true
 ambientSound: smelter
 ambientSoundVolume: 0.25
-hasHeat: false
 requirements: [
   tungsten-but-stolen/680
   cobalt/625
