@@ -11,7 +11,6 @@ liquidCapacity: 600
 hasLiquids: true
 ambientSound: glow
 ambientSoundVolume: 0.25
-hasHeat: true
 requirements: [
   magnesium/710
   thermic-alloy/690
