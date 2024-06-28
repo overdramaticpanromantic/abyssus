@@ -63,7 +63,7 @@ ammoTypes: {
     trailLength: 17
     trailInterval: 5
     trailRotation: true
-    damage: 60
+    damage: 90
     pierce: true
     pierceCap: 10
     fragBullets: 1
@@ -82,7 +82,7 @@ ammoTypes: {
       lifetime: 20
       pierce: true
       pierceCap: 10
-      damage: 100
+      damage: 180
       trailWidth: 2
       trailLength: 17
       trailInterval: 4
