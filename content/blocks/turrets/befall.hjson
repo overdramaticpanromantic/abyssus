@@ -63,7 +63,7 @@ ammoTypes: {
     pierce: true
     pierceCap: 10
     trailEffect: {
-      type: MultiEffect
+      type: SeqEffect
       effects: [
         {
           type: ParticleEffect
@@ -100,7 +100,6 @@ ammoTypes: {
           sizeFrom: 4
           sizeTo: 0
           lifetime: 9
-          startDelay: 15
         }
       ]
     }
