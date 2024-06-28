@@ -33,13 +33,15 @@ drawer: {
       progress: recoil
       mirror: true
       under: true
-      x: 7
-      y: -6
+      x: 5
+      y: -4
       rotation: 45
-      moveX: 2.5
-      moveY: -2.5
+      moveX: 4
+      moveY: -4
       heatColor: a65c53
-      layerOffset: -0.001
+      layerOffset: -0.002
+      heatLayerOffset: 0.001
+      heatLight: true
     }
   ]
 }
