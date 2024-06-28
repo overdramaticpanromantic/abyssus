@@ -45,7 +45,6 @@ drawer: {
       turretHeatLayer: 49.999
       layerOffset: -0.002
       blending: additive
-      heatLight: true
     }
   ]
 }
