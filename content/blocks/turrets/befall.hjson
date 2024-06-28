@@ -96,7 +96,7 @@ ammoTypes: {
           particles: 1
           cone: 0
           randLength: false
-          length: 50
+          length: 30
           sizeFrom: 4
           sizeTo: 0
           lifetime: 9
