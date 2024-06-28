@@ -39,7 +39,7 @@ drawer: {
       moveX: 4
       moveY: -4
       heatColor: a65c53
-      heatLayerOffset: -0.102
+      heatLayerOffset: -1.002
       layerOffset: -0.004
     }
   ]
