@@ -81,7 +81,7 @@ cloudMesh: [
   {
     type: HexSkyMesh
     planet: abyssus
-    seed: 53
+    seed: 31
     speed: 0.4
     radius: 0.08
     divisions: 5
