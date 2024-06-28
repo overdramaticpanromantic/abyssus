@@ -23,6 +23,9 @@ researchCost: [
   tungsten-but-stolen/900
   thermic-alloy/750
 ]
+consumes: {
+  power: 2.5
+}
 drawer: {
   type: DrawTurret
   basePrefix: insulated-
@@ -42,6 +45,7 @@ drawer: {
       turretHeatLayer: 49.999
       layerOffset: -0.002
       blending: additive
+      heatLight: true
     }
   ]
 }
@@ -58,7 +62,7 @@ ammoTypes: {
     lifetime: 40
     trailWidth: 2
     trailLength: 17
-    trailInterval: 6
+    trailInterval: 5
     trailRotation: true
     damage: 60
     pierce: true
