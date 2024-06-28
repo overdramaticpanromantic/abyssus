@@ -71,9 +71,10 @@ ammoTypes: {
       lightColor: d99073
       particles: 1
       baseRotation: 90
+      cone: 5
       length: 30
-      sizeFrom: 2
-      sizeTo: 8
+      sizeFrom: 3
+      sizeTo: 7
       lifetime: 20
     }
   }
