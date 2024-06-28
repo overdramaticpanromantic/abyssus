@@ -57,7 +57,7 @@ ammoTypes: {
     speed: 5
     lifetime: 60
     trailWidth: 2
-    trailLength: 15
+    trailLength: 17
     trailInterval: 3
     trailRotation: true
     pierce: true
@@ -96,10 +96,10 @@ ammoTypes: {
           particles: 1
           cone: 0
           randLength: false
-          length: 50
+          length: 100
           sizeFrom: 4
           sizeTo: 0
-          lifetime: 16
+          lifetime: 32
         }
       ]
     }
