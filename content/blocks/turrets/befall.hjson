@@ -99,7 +99,7 @@ ammoTypes: {
           length: 30
           sizeFrom: 4
           sizeTo: 0
-          lifetime: 9
+          lifetime: 16
         }
       ]
     }
