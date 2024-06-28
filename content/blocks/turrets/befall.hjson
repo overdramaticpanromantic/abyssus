@@ -61,11 +61,12 @@ ammoTypes: {
     trailInterval: 0.5
     trailEffect: {
       type: ParticleEffect
+      followParent: true
       rotWithParent: true
       useRotation: true
       region: abyssus-oval
-      colorFrom: a65c53
-      colorTo: d99073
+      colorFrom: d99073
+      colorTo: ffffff
       lightColor: d99073
       particles: 1
       cone: 0
