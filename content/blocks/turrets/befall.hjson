@@ -58,7 +58,7 @@ ammoTypes: {
     lifetime: 40
     trailWidth: 2
     trailLength: 17
-    trailInterval: 4
+    trailInterval: 6
     trailRotation: true
     damage: 60
     pierce: true
@@ -82,7 +82,7 @@ ammoTypes: {
       damage: 100
       trailWidth: 2
       trailLength: 17
-      trailInterval: 6
+      trailInterval: 4
       trailRotation: true
       trailEffect: sparkShoot
     }
