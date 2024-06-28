@@ -64,6 +64,7 @@ ammoTypes: {
     pierce: true
     pierceCap: 10
     fragBullets: 1
+    fragRandomSpread: 0
     fragBullet: {
       type: BasicBulletType
       width: 10
