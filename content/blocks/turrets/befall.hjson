@@ -102,7 +102,7 @@ ammoTypes: {
           particles: 1
           cone: 0
           randLength: false
-          length: 50
+          length: 35
           sizeFrom: 2
           sizeTo: 4
           lifetime: 16
@@ -116,11 +116,11 @@ ammoTypes: {
           colorFrom: d99073
           colorTo: d99073
           lightColor: d99073
-          offsetX: 53
+          offsetX: 38
           particles: 1
           cone: 0
           randLength: false
-          length: 100
+          length: 70
           sizeFrom: 4
           sizeTo: 0
           lifetime: 32
