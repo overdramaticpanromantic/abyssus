@@ -1,0 +1,54 @@
+type: ItemTurret
+name: Befall
+description: Launches javelin rounds at nearby enemies.
+size: 3
+health: 1680
+category: turret
+range: 180
+squareSprite: false
+reload: 90
+shootSound: shootAlt
+rotateSpeed: 1.5
+shootY: 4
+outlineColor: 0f0f14
+shake: 2
+heatColor: a65c53
+ammoPerShot: 3
+cooldownTime: 60
+requirements: [
+  tungsten-but-stolen/90
+  thermic-alloy/75
+]
+researchCost: [
+  tungsten-but-stolen/900
+  thermic-alloy/750
+]
+shoot: {
+  type: ShootAlternate
+  spread: 8
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: insulated-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -heatsink
+      progress: recoil
+      mirror: true
+      under: true
+      x: 7
+      y: -6
+      rotation: -45
+      moveX: 4
+      moveY: -4
+      heatColor: a65c53
+    }
+  ]
+}
+ammoTypes: {
+  thermic-alloy: {
+    type: BasicBulletType
+  }
+}
+research: dissipate
