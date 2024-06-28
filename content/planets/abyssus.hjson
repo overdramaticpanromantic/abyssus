@@ -71,12 +71,12 @@ cloudMesh: [
     seed: 53
     speed: 0.6
     radius: 0.08
-    divisions: 3
-    color: 6967828c
+    divisions: 4
+    color: 696782bf
     octaves: 4
     persistence: 0.5
     scl: 1.1
-    thresh: 0.38
+    thresh: 0.18
   }
   {
     type: HexSkyMesh
@@ -84,12 +84,12 @@ cloudMesh: [
     seed: 53
     speed: 0.4
     radius: 0.08
-    divisions: 4
-    color: 7b5f838c
+    divisions: 5
+    color: 7b5f83bf
     octaves: 4
     persistence: 0.4
     scl: 1.1
-    thresh: 0.4
+    thresh: 0.2
   }
 ]
 
