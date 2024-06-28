@@ -51,7 +51,7 @@ mesh: [
   {
     type: NoiseMesh
     planet: abyssus
-    seed: 12
+    seed: 13
     divisions: 6
     color1: 554458
     color2: 362936
