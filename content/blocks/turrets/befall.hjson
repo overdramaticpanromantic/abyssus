@@ -70,8 +70,7 @@ ammoTypes: {
       colorTo: d99073
       lightColor: d99073
       particles: 1
-      baseRotation: 90
-      cone: 5
+      cone: 0
       length: 30
       sizeFrom: 3
       sizeTo: 7
