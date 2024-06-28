@@ -76,7 +76,7 @@ ammoTypes: {
       length: 50
       sizeFrom: 2
       sizeTo: 4
-      lifetime: 20
+      lifetime: 30
     }
   }
 }
