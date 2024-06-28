@@ -9,7 +9,7 @@ squareSprite: false
 reload: 90
 shootSound: laser
 rotateSpeed: 1.5
-shootY: -1.5
+shootY: -2.5
 outlineColor: 0f0f14
 shake: 2
 heatColor: a65c53
