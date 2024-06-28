@@ -23,10 +23,6 @@ researchCost: [
   tungsten-but-stolen/900
   thermic-alloy/750
 ]
-shoot: {
-  type: ShootAlternate
-  spread: 8
-}
 drawer: {
   type: DrawTurret
   basePrefix: insulated-
