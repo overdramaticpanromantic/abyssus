@@ -58,7 +58,8 @@ ammoTypes: {
     lifetime: 60
     trailWidth: 2
     trailLength: 20
-    trailInterval: 0.5
+    trailInterval: 3
+    trailRotation: true
     trailEffect: {
       type: ParticleEffect
       followParent: true
@@ -69,8 +70,7 @@ ammoTypes: {
       colorTo: ffffff
       lightColor: d99073
       particles: 1
-      cone: 0
-      length: 20
+      baseRotation: 90
       sizeFrom: 0
       sizeTo: 8
       lifetime: 20
