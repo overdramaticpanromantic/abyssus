@@ -41,6 +41,7 @@ drawer: {
       heatColor: a65c53
       turretHeatLayer: 49.999
       layerOffset: -0.002
+      blending: additive
     }
   ]
 }
