@@ -72,7 +72,7 @@ cloudMesh: [
     speed: 0.6
     radius: 0.08
     divisions: 6
-    color: 292835
+    color: 8785a3
     octaves: 4
     persistence: 0.5
     scl: 1.1
@@ -85,7 +85,7 @@ cloudMesh: [
     speed: 0.4
     radius: 0.08
     divisions: 6
-    color: 362936
+    color: 977c9f
     octaves: 4
     persistence: 0.4
     scl: 1.1
@@ -105,12 +105,12 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 
 //the first sector on this planet
-startSector: 0
+startSector: 2
 
 //orbit and camera params
 orbitSpacing: 4
 radius: 1.2
-minZoom: 1.5
+minZoom: 0.6
 
 //whether to draw the orbit line
 drawOrbit: true
