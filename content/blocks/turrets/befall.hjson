@@ -48,6 +48,29 @@ drawer: {
 ammoTypes: {
   thermic-alloy: {
     type: BasicBulletType
+    width: 10
+    height: 20
+    hitColor: a65c53
+    trailColor: a65c53
+    frontColor: d99073
+    backColor: a65c53
+    speed: 5
+    lifetime: 60
+    trailWidth: 2
+    trailLength: 10
+    trailInterval: 0.05
+    trailEffect: {
+      type: ParticleEffect
+      region: abyssus-oval
+      colorFrom: a65c53
+      colorTo: d99073
+      lightColor: d99073
+      particles: 1
+      cone: 0
+      length: 20
+      sizeFrom: 4
+      sizeTo: 8
+    }
   }
 }
 research: dissipate
