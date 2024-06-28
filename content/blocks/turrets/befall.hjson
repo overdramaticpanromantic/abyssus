@@ -57,7 +57,7 @@ ammoTypes: {
     speed: 5
     lifetime: 60
     trailWidth: 2
-    trailLength: 10
+    trailLength: 15
     trailInterval: 3
     trailRotation: true
     trailEffect: {
@@ -76,7 +76,7 @@ ammoTypes: {
       length: 50
       sizeFrom: 2
       sizeTo: 4
-      lifetime: 30
+      lifetime: 25
     }
   }
 }
