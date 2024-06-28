@@ -65,6 +65,8 @@ ammoTypes: {
     pierceCap: 10
     fragBullets: 1
     fragRandomSpread: 0
+    fragVelocityMin: 1
+    fragVelocityMax: 1
     fragBullet: {
       type: BasicBulletType
       width: 10
@@ -81,6 +83,7 @@ ammoTypes: {
       trailWidth: 2
       trailLength: 17
       trailInterval: 3
+      trailRotation: true
       trailEffect: sparkShoot
     }
     trailEffect: {
