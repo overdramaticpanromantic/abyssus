@@ -55,13 +55,33 @@ ammoTypes: {
     frontColor: d99073
     backColor: a65c53
     speed: 5
-    lifetime: 60
+    lifetime: 40
     trailWidth: 2
     trailLength: 17
     trailInterval: 3
     trailRotation: true
+    damage: 60
     pierce: true
     pierceCap: 10
+    fragBullets: 1
+    fragBullet: {
+      type: BasicBulletType
+      width: 10
+      height: 20
+      hitColor: a65c53
+      trailColor: a65c53
+      frontColor: d99073
+      backColor: a65c53
+      speed: 8
+      lifetime: 20
+      pierce: true
+      pierceCap: 10
+      damage: 100
+      trailWidth: 2
+      trailLength: 17
+      trailInterval: 3
+      trailEffect: sparkShoot
+    }
     trailEffect: {
       type: SeqEffect
       effects: [
