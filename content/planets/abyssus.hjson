@@ -7,7 +7,7 @@ description: Deep, dark, and devoid of life. Not recommended for newer players.
 //generator - unused but necessary to prevent crashes apparently
 generator: {
   type: PlanetGenerator
-  octaves: 3
+  octaves: 4
   persistence: 0.52
   scale: 22
   mag: 0.721
