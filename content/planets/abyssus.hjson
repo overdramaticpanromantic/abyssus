@@ -97,7 +97,7 @@ cloudMesh: [
 allowLaunchToNumbered: false
 
 //how big each sector hexagon is
-sectorSize: 0.9
+sectorSize: 2
 
 //launch and invasion params
 allowLaunchSchematics: false
