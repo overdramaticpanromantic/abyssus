@@ -4,7 +4,7 @@ description: Launches javelin rounds at nearby enemies.
 size: 3
 health: 1680
 category: turret
-range: 180
+range: 185
 squareSprite: false
 reload: 90
 shootSound: laser
@@ -54,11 +54,11 @@ ammoTypes: {
     trailColor: a65c53
     frontColor: d99073
     backColor: a65c53
-    speed: 5
+    speed: 4
     lifetime: 40
     trailWidth: 2
     trailLength: 17
-    trailInterval: 3
+    trailInterval: 4
     trailRotation: true
     damage: 60
     pierce: true
