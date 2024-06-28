@@ -43,7 +43,7 @@ mesh: [
     color1: 3f4055
     color2: 292835
     radius: 1.02
-    octaves: 2.8
+    octaves: 3.2
     persistence: 0.8
     scale: 0.81
     mag: 1
@@ -56,7 +56,7 @@ mesh: [
     color1: 554458
     color2: 362936
     radius: 1.02
-    octaves: 2.4
+    octaves: 2.8
     persistence: 0.8
     scale: 0.72
     mag: 1
@@ -134,7 +134,7 @@ sectorSeed: 1984
 //self explanatory
 bloom: false
 visible: true
-atmosphereColor: 696782
+atmosphereColor: 292835
 iconColor: 3f4055
 hasAtmosphere: true
 
