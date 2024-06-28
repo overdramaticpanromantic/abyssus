@@ -71,7 +71,7 @@ cloudMesh: [
     seed: 53
     speed: 0.6
     radius: 0.08
-    divisions: 4
+    divisions: 5
     color: 696782bf
     octaves: 4
     persistence: 0.5
