@@ -6,8 +6,8 @@ health: 1780
 category: turret
 range: 240
 squareSprite: false
-reload: 120
-shootSound: mediumCannon
+reload: 30
+shootSound: shootBig
 rotateSpeed: 1.75
 shootY: 14
 outlineColor: 0f0f14
@@ -19,6 +19,8 @@ consumeAmmoOnce: true
 targetGround: false
 inaccuracy: 10
 shootCone: 10
+minWarmup: 0.95
+shootWarmupSpeed: 0.15
 requirements: [
   tungsten-but-stolen/185
   cobalt/160
@@ -33,7 +35,7 @@ shoot: {
   type: ShootAlternate
   spread: 3.5
   barrels: 6
-  shots: 2
+  shots: 6
 }
 drawer: {
   type: DrawTurret
@@ -48,7 +50,6 @@ drawer: {
       heatProgress: warmup
       moveY: -2.5
       heatColor: 4a8e7c
-      layerOffset: 0.001
       turretHeatLayer: 50.002
     }
     {
@@ -60,7 +61,6 @@ drawer: {
       heatProgress: warmup
       moveRot: 10
       heatColor: 4a8e7c
-      layerOffset: 0.003
       turretHeatLayer: 50.004
     }
     {
@@ -73,7 +73,6 @@ drawer: {
       moveRot: 15
       moveY: 1
       heatColor: 4a8e7c
-      layerOffset: 0.005
       turretHeatLayer: 50.006
     }
   ]
