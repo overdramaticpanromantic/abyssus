@@ -1,0 +1,65 @@
+type: ItemTurret
+name: Excurse
+description: Fires burst flak at aerial targets.
+size: 4
+health: 1780
+category: turret
+range: 240
+squareSprite: false
+reload: 120
+shootSound: mediumCannon
+rotateSpeed: 1.75
+shootY: 14
+outlineColor: 0f0f14
+shake: 3
+heatColor: 5c5986
+cooldownTime: 30
+ammoPerShot: 2
+consumeAmmoOnce: true
+targetGround: false
+inaccuracy: 10
+shootCone: 10
+requirements: [
+  tungsten-but-stolen/185
+  cobalt/160
+  aeroframe/145
+]
+researchCost: [
+  tungsten-but-stolen/3700
+  cobalt/3200
+  aeroframe/2900
+]
+shoot: {
+  type: ShootAlternate
+  spread: 3.5
+  barrels: 6
+  shots: 2
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: insulated-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -mid
+      progress: recoil
+      heatProgress: warmup
+      moveY: -2.5
+      heatColor: 4a8e7c
+    }
+    {
+      type: RegionPart
+      suffix: -mid
+      progress: warmup
+      heatProgress: warmup
+      moveY: -2.5
+      heatColor: 4a8e7c
+    }
+  ]
+}
+ammoTypes: {
+  magnesium: {
+    type: BasicBulletType
+  }
+}
+research: mantle
