@@ -50,6 +50,9 @@ drawer: {
       heatProgress: warmup
       moveY: -2.5
       heatColor: 4a8e7c
+      layerOffset: 0.001
+      turretHeatLayer: 50.002
+      outlineLayerOffset: -0.002
     }
     {
       type: RegionPart
@@ -62,6 +65,9 @@ drawer: {
       moveX: 1
       moveY: 0.5
       heatColor: 4a8e7c
+      layerOffset: 0.003
+      turretHeatLayer: 50.004
+      outlineLayerOffset: -0.004
     }
     {
       type: RegionPart
@@ -74,6 +80,9 @@ drawer: {
       moveX: 1
       moveY: 1
       heatColor: 4a8e7c
+      layerOffset: 0.005
+      turretHeatLaer: 50.006
+      outlineLayerOffset: -0.006
     }
   ]
 }
