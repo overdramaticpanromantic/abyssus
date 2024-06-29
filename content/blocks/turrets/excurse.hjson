@@ -72,7 +72,7 @@ drawer: {
       heatProgress: warmup
       moveRot: 15
       moveX: 1
-      moveY: 0.75
+      moveY: 1
       heatColor: 4a8e7c
     }
   ]
