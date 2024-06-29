@@ -90,6 +90,8 @@ drawer: {
 ammoTypes: {
   tungsten-but-stolen: {
     type: BasicBulletType
+    collidesGround: false
+    collidesAir: true
     sprite: mine-bullet
     backSprite: large-bomb-back
     frontColor: ffffff
