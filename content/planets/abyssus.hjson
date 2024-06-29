@@ -133,7 +133,7 @@ updateLighting: false
 sectorSeed: 1984
 
 //self explanatory
-bloom: false
+bloom: true
 visible: true
 atmosphereColor: 292835
 iconColor: 3f4055
