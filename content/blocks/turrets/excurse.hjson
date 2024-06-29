@@ -96,7 +96,7 @@ ammoTypes: {
     lightColor: 80c9a9
     hitColor: 4a8e7c
     backColor: 4a8e7c
-    trailChance: 0.05
+    trailChance: 0.3333334
     trailRotation: true
     damage: 45
     speed: 8
