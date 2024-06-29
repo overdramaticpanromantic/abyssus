@@ -4,7 +4,7 @@ description: Fires burst flak at aerial targets.
 size: 4
 health: 1780
 category: turret
-range: 240
+range: 360
 squareSprite: false
 reload: 30
 shootSound: shootBig
@@ -87,8 +87,34 @@ drawer: {
   ]
 }
 ammoTypes: {
-  magnesium: {
+  tungsten-but-stolen: {
     type: BasicBulletType
+    frontColor: 80c9a9
+    trailColor: 80c9a9
+    lightColor: 80c9a9
+    hitColor: 4a8e7c
+    backColor: 4a8e7c
+    trailInterval: 3
+    trailRotation: true
+    damage: 45
+    speed: 8
+    lifetime: 43
+    shootEffect: shootBig2
+    smokeEffect: shootSmokeDisperse
+    trailEffect: {
+      type: ParticleEffect
+      cone: 10
+      length: 5
+      particles: 6
+      colorFrom: 80c9a9
+      colorTo: 4a8e7c
+      lightColor: 80c9a9
+      line: true
+      strokeFrom: 2
+      strokeTo: 0
+      lenFrom: 6
+      lenTo: 2
+    }
   }
 }
 research: mantle
