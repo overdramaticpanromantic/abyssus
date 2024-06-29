@@ -89,22 +89,27 @@ drawer: {
 ammoTypes: {
   tungsten-but-stolen: {
     type: BasicBulletType
+    sprite: mine-bullet
+    backSprite: large-bomb-back
     frontColor: 80c9a9
     trailColor: 80c9a9
     lightColor: 80c9a9
     hitColor: 4a8e7c
     backColor: 4a8e7c
-    trailInterval: 3
+    trailChance: 0.05
     trailRotation: true
     damage: 45
     speed: 8
     lifetime: 43
     shootEffect: shootBig2
     smokeEffect: shootSmokeDisperse
+    width: 20
+    height: 20
     trailEffect: {
       type: ParticleEffect
+      baseRotation: 180
       cone: 10
-      length: 5
+      length: 20
       particles: 6
       colorFrom: 80c9a9
       colorTo: 4a8e7c
@@ -114,6 +119,7 @@ ammoTypes: {
       strokeTo: 0
       lenFrom: 6
       lenTo: 2
+      lifetime: 20
     }
   }
 }
