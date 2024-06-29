@@ -33,7 +33,7 @@ researchCost: [
 ]
 shoot: {
   type: ShootAlternate
-  spread: 3.5
+  spread: 3.25
   barrels: 6
   shots: 6
 }
@@ -60,6 +60,7 @@ drawer: {
       progress: warmup
       heatProgress: warmup
       moveRot: 10
+      moveX: 1
       heatColor: 4a8e7c
       turretHeatLayer: 50.004
     }
@@ -71,6 +72,7 @@ drawer: {
       progress: warmup
       heatProgress: warmup
       moveRot: 15
+      moveX: 1
       moveY: 1
       heatColor: 4a8e7c
       turretHeatLayer: 50.006
