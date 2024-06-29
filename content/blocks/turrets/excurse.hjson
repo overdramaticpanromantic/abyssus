@@ -42,18 +42,39 @@ drawer: {
     {
       type: RegionPart
       suffix: -mid
+      mirror: false
+      under: false
       progress: recoil
       heatProgress: warmup
       moveY: -2.5
       heatColor: 4a8e7c
+      layerOffset: 0.001
+      turretHeatLayer: 50.002
     }
     {
       type: RegionPart
-      suffix: -mid
+      suffix: -barrel-in
+      mirror: true
+      under: false
       progress: warmup
       heatProgress: warmup
-      moveY: -2.5
+      moveRot: 10
       heatColor: 4a8e7c
+      layerOffset: 0.003
+      turretHeatLayer: 50.004
+    }
+    {
+      type: RegionPart
+      suffix: -barrel-out
+      mirror: true
+      under: false
+      progress: warmup
+      heatProgress: warmup
+      moveRot: 15
+      moveY: 1
+      heatColor: 4a8e7c
+      layerOffset: 0.005
+      turretHeatLayer: 50.006
     }
   ]
 }
