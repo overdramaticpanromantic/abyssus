@@ -21,7 +21,7 @@ inaccuracy: 10
 shootCone: 10
 minWarmup: 0.95
 shootWarmupSpeed: 0.15
-velocityRnd: 0.15
+velocityRnd: 0.1
 requirements: [
   tungsten-but-stolen/185
   cobalt/160
@@ -101,7 +101,7 @@ ammoTypes: {
     trailRotation: true
     damage: 45
     speed: 8
-    lifetime: 43
+    lifetime: 50
     shootEffect: shootBig2
     smokeEffect: shootSmokeDisperse
     hitEffect: hitBulletColor
