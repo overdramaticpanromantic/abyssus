@@ -1,6 +1,6 @@
 type: ContinuousLiquidTurret
 name: Engulf
-description: Fires a stream of flammable gas at nearby enemies.
+description: Fires a continuous stream of flammable gas at nearby enemies. Pierces armor.
 size: 4
 health: 1645
 category: turret
