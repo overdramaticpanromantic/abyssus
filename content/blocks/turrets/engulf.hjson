@@ -1,0 +1,90 @@
+type: ContinuousLiquidTurret
+name: Engulf
+description: Fires a stream of flammable gas at nearby enemies.
+size: 4
+health: 1645
+category: turret
+range: 175
+squareSprite: false
+shootSound: none
+loopSound: torch
+loopSoundVolume: 1.2
+liquidConsumed: 0.2
+targetInterval: 5
+newTargetInterval: 30
+rotateSpeed: 2
+shootY: 8
+outlineColor: 0f0f14
+heatColor: b53f3f
+cooldownTime: 30
+targetGround: false
+shootCone: 10
+minWarmup: 0.95
+shootWarmupSpeed: 0.15
+velocityRnd: 0.1
+recoil: 2
+requirements: [
+  aluminum/190
+  thermic-alloy/165
+  carbide-but-stolen/150
+]
+requirements: [
+  aluminum/3800
+  thermic-alloy/3300
+  carbide-but-stolen/3000
+]
+drawer: {
+  type: DrawTurret
+  basePrefix: insulated-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -front
+      mirror: true
+      under: false
+      progress: warmup
+      moveRot: -10
+      heatColor: b53f3f
+      layerOffset: 0.001
+      turretHeatLayer: 50.002
+      outlineLayerOffset: -0.002
+    }
+  ]
+}
+ammoTypes: {
+  oxygen: {
+    type: ContinuousFlameBulletType
+    damage: 60
+    length: 175
+    knockback: 1
+    pierceCap: 2
+    flareColor: b53f3f
+    lightColor: eb7558
+    hitColor: eb7558
+    colors: [
+      b53f3f8c,
+      eb7558b3,
+      eb7a9ccc,
+      91a4ff,
+      ffffff
+    ]
+  }
+  methane: {
+    type: ContinuousFlameBulletType
+    damage: 60
+    length: 175
+    knockback: 1
+    pierceCap: 2
+    flareColor: 8e496c
+    lightColor: c46d8a
+    hitColor: c46d8a
+    colors: [
+      8e496c8c,
+      c46d8ab3,
+      eb7a9ccc,
+      91a4ff,
+      ffffff
+    ]
+  }
+}
+research: mantle
