@@ -21,7 +21,6 @@ targetGround: false
 shootCone: 10
 minWarmup: 0.95
 shootWarmupSpeed: 0.15
-velocityRnd: 0.1
 recoil: 0.5
 requirements: [
   aluminum/190
