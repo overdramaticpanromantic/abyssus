@@ -13,7 +13,7 @@ liquidConsumed: 0.2
 targetInterval: 5
 newTargetInterval: 30
 rotateSpeed: 2
-shootY: 8
+shootY: 1
 outlineColor: 0f0f14
 heatColor: b53f3f
 cooldownTime: 30
@@ -22,7 +22,7 @@ shootCone: 10
 minWarmup: 0.95
 shootWarmupSpeed: 0.15
 velocityRnd: 0.1
-recoil: 2
+recoil: 0.5
 requirements: [
   aluminum/190
   thermic-alloy/165
@@ -44,6 +44,7 @@ drawer: {
       under: false
       progress: warmup
       moveRot: -10
+      moveY: 2
       heatColor: b53f3f
       layerOffset: 0.001
       turretHeatLayer: 50.002
