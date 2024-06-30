@@ -13,7 +13,7 @@ liquidConsumed: 0.2
 targetInterval: 5
 newTargetInterval: 30
 rotateSpeed: 2
-shootY: 1
+shootY: 3
 outlineColor: 0f0f14
 heatColor: b53f3f
 cooldownTime: 30
