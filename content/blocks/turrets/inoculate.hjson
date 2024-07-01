@@ -62,7 +62,7 @@ ammoTypes: {
     speed: 3
     lifetime: 120
     trailWidth: 2
-    trailLength: 32
+    trailLength: 24
     trailInterval: 6
     trailRotation: true
     damage: 210
@@ -71,8 +71,31 @@ ammoTypes: {
     bulletInterval: 10
     intervalRandomSpread: 0
     intervalBullets: 2
-    intervalSpread: 45
-    intervalAngle: -22.5
+    intervalSpread: 30
+    fragBullets: 16
+    fragVelocityMin: 0.75
+    fragVelocityMax: 1
+    fragLifeMin: 0.5
+    fragLifeMax: 1
+    fragBullet: {
+      type: BasicBulletType
+      homingPower: 0.35
+      hitColor: 889caa
+      trailColor: 889caa
+      frontColor: cdd9e8
+      lightColor: cdd9e8
+      backColor: 889caa
+      width: 8
+      height: 10
+      trailWidth: 1.5
+      trailLength: 10
+      pierce: false
+      damage: 30
+      despawnEffect: hitSquaresColor
+      hitEffect: hitSquaresColor
+      speed: 4
+      lifetime: 60
+    }
     intervalBullet: {
       type: BasicBulletType
       homingPower: 0.35
@@ -86,7 +109,7 @@ ammoTypes: {
       trailWidth: 1.5
       trailLength: 10
       pierce: false
-      damage: 45
+      damage: 30
       despawnEffect: hitSquaresColor
       hitEffect: hitSquaresColor
       speed: 4
