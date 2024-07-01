@@ -63,7 +63,7 @@ ammoTypes: {
     lifetime: 70
     trailWidth: 2
     trailLength: 24
-    trailInterval: 4
+    trailInterval: 3
     trailRotation: true
     damage: 210
     pierce: true
