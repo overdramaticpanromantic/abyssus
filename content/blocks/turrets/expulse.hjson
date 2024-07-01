@@ -66,9 +66,9 @@ ammoTypes: {
     splashDamage: 150
     splashDamageRadius: 40
     fragBullets: 4
-    fragVelocityMin: 0.75
+    fragVelocityMin: 0.5
     fragVelocityMax: 1
-    fragLifeMin: 0.75
+    fragLifeMin: 0.5
     fragLifeMax: 1
     fragBullet: {
       type: BasicBulletType
@@ -87,9 +87,9 @@ ammoTypes: {
       lifetime: 20
       collidesAir: false
       fragBullets: 4
-      fragVelocityMin: 0.75
+      fragVelocityMin: 0.5
       fragVelocityMax: 1
-      fragLifeMin: 0.75
+      fragLifeMin: 0.5
       fragLifeMax: 1
       fragBullet: {
         type: BasicBulletType
