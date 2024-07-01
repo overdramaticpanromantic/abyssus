@@ -71,11 +71,12 @@ ammoTypes: {
     bulletInterval: 10
     intervalRandomSpread: 30
     intervalBullets: 3
+    intervalDelay: 15
     fragBullets: 16
     fragVelocityMin: 0.75
     fragVelocityMax: 1
-    fragLifeMin: 0.2
-    fragLifeMax: 0.4
+    fragLifeMin: 0.3
+    fragLifeMax: 0.5
     fragBullet: {
       type: BasicBulletType
       homingPower: 0.35
@@ -94,6 +95,7 @@ ammoTypes: {
       hitEffect: hitSquaresColor
       speed: 2
       lifetime: 60
+      keepVelocity: false
     }
     intervalBullet: {
       type: BasicBulletType
@@ -113,6 +115,7 @@ ammoTypes: {
       hitEffect: hitSquaresColor
       speed: 4
       lifetime: 60
+      keepVelocity: false
     }
     trailEffect: {
       type: SeqEffect
