@@ -21,6 +21,12 @@ requirements: [
   aeroframe/170
   strontium/155
 ]
+researchCost: [
+  tungsten-but-stolen/4200
+  cobalt/3700
+  aeroframe/3400
+  strontium/3100
+]
 consumes: {
   power: 4
 }
