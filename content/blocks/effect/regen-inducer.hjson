@@ -7,7 +7,7 @@ category: effect
 type: RegenProjector
 baseColor: d99073
 range: 28
-healPercent: 0.06666667
+healPercent: 0.03333334
 consumes: {
   power: 2
 }
