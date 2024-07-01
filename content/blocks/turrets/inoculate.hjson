@@ -63,7 +63,7 @@ ammoTypes: {
     lifetime: 70
     trailWidth: 2
     trailLength: 24
-    trailInterval: 6
+    trailInterval: 4
     trailRotation: true
     damage: 210
     pierce: true
@@ -113,7 +113,7 @@ ammoTypes: {
       damage: 30
       despawnEffect: hitSquaresColor
       hitEffect: hitSquaresColor
-      speed: 2
+      speed: 3.5
       lifetime: 60
       keepVelocity: false
     }
@@ -136,7 +136,7 @@ ammoTypes: {
           length: 35
           sizeFrom: 2
           sizeTo: 4
-          lifetime: 20
+          lifetime: 16
         }
         {
           type: ParticleEffect
@@ -154,7 +154,7 @@ ammoTypes: {
           length: 70
           sizeFrom: 4
           sizeTo: 0
-          lifetime: 40
+          lifetime: 32
         }
       ]
     }
