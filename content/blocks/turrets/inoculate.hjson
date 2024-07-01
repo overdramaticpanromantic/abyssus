@@ -59,8 +59,8 @@ ammoTypes: {
     frontColor: cdd9e8
     lightColor: cdd9e8
     backColor: 889caa
-    speed: 3
-    lifetime: 120
+    speed: 5
+    lifetime: 70
     trailWidth: 2
     trailLength: 24
     trailInterval: 6
@@ -71,7 +71,7 @@ ammoTypes: {
     bulletInterval: 10
     intervalRandomSpread: 30
     intervalBullets: 3
-    intervalDelay: 15
+    intervalDelay: 10
     fragBullets: 16
     fragVelocityMin: 0.75
     fragVelocityMax: 1
