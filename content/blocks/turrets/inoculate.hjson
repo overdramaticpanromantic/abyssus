@@ -57,6 +57,7 @@ ammoTypes: {
     hitColor: 889caa
     trailColor: 889caa
     frontColor: cdd9e8
+    lightColor: cdd9e8
     backColor: 889caa
     speed: 3
     lifetime: 120
@@ -86,7 +87,7 @@ ammoTypes: {
           length: 35
           sizeFrom: 2
           sizeTo: 4
-          lifetime: 32
+          lifetime: 24
         }
         {
           type: ParticleEffect
@@ -104,7 +105,7 @@ ammoTypes: {
           length: 70
           sizeFrom: 4
           sizeTo: 0
-          lifetime: 64
+          lifetime: 48
         }
       ]
     }
