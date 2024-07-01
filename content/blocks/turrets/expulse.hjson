@@ -15,6 +15,7 @@ shake: 5
 heatColor: c1975c
 ammoPerShot: 6
 cooldownTime: 90
+targetAir: false
 requirements: [
   thermic-alloy/210
   carbide-but-stolen/175
@@ -48,18 +49,19 @@ drawer: {
   ]
 }
 ammoTypes: {
-  strontium: {
+  bismuth: {
     type: ArtilleryBulletType
-    width: 24
-    height: 24
+    width: 18
+    height: 18
     hitColor: c1975c
     trailColor: c1975c
     frontColor: e9d164
     lightColor: e9d164
     backColor: c1975c
     speed: 4
+    hitShake: 4
     lifetime: 75
-    trailWidth: 6
+    trailWidth: 4
     trailLength: 20
     splashDamage: 150
     splashDamageRadius: 40
@@ -70,6 +72,8 @@ ammoTypes: {
     fragLifeMax: 1
     fragBullet: {
       type: BasicBulletType
+      hitEffect: hitBulletColor
+      despawnEffect: hitBulletColor
       splashDamage: 60
       splashDamageRadius: 20
       width: 18
@@ -81,6 +85,7 @@ ammoTypes: {
       backColor: c1975c
       speed: 2
       lifetime: 20
+      collidesAir: false
       fragBullets: 4
       fragVelocityMin: 0.75
       fragVelocityMax: 1
@@ -88,6 +93,8 @@ ammoTypes: {
       fragLifeMax: 1
       fragBullet: {
         type: BasicBulletType
+        hitEffect: hitBulletColor
+        despawnEffect: hitBulletColor
         splashDamage: 24
         splashDamageRadius: 12
         width: 12
@@ -99,6 +106,7 @@ ammoTypes: {
         backColor: c1975c
         speed: 2
         lifetime: 20
+        collidesAir: false
       }
     }
     hitEffect: {
