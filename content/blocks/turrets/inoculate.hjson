@@ -62,7 +62,7 @@ ammoTypes: {
     lifetime: 120
     trailWidth: 2
     trailLength: 20
-    trailInterval: 5
+    trailInterval: 6
     trailRotation: true
     damage: 210
     pierce: true
@@ -86,7 +86,7 @@ ammoTypes: {
           length: 35
           sizeFrom: 2
           sizeTo: 4
-          lifetime: 16
+          lifetime: 32
         }
         {
           type: ParticleEffect
@@ -104,7 +104,7 @@ ammoTypes: {
           length: 70
           sizeFrom: 4
           sizeTo: 0
-          lifetime: 32
+          lifetime: 64
         }
       ]
     }
