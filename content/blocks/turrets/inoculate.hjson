@@ -77,7 +77,7 @@ ammoTypes: {
     fragLifeMax: 0.5
     fragBullet: {
       type: BasicBulletType
-      homingPower: 0.35
+      homingPower: 0.2
       homingRange: 90
       hitColor: 889caa
       trailColor: 889caa
@@ -98,7 +98,7 @@ ammoTypes: {
     }
     intervalBullet: {
       type: BasicBulletType
-      homingPower: 0.35
+      homingPower: 0.2
       homingRange: 90
       hitColor: 889caa
       trailColor: 889caa
