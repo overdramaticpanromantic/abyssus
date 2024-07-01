@@ -69,14 +69,13 @@ ammoTypes: {
     pierce: true
     pierceCap: 10
     bulletInterval: 10
-    intervalRandomSpread: 0
-    intervalBullets: 2
-    intervalSpread: 30
+    intervalRandomSpread: 30
+    intervalBullets: 3
     fragBullets: 16
     fragVelocityMin: 0.75
     fragVelocityMax: 1
-    fragLifeMin: 0.5
-    fragLifeMax: 1
+    fragLifeMin: 0.2
+    fragLifeMax: 0.4
     fragBullet: {
       type: BasicBulletType
       homingPower: 0.35
@@ -93,7 +92,7 @@ ammoTypes: {
       damage: 30
       despawnEffect: hitSquaresColor
       hitEffect: hitSquaresColor
-      speed: 4
+      speed: 2
       lifetime: 60
     }
     intervalBullet: {
