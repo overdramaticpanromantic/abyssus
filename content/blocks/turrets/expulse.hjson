@@ -1,0 +1,147 @@
+type: ItemTurret
+name: Expulse
+description: Fires recursive cluster grenades at nearby enemies.
+size: 4
+health: 2180
+category: turret
+range: 300
+squareSprite: false
+reload: 120
+shootSound: laser
+rotateSpeed: 1.1
+shootY: 0
+outlineColor: 0f0f14
+shake: 5
+heatColor: c1975c
+ammoPerShot: 6
+cooldownTime: 90
+requirements: [
+  thermic-alloy/210
+  carbide-but-stolen/175
+  bismuth/150
+]
+researchCost: [
+  thermic-alloy/4200
+  carbide-but-stolen/3500
+  bismuth/3000
+]
+drawer: {
+  type: DrawTurret
+  basePrefix: insulated-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -heatsink
+      progress: recoil
+      mirror: true
+      under: true
+      x: 3
+      y: -9
+      rotation: 45
+      moveX: 5.5
+      moveY: -5.5
+      heatColor: c1975c
+      turretHeatLayer: 49.999
+      layerOffset: -0.002
+      blending: additive
+    }
+    {
+      type: RegionPart
+      suffix: -heatsink
+      progress: recoil
+      mirror: false
+      under: true
+      y: -9
+      moveY: -5.5
+      heatColor: c1975c
+      turretHeatLayer: 49.999
+      layerOffset: -0.002
+      blending: additive
+    }
+  ]
+}
+ammoTypes: {
+  strontium: {
+    type: ArtilleryBulletType
+    hitEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ExplosionEffect
+          waveLife: 20
+          waveRad: 30
+          waveStroke: 4
+          sparks: 0
+          smokes: 15
+          smokeSize: 8
+          smokeRad: 40
+          lifetime: 60
+        }
+        {
+          type: ExplosionEffect
+          waveLife: 0
+          sparks: 12
+          sparkStroke: 2
+          sparkLen: 6
+          sparkRad: 50
+          smokes: 0
+          lifetime: 35
+        }
+      ]
+    }
+    width: 24
+    height: 24
+    hitColor: c1975c
+    trailColor: c1975c
+    frontColor: e9d164
+    lightColor: e9d164
+    backColor: c1975c
+    speed: 4
+    lifetime: 75
+    trailWidth: 3
+    trailLength: 16
+    trailInterval: 3
+    trailRotation: true
+    splashDamage: 150
+    splashDamageRadius: 40
+    fragBullets: 4
+    fragVelocityMin: 0.75
+    fragVelocityMax: 1
+    fragLifeMin: 0.75
+    fragLifeMax: 1
+    fragBullet: {
+      type: BasicBulletType
+      splashDamage: 60
+      splashDamageRadius: 20
+      width: 18
+      height: 18
+      hitColor: c1975c
+      trailColor: c1975c
+      frontColor: e9d164
+      lightColor: e9d164
+      backColor: c1975c
+      speed: 2
+      lifetime: 45
+      fragBullets: 4
+      fragVelocityMin: 0.75
+      fragVelocityMax: 1
+      fragLifeMin: 0.75
+      fragLifeMax: 1
+      fragBullet: {
+        type: BasicBulletType
+        splashDamage: 24
+        splashDamageRadius: 12
+        width: 12
+        height: 12
+        hitColor: c1975c
+        trailColor: c1975c
+        frontColor: e9d164
+        lightColor: e9d164
+        backColor: c1975c
+        speed: 2
+        lifetime: 45
+      }
+    }
+  }
+}
+research: inoculate
