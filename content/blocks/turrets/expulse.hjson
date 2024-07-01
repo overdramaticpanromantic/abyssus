@@ -41,19 +41,6 @@ drawer: {
       moveX: 5.5
       moveY: -5.5
       heatColor: c1975c
-      turretHeatLayer: 49.997
-      layerOffset: -0.004
-      blending: additive
-    }
-    {
-      type: RegionPart
-      suffix: -heatsink-l
-      progress: recoil
-      mirror: false
-      under: true
-      y: -10
-      moveY: -5.5
-      heatColor: c1975c
       turretHeatLayer: 49.999
       layerOffset: -0.002
       blending: additive
