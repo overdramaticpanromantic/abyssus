@@ -4,7 +4,7 @@ description: Launches high-power lances at enemies. Best used at range.
 size: 4
 health: 2040
 category: turret
-range: 315
+range: 360
 squareSprite: false
 reload: 120
 shootSound: laser
@@ -51,43 +51,20 @@ ammoTypes: {
     type: BasicBulletType
     despawnEffect: none
     width: 10
-    height: 20
+    height: 24
     hitColor: 889caa
     trailColor: 889caa
     frontColor: cdd9e8
     backColor: 889caa
-    speed: 5
-    lifetime: 35
+    speed: 3
+    lifetime: 120
     trailWidth: 2
-    trailLength: 17
+    trailLength: 20
     trailInterval: 5
     trailRotation: true
-    damage: 90
+    damage: 210
     pierce: true
     pierceCap: 10
-    fragBullets: 1
-    fragRandomSpread: 0
-    fragVelocityMin: 1
-    fragVelocityMax: 1
-    fragBullet: {
-      type: BasicBulletType
-      width: 10
-      height: 20
-      hitColor: 889caa
-      trailColor: 889caa
-      frontColor: cdd9e8
-      backColor: 889caa
-      speed: 8
-      lifetime: 20
-      pierce: true
-      pierceCap: 10
-      damage: 180
-      trailWidth: 2
-      trailLength: 17
-      trailInterval: 4
-      trailRotation: true
-      trailEffect: sparkShoot
-    }
     trailEffect: {
       type: SeqEffect
       effects: [
