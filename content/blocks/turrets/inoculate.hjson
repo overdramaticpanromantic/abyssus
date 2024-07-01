@@ -13,7 +13,7 @@ shootY: -0.5
 outlineColor: 0f0f14
 shake: 4
 heatColor: 889caa
-ammoPerShot: 10
+ammoPerShot: 6
 cooldownTime: 90
 requirements: [
   tungsten-but-stolen/210
