@@ -49,7 +49,7 @@ drawer: {
   ]
 }
 ammoTypes: {
-  thermic-alloy: {
+  strontium: {
     type: BasicBulletType
     despawnEffect: hitSquaresColor
     width: 10
@@ -113,7 +113,7 @@ ammoTypes: {
       damage: 30
       despawnEffect: hitSquaresColor
       hitEffect: hitSquaresColor
-      speed: 4
+      speed: 2
       lifetime: 60
       keepVelocity: false
     }
