@@ -35,12 +35,12 @@ drawer: {
       mirror: true
       under: true
       x: 8
-      y: -9
+      y: -9.25
       xScl: 0.8
       yScl: 0.8
       rotation: 45
-      moveX: 4
-      moveY: -4
+      moveX: 5.5
+      moveY: -5.5
       heatColor: 889caa
       turretHeatLayer: 49.999
       layerOffset: -0.002
