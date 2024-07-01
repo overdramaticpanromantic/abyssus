@@ -34,8 +34,10 @@ drawer: {
       progress: recoil
       mirror: true
       under: true
-      x: 9.5
-      y: -9.5
+      x: 8
+      y: -9
+      xScl: 0.8
+      yScl: 0.8
       rotation: 45
       moveX: 4
       moveY: -4
