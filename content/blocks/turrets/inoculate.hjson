@@ -14,7 +14,7 @@ outlineColor: 0f0f14
 shake: 4
 heatColor: 889caa
 ammoPerShot: 5
-cooldownTime: 60
+cooldownTime: 90
 requirements: [
   tungsten-but-stolen/210
   cobalt/185
@@ -51,7 +51,7 @@ drawer: {
 ammoTypes: {
   thermic-alloy: {
     type: BasicBulletType
-    despawnEffect: none
+    despawnEffect: hitSquaresColor
     width: 10
     height: 24
     hitColor: 889caa
@@ -62,12 +62,36 @@ ammoTypes: {
     speed: 3
     lifetime: 120
     trailWidth: 2
-    trailLength: 20
+    trailLength: 32
     trailInterval: 6
     trailRotation: true
     damage: 210
     pierce: true
     pierceCap: 10
+    bulletInterval: 10
+    intervalRandomSpread: 0
+    intervalBullets: 2
+    intervalSpread: 45
+    intervalAngle: -22.5
+    intervalBullet: {
+      type: BasicBulletType
+      homingPower: 0.35
+      hitColor: 889caa
+      trailColor: 889caa
+      frontColor: cdd9e8
+      lightColor: cdd9e8
+      backColor: 889caa
+      width: 8
+      height: 10
+      trailWidth: 1.5
+      trailLength: 10
+      pierce: false
+      damage: 45
+      despawnEffect: hitSquaresColor
+      hitEffect: hitSquaresColor
+      speed: 4
+      lifetime: 60
+    }
     trailEffect: {
       type: SeqEffect
       effects: [
