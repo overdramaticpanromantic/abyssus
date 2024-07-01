@@ -43,19 +43,20 @@ drawer: {
       heatColor: c1975c
       turretHeatLayer: 49.999
       layerOffset: -0.002
+      outlineLayerOffset: -0.005
       blending: additive
     }
     {
       type: RegionPart
-      suffix: -heatsink
+      suffix: -heatsink-l
       progress: recoil
       mirror: false
       under: true
-      y: -9
+      y: -8
       moveY: -5.5
       heatColor: c1975c
-      turretHeatLayer: 49.999
-      layerOffset: -0.002
+      turretHeatLayer: 49.997
+      layerOffset: -0.004
       blending: additive
     }
   ]
@@ -64,6 +65,32 @@ ammoTypes: {
   strontium: {
     type: ArtilleryBulletType
     hitEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ExplosionEffect
+          waveLife: 20
+          waveRad: 30
+          waveStroke: 4
+          sparks: 0
+          smokes: 15
+          smokeSize: 8
+          smokeRad: 40
+          lifetime: 60
+        }
+        {
+          type: ExplosionEffect
+          waveLife: 0
+          sparks: 12
+          sparkStroke: 2
+          sparkLen: 6
+          sparkRad: 50
+          smokes: 0
+          lifetime: 35
+        }
+      ]
+    }
+    despawnEffect: {
       type: MultiEffect
       effects: [
         {
@@ -100,8 +127,6 @@ ammoTypes: {
     lifetime: 75
     trailWidth: 3
     trailLength: 16
-    trailInterval: 3
-    trailRotation: true
     splashDamage: 150
     splashDamageRadius: 40
     fragBullets: 4
@@ -121,7 +146,7 @@ ammoTypes: {
       lightColor: e9d164
       backColor: c1975c
       speed: 2
-      lifetime: 45
+      lifetime: 20
       fragBullets: 4
       fragVelocityMin: 0.75
       fragVelocityMax: 1
@@ -139,7 +164,7 @@ ammoTypes: {
         lightColor: e9d164
         backColor: c1975c
         speed: 2
-        lifetime: 45
+        lifetime: 20
       }
     }
   }
