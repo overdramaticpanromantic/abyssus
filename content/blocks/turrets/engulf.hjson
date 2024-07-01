@@ -17,7 +17,6 @@ shootY: 3
 outlineColor: 0f0f14
 heatColor: b53f3f
 cooldownTime: 30
-targetGround: false
 shootCone: 10
 minWarmup: 0.95
 shootWarmupSpeed: 0.15
