@@ -95,7 +95,7 @@ drawer: {
       shapes: 6
       triLength: -2.5
       triLengthTo: 5
-      haloRadius: 4
+      haloRadius: 3
       haloRotateSpeed: 1.5
       color: bcac8f
     }
@@ -108,8 +108,36 @@ drawer: {
       shapes: 6
       triLength: -2.5
       triLengthTo: 5
-      haloRadius: 10
+      haloRadius: 9
       haloRotateSpeed: -1.5
+      color: bcac8f
+    }
+    {
+      type: HaloPart
+      progress: warmup
+      layer: 110
+      y: -14
+      tri: true
+      shapes: 6
+      shapeRotation: 180
+      triLength: -1
+      triLengthTo: 2
+      haloRadius: 3
+      haloRotateSpeed: 1.5
+      color: bcac8f
+    }
+    {
+      type: HaloPart
+      progress: warmup
+      layer: 110
+      y: -14
+      tri: true
+      shapes: 6
+      shapeRotation: 180
+      triLength: -1
+      triLengthTo: 2
+      haloRadius: 9
+      haloRotateSpeed: 1.5
       color: bcac8f
     }
   ]
