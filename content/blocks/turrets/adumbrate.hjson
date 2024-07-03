@@ -14,7 +14,7 @@ outlineColor: 0f0f14
 shake: 4
 heatColor: bcac8f
 ammoPerShot: 6
-cooldownTime: 60
+cooldownTime: 20
 recoil: 2
 requirements: [
   magnesium/590
@@ -32,8 +32,9 @@ consumes: {
   power: 6
 }
 shoot: {
-  shots: 3
-  shotDelay: 10
+  type: ShootSpread
+  shots: 20
+  spread: 5
 }
 drawer: {
   type: DrawTurret
@@ -66,6 +67,60 @@ drawer: {
 ammoTypes: {
   ion-battery: {
     type: BasicBulletType
+    lightColor: f5efdb
+    hitColor: f5efdb
+    frontColor: f5efdb
+    backColor: bcac8f
+    trailColor: bcac8f
+    trailWidth: 3
+    trailLength: 18
+    width: 14
+    height: 20
+    damage: 80
+    homingPower: 0.1
+    homingRange: 90
+    hitEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: WaveEffect
+          sizeTo: 16
+          strokeFrom: 1.5
+          interp: pow2Out
+          colorFrom: f5efdb
+          colorTo: ffffff
+        }
+        {
+          type: ExplosionEffect
+          waveLife: 0
+          smokes: 0
+          sparks: 8
+          sparkColor: f5efdb
+          sparkRad: 20
+        }
+      ]
+    }
+    despawnEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: WaveEffect
+          sizeTo: 16
+          strokeFrom: 1.5
+          interp: pow2Out
+          colorFrom: f5efdb
+          colorTo: ffffff
+        }
+        {
+          type: ExplosionEffect
+          waveLife: 0
+          smokes: 0
+          sparks: 8
+          sparkColor: f5efdb
+          sparkRad: 20
+        }
+      ]
+    }
   }
 }
 research: expulse
