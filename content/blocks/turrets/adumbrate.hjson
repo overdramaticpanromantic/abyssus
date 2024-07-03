@@ -1,0 +1,72 @@
+type: ItemTurret
+name: Adumbrate
+description: Fires piercing shotgun blasts at nearby enemies.
+size: 5
+health: 2890
+category: turret
+range: 300
+squareSprite: false
+reload: 60
+shootSound: laser
+rotateSpeed: 1.2
+shootY: 14
+outlineColor: 0f0f14
+shake: 4
+heatColor: bcac8f
+ammoPerShot: 6
+cooldownTime: 90
+recoil: 4
+shootWarmupSpeed: 0.1
+minWarmup: 0.95
+requirements: [
+  magnesium/590
+  thermic-alloy/540
+  carbide-but-stolen/485
+  biskonium/430
+]
+researchCost: [
+  magnesium/23600
+  thermic-alloy/21600
+  carbide-but-stolen/19400
+  biskonium/17200
+]
+consumes: {
+  power: 6
+}
+shoot: {
+  shots: 3
+  shotDelay: 10
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: insulated-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -under
+      progress: warmup
+      heatColor: bcac8f
+    }
+    {
+      type: RegionPart
+      suffix: -mid
+      progress: recoil
+      heatColor: bcac8f
+      moveY: -3
+    }
+    {
+      type: RegionPart
+      suffix: -back
+      progress: recoil
+      heatColor: bcac8f
+      moveX: 5
+      moveY: -5
+    }
+  ]
+}
+ammoTypes: {
+  ion-battery: {
+    type: BasicBulletType
+  }
+}
+research: expulse
