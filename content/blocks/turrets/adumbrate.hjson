@@ -66,11 +66,11 @@ drawer: {
       type: ShapePart
       progress: warmup
       layer: 110
-      y: -10
+      y: -14
       circle: true
       hollow: true
-      radius: 10
-      stroke: 0
+      radius: 6
+      stroke: -1
       strokeTo: 2
       color: f5efdb
     }
@@ -78,11 +78,11 @@ drawer: {
       type: ShapePart
       progress: warmup
       layer: 110
-      y: -10
+      y: -14
       circle: true
       hollow: true
-      radius: 16
-      stroke: 0
+      radius: 10
+      stroke: -1
       strokeTo: 2
       color: f5efdb
     }
@@ -90,22 +90,24 @@ drawer: {
       type: HaloPart
       progress: warmup
       layer: 110
+      y: -14
       tri: true
       shapes: 6
       triLength: 0
-      triLengthTo: 7
-      haloRadius: 10
+      triLengthTo: 5
+      haloRadius: 6
       haloRotateSpeed: 2
     }
     {
       type: HaloPart
       progress: warmup
       layer: 110
+      y: -14
       tri: true
       shapes: 6
       triLength: 0
-      triLengthTo: 9
-      haloRadius: 16
+      triLengthTo: 5
+      haloRadius: 10
       haloRotateSpeed: -2
     }
   ]
