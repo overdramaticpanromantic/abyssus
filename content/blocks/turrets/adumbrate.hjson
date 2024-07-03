@@ -49,18 +49,7 @@ drawer: {
       heatColor: bcac8f
       layerOffset: 0.001
       turretHeatLayer: 50.002
-      outlineLayerOffset: -0.001
-    }
-    {
-      type: RegionPart
-      suffix: -mid
-      mirror: false
-      progress: recoil
-      heatColor: bcac8f
-      moveY: -3
-      layerOffset: 0.003
-      turretHeatLayer: 50.004
-      outlineLayerOffset: -0.003
+      outlineLayerOffset: -0.002
     }
     {
       type: RegionPart
@@ -70,9 +59,20 @@ drawer: {
       heatColor: bcac8f
       moveX: 5
       moveY: -5
+      layerOffset: 0.003
+      turretHeatLayer: 50.004
+      outlineLayerOffset: -0.004
+    }
+    {
+      type: RegionPart
+      suffix: -mid
+      mirror: false
+      progress: recoil
+      heatColor: bcac8f
+      moveY: -3
       layerOffset: 0.005
       turretHeatLayer: 50.006
-      outlineLayerOffset: -0.005
+      outlineLayerOffset: -0.006
     }
   ]
 }
