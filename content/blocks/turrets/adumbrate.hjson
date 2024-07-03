@@ -35,8 +35,8 @@ consumes: {
 }
 shoot: {
   type: ShootSpread
-  shots: 20
-  spread: 5
+  shots: 10
+  spread: 10
 }
 drawer: {
   type: DrawTurret
@@ -128,13 +128,14 @@ ammoTypes: {
     trailLength: 18
     width: 24
     height: 30
-    damage: 80
+    damage: 160
     speed: 6
     lifetime: 48
     homingPower: 0.05
     homingRange: 90
     shootEffect: shootBigColor
     smokeEffect: shootSmokeSquareSparse
+    knockback: 1.2
     hitEffect: {
       type: MultiEffect
       effects: [
