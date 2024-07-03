@@ -72,10 +72,10 @@ ammoTypes: {
     frontColor: f5efdb
     backColor: bcac8f
     trailColor: bcac8f
-    trailWidth: 3
+    trailWidth: 5
     trailLength: 18
-    width: 14
-    height: 20
+    width: 24
+    height: 30
     damage: 80
     speed: 6
     lifetime: 50
