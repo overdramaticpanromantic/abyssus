@@ -16,6 +16,8 @@ heatColor: bcac8f
 ammoPerShot: 6
 cooldownTime: 20
 recoil: 2
+shootWarmupSpeed: 0.1
+minWarmup: 0.95
 requirements: [
   magnesium/590
   thermic-alloy/540
