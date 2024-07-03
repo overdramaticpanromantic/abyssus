@@ -81,24 +81,6 @@ ammoTypes: {
     lifetime: 48
     homingPower: 0.05
     homingRange: 90
-    trailRotation: true
-    trailInterval: 10
-    trailEffect: {
-      type: ParticleEffect
-      baseRotation: 180
-      cone: 10
-      length: 20
-      particles: 6
-      colorFrom: ffffff
-      colorTo: f5efdb
-      lightColor: f5efdb
-      line: true
-      strokeFrom: 2
-      strokeTo: 0
-      lenFrom: 6
-      lenTo: 2
-      lifetime: 13
-    }
     hitEffect: {
       type: MultiEffect
       effects: [
