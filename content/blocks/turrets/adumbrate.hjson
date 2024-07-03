@@ -72,7 +72,7 @@ drawer: {
       radius: 4
       stroke: -1
       strokeTo: 2
-      color: bcac8f
+      color: f5efdb
     }
     {
       type: ShapePart
@@ -84,7 +84,7 @@ drawer: {
       radius: 10
       stroke: -1
       strokeTo: 2
-      color: bcac8f
+      color: f5efdb
     }
     {
       type: HaloPart
@@ -93,11 +93,11 @@ drawer: {
       y: -14
       tri: true
       shapes: 6
-      triLength: -2.5
-      triLengthTo: 5
+      triLength: -1.5
+      triLengthTo: 3
       haloRadius: 3
       haloRotateSpeed: 1.5
-      color: bcac8f
+      color: f5efdb
     }
     {
       type: HaloPart
@@ -106,11 +106,11 @@ drawer: {
       y: -14
       tri: true
       shapes: 6
-      triLength: -2.5
-      triLengthTo: 5
+      triLength: -1.5
+      triLengthTo: 3
       haloRadius: 9
       haloRotateSpeed: -1.5
-      color: bcac8f
+      color: f5efdb
     }
     {
       type: HaloPart
@@ -120,11 +120,11 @@ drawer: {
       tri: true
       shapes: 6
       shapeRotation: 180
-      triLength: -1
-      triLengthTo: 2
-      haloRadius: 3
+      triLength: -0.5
+      triLengthTo: 1
+      haloRadius: 4
       haloRotateSpeed: 1.5
-      color: bcac8f
+      color: f5efdb
     }
     {
       type: HaloPart
@@ -134,11 +134,11 @@ drawer: {
       tri: true
       shapes: 6
       shapeRotation: 180
-      triLength: -1
-      triLengthTo: 2
-      haloRadius: 9
-      haloRotateSpeed: 1.5
-      color: bcac8f
+      triLength: -0.5
+      triLengthTo: 1
+      haloRadius: 10
+      haloRotateSpeed: -1.5
+      color: f5efdb
     }
   ]
 }
