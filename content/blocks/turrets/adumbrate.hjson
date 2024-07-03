@@ -7,7 +7,7 @@ category: turret
 range: 300
 squareSprite: false
 reload: 60
-shootSound: laser
+shootSound: mediumCannon
 rotateSpeed: 1.5
 shootY: 11
 outlineColor: 0f0f14
