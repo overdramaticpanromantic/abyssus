@@ -15,7 +15,7 @@ shake: 4
 heatColor: bcac8f
 ammoPerShot: 6
 cooldownTime: 90
-recoil: 4
+recoil: 2
 shootWarmupSpeed: 0.1
 minWarmup: 0.95
 requirements: [
@@ -57,8 +57,8 @@ drawer: {
       mirror: true
       progress: recoil
       heatColor: bcac8f
-      moveX: 5
-      moveY: -5
+      moveX: 3
+      moveY: -3
       layerOffset: 0.003
       turretHeatLayer: 50.004
       outlineLayerOffset: -0.004
