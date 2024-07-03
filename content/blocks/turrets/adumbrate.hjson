@@ -8,7 +8,7 @@ range: 300
 squareSprite: false
 reload: 60
 shootSound: laser
-rotateSpeed: 2
+rotateSpeed: 1.5
 shootY: 11
 outlineColor: 0f0f14
 shake: 4
@@ -68,7 +68,7 @@ drawer: {
       type: ShapePart
       progress: warmup
       layer: 110
-      y: -14
+      y: -17
       circle: true
       hollow: true
       radius: 4
@@ -80,7 +80,7 @@ drawer: {
       type: ShapePart
       progress: warmup
       layer: 110
-      y: -14
+      y: -17
       circle: true
       hollow: true
       radius: 10
@@ -92,11 +92,11 @@ drawer: {
       type: HaloPart
       progress: warmup
       layer: 110
-      y: -14
+      y: -17
       tri: true
       shapes: 6
-      triLength: -1.5
-      triLengthTo: 3
+      triLength: -2
+      triLengthTo: 4
       haloRadius: 3
       haloRotateSpeed: 1.5
       color: f5efdb
@@ -105,40 +105,12 @@ drawer: {
       type: HaloPart
       progress: warmup
       layer: 110
-      y: -14
+      y: -17
       tri: true
       shapes: 6
-      triLength: -1.5
-      triLengthTo: 3
+      triLength: -2
+      triLengthTo: 4
       haloRadius: 9
-      haloRotateSpeed: -1.5
-      color: f5efdb
-    }
-    {
-      type: HaloPart
-      progress: warmup
-      layer: 110
-      y: -14
-      tri: true
-      shapes: 6
-      shapeRotation: 180
-      triLength: -0.5
-      triLengthTo: 1
-      haloRadius: 4
-      haloRotateSpeed: 1.5
-      color: f5efdb
-    }
-    {
-      type: HaloPart
-      progress: warmup
-      layer: 110
-      y: -14
-      tri: true
-      shapes: 6
-      shapeRotation: 180
-      triLength: -0.5
-      triLengthTo: 1
-      haloRadius: 10
       haloRotateSpeed: -1.5
       color: f5efdb
     }
@@ -161,6 +133,8 @@ ammoTypes: {
     lifetime: 48
     homingPower: 0.05
     homingRange: 90
+    shootEffect: shootBigColor
+    smokeEffect: shootSmokeSquareSparse
     hitEffect: {
       type: MultiEffect
       effects: [
