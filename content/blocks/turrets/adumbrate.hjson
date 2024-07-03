@@ -135,7 +135,7 @@ ammoTypes: {
     homingRange: 90
     shootEffect: shootBigColor
     smokeEffect: shootSmokeSquareSparse
-    knockback: 1.2
+    knockback: 2.5
     hitEffect: {
       type: MultiEffect
       effects: [
