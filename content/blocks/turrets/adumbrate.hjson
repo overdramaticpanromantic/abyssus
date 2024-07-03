@@ -8,7 +8,7 @@ range: 300
 squareSprite: false
 reload: 60
 shootSound: laser
-rotateSpeed: 1.2
+rotateSpeed: 2
 shootY: 11
 outlineColor: 0f0f14
 shake: 4
@@ -69,10 +69,10 @@ drawer: {
       y: -14
       circle: true
       hollow: true
-      radius: 6
+      radius: 4
       stroke: -1
       strokeTo: 2
-      color: f5efdb
+      color: bcac8f
     }
     {
       type: ShapePart
@@ -84,7 +84,7 @@ drawer: {
       radius: 10
       stroke: -1
       strokeTo: 2
-      color: f5efdb
+      color: bcac8f
     }
     {
       type: HaloPart
@@ -93,10 +93,11 @@ drawer: {
       y: -14
       tri: true
       shapes: 6
-      triLength: 0
+      triLength: -2.5
       triLengthTo: 5
-      haloRadius: 6
-      haloRotateSpeed: 2
+      haloRadius: 4
+      haloRotateSpeed: 1.5
+      color: bcac8f
     }
     {
       type: HaloPart
@@ -105,10 +106,11 @@ drawer: {
       y: -14
       tri: true
       shapes: 6
-      triLength: 0
+      triLength: -2.5
       triLengthTo: 5
       haloRadius: 10
-      haloRotateSpeed: -2
+      haloRotateSpeed: -1.5
+      color: bcac8f
     }
   ]
 }
