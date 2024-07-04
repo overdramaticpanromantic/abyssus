@@ -11,7 +11,7 @@ shootSound: bang
 inaccuracy: 15
 rotateSpeed: 3
 shootCone: 15
-shootY: 6
+shootY: 7.5
 outlineColor: 0f0f14
 recoils: 1
 shake: 1
