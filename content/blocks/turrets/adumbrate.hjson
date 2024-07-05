@@ -14,7 +14,7 @@ outlineColor: 0f0f14
 shake: 4
 heatColor: bcac8f
 ammoPerShot: 6
-cooldownTime: 20
+cooldownTime: 60
 recoil: 2
 shootWarmupSpeed: 0.1
 minWarmup: 0.95
