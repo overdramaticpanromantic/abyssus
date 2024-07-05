@@ -48,7 +48,7 @@ drawer: {
       progress: warmup
       heatColor: 989d72
       heatProgress: warmup
-      y: 0.75
+      y: 0.25
       moveX: 5
       moveY: -4
       layerOffset: 0.001
@@ -136,10 +136,10 @@ ammoTypes: {
           length: 40
           particles: 20
           lightColor: ffffff00
-          colorFrom: d6dbb1bf
+          colorFrom: 989d72bf
           colorTo: ffffffbf
           sizeFrom: 2
-          sizeTo: 1
+          sizeTo: 0
         }
       ]
     }
