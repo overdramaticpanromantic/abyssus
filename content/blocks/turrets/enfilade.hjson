@@ -100,6 +100,8 @@ ammoTypes: {
     pierce: true
     pierceCap: 3
     damage: 240
+    splashDamage: 120
+    splashDamageRadius: 32
     speed: 6
     lifetime: 48
     frontColor: d6dbb1
@@ -130,6 +132,8 @@ ammoTypes: {
           sparks: 8
           sparkColor: d6dbb1
           sparkRad: 20
+          sparkStroke: 2
+          sparkLen: 6
         }
       ]
     }
@@ -152,6 +156,8 @@ ammoTypes: {
           sparks: 8
           sparkColor: d6dbb1
           sparkRad: 20
+          sparkStroke: 2
+          sparkLen: 6
         }
       ]
     }
