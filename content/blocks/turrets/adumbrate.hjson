@@ -155,6 +155,8 @@ ammoTypes: {
           sparks: 8
           sparkColor: f5efdb
           sparkRad: 20
+          sparkStroke: 2
+          sparkLen: 6
         }
       ]
     }
@@ -177,6 +179,8 @@ ammoTypes: {
           sparks: 8
           sparkColor: f5efdb
           sparkRad: 20
+          sparkStroke: 2
+          sparkLen: 6
         }
       ]
     }
