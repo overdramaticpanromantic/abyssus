@@ -95,8 +95,9 @@ drawer: {
     {
       type: ShapePart
       progress: warmup
+      color: d6dbb1
       layer: 110
-      y: -26
+      y: -23
       circle: false
       hollow: true
       sides: 6
@@ -108,8 +109,9 @@ drawer: {
     {
       type: ShapePart
       progress: warmup
+      color: d6dbb1
       layer: 110
-      y: -26
+      y: -23
       circle: false
       hollow: true
       sides: 6
