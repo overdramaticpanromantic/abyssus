@@ -9,7 +9,7 @@ squareSprite: false
 reload: 15
 shootSound: shootKinetic
 rotateSpeed: 1.5
-shootY: 11
+shootY: 12
 outlineColor: 0f0f14
 shake: 2
 heatColor: 989d72
@@ -35,7 +35,7 @@ requirements: [
 ]
 shoot: {
   type: ShootAlternate
-  spread: 28
+  spread: 27.5
 }
 drawer: {
   type: DrawTurret
