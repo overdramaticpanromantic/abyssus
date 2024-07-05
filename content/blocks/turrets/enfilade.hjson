@@ -129,8 +129,8 @@ drawer: {
       y: -23
       tri: true
       hollow: true
-      radius: 15
-      radiusTo: 15
+      radius: 2
+      radiusTo: 2
       haloRadius: 15
       haloRadiusTo: 15
       haloRotation: 90
