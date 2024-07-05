@@ -111,8 +111,50 @@ ammoTypes: {
     height: 24
     trailWidth: 2.5
     trailLength: 20
-    despawnEffect: hitBulletBig
-    hitEffect: hitBulletBig
+    hitEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: WaveEffect
+          lifetime: 20
+          sizeTo: 16
+          strokeFrom: 1.5
+          interp: pow2Out
+          colorFrom: d6dbb1
+          colorTo: ffffff
+        }
+        {
+          type: ExplosionEffect
+          waveLife: 0
+          smokes: 0
+          sparks: 8
+          sparkColor: d6dbb1
+          sparkRad: 20
+        }
+      ]
+    }
+    despawnEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: WaveEffect
+          lifetime: 20
+          sizeTo: 16
+          strokeFrom: 1.5
+          interp: pow2Out
+          colorFrom: d6dbb1
+          colorTo: ffffff
+        }
+        {
+          type: ExplosionEffect
+          waveLife: 0
+          smokes: 0
+          sparks: 8
+          sparkColor: d6dbb1
+          sparkRad: 20
+        }
+      ]
+    }
     shootEffect: {
       type: MultiEffect
       effects: [
