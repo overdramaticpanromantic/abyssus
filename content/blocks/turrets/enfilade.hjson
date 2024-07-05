@@ -133,7 +133,7 @@ drawer: {
       radiusTo: 4
       haloRadius: 15
       haloRadiusTo: 15
-      haloRotation: 105
+      haloRotation: 110
       triLength: -10
       triLengthTo: 20
     }
@@ -150,7 +150,7 @@ drawer: {
       radiusTo: 4
       haloRadius: 15
       haloRadiusTo: 15
-      haloRotation: 105
+      haloRotation: 110
       shapeRotation: 180
       triLength: -1.5
       triLengthTo: 3
@@ -203,7 +203,7 @@ drawer: {
       radiusTo: 4
       haloRadius: 15
       haloRadiusTo: 15
-      haloRotation: 75
+      haloRotation: 70
       triLength: -10
       triLengthTo: 20
     }
@@ -220,7 +220,7 @@ drawer: {
       radiusTo: 4
       haloRadius: 15
       haloRadiusTo: 15
-      haloRotation: 75
+      haloRotation: 70
       shapeRotation: 180
       triLength: -1.5
       triLengthTo: 3
