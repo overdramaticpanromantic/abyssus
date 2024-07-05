@@ -101,7 +101,7 @@ ammoTypes: {
     pierceCap: 3
     damage: 240
     speed: 6
-    lifetime: 50
+    lifetime: 48
     frontColor: d6dbb1
     lightColor: d6dbb1
     trailColor: 989d72
@@ -136,10 +136,10 @@ ammoTypes: {
           length: 40
           particles: 20
           lightColor: ffffff00
-          colorFrom: d6dbb180
-          colorTo: ffffff80
+          colorFrom: d6dbb1bf
+          colorTo: ffffffbf
           sizeFrom: 2
-          sizeTo: 0
+          sizeTo: 1
         }
       ]
     }
