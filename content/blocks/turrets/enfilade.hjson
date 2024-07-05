@@ -44,7 +44,7 @@ drawer: {
     {
       type: RegionPart
       suffix: -under
-      mirror: false
+      mirror: true
       progress: warmup
       heatColor: 989d72
       heatProgress: warmup
