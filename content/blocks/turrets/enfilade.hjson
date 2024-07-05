@@ -1,0 +1,98 @@
+type: ItemTurret
+name: Enfilade
+description: Launches piercing explosive rounds at nearby foes.
+size: 5
+health: 3180
+category: turret
+range: 300
+squareSprite: false
+reload: 15
+shootSound: shootKinetic
+rotateSpeed: 1.5
+shootY: 11
+outlineColor: 0f0f14
+shake: 4
+heatColor: 989d72
+ammoPerShot: 3
+cooldownTime: 30
+recoil: 4
+shootWarmupSpeed: 0.15
+minWarmup: 0.95
+recoils: 2
+requirements: [
+  cobalt/640
+  magnesium/600
+  aeroframe/565
+  biskonium/515
+  boron/450
+]
+requirements: [
+  cobalt/28800
+  magnesium/27000
+  aeroframe/25425
+  biskonium/23175
+  boron/20250
+]
+shoot: {
+  type: ShootAlternate
+  spread: 12
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: insulated-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -under
+      mirror: false
+      progress: recoil
+      heatProgress: warmup
+      moveY: 2
+      layerOffset: -0.001
+      turretHeatLayer: 50
+    }
+    {
+      type: RegionPart
+      suffix: -mid
+      mirror: false
+      progress: recoil
+      heatColor: 989d72
+      moveY: 2
+      layerOffset: 0.003
+      turretHeatLayer: 50.004
+      outlineLayerOffset: -0.002
+    }
+    {
+      type: RegionPart
+      suffix: -side-l
+      mirror: false
+      progress: warmup
+      heatColor: 989d72
+      moveX: -8
+      moveY: -4
+      layerOffset: 0.005
+      turretHeatLayer: 50.006
+      outlineLayerOffset: -0.004
+      recoilIndex: 0
+    }
+    {
+      type: RegionPart
+      suffix: -side-r
+      mirror: false
+      progress: warmup
+      heatColor: 989d72
+      moveX: 8
+      moveY: -4
+      layerOffset: 0.005
+      turretHeatLayer: 50.006
+      outlineLayerOffset: -0.006
+      recoilIndex: 1
+    }
+  ]
+}
+ammoTypes: {
+  boron: {
+    type: BasicBulletType
+  }
+}
+research: adumbrate
