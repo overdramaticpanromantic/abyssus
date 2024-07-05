@@ -15,7 +15,7 @@ shake: 2
 heatColor: 989d72
 ammoPerShot: 3
 cooldownTime: 30
-recoil: 4
+recoil: 2
 shootWarmupSpeed: 0.15
 minWarmup: 0.95
 recoils: 2
@@ -58,9 +58,7 @@ drawer: {
       type: RegionPart
       suffix: -mid
       mirror: false
-      progress: recoil
       heatColor: 989d72
-      moveY: 2
       layerOffset: 0.004
       turretHeatLayer: 50.005
       outlineLayerOffset: -0.001
