@@ -131,11 +131,11 @@ drawer: {
       hollow: true
       radius: 15
       radiusTo: 15
-      haloRadius: 2
-      haloRadiusTo: 2
+      haloRadius: 15
+      haloRadiusTo: 15
       haloRotation: 90
-      stroke: 2
-      strokeTo: -1
+      stroke: 4
+      strokeTo: -2
       triLength: -7
       triLengthTo: 14
     }
