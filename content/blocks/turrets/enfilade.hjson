@@ -70,7 +70,7 @@ drawer: {
       mirror: false
       progress: warmup
       heatColor: 989d72
-      moveX: -5
+      moveX: -7
       moveY: -4
       layerOffset: 0.006
       turretHeatLayer: 50.007
@@ -83,7 +83,7 @@ drawer: {
       mirror: false
       progress: warmup
       heatColor: 989d72
-      moveX: 5
+      moveX: 7
       moveY: -4
       layerOffset: 0.006
       turretHeatLayer: 50.007
