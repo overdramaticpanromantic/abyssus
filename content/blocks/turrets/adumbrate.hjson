@@ -95,6 +95,8 @@ drawer: {
       y: -17
       tri: true
       shapes: 6
+      radius: 2.5
+      radiusTo: 2.5
       triLength: -2
       triLengthTo: 4
       haloRadius: 3
@@ -108,6 +110,8 @@ drawer: {
       y: -17
       tri: true
       shapes: 6
+      radius: 2.5
+      radiusTo: 2.5
       triLength: -2
       triLengthTo: 4
       haloRadius: 9
