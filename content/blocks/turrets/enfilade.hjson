@@ -14,7 +14,7 @@ outlineColor: 0f0f14
 shake: 2
 heatColor: 989d72
 ammoPerShot: 3
-cooldownTime: 30
+cooldownTime: 60
 recoil: 2
 shootWarmupSpeed: 0.15
 minWarmup: 0.95
@@ -119,6 +119,24 @@ drawer: {
       stroke: -1
       strokeTo: 2
       rotateSpeed: 1.5
+    }
+    {
+      type: HaloPart
+      progress: warmup
+      color: d6dbb1
+      layer: 110
+      shapes: 2
+      y: -23
+      tri: true
+      hollow: true
+      radius: 15
+      radiusTo: 15
+      haloRadius: 15
+      haloRadiusTo: 15
+      stroke: 2
+      strokeTo: -1
+      triLength: -2
+      triLengthTo: 4
     }
   ]
 }
