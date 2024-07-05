@@ -151,6 +151,7 @@ drawer: {
       haloRadius: 15
       haloRadiusTo: 15
       haloRotation: 90
+      shapeRotation: 180
       triLength: -1.5
       triLengthTo: 3
     }
