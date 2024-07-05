@@ -92,6 +92,32 @@ drawer: {
       outlineLayerOffset: -0.003
       recoilIndex: 1
     }
+    {
+      type: ShapePart
+      progress: warmup
+      layer: 110
+      y: -26
+      circle: false
+      hollow: true
+      sides: 6
+      radius: 5
+      stroke: -1
+      strokeTo: 2
+      rotateSpeed: -1.5
+    }
+    {
+      type: ShapePart
+      progress: warmup
+      layer: 110
+      y: -26
+      circle: false
+      hollow: true
+      sides: 6
+      radius: 10
+      stroke: -1
+      strokeTo: 2
+      rotateSpeed: 1.5
+    }
   ]
 }
 ammoTypes: {
