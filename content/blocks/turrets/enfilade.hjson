@@ -45,9 +45,10 @@ drawer: {
       type: RegionPart
       suffix: -under
       mirror: false
-      progress: recoil
+      progress: warmup
       heatColor: 989d72
       heatProgress: warmup
+      moveX: -7
       moveY: 2
       layerOffset: 0.001
       turretHeatLayer: 50.002
