@@ -128,16 +128,14 @@ drawer: {
       shapes: 2
       y: -23
       tri: true
-      hollow: true
-      radius: 2
-      radiusTo: 2
+      hollow: false
+      radius: 4
+      radiusTo: 4
       haloRadius: 15
       haloRadiusTo: 15
       haloRotation: 90
-      stroke: 4
-      strokeTo: -2
-      triLength: -7
-      triLengthTo: 14
+      triLength: -10
+      triLengthTo: 20
     }
   ]
 }
