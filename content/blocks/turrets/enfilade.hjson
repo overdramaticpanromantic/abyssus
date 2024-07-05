@@ -111,6 +111,8 @@ ammoTypes: {
     height: 24
     trailWidth: 2.5
     trailLength: 20
+    despawnEffect: hitBulletBig
+    hitEffect: hitBulletBig
     shootEffect: {
       type: MultiEffect
       effects: [
