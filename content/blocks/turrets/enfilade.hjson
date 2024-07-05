@@ -48,6 +48,7 @@ drawer: {
       progress: warmup
       heatColor: 989d72
       heatProgress: warmup
+      y: 0.75
       moveX: 5
       moveY: -4
       layerOffset: 0.001
@@ -115,8 +116,9 @@ ammoTypes: {
       effects: [
         {
           type: ParticleEffect
+          lifetime: 18
           line: true
-          cone: 20
+          cone: 15
           length: 35
           particles: 10
           lightColor: d6dbb1
@@ -129,13 +131,14 @@ ammoTypes: {
         }
         {
           type: ParticleEffect
-          cone: 15
-          length: 20
-          particles: 15
+          lifetime: 40
+          cone: 25
+          length: 40
+          particles: 20
           lightColor: ffffff00
-          colorFrom: d6dbb1
-          colorTo: ffffff
-          sizeFrom: 4
+          colorFrom: d6dbb180
+          colorTo: ffffff80
+          sizeFrom: 2
           sizeTo: 0
         }
       ]
