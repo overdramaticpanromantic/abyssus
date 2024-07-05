@@ -48,7 +48,8 @@ drawer: {
       progress: warmup
       heatColor: 989d72
       heatProgress: warmup
-      moveX: 7
+      moveX: 5
+      moveY: -4
       layerOffset: 0.001
       turretHeatLayer: 50.002
       outlineLayerOffset: -0.001
