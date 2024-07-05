@@ -9,7 +9,7 @@ squareSprite: false
 reload: 15
 shootSound: shootKinetic
 rotateSpeed: 1.5
-shootY: 12
+shootY: 13
 outlineColor: 0f0f14
 shake: 2
 heatColor: 989d72
@@ -96,6 +96,50 @@ drawer: {
 ammoTypes: {
   boron: {
     type: BasicBulletType
+    pierce: true
+    pierceCap: 3
+    damage: 240
+    speed: 6
+    lifetime: 50
+    frontColor: d6dbb1
+    lightColor: d6dbb1
+    trailColor: 989d72
+    backColor: 989d72
+    hitColor: 989d72
+    width: 16
+    height: 24
+    trailWidth: 2.5
+    trailLength: 20
+    shootEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          line: true
+          cone: 20
+          length: 35
+          particles: 10
+          lightColor: d6dbb1
+          colorFrom: ffffff
+          colorTo: d6dbb1
+          strokeFrom: 3
+          strokeTo: 0
+          lenFrom: 8
+          lenTo: 4
+        }
+        {
+          type: ParticleEffect
+          cone: 15
+          length: 20
+          particles: 15
+          lightColor: ffffff00
+          colorFrom: d6dbb1
+          colorTo: ffffff
+          sizeFrom: 4
+          sizeTo: 0
+        }
+      ]
+    }
   }
 }
 research: adumbrate
