@@ -11,7 +11,7 @@ shootSound: shootKinetic
 rotateSpeed: 1.5
 shootY: 11
 outlineColor: 0f0f14
-shake: 4
+shake: 2
 heatColor: 989d72
 ammoPerShot: 3
 cooldownTime: 30
@@ -35,7 +35,7 @@ requirements: [
 ]
 shoot: {
   type: ShootAlternate
-  spread: 12
+  spread: 28
 }
 drawer: {
   type: DrawTurret
@@ -46,10 +46,12 @@ drawer: {
       suffix: -under
       mirror: false
       progress: recoil
+      heatColor: 989d72
       heatProgress: warmup
       moveY: 2
-      layerOffset: -0.001
-      turretHeatLayer: 50
+      layerOffset: 0.001
+      turretHeatLayer: 50.002
+      outlineLayerOffset: -0.001
     }
     {
       type: RegionPart
@@ -58,9 +60,9 @@ drawer: {
       progress: recoil
       heatColor: 989d72
       moveY: 2
-      layerOffset: 0.003
-      turretHeatLayer: 50.004
-      outlineLayerOffset: -0.002
+      layerOffset: 0.004
+      turretHeatLayer: 50.005
+      outlineLayerOffset: -0.001
     }
     {
       type: RegionPart
@@ -68,11 +70,11 @@ drawer: {
       mirror: false
       progress: warmup
       heatColor: 989d72
-      moveX: -8
+      moveX: -5
       moveY: -4
-      layerOffset: 0.005
-      turretHeatLayer: 50.006
-      outlineLayerOffset: -0.004
+      layerOffset: 0.006
+      turretHeatLayer: 50.007
+      outlineLayerOffset: -0.003
       recoilIndex: 0
     }
     {
@@ -81,11 +83,11 @@ drawer: {
       mirror: false
       progress: warmup
       heatColor: 989d72
-      moveX: 8
+      moveX: 5
       moveY: -4
-      layerOffset: 0.005
-      turretHeatLayer: 50.006
-      outlineLayerOffset: -0.006
+      layerOffset: 0.006
+      turretHeatLayer: 50.007
+      outlineLayerOffset: -0.003
       recoilIndex: 1
     }
   ]
