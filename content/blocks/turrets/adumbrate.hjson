@@ -95,11 +95,11 @@ drawer: {
       y: -17
       tri: true
       shapes: 6
-      radius: 2.5
-      radiusTo: 2.5
+      radius: 3
+      radiusTo: 3
       triLength: -2
       triLengthTo: 4
-      haloRadius: 3
+      haloRadius: 4
       haloRotateSpeed: 1.5
       color: f5efdb
     }
@@ -110,11 +110,11 @@ drawer: {
       y: -17
       tri: true
       shapes: 6
-      radius: 2.5
-      radiusTo: 2.5
+      radius: 3
+      radiusTo: 3
       triLength: -2
       triLengthTo: 4
-      haloRadius: 9
+      haloRadius: 10
       haloRotateSpeed: -1.5
       color: f5efdb
     }
