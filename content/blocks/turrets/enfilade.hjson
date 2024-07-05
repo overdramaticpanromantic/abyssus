@@ -133,6 +133,41 @@ drawer: {
       radiusTo: 4
       haloRadius: 15
       haloRadiusTo: 15
+      haloRotation: 105
+      triLength: -10
+      triLengthTo: 20
+    }
+    {
+      type: HaloPart
+      progress: warmup
+      color: d6dbb1
+      layer: 110
+      shapes: 2
+      y: -23
+      tri: true
+      hollow: false
+      radius: 4
+      radiusTo: 4
+      haloRadius: 15
+      haloRadiusTo: 15
+      haloRotation: 105
+      shapeRotation: 180
+      triLength: -1.5
+      triLengthTo: 3
+    }
+    {
+      type: HaloPart
+      progress: warmup
+      color: d6dbb1
+      layer: 110
+      shapes: 2
+      y: -23
+      tri: true
+      hollow: false
+      radius: 4
+      radiusTo: 4
+      haloRadius: 15
+      haloRadiusTo: 15
       haloRotation: 90
       triLength: -10
       triLengthTo: 20
@@ -151,6 +186,41 @@ drawer: {
       haloRadius: 15
       haloRadiusTo: 15
       haloRotation: 90
+      shapeRotation: 180
+      triLength: -1.5
+      triLengthTo: 3
+    }
+    {
+      type: HaloPart
+      progress: warmup
+      color: d6dbb1
+      layer: 110
+      shapes: 2
+      y: -23
+      tri: true
+      hollow: false
+      radius: 4
+      radiusTo: 4
+      haloRadius: 15
+      haloRadiusTo: 15
+      haloRotation: 75
+      triLength: -10
+      triLengthTo: 20
+    }
+    {
+      type: HaloPart
+      progress: warmup
+      color: d6dbb1
+      layer: 110
+      shapes: 2
+      y: -23
+      tri: true
+      hollow: false
+      radius: 4
+      radiusTo: 4
+      haloRadius: 15
+      haloRadiusTo: 15
+      haloRotation: 75
       shapeRotation: 180
       triLength: -1.5
       triLengthTo: 3
