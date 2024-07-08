@@ -13,10 +13,10 @@ liquidCapacity: 36
 hasLiquids: true
 ambientSound: flux
 ambientSoundVolume: 0.05
+itemCapacity: 12
 requirements: [
   tungsten-but-stolen/45
 ]
-
 recipes: [
 {
   input: {
