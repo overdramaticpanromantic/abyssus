@@ -1,0 +1,5 @@
+name: Damaged Metal Plating
+type: Floor
+description: Repeating metal plates, riddled with wear and tear.
+walkSound: footstep1
+variants: 3
