@@ -1,5 +1,6 @@
 type: BeamNode
 name: Electrical Pylon
+description: Transmits power to nearby blocks over the four cardinal directions. Stores a small amount of power.
 consumesPower: true
 outputsPower: true
 health: 120
