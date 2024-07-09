@@ -1,0 +1,19 @@
+localizedName: Namesake
+description: '''
+Resource-rich cliffs detected, alongside enemy scouting parties.
+
+Expand your factory. Research magnesium processing technology.
+'''
+captureWave: 10
+difficulty: 2
+planet: abyssus
+sector: 6
+research: {
+  parent: demarked
+  objectives: [
+    {
+      type: SectorComplete
+      preset: demarked
+    }
+  ]
+}
