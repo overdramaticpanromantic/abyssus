@@ -108,4 +108,12 @@ ammoTypes: {
     lightningDamage: 20
   }
 }
-research: core-gulch
+research: {
+  parent: core-gulch
+  objectives: [
+    {
+      type: OnSector
+      preset: namesake
+    }
+  ]
+}
