@@ -1,5 +1,10 @@
-captureWave: 2
 localizedName: Demarked
+description: '''
+The world is your oyster. Let the factory be your guidelight.
+
+No enemy presence detected. Acclimate to Abyssus. Research metal liquefaction and cooling.
+'''
+captureWave: 2
 difficulty: 1
 planet: abyssus
 sector: 2
