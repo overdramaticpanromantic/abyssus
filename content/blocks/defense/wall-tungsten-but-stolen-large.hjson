@@ -11,4 +11,12 @@ requirements: [
 researchCost: [
   tungsten-but-stolen/240
 ]
-research: wall-tungsten-but-stolen
+research: {
+  parent: wall-tungsten-but-stolen
+  objectives: [
+    {
+      type: OnSector
+      preset: namesake
+    }
+  ]
+}
