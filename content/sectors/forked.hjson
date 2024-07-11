@@ -1,0 +1,19 @@
+localizedName: Forked
+description: '''
+Medium enemy presence detected. Dying radio waves indicate you are not alone.
+
+Defend the core from a dual-pronged attack. Research greater military technology.
+'''
+captureWave: 20
+difficulty: 3
+planet: abyssus
+sector: 3
+research: {
+  parent: namesake
+  objectives: [
+    {
+      type: SectorComplete
+      preset: namesake
+    }
+  ]
+}
