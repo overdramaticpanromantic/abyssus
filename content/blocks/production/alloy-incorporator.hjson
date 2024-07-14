@@ -67,7 +67,6 @@ recipes: [
   craftTime: 60.0
 }
 ]
-
 drawer: {
   type: DrawMulti
   drawers: [
@@ -92,6 +91,15 @@ drawer: {
     }
     {
       type: DrawDefault
+    }
+  ]
+}
+research: {
+  parent: metalloid-cooler
+  objectives: [
+    {
+      type: OnSector
+      preset: derelict-alloymaking-complex
     }
   ]
 }
