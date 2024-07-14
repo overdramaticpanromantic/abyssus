@@ -1,0 +1,9 @@
+name: Undercurrent Vent (Variegated)
+type: SteamVent
+blendGroup: undercurrent-floor-variegated
+parent: undercurrent-floor-variegated
+effect: ventSteam
+effectColor: 433325
+attributes: {
+   heat: 0.11111111
+}
