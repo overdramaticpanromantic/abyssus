@@ -1,7 +1,0 @@
-type: Floor
-name: Shallow Void
-description: Shallow, sloping ground.
-speedMultiplier: 0.7
-variants: 9
-isLiquid: true
-supportsOverlay: true
