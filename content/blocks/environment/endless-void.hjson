@@ -1,8 +1,0 @@
-type: Floor
-name: Endless Void
-description: All-consuming abyss.
-speedMultiplier: 0.3
-variants: 0
-isLiquid: true
-supportsOverlay: true
-drownTime: 60
