@@ -1,0 +1,9 @@
+name: Carbonic Vent (Streaked)
+type: SteamVent
+blendGroup: carbonic-floor-streaked
+parent: carbonic-floor-streaked
+effect: ventSteam
+effectColor: 28254b
+attributes: {
+   carbon: 0.11111111
+}
