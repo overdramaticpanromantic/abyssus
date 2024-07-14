@@ -1,0 +1,9 @@
+name: Barren Vent (Dotted)
+type: SteamVent
+blendGroup: barren-floor-dotted
+parent: barren-floor-dotted
+effect: ventSteam
+effectColor: 0f0f14
+attributes: {
+   steam: 0.11111111
+}
