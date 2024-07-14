@@ -1,0 +1,19 @@
+localizedName: Derelict Alloymaking Complex
+description: '''
+Derelict, abandoned factories detected. Colonization is likely to be met with heavy resistance.
+
+Fend off a large, fast-paced attack. Research alloymaking technology.
+'''
+captureWave: 15
+difficulty: 3
+planet: abyssus
+sector: 10
+research: {
+  parent: forked
+  objectives: [
+    {
+      type: SectorComplete
+      preset: forked
+    }
+  ]
+}
