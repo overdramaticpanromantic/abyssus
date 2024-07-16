@@ -15,6 +15,7 @@ shootY: 7.5
 outlineColor: 0f0f14
 recoils: 1
 shake: 1
+targetAir: false
 requirements: [
   tungsten-but-stolen/90
   aluminum/75
