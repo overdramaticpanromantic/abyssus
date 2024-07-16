@@ -27,4 +27,12 @@ consumes: {
   power: 1
 }
 heatColor: 87ceebe6
-research: induction-auger
+research: {
+  parent: induction-auger
+  objectives: [
+    {
+      type: OnSector
+      preset: ambush
+    }
+  ]
+}
