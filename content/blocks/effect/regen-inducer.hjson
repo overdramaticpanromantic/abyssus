@@ -13,13 +13,13 @@ consumes: {
 }
 requirements: [
   tungsten-but-stolen/85
-  aluminum/65
-  magnesium/40
+  magnesium/65
+  thermic-alloy/40
 ]
 researchCost: [
   tungsten-but-stolen/850
-  aluminum/650
-  magnesium/400
+  magnesium/650
+  thermic-alloy/400
 ]
 drawer: {
   type: DrawMulti
