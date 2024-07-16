@@ -80,12 +80,12 @@ ammoTypes: {
     fragBullets: 4
     fragBullet: {
       damage: 6
-      splashDamage: 3
-      splashDamageRadius: 4
+      splashDamage: 6
+      splashDamageRadius: 8
       type: BasicBulletType
-      width: 4
-      height: 4
-      shrinkY: 1
+      width: 6
+      height: 6
+      shrinkY: 2
       lifetime: 15
       hitColor: 8a587b
       trailColor: 8a587b
