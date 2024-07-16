@@ -26,7 +26,7 @@ requirements: [
   thermic-alloy/165
   carbide-but-stolen/150
 ]
-requirements: [
+researchCost: [
   aluminum/3800
   thermic-alloy/3300
   carbide-but-stolen/3000
