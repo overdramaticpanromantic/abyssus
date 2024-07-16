@@ -1,0 +1,19 @@
+localizedName: Ambush
+description: '''
+The enemy has deemed you a threat, and will hold back no longer. Capturing the area will require planning and vigilance.
+
+Fend off the enemy's all-out attack. Learn from your past mistakes. Research advanced material processing.
+'''
+captureWave: 15
+difficulty: 4
+planet: abyssus
+sector: 16
+research: {
+  parent: derelict-alloymaking-complex
+  objectives: [
+    {
+      type: SectorComplete
+      preset: derelict-alloymaking-complex
+    }
+  ]
+}
