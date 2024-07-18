@@ -5,7 +5,7 @@ incinerateNonBuildable: true
 squareSprite: false
 unitType: influence
 health: 24850
-itemCapacity: 3600
+itemCapacity: 5450
 unitCapModifier: 16
 thrusterLength: 12
 category: effect
