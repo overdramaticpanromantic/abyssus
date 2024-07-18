@@ -5,7 +5,7 @@ incinerateNonBuildable: true
 squareSprite: false
 unitType: inspire
 health: 12450
-itemCapacity: 3600
+itemCapacity: 4300
 unitCapModifier: 12
 thrusterLength: 9
 category: effect
