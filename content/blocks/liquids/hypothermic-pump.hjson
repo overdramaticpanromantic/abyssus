@@ -4,6 +4,7 @@ category: liquid
 type: Pump
 pumpAmount: 0.1
 liquidCapacity: 160
+squareSprite: false
 size: 2
 researchCost: [
   tungsten-but-stolen/80
