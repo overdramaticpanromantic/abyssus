@@ -1,0 +1,18 @@
+localizedName: Upwell
+description: '''
+The enemy has entrenched themselves within two ravines. Conquering this sector will require several different types of units.
+
+Destroy the enemy fortifications. Research lithium synthesis and advanced power production.
+'''
+difficulty: 5
+planet: abyssus
+sector: 8
+research: {
+  parent: ambush
+  objectives: [
+    {
+      type: SectorComplete
+      preset: ambush
+    }
+  ]
+}
