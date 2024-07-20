@@ -7,4 +7,12 @@ hiddenOnPlanets: [
   serpulo,
   erekir
 ]
-research: bauxite
+research: {
+  parent: bauxite
+  objectives: [
+    {
+      type: OnSector
+      preset: upwell
+    }
+  ]
+}
