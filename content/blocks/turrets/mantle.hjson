@@ -202,4 +202,12 @@ ammoTypes: {
     }
   }
 }
-research: renounce
+research: {
+  parent: renounce
+  objectives: [
+    {
+      type: OnSector
+      preset: upwell
+    }
+  ]
+}
