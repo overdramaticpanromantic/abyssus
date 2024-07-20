@@ -46,4 +46,13 @@ drawer: {
     }
   ]
 }
-research: electrical-pylon
+research: {
+  parent: electrical-pylon
+  objectives: [
+    {
+      type: OnSector
+      preset: upwell
+    }
+  ]
+}
+
