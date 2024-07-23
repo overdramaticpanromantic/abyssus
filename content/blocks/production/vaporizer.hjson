@@ -11,14 +11,14 @@ effect: {
   lifetime: 240
   particles: 36
   sizeFrom: 1
-  sizeTo: 3
+  sizeTo: 4
   colorFrom: 191715
   colorTo: 392f2600
   baseRotation: 45
   interp: pow2In
   sizeInterp: pow2In
-  cone: 15
-  length: 40
+  cone: 20
+  length: 50
   lightOpacity: 0
   lightColor: ffffff
   lightScl: 0
