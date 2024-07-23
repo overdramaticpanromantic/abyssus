@@ -11,4 +11,12 @@ requirements: [
 researchCost: [
   carbide-but-stolen/1920
 ]
-research: wall-carbide-but-stolen
+research: {
+  parent: wall-carbide-but-stolen
+  objectives: [
+    {
+      type: OnSector
+      preset: harrowed-canyon
+    }
+  ]
+}
