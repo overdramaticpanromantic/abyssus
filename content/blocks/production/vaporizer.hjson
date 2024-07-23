@@ -14,10 +14,9 @@ effect: {
   sizeTo: 6
   colorFrom: 191715cc
   colorTo: 392f2600
-  baseRotation: 135
+  baseRotation: 45
   interp: pow2Out
   sizeInterp: pow2Out
-  lightColor: ffffff00
   cone: 15
   length: 40
 }
