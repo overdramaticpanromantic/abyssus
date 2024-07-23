@@ -87,4 +87,12 @@ ammoTypes: {
     ]
   }
 }
-research: mantle
+research: {
+  parent: mantle
+  objectives: [
+    {
+      type: OnSector
+      preset: harrowed-canyon
+    }
+  ]
+}
