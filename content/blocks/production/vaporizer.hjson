@@ -8,17 +8,20 @@ health: 340
 category: crafting
 effect: {
   type: ParticleEffect
-  lifetime: 120
+  lifetime: 180
   particles: 12
   sizeFrom: 1
-  sizeTo: 6
+  sizeTo: 3
   colorFrom: 191715cc
   colorTo: 392f2600
   baseRotation: 45
-  interp: pow2Out
-  sizeInterp: pow2Out
+  interp: pow2In
+  sizeInterp: pow2In
   cone: 15
   length: 40
+  lightOpacity: 0
+  lightColor: ffffff
+  lightScl: 0
 }
 consumes: {
   power: 10
