@@ -9,10 +9,10 @@ category: crafting
 effect: {
   type: ParticleEffect
   lifetime: 180
-  particles: 12
+  particles: 24
   sizeFrom: 1
   sizeTo: 3
-  colorFrom: 191715cc
+  colorFrom: 191715
   colorTo: 392f2600
   baseRotation: 45
   interp: pow2In
