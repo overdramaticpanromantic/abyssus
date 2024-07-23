@@ -1,0 +1,45 @@
+type: Incinerator
+name: Vaporizer
+description: Vaporizes item and liquid input, releasing it into the atmosphere. Requires prodigous power input to function.
+flameColor: 8ca9e8
+effect: {
+  type: ParticleEffect
+  lifetime: 120
+  particles: 12
+  sizeFrom: 1
+  sizeTo: 6
+  colorFrom: 191715cc
+  colorTo: 392f2600
+  baseRotation: 135
+  interp: pow2Out
+  sizeInterp: pow2Out
+  lightColor: ffffff00
+  cone: 15
+  length: 40
+}
+consumes: {
+  power: 10
+}
+requirements: [
+  tungsten-but-stolen/60
+  thermic-alloy/45
+  lithium/35
+]
+researchCost: [
+  tungsten-but-stolen/600
+  thermic-alloy/450
+  lithium/350
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+research: hypothermic-pump
