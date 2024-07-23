@@ -2,6 +2,7 @@ type: Incinerator
 name: Vaporizer
 description: Vaporizes item and liquid input, releasing it into the atmosphere. Requires prodigous power input to function.
 flameColor: 8ca9e8
+squareSprite: false
 size: 2
 health: 340
 category: crafting
