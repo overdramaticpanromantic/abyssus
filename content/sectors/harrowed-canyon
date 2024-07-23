@@ -1,0 +1,18 @@
+localizedName: Harrowed Canyon
+description: '''
+Resource-rich areas detected. The enemy will aim to use overbearing force to pry this sector from your grasp.
+
+Fend off the onslaught. Construct high-tier defenses. Research carbide production technology.
+'''
+difficulty: 6
+planet: abyssus
+sector: 13
+research: {
+  parent: upwell
+  objectives: [
+    {
+      type: SectorComplete
+      preset: upwell
+    }
+  ]
+}
