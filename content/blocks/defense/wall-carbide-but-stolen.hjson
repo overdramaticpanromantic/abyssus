@@ -11,4 +11,12 @@ requirements: [
 researchCost: [
   carbide-but-stolen/480
 ]
-research: wall-cobalt-large
+research: {
+  parent: wall-cobalt-large
+  objectives: [
+    {
+      type: OnSector
+      preset: harrowed-canyon
+    }
+  ]
+}
