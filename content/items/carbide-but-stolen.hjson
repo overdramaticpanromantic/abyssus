@@ -6,6 +6,14 @@ hiddenOnPlanets: [
   serpulo,
   erekir
 ]
-research: cobalt
+research: {
+  parent: cobalt
+  objectives: [
+    {
+      type: OnSector
+      preset: harrowed-canyon
+    }
+  ]
+}
 
 // this is literally just a dupe of carbide with a different description
