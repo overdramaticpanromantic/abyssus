@@ -58,7 +58,7 @@ drawer: {
 ammoTypes: {
   tungsten-but-stolen: {
     type: BasicBulletType
-    damage: 80
+    damage: 50
     speed: 4
     lifetime: 42.5
     width: 8
@@ -82,7 +82,7 @@ ammoTypes: {
   }
   thermic-alloy: {
     type: BasicBulletType
-    damage: 40
+    damage: 60
     speed: 6
     lifetime: 28.3333334
     width: 8
@@ -107,7 +107,7 @@ ammoTypes: {
     lightningLength: 4
     lightningColor: d99073
     lightningLengthRand: 2
-    lightningDamage: 20
+    lightningDamage: 12
   }
 }
 research: {
