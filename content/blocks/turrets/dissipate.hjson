@@ -47,7 +47,6 @@ drawer: {
 ammoTypes: {
   magnesium: {
     type: FlakBulletType
-    damage: 6
     splashDamage: 40
     splashDamageRadius: 16
     speed: 5
@@ -77,10 +76,9 @@ ammoTypes: {
       waveRad: 20
     }
     despawnEffect: hitBulletColor
-    fragBullets: 4
+    fragBullets: 5
     fragBullet: {
-      damage: 6
-      splashDamage: 6
+      splashDamage: 10
       splashDamageRadius: 8
       type: BasicBulletType
       width: 6
